@@ -1,1 +1,0 @@
-@java.exe -classpath ./bin;./lib/* -Xmx1024M edu.atilim.acma.Core %*
