@@ -1,0 +1,221 @@
+====== Run Result ======
+
+* Name: Xmlrpc|ABC|20
+  * Run Info: Artificial Bee Colony. Population Size: 20. Max Trials: 50. Iterations: 7.
+  * Time Taken: 5.88 seconds
+  * Quality Gain: 0.582637
+  * Metric Mode: Aggregate
+  * Expanded Designs: 295
+
+* Initial Design:
+  * Score: 9.776963
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 9.194326
+  * Possible Actions: 738
+  * Applied Actions: 26
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7638
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7545
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.1059
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.8333
+    * iC_Par: 0.5545
+    * eC_Par: 0.6636
+    * Dep_In: 1.9091
+    * avrgMethodVisibility: 2.6118
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [9.775305][Increase Field Security] 'class$java$lang$String' of 'org.apache.xmlrpc.util.ReflectionUtil' to 'PRIVATE'
+  - [9.721503][Introduce Factory] for org.apache.xmlrpc.common.XmlRpcNotAuthorizedException.<init>(java.lang.String)
+  - [9.719960][Increase Method Security] 'getWorker()' of 'org.apache.xmlrpc.common.XmlRpcWorkerFactory' to 'PROTECTED'
+  - [9.727423][Decrease Field Security] 'builder' of 'org.apache.xmlrpc.parser.NodeParser' to 'PACKAGE'
+  - [9.726761][Increase Method Security] 'characters(char[],int,int)' of 'org.apache.xmlrpc.parser.TypeParserImpl' to 'PROTECTED'
+  - [9.611711][Freeze Method] Convert 'shutdown()' of 'org.apache.xmlrpc.util.ThreadPool$InterruptableTask' to static 
+  - [9.606736][Move Up Field] 'ARRAY_TAG' of 'org.apache.xmlrpc.serializer.ObjectArraySerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+  - [9.491685][Freeze Method] Convert 'getTypeConverter(java.lang.Class)' of 'org.apache.xmlrpc.common.TypeConverterFactory' to static 
+  - [9.491024][Increase Method Security] 'characters(char[],int,int)' of 'org.apache.xmlrpc.parser.TypeParserImpl' to 'PACKAGE'
+  - [9.491736][Decrease Method Security] 'endValueTag()' of 'org.apache.xmlrpc.parser.RecursiveTypeParserImpl' to 'PUBLIC'
+  - [9.483518][Freeze Method] Convert 'startDocument()' of 'org.apache.xmlrpc.parser.ExtParser' to static 
+  - [9.492113][Freeze Method] Convert 'skippedEntity(java.lang.String)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to static 
+  - [9.377062][Freeze Method] Convert 'execute(org.apache.xmlrpc.XmlRpcRequest)' of 'org.apache.xmlrpc.XmlRpcHandler' to static 
+  - [9.379194][Decrease Field Security] 'gzipCompressing' of 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl' to 'PACKAGE'
+  - [9.339851][Freeze Method] Convert 'getXmlWriter(org.apache.xmlrpc.common.XmlRpcStreamConfig,java.io.OutputStream)' of 'org.apache.xmlrpc.serializer.DefaultXMLWriterFactory' to static 
+  - [9.339610][Introduce Factory] for org.apache.xmlrpc.util.LimitedInputStream.<init>(java.io.InputStream,int)
+  - [9.341356][Freeze Method] Convert 'getServerStreamConnection()' of 'org.apache.xmlrpc.common.LocalStreamConnection' to static 
+  - [9.341069][Increase Field Security] 'class$java$lang$Integer' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PRIVATE'
+  - [9.226019][Freeze Method] Convert 'getEncoding()' of 'org.apache.xmlrpc.common.XmlRpcStreamConfig' to static 
+  - [9.221389][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.FloatSerializer' to 'PROTECTED'
+  - [9.219731][Increase Field Security] 'class$java$lang$Boolean' of 'org.apache.xmlrpc.util.ReflectionUtil' to 'PRIVATE'
+  - [9.218959][Increase Method Security] 'endElement(java.lang.String,java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to 'PROTECTED'
+  - [9.217416][Increase Method Security] 'getCurrentRequests()' of 'org.apache.xmlrpc.common.XmlRpcWorkerFactory' to 'PROTECTED'
+  - [9.215757][Increase Field Security] 'class$java$lang$Integer' of 'org.apache.xmlrpc.util.ReflectionUtil' to 'PRIVATE'
+  - [9.215470][Increase Field Security] 'class$java$lang$Byte' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PRIVATE'
+  - [9.194326][Move Up Field] 'DATE_TAG' of 'org.apache.xmlrpc.serializer.DateSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 5.88 seconds
+  * Average quality gain across all runs: 0.582637 (Average Score: 9.194326)
+  * Highest quality gain across all runs: 0.582637 (Score: 9.194326)
+  * Lowest quality gain across all runs: 0.582637 (Score: 9.194326)
+  * Time taken to complete task: 5.88 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0221 (Average Score: 0.7638)
+    * Highest Quality Gain: 0.0221 (Best Score: 0.7638)
+    * Lowest Quality Gain: 0.0221 (Worst Score: 0.7638)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.5091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5091)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 3.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.5000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3235)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3235)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3235)
+  * packagenesting
+    * Average Quality Gain: 0.0000 (Average Score: 2.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.8333)
+  * getters
+    * Average Quality Gain: 0.0000 (Average Score: 0.6909)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6909)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6909)
+  * NumAssEl_ssc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numOps
+    * Average Quality Gain: 0.0182 (Average Score: 3.7545)
+    * Highest Quality Gain: 0.0182 (Best Score: 3.7545)
+    * Lowest Quality Gain: 0.0182 (Worst Score: 3.7545)
+  * NumAssEl_nsb
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * iC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * staticness
+    * Average Quality Gain: 0.0502 (Average Score: 0.1059)
+    * Highest Quality Gain: 0.0502 (Best Score: 0.1059)
+    * Lowest Quality Gain: 0.0502 (Worst Score: 0.1059)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 14.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 14.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 14.8333)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)
+  * numOpsCls
+    * Average Quality Gain: 0.3333 (Average Score: 68.8333)
+    * Highest Quality Gain: 0.3333 (Best Score: 68.8333)
+    * Lowest Quality Gain: 0.3333 (Worst Score: 68.8333)
+  * iC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 0.5545)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5545)
+  * eC_Par
+    * Average Quality Gain: 0.0273 (Average Score: 0.6636)
+    * Highest Quality Gain: 0.0273 (Best Score: 0.6636)
+    * Lowest Quality Gain: 0.0273 (Worst Score: 0.6636)
+  * Dep_In
+    * Average Quality Gain: 0.0455 (Average Score: 1.9091)
+    * Highest Quality Gain: 0.0455 (Best Score: 1.9091)
+    * Lowest Quality Gain: 0.0455 (Worst Score: 1.9091)
+  * avrgMethodVisibility
+    * Average Quality Gain: 0.0265 (Average Score: 2.6118)
+    * Highest Quality Gain: 0.0265 (Best Score: 2.6118)
+    * Lowest Quality Gain: 0.0265 (Worst Score: 2.6118)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 2.6818)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.6818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.6818)
+  * setters
+    * Average Quality Gain: 0.0000 (Average Score: 0.3273)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3273)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.2455)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2455)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2455)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 0.6545)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6545)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0818)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0818)
+  * numConstants
+    * Average Quality Gain: 0.0000 (Average Score: 0.8909)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8909)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8909)
+  * NumAnc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)

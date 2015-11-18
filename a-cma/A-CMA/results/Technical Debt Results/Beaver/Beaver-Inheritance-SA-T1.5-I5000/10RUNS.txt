@@ -1,0 +1,396 @@
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 113.87 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 114.23 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 114.28 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 114.18 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 114.57 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 114.67 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 113.76 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 113.01 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 113.21 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 113.62 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: -0.684211
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * NOC: 0.4842
+    * NumAnc: 1.1263
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 113.94 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.684211)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.684211)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.684211)
+  * Time taken to complete task: 1139.40 seconds
+
+* Metric Summary:
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.4842)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.4842)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.4842)
+  * NumAnc
+    * Average Quality Gain: 0.0000 (Average Score: 1.1263)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.1263)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.1263)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 1.1263)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.1263)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.1263)

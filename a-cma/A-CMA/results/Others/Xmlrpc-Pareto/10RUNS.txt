@@ -1,0 +1,943 @@
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 4.32 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 2.64 seconds
+  * Quality Gain: 0.013321
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.103507
+  * Possible Actions: 710
+  * Applied Actions: 2
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6336
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [31.110167][Increase Method Security] 'writeObject(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.ObjectArraySerializer' to 'PACKAGE'
+  - [31.103507][Increase Method Security] 'getTypeConverter(java.lang.Class)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 2.70 seconds
+  * Quality Gain: 0.006660
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.110167
+  * Possible Actions: 713
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6359
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [31.110167][Increase Method Security] 'convert(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$2' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 2.90 seconds
+  * Quality Gain: 0.029601
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.087226
+  * Possible Actions: 715
+  * Applied Actions: 3
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6280
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [31.103507][Increase Method Security] 'isEnabledForExtensions()' of 'org.apache.xmlrpc.XmlRpcConfig' to 'PROTECTED'
+  - [31.100547][Increase Method Security] 'setMaxThreads(int)' of 'org.apache.xmlrpc.common.XmlRpcController' to 'PROTECTED'
+  - [31.087226][Increase Method Security] 'getTypeConverterFactory()' of 'org.apache.xmlrpc.common.XmlRpcRequestProcessor' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 2.64 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 2.54 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 2.57 seconds
+  * Quality Gain: 0.115423
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.001404
+  * Possible Actions: 695
+  * Applied Actions: 6
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0623
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6636
+    * Dep_In: 1.8909
+    * avrgMethodVisibility: 2.6321
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [31.112387][Increase Method Security] 'getController()' of 'org.apache.xmlrpc.common.XmlRpcWorkerFactory' to 'PROTECTED'
+  - [31.099067][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.BigDecimalSerializer' to 'PROTECTED'
+  - [31.079982][Freeze Method] Convert 'getParams()' of 'org.apache.xmlrpc.parser.XmlRpcRequestParser' to static 
+  - [31.079982][Move Down Field] 'VALUE_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.BooleanSerializer'
+  - [31.065947][Freeze Method] Convert 'characters(char[],int,int)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to static 
+  - [31.001404][Freeze Method] Convert 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.StringSerializer' to static 
+
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 2.48 seconds
+  * Quality Gain: 0.002272
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.114556
+  * Possible Actions: 710
+  * Applied Actions: 2
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7853
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [31.115692][Increase Field Security] 'class$java$util$Calendar' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PRIVATE'
+  - [31.114556][Increase Field Security] 'class$java$io$Serializable' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 2.56 seconds
+  * Quality Gain: 0.026641
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.090186
+  * Possible Actions: 713
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6290
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [31.090186][Increase Method Security] 'getTypeConverter(java.lang.Class)' of 'org.apache.xmlrpc.common.TypeConverterFactory' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: Xmlrpc|Pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 2.40 seconds
+  * Quality Gain: 0.060389
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 31.056439
+  * Possible Actions: 725
+  * Applied Actions: 4
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7809
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0582
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6455
+    * Dep_In: 1.8727
+    * avrgMethodVisibility: 2.6367
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [31.112387][Increase Method Security] 'newWorker()' of 'org.apache.xmlrpc.common.XmlRpcWorkerFactory' to 'PACKAGE'
+  - [31.092697][Move Up Field] 'ARRAY_TAG' of 'org.apache.xmlrpc.serializer.ObjectArraySerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+  - [31.068453][Freeze Method] Convert 'write(org.xml.sax.ContentHandler,java.lang.String,char[])' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to static 
+  - [31.056439][Freeze Method] Convert 'getBasicUserName()' of 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl' to static 
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 2.77 seconds
+  * Average quality gain across all runs: 0.025431 (Average Score: 31.091397)
+  * Highest quality gain across all runs: 0.115423 (Score: 31.001404)
+  * Lowest quality gain across all runs: 0.000000 (Score: 31.116827)
+  * Time taken to complete task: 27.75 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0006 (Average Score: 0.7854)
+    * Highest Quality Gain: 0.0050 (Best Score: 0.7809)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7859)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.5091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5091)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 3.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.5000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3235)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3235)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3235)
+  * packagenesting
+    * Average Quality Gain: 0.0000 (Average Score: 2.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.8333)
+  * getters
+    * Average Quality Gain: 0.0000 (Average Score: 0.6909)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6909)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6909)
+  * NumAssEl_ssc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 3.7364)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.7364)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.7364)
+  * NumAssEl_nsb
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * iC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * staticness
+    * Average Quality Gain: 0.0009 (Average Score: 0.0566)
+    * Highest Quality Gain: 0.0066 (Best Score: 0.0623)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0557)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 14.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 14.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 14.8333)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)
+  * numOpsCls
+    * Average Quality Gain: 0.0000 (Average Score: 68.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 68.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 68.5000)
+  * iC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 0.5545)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5545)
+  * eC_Par
+    * Average Quality Gain: 0.0036 (Average Score: 0.6400)
+    * Highest Quality Gain: 0.0273 (Best Score: 0.6636)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6364)
+  * Dep_In
+    * Average Quality Gain: 0.0036 (Average Score: 1.8673)
+    * Highest Quality Gain: 0.0273 (Best Score: 1.8909)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.8636)
+  * avrgMethodVisibility
+    * Average Quality Gain: 0.0034 (Average Score: 2.6348)
+    * Highest Quality Gain: 0.0103 (Best Score: 2.6280)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.6383)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 2.6818)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.6818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.6818)
+  * setters
+    * Average Quality Gain: 0.0000 (Average Score: 0.3273)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3273)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.2455)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2455)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2455)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 0.6545)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6545)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0818)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0818)
+  * numConstants
+    * Average Quality Gain: 0.0000 (Average Score: 0.8909)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8909)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8909)
+  * NumAnc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)

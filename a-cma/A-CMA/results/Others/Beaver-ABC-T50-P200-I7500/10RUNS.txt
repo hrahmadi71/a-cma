@@ -1,0 +1,788 @@
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2635.91 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 797
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7579
+    * numOps: 5.0632
+    * iFImpl: 0.0000
+    * Dep_In: 5.2842
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3121
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Increase Method Security] 'visit(beaver.spec.ast.Declaration$Imports)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'reduce(int)' of 'beaver.Parser$Simulator' to static 
+  - [0.000000][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$RightAssoc)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [0.000000][Instantiate Method] Move static method 'getOutputFileName(beaver.comp.io.SrcReader)' of 'beaver.comp.run.AntTask' to its parameter type 'beaver.comp.io.SrcReader'
+  - [0.000000][Decrease Field Security] 'start_pos' of 'beaver.comp.util.Log$Record' to 'PACKAGE'
+  - [0.000000][Inline Method] beaver.comp.ParsingTables.countStates(beaver.comp.State) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [0.000000][Decrease Method Security] 'zzScanError(int)' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'hasErrors()' of 'beaver.comp.util.Log' to static 
+  - [0.000000][Instantiate Method] Move static method 'compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log)' of 'beaver.comp.run.Make' to its parameter type 'beaver.comp.util.Log'
+  - [0.000000][Freeze Method] Convert 'split(beaver.comp.Action$List,beaver.comp.Action$List)' of 'beaver.comp.Action$List' to static 
+  - [0.000000][Decrease Method Security] 'makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of 'beaver.comp.Action$Type$Conflict$ReduceReduce' to 'PACKAGE'
+  - [0.000000][Move Up Method] '<init>(beaver.spec.Terminal,beaver.spec.Production)' of 'beaver.comp.Action$Reduce' to its super class 'beaver.comp.Action'
+  - [0.000000][Introduce Factory] for beaver.comp.util.BitSet.<init>()
+  - [0.000000][Inline Method] beaver.Parser$Simulator.initStack() into beaver.Parser$Simulator.parse(beaver.Parser$TokenStream)
+  - [0.000000][Decrease Field Security] 'n_nonterm' of 'beaver.spec.Production$RHS' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'findFirstTerminal(int)' of 'beaver.ParsingTables' to static 
+  - [0.000000][Introduce Factory] for beaver.spec.Production$RHS$Item.<init>(beaver.spec.GrammarSymbol,java.lang.String)
+  - [0.000000][Decrease Field Security] 'grammar' of 'beaver.spec.GrammarBuilder' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for beaver.comp.Configuration.<init>(beaver.comp.Configuration,beaver.spec.Grammar)
+  - [0.000000][Increase Field Security] '_symbols' of 'beaver.Parser' to 'PACKAGE'
+
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2618.46 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 796
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7474
+    * numOps: 5.0632
+    * iFImpl: 0.0000
+    * Dep_In: 5.3053
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3463
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Instantiate Method] Move static method 'makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of 'beaver.comp.Action$Type$Conflict$ReduceReduce' to its parameter type 'beaver.comp.Action$Reduce'
+  - [0.000000][Freeze Method] Convert 'buildFirstSets()' of 'beaver.spec.Grammar' to static 
+  - [0.000000][Decrease Field Security] 'min_top' of 'beaver.Parser$Simulator' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'getSymbolAfterDot()' of 'beaver.comp.Configuration' to static 
+  - [0.000000][Freeze Method] Convert 'report(java.lang.String,beaver.comp.io.SrcReader)' of 'beaver.comp.util.Log' to static 
+  - [0.000000][Freeze Method] Convert 'scannerError(beaver.Scanner$Exception)' of 'beaver.Parser$Events' to static 
+  - [0.000000][Freeze Method] Convert 'startFirstSet()' of 'beaver.spec.Production' to static 
+  - [0.000000][Decrease Field Security] 'top' of 'beaver.Parser' to 'PACKAGE'
+  - [0.000000][Decrease Method Security] 'reset()' of 'beaver.comp.Configuration$Set$Factory' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'recoverFromError(beaver.Symbol,beaver.Parser$TokenStream)' of 'beaver.Parser' to static 
+  - [0.000000][Decrease Field Security] 'id' of 'beaver.comp.Action$Type' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'getTerminals()' of 'beaver.spec.GrammarBuilder' to static 
+  - [0.000000][Introduce Factory] for beaver.Scanner$Exception.<init>(int,int,java.lang.String)
+  - [0.000000][Freeze Method] Convert 'add(beaver.spec.Production)' of 'beaver.spec.Production$List' to static 
+  - [0.000000][Decrease Method Security] 'buildClosure()' of 'beaver.comp.Configuration$Set' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'n_nonterm' of 'beaver.spec.Production$RHS' to 'PROTECTED'
+  - [0.000000][Move Up Field] 'EOF_EOL_COMMENT' of 'beaver.spec.parser.GrammarScanner' to its super class 'beaver.Scanner'
+  - [0.000000][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$Goal)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [0.000000][Freeze Method] Convert 'getName()' of 'beaver.spec.ast.Rule$Definition$Element' to static 
+  - [0.000000][Decrease Field Security] 'id' of 'beaver.comp.State' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2603.42 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 799
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7263
+    * numOps: 5.0316
+    * iFImpl: 0.0000
+    * Dep_In: 5.2000
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3246
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Decrease Method Security] 'process(int)' of 'beaver.comp.util.BitSet$Processor' to 'PUBLIC'
+  - [0.000000][Decrease Field Security] 'next' of 'beaver.comp.util.Log$Record' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'syntaxError(beaver.Symbol)' of 'beaver.Parser$Events' to static 
+  - [0.000000][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [0.000000][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [0.000000][Decrease Field Security] 'conf' of 'beaver.comp.Configuration$PropagationLink' to 'PROTECTED'
+  - [0.000000][Make Class Non-Final] beaver.spec.Terminal$Associativity
+  - [0.000000][Decrease Field Security] 'zzEOFDone' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'actions' of 'beaver.ParsingTables' to 'PACKAGE'
+  - [0.000000][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [0.000000][Decrease Method Security] 'getCode(beaver.spec.ast.Declaration$CodeContainer)' of 'beaver.spec.GrammarBuilder$3' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'token_column' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [0.000000][Decrease Method Security] 'appendTo(java.lang.StringBuffer)' of 'beaver.spec.Production$RHS$Item' to 'PROTECTED'
+  - [0.000000][Decrease Method Security] 'invokeReduceAction(int,int)' of 'beaver.Parser' to 'PUBLIC'
+  - [0.000000][Increase Field Security] 'conf_set_factory' of 'beaver.comp.Configuration$Set' to 'PRIVATE'
+  - [0.000000][Freeze Method] Convert 'reverseReversePropagation()' of 'beaver.comp.Configuration' to static 
+  - [0.000000][Decrease Field Security] 'data' of 'beaver.comp.util.IntArray' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'error(beaver.Scanner$Exception)' of 'beaver.comp.util.Log' to static 
+  - [0.000000][Introduce Factory] for beaver.spec.ast.GrammarTreeRoot.<init>(beaver.spec.ast.Declaration[],beaver.spec.ast.Rule[])
+  - [0.000000][Increase Method Security] 'visit(beaver.spec.ast.Declaration$ClassName)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2622.93 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 794
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0421
+    * iFImpl: 0.0000
+    * Dep_In: 5.2737
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3149
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Decrease Method Security] 'buildActions(beaver.spec.Grammar,beaver.comp.State)' of 'beaver.comp.ParserGenerator' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for beaver.spec.parser.GrammarParser.<init>(beaver.comp.util.Log)
+  - [0.000000][Freeze Method] Convert 'findLookaheads()' of 'beaver.comp.Configuration' to static 
+  - [0.000000][Decrease Field Security] 'states' of 'beaver.Parser' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'compressed' of 'beaver.comp.ParsingTables' to 'PROTECTED'
+  - [0.000000][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [0.000000][Freeze Method] Convert 'findLookaheads()' of 'beaver.comp.State' to static 
+  - [0.000000][Increase Field Security] 'lookaheads' of 'beaver.comp.ParsingTables' to 'PRIVATE'
+  - [0.000000][Freeze Method] Convert 'buildShiftsFrom(beaver.comp.State)' of 'beaver.comp.State$Factory' to static 
+  - [0.000000][Freeze Method] Convert 'yyreset(java.io.Reader)' of 'beaver.spec.parser.GrammarScanner' to static 
+  - [0.000000][Increase Field Security] 'terminal_offsets' of 'beaver.comp.ParsingTables' to 'PRIVATE'
+  - [0.000000][Decrease Field Security] 'val$rules' of 'beaver.spec.GrammarBuilder$5' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'error_symbol_id' of 'beaver.ParsingTables' to 'PROTECTED'
+  - [0.000000][Decrease Method Security] 'ensureIndexWithinRange(int)' of 'beaver.comp.util.BitSet' to 'PACKAGE'
+  - [0.000000][Decrease Method Security] 'reduce(int)' of 'beaver.Parser$Simulator' to 'PACKAGE'
+  - [0.000000][Inline Method] beaver.spec.parser.GrammarScanner.zzUnpackTrans() into beaver.spec.parser.GrammarScanner.<clinit>()
+  - [0.000000][Move Up Field] 'prec' of 'beaver.spec.Terminal' to its super class 'beaver.spec.GrammarSymbol'
+  - [0.000000][Move Method] 'add(beaver.comp.Action)' of 'beaver.comp.Action$List' to its parameter type 'beaver.comp.Action'
+  - [0.000000][Freeze Method] Convert 'reverseReversePropagation()' of 'beaver.comp.Configuration' to static 
+  - [0.000000][Decrease Field Security] 'core_size' of 'beaver.comp.Configuration$Set' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2628.68 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 799
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7895
+    * numOps: 5.0842
+    * iFImpl: 0.0000
+    * Dep_In: 5.3474
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0880
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3381
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Increase Method Security] 'visit(beaver.spec.ast.GrammarTreeRoot)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'compare(java.lang.Object,java.lang.Object)' of 'beaver.comp.Action$1' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'extendFirstSet()' of 'beaver.spec.Production' to static 
+  - [0.000000][Decrease Field Security] 'val$goals' of 'beaver.spec.GrammarBuilder$3' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for beaver.comp.Configuration.<init>(beaver.comp.Configuration,beaver.spec.Grammar)
+  - [0.000000][Freeze Method] Convert 'warning(beaver.Symbol,java.lang.String)' of 'beaver.comp.util.Log' to static 
+  - [0.000000][Decrease Field Security] 'last_state' of 'beaver.comp.State$Factory' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'reduce(int)' of 'beaver.Parser$Simulator' to static 
+  - [0.000000][Increase Field Security] 'last_state' of 'beaver.comp.State$Factory' to 'PRIVATE'
+  - [0.000000][Decrease Field Security] 'grammar' of 'beaver.comp.ParserGenerator$CompiledParser' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for beaver.spec.ast.Declaration$ConstructorCode.<init>(beaver.Symbol)
+  - [0.000000][Make Class Abstract] beaver.spec.ast.TreeWalker
+  - [0.000000][Freeze Method] Convert 'getOpt(java.lang.String)' of 'beaver.spec.GrammarBuilder$5' to static 
+  - [0.000000][Freeze Method] Convert 'getNonTerminals()' of 'beaver.spec.GrammarBuilder' to static 
+  - [0.000000][Decrease Method Security] 'getTerminals()' of 'beaver.spec.GrammarBuilder' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for beaver.spec.Grammar.<init>()
+  - [0.000000][Move Up Field] 'EOF_MLN_COMMENT' of 'beaver.spec.parser.GrammarScanner' to its super class 'beaver.Scanner'
+  - [0.000000][Increase Method Security] 'add(beaver.spec.Production)' of 'beaver.spec.Production$List' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'startFirstSet()' of 'beaver.spec.Production' to static 
+  - [0.000000][Freeze Method] Convert 'addLookaheads(beaver.comp.Configuration)' of 'beaver.comp.Configuration' to static 
+
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2664.34 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 798
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 813
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7579
+    * numOps: 5.0737
+    * iFImpl: 0.0000
+    * Dep_In: 5.2316
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3419
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Introduce Factory] for beaver.comp.util.Log.<init>()
+  - [0.000000][Increase Method Security] 'printUsage()' of 'beaver.comp.run.Make' to 'PRIVATE'
+  - [0.000000][Move Up Method] '<init>(beaver.spec.Terminal,beaver.spec.Production)' of 'beaver.comp.Action$Reduce' to its super class 'beaver.comp.Action'
+  - [0.000000][Freeze Method] Convert 'compress()' of 'beaver.comp.Action$List' to static 
+  - [0.000000][Move Up Field] 'state' of 'beaver.comp.Action$Reduce$Maker' to its super class 'beaver.comp.util.BitSet$Processor'
+  - [0.000000][Decrease Field Security] 'token_column' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [0.000000][Make Class Non-Final] beaver.ParsingTables
+  - [0.000000][Decrease Field Security] 'id' of 'beaver.comp.Action$Type' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'conf_set_factory' of 'beaver.comp.State$Factory' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'visit(beaver.spec.ast.Declaration$ClassCode)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [0.000000][Introduce Factory] for beaver.Parser$Simulator.<init>(beaver.Parser)
+  - [0.000000][Increase Method Security] 'misspelledTokenReplaced(beaver.Symbol)' of 'beaver.Parser$Events' to 'PROTECTED'
+  - [0.000000][Move Method] 'compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log)' of 'beaver.comp.run.Make' to its parameter type 'beaver.comp.run.Options'
+  - [0.000000][Decrease Field Security] 'size' of 'beaver.spec.Production$List' to 'PACKAGE'
+  - [0.000000][Decrease Method Security] 'misspelledTokenReplaced(beaver.Symbol)' of 'beaver.Parser$Events' to 'PUBLIC'
+  - [0.000000][Move Up Field] 'sym_name' of 'beaver.spec.ast.Rule$Definition$Element' to its super class 'beaver.spec.ast.Node'
+  - [0.000000][Decrease Method Security] 'makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of 'beaver.comp.Action$Type$Conflict$ShiftReduce' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'n_nonterms' of 'beaver.spec.GrammarBuilder' to 'PACKAGE'
+  - [0.000000][Instantiate Method] Move static method 'compile(beaver.comp.io.SrcReader,beaver.comp.util.Log,beaver.comp.run.Make)' of 'beaver.comp.run.Options' to its parameter type 'beaver.comp.run.Make'
+  - [0.000000][Instantiate Method] Move static method 'getOutputFileName(beaver.comp.io.SrcReader)' of 'beaver.comp.run.AntTask' to its parameter type 'beaver.comp.io.SrcReader'
+
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2615.53 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 791
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7474
+    * numOps: 5.0316
+    * iFImpl: 0.0000
+    * Dep_In: 5.2526
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3170
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Decrease Field Security] 'goto_offsets' of 'beaver.ParsingTables' to 'PACKAGE'
+  - [0.000000][Inline Method] beaver.comp.run.AntTask.getSrcReader(java.io.File) into beaver.comp.run.AntTask.execute()
+  - [0.000000][Freeze Method] Convert 'scannerError(beaver.Scanner$Exception)' of 'beaver.Parser$Events' to static 
+  - [0.000000][Freeze Method] Convert 'parse(beaver.Scanner)' of 'beaver.Parser' to static 
+  - [0.000000][Freeze Method] Convert 'isSet(int)' of 'beaver.comp.util.BitSet' to static 
+  - [0.000000][Decrease Method Security] 'addReversePropagation(beaver.comp.Configuration)' of 'beaver.comp.Configuration' to 'PROTECTED'
+  - [0.000000][Introduce Factory] for beaver.comp.State.<init>(int,beaver.comp.Configuration$Set)
+  - [0.000000][Decrease Method Security] 'isNullable()' of 'beaver.spec.Production' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'getSrcFile(java.lang.String)' of 'beaver.comp.run.Make' to 'PRIVATE'
+  - [0.000000][Decrease Field Security] 'n_marked' of 'beaver.Parser$TokenStream' to 'PACKAGE'
+  - [0.000000][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [0.000000][Decrease Field Security] 'first' of 'beaver.spec.Production$List' to 'PACKAGE'
+  - [0.000000][Inline Method] beaver.spec.parser.GrammarScanner.zzUnpackAttribute() into beaver.spec.parser.GrammarScanner.<clinit>()
+  - [0.000000][Introduce Factory] for beaver.comp.Action$Reduce$Maker.<init>(beaver.spec.Terminal[],beaver.comp.State)
+  - [0.000000][Decrease Method Security] 'buildClosure()' of 'beaver.comp.Configuration$Set' to 'PROTECTED'
+  - [0.000000][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [0.000000][Decrease Method Security] 'zzRefill()' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'name' of 'beaver.comp.Action$Type' to 'PACKAGE'
+  - [0.000000][Inline Method] beaver.Parser$Simulator.reduce(int) into beaver.Parser$Simulator.parse(beaver.Parser$TokenStream)
+  - [0.000000][Introduce Factory] for beaver.ParsingTables.<init>(java.lang.String)
+
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2642.20 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 798
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.8000
+    * numOps: 5.0421
+    * iFImpl: 0.0000
+    * Dep_In: 5.2947
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3315
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Freeze Method] Convert 'compress()' of 'beaver.comp.Action$List' to static 
+  - [0.000000][Make Class Final] beaver.comp.Action$Shift
+  - [0.000000][Move Up Field] 'YYEOF' of 'beaver.spec.parser.GrammarScanner' to its super class 'beaver.Scanner'
+  - [0.000000][Move Up Method] '<init>(beaver.spec.GrammarSymbol,beaver.comp.State)' of 'beaver.comp.Action$Shift' to its super class 'beaver.comp.Action'
+  - [0.000000][Inline Method] beaver.comp.run.AntTask.getSrcReader(java.io.File) into beaver.comp.run.AntTask.execute()
+  - [0.000000][Introduce Factory] for beaver.Parser$Events.<init>()
+  - [0.000000][Freeze Method] Convert 'accept(beaver.spec.ast.TreeWalker)' of 'beaver.spec.ast.Node' to static 
+  - [0.000000][Increase Method Security] 'visit(beaver.spec.ast.Declaration$PackageName)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'missingTokenInserted(beaver.Symbol)' of 'beaver.Parser$Events' to 'PROTECTED'
+  - [0.000000][Introduce Factory] for beaver.Parser$TokenStream.<init>(beaver.Parser,beaver.Scanner,beaver.Symbol)
+  - [0.000000][Decrease Method Security] 'countReferencedSymbols(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to 'PACKAGE'
+  - [0.000000][Move Up Field] 'prec' of 'beaver.spec.Terminal' to its super class 'beaver.spec.GrammarSymbol'
+  - [0.000000][Inline Method] beaver.ParsingTables.decode(char) into beaver.ParsingTables.decode(java.lang.String)
+  - [0.000000][Decrease Method Security] 'extendFirstSet()' of 'beaver.spec.Production' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'hasErrors()' of 'beaver.comp.util.Log' to static 
+  - [0.000000][Move Up Field] 'symbols' of 'beaver.spec.ast.Declaration$SymbolsContainer' to its super class 'beaver.spec.ast.Declaration'
+  - [0.000000][Decrease Method Security] 'printUsage()' of 'beaver.comp.run.Make' to 'PROTECTED'
+  - [0.000000][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [0.000000][Introduce Factory] for beaver.comp.Configuration$PropagationLink.<init>(beaver.comp.Configuration)
+  - [0.000000][Inline Method] beaver.comp.Configuration.<init>() into beaver.comp.Configuration.<init>(beaver.comp.Configuration$1)
+
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2626.09 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7789
+    * numOps: 5.0421
+    * iFImpl: 0.0000
+    * Dep_In: 5.2632
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3205
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Freeze Method] Convert 'report(java.lang.String,java.io.PrintStream,beaver.comp.io.SrcReader)' of 'beaver.comp.util.Log$Record' to static 
+  - [0.000000][Inline Method] beaver.comp.Action$List.removeResolvedActions() into beaver.comp.Action$List.resolveConflicts(beaver.comp.util.Log)
+  - [0.000000][Decrease Method Security] 'init()' of 'beaver.Parser' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'visit(beaver.spec.ast.GrammarTreeRoot)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'last_state' of 'beaver.comp.State$Factory' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'add(beaver.spec.Production)' of 'beaver.spec.Production$List' to 'PROTECTED'
+  - [0.000000][Decrease Method Security] 'checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.ParserGenerator' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'error(java.lang.String)' of 'beaver.comp.util.Log' to static 
+  - [0.000000][Decrease Field Security] 'states' of 'beaver.comp.State$Factory' to 'PACKAGE'
+  - [0.000000][Inline Method] beaver.Parser$Simulator.initStack() into beaver.Parser$Simulator.parse(beaver.Parser$TokenStream)
+  - [0.000000][Move Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action$Reduce' to its parameter type 'beaver.comp.State'
+  - [0.000000][Decrease Field Security] 'conf_set_factory' of 'beaver.comp.State$Factory' to 'PACKAGE'
+  - [0.000000][Make Class Non-Final] beaver.spec.Terminal$Associativity
+  - [0.000000][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [0.000000][Introduce Factory] for beaver.Parser$TokenStream.<init>(beaver.Parser,beaver.Scanner,beaver.Symbol)
+  - [0.000000][Increase Method Security] 'decode(java.lang.String)' of 'beaver.ParsingTables' to 'PRIVATE'
+  - [0.000000][Decrease Field Security] 'n_term' of 'beaver.spec.Production$RHS' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'setPrecedence(int,beaver.spec.Terminal$Associativity)' of 'beaver.spec.Terminal' to 'PROTECTED'
+  - [0.000000][Instantiate Method] Move static method 'compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log)' of 'beaver.comp.run.AntTask' to its parameter type 'beaver.comp.run.Options'
+  - [0.000000][Introduce Factory] for beaver.comp.util.BitSet.<init>()
+
+====== Run Result ======
+
+* Name: Beaver|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2636.59 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 803
+  * Applied Actions: 20
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7789
+    * numOps: 5.0947
+    * iFImpl: 0.0000
+    * Dep_In: 5.3053
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3130
+    * NumDesc: 1.1263
+
+* Applied Actions:
+  - [0.000000][Freeze Method] Convert 'yycharat(int)' of 'beaver.spec.parser.GrammarScanner' to static 
+  - [0.000000][Freeze Method] Convert 'increaseStackCapacity()' of 'beaver.Parser$Simulator' to static 
+  - [0.000000][Make Class Final] beaver.comp.Action$Type$Conflict$ReduceReduce
+  - [0.000000][Freeze Method] Convert 'invokeReduceAction(int,int)' of 'beaver.Parser' to static 
+  - [0.000000][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [0.000000][Introduce Factory] for beaver.spec.Production$RHS$Item.<init>(beaver.spec.GrammarSymbol,java.lang.String)
+  - [0.000000][Increase Method Security] 'decode(java.lang.String)' of 'beaver.ParsingTables' to 'PRIVATE'
+  - [0.000000][Decrease Field Security] 'tables' of 'beaver.Parser' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$ConstructorCode)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [0.000000][Introduce Factory] for beaver.comp.Action$Shift.<init>(beaver.spec.GrammarSymbol,beaver.comp.State)
+  - [0.000000][Introduce Factory] for beaver.spec.GrammarBuilder.<init>(beaver.comp.util.Log)
+  - [0.000000][Decrease Method Security] 'getSrcReader(java.io.File)' of 'beaver.comp.run.AntTask' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for beaver.comp.util.BitSet.<init>(int)
+  - [0.000000][Decrease Method Security] 'getId()' of 'beaver.comp.Action' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'state' of 'beaver.comp.Action$Reduce$Maker' to 'PROTECTED'
+  - [0.000000][Inline Method] beaver.comp.Action$Shift.<init>(beaver.spec.GrammarSymbol,beaver.comp.State) into beaver.comp.Action$Shift.createbeaver.comp.Action$Shift(beaver.spec.GrammarSymbol,beaver.comp.State)
+  - [0.000000][Introduce Factory] for beaver.spec.Production$List.<init>()
+  - [0.000000][Decrease Method Security] 'reverseReversePropagation()' of 'beaver.comp.Configuration$Set' to 'PROTECTED'
+  - [0.000000][Introduce Factory] for beaver.spec.ast.TreeWalker.<init>()
+  - [0.000000][Increase Method Security] 'visit(beaver.spec.ast.Declaration$Implements)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 2629.42 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 0.000000)
+  * Highest quality gain across all runs: 0.000000 (Score: 0.000000)
+  * Lowest quality gain across all runs: 0.000000 (Score: 0.000000)
+  * Time taken to complete task: 26294.15 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.0179 (Average Score: 5.7653)
+    * Highest Quality Gain: 0.0421 (Best Score: 5.8105)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.7684)
+  * numOps
+    * Average Quality Gain: 0.0189 (Average Score: 5.0568)
+    * Highest Quality Gain: 0.0421 (Best Score: 5.0947)
+    * Lowest Quality Gain: 0.0105 (Worst Score: 5.0632)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0674 (Average Score: 5.2758)
+    * Highest Quality Gain: 0.1368 (Best Score: 5.3474)
+    * Lowest Quality Gain: 0.0105 (Worst Score: 5.2211)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.6526)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6526)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6526)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 11.8750)
+    * Highest Quality Gain: 0.0000 (Best Score: 11.8750)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 11.8750)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 3.1684)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.1684)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.1684)
+  * abstractness
+    * Average Quality Gain: 0.0005 (Average Score: 0.0835)
+    * Highest Quality Gain: 0.0050 (Best Score: 0.0880)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0830)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.4842)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.4842)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.4842)
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0214 (Average Score: 1.3260)
+    * Highest Quality Gain: 0.0417 (Best Score: 1.3463)
+    * Lowest Quality Gain: 0.0075 (Worst Score: 1.3121)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 1.1263)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.1263)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.1263)

@@ -1,0 +1,82 @@
+====== Run Result ======
+
+* Name: Xmlrpc|THEONE
+  * Run Info: Beam Search. Beam Length: 1. Randomization: 1. Iterations: 1.
+  * Time Taken: 7.16 seconds
+  * Quality Gain: 0.122775
+  * Metric Mode: Aggregate
+  * Expanded Designs: 713
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 30.994053
+  * Possible Actions: 728
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7549
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [30.994053][Move Up Field] 'STRING_TAG' of 'org.apache.xmlrpc.serializer.StringSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+

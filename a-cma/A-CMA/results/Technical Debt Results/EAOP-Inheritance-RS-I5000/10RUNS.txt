@@ -1,0 +1,396 @@
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 355.29 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 351.44 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 352.56 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 353.73 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 359.40 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 350.24 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 354.13 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 350.21 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 360.68 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: EAOP|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 353.78 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Final Design:
+  * Score: -1.048043
+  * Possible Actions: 7773
+  * Applied Actions: 0
+  * Num Types: 562
+  * Num Packages: 20
+
+  * Metric Summary:
+    * iFImpl: 0.9021
+    * NOC: 0.5391
+    * NumAnc: 1.3754
+    * NumDesc: 1.3754
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 354.14 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -1.048043)
+  * Highest quality gain across all runs: 0.000000 (Score: -1.048043)
+  * Lowest quality gain across all runs: 0.000000 (Score: -1.048043)
+  * Time taken to complete task: 3541.45 seconds
+
+* Metric Summary:
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.9021)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.9021)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.9021)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.5391)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5391)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5391)
+  * NumAnc
+    * Average Quality Gain: 0.0000 (Average Score: 1.3754)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.3754)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.3754)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 1.3754)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.3754)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.3754)

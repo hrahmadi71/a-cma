@@ -1,0 +1,1082 @@
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 19.19 seconds
+  * Quality Gain: 0.509211
+  * Metric Mode: Aggregate
+  * Expanded Designs: 66682
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.456579
+  * Possible Actions: 693
+  * Applied Actions: 63
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.0947
+    * Dep_In: 4.5158
+    * iC_Attr: 3.0000
+    * iC_Par: 2.0947
+    * eC_Attr: 0.9895
+    * eC_Par: 2.3474
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.918421][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.894737][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.871053][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.847368][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.797368][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.781579][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.765789][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.757895][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.750000][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.742105][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.734211][Instantiate Method] Move static method 'splitActions(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.726316][Inline Method] beaver.comp.ParserGenerator$CompiledParser.countReferencedSymbols(beaver.spec.Production$RHS) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.718421][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.710526][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.702632][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.694737][Instantiate Method] Move static method 'findLookaheads(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.686842][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.678947][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeMarkersClass(beaver.spec.Terminal[],java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.671053][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.663158][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.655263][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.647368][Instantiate Method] Move static method 'getOutputFileName(beaver.comp.io.SrcReader)' of 'beaver.comp.run.AntTask' to its parameter type 'beaver.comp.io.SrcReader'
+  - [3.639474][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.631579][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.623684][Inline Method] beaver.comp.ParserGenerator.compressActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.615789][Instantiate Method] Move static method 'writeReduceActionCode(beaver.spec.Production,java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production'
+  - [3.607895][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.600000][Inline Method] beaver.comp.ParsingTables.countStates(beaver.comp.State) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.592105][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.584211][Inline Method] beaver.comp.ParserGenerator$CompiledParser.makeProductionDescriptors(beaver.spec.Grammar) into beaver.comp.ParserGenerator$CompiledParser.<init>(beaver.spec.Grammar,beaver.comp.ParsingTables)
+  - [3.576316][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.568421][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.563158][Freeze Method] Convert 'add(int)' of 'beaver.comp.util.IntArray' to static 
+  - [3.563158][Increase Method Security] 'decode(char)' of 'beaver.ParsingTables' to 'PRIVATE'
+  - [3.563158][Move Up Method] '<init>(beaver.spec.Terminal,beaver.spec.Production)' of 'beaver.comp.Action$Reduce' to its super class 'beaver.comp.Action'
+  - [3.563158][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$RightAssoc)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [3.581579][Introduce Factory] for beaver.comp.Action$Shift.<init>(beaver.spec.GrammarSymbol,beaver.comp.State)
+  - [3.565789][Inline Method] beaver.comp.Action$Shift.<init>(beaver.spec.GrammarSymbol,beaver.comp.State) into beaver.comp.Action$Shift.createbeaver.comp.Action$Shift(beaver.spec.GrammarSymbol,beaver.comp.State)
+  - [3.557895][Instantiate Method] Move static method 'createbeaver.comp.Action$Shift(beaver.spec.GrammarSymbol,beaver.comp.State)' of 'beaver.comp.Action$Shift' to its parameter type 'beaver.comp.State'
+  - [3.557895][Increase Method Security] 'yypushback(int)' of 'beaver.spec.parser.GrammarScanner' to 'PROTECTED'
+  - [3.557895][Move Up Field] 'CODE' of 'beaver.spec.parser.GrammarScanner' to its super class 'beaver.Scanner'
+  - [3.557895][Decrease Field Security] 'default_actions' of 'beaver.comp.ParsingTables' to 'PROTECTED'
+  - [3.560526][Introduce Factory] for beaver.spec.parser.GrammarScanner.<init>(java.io.InputStream)
+  - [3.571053][Introduce Factory] for beaver.comp.Action$List.<init>(beaver.comp.State)
+  - [3.563158][Inline Method] beaver.comp.Action$List.<init>(beaver.comp.State) into beaver.comp.Action$List.createbeaver.comp.Action$List(beaver.comp.State)
+  - [3.555263][Instantiate Method] Move static method 'createbeaver.comp.Action$List(beaver.comp.State)' of 'beaver.comp.Action$List' to its parameter type 'beaver.comp.State'
+  - [3.552632][Inline Method] beaver.comp.State.createbeaver.comp.Action$List() into beaver.comp.State.<init>(int,beaver.comp.Configuration$Set)
+  - [3.556579][Move Down Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to its child class 'beaver.comp.Action$Accept'
+  - [3.560526][Freeze Method] Convert 'isDotAfterLastSymbol()' of 'beaver.comp.Configuration' to static 
+  - [3.560526][Inline Method] beaver.Parser$Simulator.reduce(int) into beaver.Parser$Simulator.parse(beaver.Parser$TokenStream)
+  - [3.560526][Increase Field Security] 'code' of 'beaver.spec.ast.Declaration$CodeContainer' to 'PROTECTED'
+  - [3.560526][Decrease Field Security] 'first' of 'beaver.comp.Action$List' to 'PROTECTED'
+  - [3.534211][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Shift'
+  - [3.507895][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Reduce'
+  - [3.484211][Remove Method] '<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ReduceReduce'
+  - [3.460526][Remove Method] '<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ShiftReduce'
+  - [3.456579][Move Up Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action$Accept' to its super class 'beaver.comp.Action'
+
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 18.97 seconds
+  * Quality Gain: 0.475000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 66449
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.490789
+  * Possible Actions: 700
+  * Applied Actions: 67
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.1158
+    * Dep_In: 4.5895
+    * iC_Attr: 2.9895
+    * iC_Par: 2.1263
+    * eC_Attr: 0.9895
+    * eC_Par: 2.4105
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.918421][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.894737][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.871053][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.847368][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.797368][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.781579][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.765789][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.757895][Instantiate Method] Move static method 'compressActions(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.750000][Inline Method] beaver.comp.ParserGenerator$CompiledParser.countReferencedSymbols(beaver.spec.Production$RHS) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.742105][Instantiate Method] Move static method 'makeProductionDescriptors(beaver.spec.Grammar)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Grammar'
+  - [3.734211][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.726316][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.718421][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeMarkersClass(beaver.spec.Terminal[],java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.710526][Inline Method] beaver.comp.run.AntTask.getOutputFileName(beaver.comp.io.SrcReader) into beaver.comp.run.AntTask.execute()
+  - [3.702632][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.694737][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.686842][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.678947][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.671053][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.663158][Instantiate Method] Move static method 'findLookaheads(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.655263][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.647368][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.639474][Instantiate Method] Move static method 'writeReduceActionCode(beaver.spec.Production,java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production'
+  - [3.631579][Inline Method] beaver.comp.ParsingTables.countStates(beaver.comp.State) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.623684][Instantiate Method] Move static method 'splitActions(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.615789][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.607895][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.600000][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.592105][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.584211][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.576316][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.568421][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$TypeOf)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [3.559211][Move Up Field] 'lhs_sym' of 'beaver.spec.ast.Rule' to its super class 'beaver.spec.ast.Node'
+  - [3.559211][Increase Method Security] 'unexpectedTokenRemoved(beaver.Symbol)' of 'beaver.Parser$Events' to 'PROTECTED'
+  - [3.559211][Increase Method Security] 'visit(beaver.spec.ast.Declaration$ListType)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [3.559211][Decrease Field Security] 'log' of 'beaver.spec.parser.GrammarParser$Events' to 'PACKAGE'
+  - [3.555263][Move Up Field] 'lhs_sym' of 'beaver.spec.ast.Node' to its super class 'beaver.Symbol'
+  - [3.559211][Freeze Method] Convert 'getAlias()' of 'beaver.spec.ast.Rule$Definition$Element' to static 
+  - [3.559211][Decrease Field Security] 'grammar_file' of 'beaver.comp.run.AntTask' to 'PACKAGE'
+  - [3.577632][Introduce Factory] for beaver.spec.Production.<init>(int,beaver.spec.NonTerminal,beaver.spec.Production$RHS)
+  - [3.577632][Increase Method Security] 'writeTo(java.io.DataOutputStream)' of 'beaver.comp.ParsingTables' to 'PRIVATE'
+  - [3.581579][Freeze Method] Convert 'report(java.lang.String,java.io.PrintStream,beaver.comp.io.SrcReader)' of 'beaver.comp.util.Log$Record' to static 
+  - [3.565789][Inline Method] beaver.spec.Production.<init>(int,beaver.spec.NonTerminal,beaver.spec.Production$RHS) into beaver.spec.Production.createbeaver.spec.Production(beaver.spec.NonTerminal,beaver.spec.Production$RHS)
+  - [3.557895][Instantiate Method] Move static method 'createbeaver.spec.Production(beaver.spec.NonTerminal,beaver.spec.Production$RHS)' of 'beaver.spec.Production' to its parameter type 'beaver.spec.NonTerminal'
+  - [3.550000][Instantiate Method] Move static method 'createbeaver.spec.Production(beaver.spec.Production$RHS)' of 'beaver.spec.NonTerminal' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.550000][Decrease Method Security] 'getCore()' of 'beaver.comp.Configuration$Set$Factory' to 'PROTECTED'
+  - [3.576316][Introduce Factory] for beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.578947][Introduce Factory] for beaver.comp.util.BitSet.<init>(int)
+  - [3.578947][Increase Method Security] 'printUsage()' of 'beaver.comp.run.Make' to 'PRIVATE'
+  - [3.582895][Freeze Method] Convert 'reset()' of 'beaver.comp.Configuration$Set$Factory' to static 
+  - [3.559211][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.createbeaver.comp.Action$Type$Conflict$ReduceReduce(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State)
+  - [3.547368][Instantiate Method] Move static method 'createbeaver.comp.Action$Type$Conflict$ReduceReduce(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State)' of 'beaver.comp.Action$Type$Conflict$ReduceReduce' to its parameter type 'beaver.comp.Action$Reduce'
+  - [3.532895][Inline Method] beaver.comp.Action$Reduce.createbeaver.comp.Action$Type$Conflict$ReduceReduce(beaver.comp.Action$Reduce,beaver.comp.State) into beaver.comp.Action$Reduce.resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)
+  - [3.532895][Move Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action$Shift' to its parameter type 'beaver.comp.State'
+  - [3.536842][Freeze Method] Convert 'syntaxError(beaver.Symbol)' of 'beaver.Parser$Events' to static 
+  - [3.536842][Inline Method] beaver.comp.ParserGenerator$CompiledParser.encode(int,java.lang.StringBuffer) into beaver.comp.ParserGenerator$CompiledParser.encode(byte[])
+  - [3.540789][Freeze Method] Convert 'reportConflicts(beaver.comp.util.Log)' of 'beaver.comp.Action$List' to static 
+  - [3.540789][Decrease Field Security] 'scanner' of 'beaver.Parser$TokenStream' to 'PACKAGE'
+  - [3.514474][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.util.Log,beaver.comp.Action$Shift)' of type 'beaver.comp.State'
+  - [3.490789][Remove Method] '<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ShiftReduce'
+
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 18.72 seconds
+  * Quality Gain: 0.513158
+  * Metric Mode: Aggregate
+  * Expanded Designs: 66293
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.452632
+  * Possible Actions: 702
+  * Applied Actions: 75
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.0737
+    * Dep_In: 4.5368
+    * iC_Attr: 2.9895
+    * iC_Par: 2.0842
+    * eC_Attr: 0.9895
+    * eC_Par: 2.3368
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.918421][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.894737][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.871053][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.847368][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.797368][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.781579][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.765789][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.757895][Inline Method] beaver.comp.ParserGenerator.compressActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.750000][Instantiate Method] Move static method 'makeProductionDescriptors(beaver.spec.Grammar)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Grammar'
+  - [3.742105][Instantiate Method] Move static method 'countReferencedSymbols(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.734211][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.726316][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.718421][Instantiate Method] Move static method 'countStates(beaver.comp.State)' of 'beaver.comp.ParsingTables' to its parameter type 'beaver.comp.State'
+  - [3.710526][Instantiate Method] Move static method 'splitActions(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.702632][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.694737][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.686842][Instantiate Method] Move static method 'findLookaheads(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.678947][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.671053][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeMarkersClass(beaver.spec.Terminal[],java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.663158][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.655263][Instantiate Method] Move static method 'getOutputFileName(beaver.comp.io.SrcReader)' of 'beaver.comp.run.AntTask' to its parameter type 'beaver.comp.io.SrcReader'
+  - [3.647368][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.639474][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.631579][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionCode(beaver.spec.Production,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.623684][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.615789][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.607895][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.600000][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.592105][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.584211][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.576316][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.568421][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Move Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action$Reduce' to its parameter type 'beaver.comp.State'
+  - [3.561842][Introduce Factory] for beaver.comp.util.Log$Record$List.<init>()
+  - [3.561842][Decrease Method Security] 'getId()' of 'beaver.comp.Action' to 'PROTECTED'
+  - [3.561842][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [3.565789][Freeze Method] Convert 'error(int,int,java.lang.String)' of 'beaver.comp.util.Log' to static 
+  - [3.539474][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.util.Log,beaver.comp.Action$Reduce)' of type 'beaver.comp.State'
+  - [3.515789][Remove Method] '<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ReduceReduce'
+  - [3.515789][Decrease Field Security] 'lines' of 'beaver.comp.io.SrcReader' to 'PUBLIC'
+  - [3.515789][Move Up Field] 'rule' of 'beaver.comp.Action$Reduce' to its super class 'beaver.comp.Action'
+  - [3.515789][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$Header)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [3.519737][Move Down Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to its child class 'beaver.comp.Action$Accept'
+  - [3.519737][Increase Field Security] 'first_state' of 'beaver.comp.ParsingTables' to 'PROTECTED'
+  - [3.493421][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Shift'
+  - [3.469737][Remove Method] '<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ShiftReduce'
+  - [3.465789][Move Up Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action$Accept' to its super class 'beaver.comp.Action'
+  - [3.465789][Decrease Field Security] 'log' of 'beaver.spec.GrammarBuilder' to 'PACKAGE'
+  - [3.465789][Decrease Field Security] 'type' of 'beaver.comp.Action' to 'PROTECTED'
+  - [3.465789][Move Up Field] 'lhs_sym' of 'beaver.spec.ast.Rule' to its super class 'beaver.spec.ast.Node'
+  - [3.468421][Introduce Factory] for beaver.comp.Action$Type.<init>(int,java.lang.String)
+  - [3.468421][Decrease Field Security] 'grammar' of 'beaver.spec.GrammarBuilder' to 'PACKAGE'
+  - [3.464474][Move Up Field] 'lhs_sym' of 'beaver.spec.ast.Node' to its super class 'beaver.Symbol'
+  - [3.464474][Increase Method Security] 'compare(java.lang.Object,java.lang.Object)' of 'beaver.comp.Action$1' to 'PROTECTED'
+  - [3.482895][Introduce Factory] for beaver.comp.Action$Shift.<init>(beaver.spec.GrammarSymbol,beaver.comp.State)
+  - [3.486842][Freeze Method] Convert 'errorPhraseRemoved(beaver.Symbol)' of 'beaver.Parser$Events' to static 
+  - [3.486842][Decrease Field Security] 'n_nonterm' of 'beaver.spec.Production$RHS' to 'PROTECTED'
+  - [3.486842][Increase Method Security] 'visit(beaver.spec.ast.Declaration$Goal)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [3.471053][Inline Method] beaver.comp.Action$Shift.<init>(beaver.spec.GrammarSymbol,beaver.comp.State) into beaver.comp.Action$Shift.createbeaver.comp.Action$Shift(beaver.spec.GrammarSymbol,beaver.comp.State)
+  - [3.463158][Instantiate Method] Move static method 'createbeaver.comp.Action$Shift(beaver.spec.GrammarSymbol,beaver.comp.State)' of 'beaver.comp.Action$Shift' to its parameter type 'beaver.comp.State'
+  - [3.473684][Introduce Factory] for beaver.comp.State$Factory.<init>(beaver.comp.Configuration$Set$Factory)
+  - [3.473684][Freeze Method] Convert 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to static 
+  - [3.476316][Introduce Factory] for beaver.comp.util.Log.<init>()
+  - [3.480263][Freeze Method] Convert 'startFirstSet()' of 'beaver.spec.Production' to static 
+  - [3.480263][Decrease Field Security] 'start_pos' of 'beaver.comp.util.Log$Record' to 'PACKAGE'
+  - [3.472368][Inline Method] beaver.comp.State$Factory.<init>(beaver.comp.Configuration$Set$Factory) into beaver.comp.State$Factory.createbeaver.comp.State$Factory(beaver.comp.Configuration$Set$Factory)
+  - [3.468421][Instantiate Method] Move static method 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to its parameter type 'beaver.comp.State'
+  - [3.460526][Instantiate Method] Move static method 'resolveConflict(beaver.comp.Action,beaver.comp.util.Log)' of 'beaver.comp.State' to its parameter type 'beaver.comp.Action'
+  - [3.452632][Instantiate Method] Move static method 'resolveConflict(beaver.comp.util.Log)' of 'beaver.comp.Action' to its parameter type 'beaver.comp.util.Log'
+
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 18.92 seconds
+  * Quality Gain: 0.461842
+  * Metric Mode: Aggregate
+  * Expanded Designs: 66701
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.503947
+  * Possible Actions: 695
+  * Applied Actions: 61
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.1474
+    * Dep_In: 4.6000
+    * iC_Attr: 2.9789
+    * iC_Par: 2.1684
+    * eC_Attr: 0.9895
+    * eC_Par: 2.4000
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.918421][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.894737][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.871053][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.847368][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.797368][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.781579][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.765789][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.757895][Inline Method] beaver.comp.ParserGenerator.compressActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.750000][Inline Method] beaver.comp.ParserGenerator$CompiledParser.makeProductionDescriptors(beaver.spec.Grammar) into beaver.comp.ParserGenerator$CompiledParser.<init>(beaver.spec.Grammar,beaver.comp.ParsingTables)
+  - [3.742105][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.734211][Instantiate Method] Move static method 'writeReduceActionCode(beaver.spec.Production,java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production'
+  - [3.726316][Instantiate Method] Move static method 'countReferencedSymbols(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.718421][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.710526][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.702632][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.694737][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.686842][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.678947][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.671053][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.663158][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.655263][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.647368][Instantiate Method] Move static method 'splitActions(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.639474][Inline Method] beaver.comp.run.AntTask.getOutputFileName(beaver.comp.io.SrcReader) into beaver.comp.run.AntTask.execute()
+  - [3.631579][Inline Method] beaver.comp.ParsingTables.countStates(beaver.comp.State) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.623684][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.615789][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.607895][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.600000][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.592105][Instantiate Method] Move static method 'findLookaheads(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.584211][Instantiate Method] Move static method 'writeMarkersClass(beaver.spec.Terminal[],java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Terminal'
+  - [3.576316][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.568421][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Move Up Field] 'prec' of 'beaver.spec.Terminal' to its super class 'beaver.spec.GrammarSymbol'
+  - [3.559211][Decrease Field Security] 'lookaheads' of 'beaver.comp.ParsingTables' to 'PROTECTED'
+  - [3.569737][Introduce Factory] for beaver.spec.parser.GrammarParser$Events.<init>(beaver.comp.util.Log)
+  - [3.569737][Move Up Field] 'sym_name' of 'beaver.spec.ast.Rule$Definition$Element' to its super class 'beaver.spec.ast.Node'
+  - [3.569737][Decrease Field Security] 'start_pos' of 'beaver.comp.util.Log$Record' to 'PACKAGE'
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarParser$Events.<init>(beaver.comp.util.Log) into beaver.spec.parser.GrammarParser$Events.createbeaver.spec.parser.GrammarParser$Events(beaver.comp.util.Log)
+  - [3.557895][Move Up Field] 'sym_name' of 'beaver.spec.ast.Node' to its super class 'beaver.Symbol'
+  - [3.557895][Move Up Field] 'lhs_sym' of 'beaver.spec.ast.Rule' to its super class 'beaver.spec.ast.Node'
+  - [3.557895][Inline Method] beaver.spec.parser.GrammarScanner.zzUnpackAttribute(java.lang.String,int,int[]) into beaver.spec.parser.GrammarScanner.zzUnpackAttribute()
+  - [3.557895][Decrease Method Security] 'process(int)' of 'beaver.comp.util.BitSet$Processor' to 'PUBLIC'
+  - [3.557895][Decrease Field Security] 'last' of 'beaver.comp.Action$List' to 'PROTECTED'
+  - [3.557895][Decrease Method Security] 'parseOptions(java.lang.String[])' of 'beaver.comp.run.Make' to 'PROTECTED'
+  - [3.553947][Move Up Field] 'lhs_sym' of 'beaver.spec.ast.Node' to its super class 'beaver.Symbol'
+  - [3.556579][Introduce Factory] for beaver.spec.GrammarBuilder$DeclarationWalker.<init>()
+  - [3.556579][Move Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action$Shift' to its parameter type 'beaver.comp.State'
+  - [3.556579][Move Up Field] 'terminals' of 'beaver.comp.Action$Reduce$Maker' to its super class 'beaver.comp.util.BitSet$Processor'
+  - [3.567105][Introduce Factory] for beaver.spec.Production$RHS.<init>(beaver.spec.Production$RHS$Item[])
+  - [3.577632][Introduce Factory] for beaver.Parser$Simulator.<init>(beaver.Parser)
+  - [3.551316][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.util.Log,beaver.comp.Action$Shift)' of type 'beaver.comp.State'
+  - [3.527632][Remove Method] '<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ShiftReduce'
+  - [3.519737][Inline Method] beaver.spec.Production$RHS.<init>(beaver.spec.Production$RHS$Item[]) into beaver.spec.Production$RHS.createbeaver.spec.Production$RHS(beaver.spec.Production$RHS$Item[])
+  - [3.511842][Inline Method] beaver.Parser$Simulator.<init>(beaver.Parser) into beaver.Parser$Simulator.createbeaver.Parser$Simulator(beaver.Parser)
+  - [3.503947][Instantiate Method] Move static method 'createbeaver.spec.Production$RHS(beaver.spec.Production$RHS$Item[])' of 'beaver.spec.Production$RHS' to its parameter type 'beaver.spec.Production$RHS$Item'
+
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 17.23 seconds
+  * Quality Gain: 0.410526
+  * Metric Mode: Aggregate
+  * Expanded Designs: 60269
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.555263
+  * Possible Actions: 695
+  * Applied Actions: 44
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.2316
+    * Dep_In: 4.6421
+    * iC_Attr: 2.9895
+    * iC_Par: 2.2421
+    * eC_Attr: 0.9895
+    * eC_Par: 2.4737
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.918421][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.894737][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.871053][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.847368][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.797368][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.781579][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.765789][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.757895][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.750000][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.742105][Inline Method] beaver.comp.run.AntTask.getOutputFileName(beaver.comp.io.SrcReader) into beaver.comp.run.AntTask.execute()
+  - [3.734211][Inline Method] beaver.comp.ParserGenerator.compressActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.726316][Instantiate Method] Move static method 'makeProductionDescriptors(beaver.spec.Grammar)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Grammar'
+  - [3.718421][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.710526][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.702632][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.694737][Inline Method] beaver.comp.ParserGenerator.splitActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.686842][Instantiate Method] Move static method 'writeMarkersClass(beaver.spec.Terminal[],java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Terminal'
+  - [3.678947][Instantiate Method] Move static method 'countStates(beaver.comp.State)' of 'beaver.comp.ParsingTables' to its parameter type 'beaver.comp.State'
+  - [3.671053][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.663158][Instantiate Method] Move static method 'countReferencedSymbols(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.655263][Instantiate Method] Move static method 'writeReduceActionCode(beaver.spec.Production,java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production'
+  - [3.647368][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.639474][Inline Method] beaver.comp.ParserGenerator.findLookaheads(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.631579][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.623684][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.615789][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.607895][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.600000][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.592105][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.584211][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.576316][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.568421][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$ConstructorCode)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [3.559211][Move Up Field] 'ebnf_sym' of 'beaver.spec.ast.Rule$Definition$Element' to its super class 'beaver.spec.ast.Node'
+  - [3.559211][Decrease Field Security] 'actn_offsets' of 'beaver.ParsingTables' to 'PROTECTED'
+  - [3.559211][Decrease Method Security] 'shift(beaver.Symbol,short)' of 'beaver.Parser' to 'PACKAGE'
+  - [3.559211][Increase Method Security] 'printVersion()' of 'beaver.comp.run.Make' to 'PRIVATE'
+  - [3.555263][Move Up Field] 'ebnf_sym' of 'beaver.spec.ast.Node' to its super class 'beaver.Symbol'
+
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 17.38 seconds
+  * Quality Gain: 0.513158
+  * Metric Mode: Aggregate
+  * Expanded Designs: 61222
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.452632
+  * Possible Actions: 699
+  * Applied Actions: 63
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.0947
+    * Dep_In: 4.5053
+    * iC_Attr: 3.0000
+    * iC_Par: 2.0947
+    * eC_Attr: 0.9895
+    * eC_Par: 2.3368
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.918421][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.894737][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.871053][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.847368][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.797368][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.781579][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.765789][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.757895][Inline Method] beaver.comp.ParserGenerator$CompiledParser.countReferencedSymbols(beaver.spec.Production$RHS) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.750000][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.742105][Instantiate Method] Move static method 'compressActions(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.734211][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.726316][Instantiate Method] Move static method 'writeReduceActionCode(beaver.spec.Production,java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production'
+  - [3.718421][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.710526][Instantiate Method] Move static method 'countStates(beaver.comp.State)' of 'beaver.comp.ParsingTables' to its parameter type 'beaver.comp.State'
+  - [3.702632][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.694737][Instantiate Method] Move static method 'splitActions(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.686842][Instantiate Method] Move static method 'writeMarkersClass(beaver.spec.Terminal[],java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Terminal'
+  - [3.678947][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.671053][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.663158][Inline Method] beaver.comp.ParserGenerator.findLookaheads(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.655263][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.647368][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.639474][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.631579][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.623684][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.615789][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.607895][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.600000][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.592105][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.584211][Instantiate Method] Move static method 'makeProductionDescriptors(beaver.spec.Grammar)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Grammar'
+  - [3.576316][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.568421][Instantiate Method] Move static method 'getOutputFileName(beaver.comp.io.SrcReader)' of 'beaver.comp.run.AntTask' to its parameter type 'beaver.comp.io.SrcReader'
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Decrease Field Security] 'message' of 'beaver.comp.util.Log$Record' to 'PACKAGE'
+  - [3.559211][Decrease Field Security] 'rule' of 'beaver.comp.Configuration' to 'PROTECTED'
+  - [3.563158][Freeze Method] Convert 'shift(beaver.Symbol,short)' of 'beaver.Parser' to static 
+  - [3.567105][Freeze Method] Convert 'add(beaver.comp.Action)' of 'beaver.comp.Action$List' to static 
+  - [3.567105][Decrease Method Security] 'zzUnpackAttribute()' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [3.563158][Instantiate Method] Move static method 'add(beaver.comp.Action,beaver.comp.Action$List)' of 'beaver.comp.Action$List' to its parameter type 'beaver.comp.Action'
+  - [3.555263][Instantiate Method] Move static method 'add(beaver.comp.Action$List)' of 'beaver.comp.Action' to its parameter type 'beaver.comp.Action$List'
+  - [3.555263][Decrease Method Security] 'getSpecAsResourceStream(java.lang.Class)' of 'beaver.ParsingTables' to 'PROTECTED'
+  - [3.573684][Introduce Factory] for beaver.comp.Action$Reduce$Maker.<init>(beaver.spec.Terminal[],beaver.comp.State)
+  - [3.573684][Move Up Field] 'name' of 'beaver.spec.ast.Declaration$NameContainer' to its super class 'beaver.spec.ast.Declaration'
+  - [3.573684][Decrease Field Security] 'yyline' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [3.573684][Move Up Field] 'CODE_END' of 'beaver.spec.parser.GrammarScanner' to its super class 'beaver.Scanner'
+  - [3.557895][Inline Method] beaver.comp.Action$Reduce$Maker.<init>(beaver.spec.Terminal[],beaver.comp.State) into beaver.comp.Action$Reduce$Maker.createbeaver.comp.Action$Reduce$Maker(beaver.spec.Terminal[],beaver.comp.State)
+  - [3.550000][Instantiate Method] Move static method 'createbeaver.comp.Action$Reduce$Maker(beaver.spec.Terminal[],beaver.comp.State)' of 'beaver.comp.Action$Reduce$Maker' to its parameter type 'beaver.comp.State'
+  - [3.550000][Decrease Field Security] 'rule_descr' of 'beaver.comp.ParserGenerator$CompiledParser' to 'PACKAGE'
+  - [3.560526][Introduce Factory] for beaver.Parser$Simulator.<init>(beaver.Parser)
+  - [3.560526][Decrease Method Security] 'process(int)' of 'beaver.comp.util.BitSet$Processor' to 'PUBLIC'
+  - [3.560526][Increase Method Security] 'setLocation(int,int)' of 'beaver.spec.ast.Node' to 'PROTECTED'
+  - [3.564474][Move Down Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to its child class 'beaver.comp.Action$Accept'
+  - [3.538158][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Shift'
+  - [3.511842][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Reduce'
+  - [3.488158][Remove Method] '<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ReduceReduce'
+  - [3.464474][Remove Method] '<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ShiftReduce'
+  - [3.456579][Inline Method] beaver.Parser$Simulator.<init>(beaver.Parser) into beaver.Parser$Simulator.createbeaver.Parser$Simulator(beaver.Parser)
+  - [3.452632][Move Up Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action$Accept' to its super class 'beaver.comp.Action'
+
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 20.03 seconds
+  * Quality Gain: 0.505263
+  * Metric Mode: Aggregate
+  * Expanded Designs: 70501
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.460526
+  * Possible Actions: 689
+  * Applied Actions: 65
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.0842
+    * Dep_In: 4.5474
+    * iC_Attr: 3.0000
+    * iC_Par: 2.0842
+    * eC_Attr: 0.9895
+    * eC_Par: 2.3474
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.918421][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.894737][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.871053][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.847368][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.797368][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.781579][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.765789][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.757895][Instantiate Method] Move static method 'writeMarkersClass(beaver.spec.Terminal[],java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Terminal'
+  - [3.750000][Inline Method] beaver.comp.ParserGenerator.splitActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.742105][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.734211][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.726316][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.718421][Inline Method] beaver.comp.ParserGenerator.compressActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.710526][Inline Method] beaver.comp.run.AntTask.getOutputFileName(beaver.comp.io.SrcReader) into beaver.comp.run.AntTask.execute()
+  - [3.702632][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.694737][Instantiate Method] Move static method 'countStates(beaver.comp.State)' of 'beaver.comp.ParsingTables' to its parameter type 'beaver.comp.State'
+  - [3.686842][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.678947][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.671053][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.663158][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.655263][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.647368][Instantiate Method] Move static method 'countReferencedSymbols(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.639474][Instantiate Method] Move static method 'writeReduceActionCode(beaver.spec.Production,java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production'
+  - [3.631579][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.623684][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.615789][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.607895][Inline Method] beaver.comp.ParserGenerator.findLookaheads(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.600000][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.592105][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.584211][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.576316][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.568421][Inline Method] beaver.comp.ParserGenerator$CompiledParser.makeProductionDescriptors(beaver.spec.Grammar) into beaver.comp.ParserGenerator$CompiledParser.<init>(beaver.spec.Grammar,beaver.comp.ParsingTables)
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.563158][Freeze Method] Convert 'sort()' of 'beaver.comp.Action$List' to static 
+  - [3.581579][Introduce Factory] for beaver.spec.Production.<init>(int,beaver.spec.NonTerminal,beaver.spec.Production$RHS)
+  - [3.592105][Introduce Factory] for beaver.spec.Production$RHS$Item.<init>(beaver.spec.GrammarSymbol)
+  - [3.594737][Introduce Factory] for beaver.Scanner$Exception.<init>(java.lang.String)
+  - [3.598684][Freeze Method] Convert 'isSet(int)' of 'beaver.comp.util.BitSet' to static 
+  - [3.582895][Inline Method] beaver.spec.Production.<init>(int,beaver.spec.NonTerminal,beaver.spec.Production$RHS) into beaver.spec.Production.createbeaver.spec.Production(beaver.spec.NonTerminal,beaver.spec.Production$RHS)
+  - [3.575000][Inline Method] beaver.spec.Production$RHS$Item.<init>(beaver.spec.GrammarSymbol) into beaver.spec.Production$RHS$Item.createbeaver.spec.Production$RHS$Item(beaver.spec.GrammarSymbol)
+  - [3.567105][Instantiate Method] Move static method 'createbeaver.spec.Production(beaver.spec.NonTerminal,beaver.spec.Production$RHS)' of 'beaver.spec.Production' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.559211][Instantiate Method] Move static method 'createbeaver.spec.Production(beaver.spec.NonTerminal)' of 'beaver.spec.Production$RHS' to its parameter type 'beaver.spec.NonTerminal'
+  - [3.577632][Introduce Factory] for beaver.comp.Action.<init>(beaver.comp.Action$Type,beaver.spec.GrammarSymbol)
+  - [3.577632][Decrease Method Security] 'zzUnpackTrans(java.lang.String,int,int[])' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [3.577632][Decrease Field Security] 'first_term' of 'beaver.spec.Production$RHS' to 'PROTECTED'
+  - [3.581579][Freeze Method] Convert 'getLst(java.lang.String)' of 'beaver.spec.GrammarBuilder$5' to static 
+  - [3.581579][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$Header)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [3.565789][Inline Method] beaver.comp.Action.<init>(beaver.comp.Action$Type,beaver.spec.GrammarSymbol) into beaver.comp.Action.createbeaver.comp.Action(beaver.comp.Action$Type,beaver.spec.GrammarSymbol)
+  - [3.557895][Instantiate Method] Move static method 'createbeaver.comp.Action(beaver.comp.Action$Type,beaver.spec.GrammarSymbol)' of 'beaver.comp.Action' to its parameter type 'beaver.comp.Action$Type'
+  - [3.557895][Decrease Field Security] 'lookaheads' of 'beaver.comp.Configuration' to 'PROTECTED'
+  - [3.568421][Introduce Factory] for beaver.spec.ast.Declaration$ClassCode.<init>(beaver.Symbol)
+  - [3.572368][Move Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to its parameter type 'beaver.comp.State'
+  - [3.572368][Increase Field Security] 'state' of 'beaver.comp.Action$Shift' to 'PRIVATE'
+  - [3.572368][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [3.546053][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Reduce'
+  - [3.519737][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Shift'
+  - [3.496053][Remove Method] '<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ReduceReduce'
+  - [3.472368][Remove Method] '<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ShiftReduce'
+  - [3.464474][Inline Method] beaver.spec.ast.Declaration$ClassCode.<init>(beaver.Symbol) into beaver.spec.ast.Declaration$ClassCode.createbeaver.spec.ast.Declaration$ClassCode(beaver.Symbol)
+  - [3.460526][Move Method] 'resolveConflict(beaver.comp.Action,beaver.comp.util.Log,beaver.comp.Action)' of 'beaver.comp.State' to its parameter type 'beaver.comp.Action'
+
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 19.83 seconds
+  * Quality Gain: 0.496053
+  * Metric Mode: Aggregate
+  * Expanded Designs: 70245
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.469737
+  * Possible Actions: 697
+  * Applied Actions: 70
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.0842
+    * Dep_In: 4.5684
+    * iC_Attr: 2.9789
+    * iC_Par: 2.1053
+    * eC_Attr: 0.9895
+    * eC_Par: 2.3789
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.918421][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.894737][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.871053][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.847368][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.797368][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.781579][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.765789][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.757895][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.750000][Instantiate Method] Move static method 'writeMarkersClass(beaver.spec.Terminal[],java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Terminal'
+  - [3.742105][Inline Method] beaver.comp.ParserGenerator.splitActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.734211][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.726316][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.718421][Instantiate Method] Move static method 'countStates(beaver.comp.State)' of 'beaver.comp.ParsingTables' to its parameter type 'beaver.comp.State'
+  - [3.710526][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.702632][Instantiate Method] Move static method 'findLookaheads(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.694737][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.686842][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionCode(beaver.spec.Production,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.678947][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.671053][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.663158][Instantiate Method] Move static method 'countReferencedSymbols(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.655263][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int)
+  - [3.647368][Instantiate Method] Move static method 'makeProductionDescriptors(beaver.spec.Grammar)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Grammar'
+  - [3.639474][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.631579][Instantiate Method] Move static method 'getOutputFileName(beaver.comp.io.SrcReader)' of 'beaver.comp.run.AntTask' to its parameter type 'beaver.comp.io.SrcReader'
+  - [3.623684][Instantiate Method] Move static method 'compressActions(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.615789][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.607895][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.600000][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.592105][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.584211][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.576316][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.568421][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.561842][Introduce Factory] for beaver.comp.io.SrcReader.<init>(java.io.File)
+  - [3.561842][Decrease Field Security] 'conf_set' of 'beaver.comp.State' to 'PROTECTED'
+  - [3.572368][Introduce Factory] for beaver.spec.Terminal.<init>(java.lang.String,int,beaver.spec.Terminal$Associativity)
+  - [3.582895][Introduce Factory] for beaver.spec.GrammarBuilder.<init>(beaver.comp.util.Log)
+  - [3.582895][Make Class Final] beaver.comp.State$Factory
+  - [3.575000][Inline Method] beaver.spec.GrammarBuilder.<init>(beaver.comp.util.Log) into beaver.spec.GrammarBuilder.createbeaver.spec.GrammarBuilder(beaver.comp.util.Log)
+  - [3.567105][Inline Method] beaver.spec.Terminal.<init>(java.lang.String,int,beaver.spec.Terminal$Associativity) into beaver.spec.Terminal.createbeaver.spec.Terminal(beaver.spec.Terminal$Associativity)
+  - [3.559211][Instantiate Method] Move static method 'createbeaver.spec.Terminal(beaver.spec.Terminal$Associativity)' of 'beaver.spec.Terminal' to its parameter type 'beaver.spec.Terminal$Associativity'
+  - [3.563158][Freeze Method] Convert 'add(int)' of 'beaver.comp.util.IntArray' to static 
+  - [3.567105][Move Down Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to its child class 'beaver.comp.Action$Accept'
+  - [3.571053][Freeze Method] Convert 'getAlias()' of 'beaver.spec.ast.Rule$Definition$Element' to static 
+  - [3.575000][Freeze Method] Convert 'writeParsingTables(java.io.File,java.lang.String)' of 'beaver.comp.ParserGenerator$CompiledParser' to static 
+  - [3.578947][Freeze Method] Convert 'yycharat(int)' of 'beaver.spec.parser.GrammarScanner' to static 
+  - [3.552632][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Shift'
+  - [3.526316][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Reduce'
+  - [3.502632][Remove Method] '<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ShiftReduce'
+  - [3.478947][Remove Method] '<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ReduceReduce'
+  - [3.475000][Move Up Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action$Accept' to its super class 'beaver.comp.Action'
+  - [3.475000][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$Goal)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [3.478947][Freeze Method] Convert 'readToken()' of 'beaver.Parser$TokenStream' to static 
+  - [3.478947][Freeze Method] Convert 'nextToken()' of 'beaver.Scanner' to static 
+  - [3.478947][Increase Method Security] 'visit(beaver.spec.ast.Rule)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [3.478947][Move Up Field] 'ebnf_sym' of 'beaver.spec.ast.Rule$Definition$Element' to its super class 'beaver.spec.ast.Node'
+  - [3.475000][Move Up Field] 'ebnf_sym' of 'beaver.spec.ast.Node' to its super class 'beaver.Symbol'
+  - [3.471053][Inline Method] beaver.Parser$TokenStream.readToken(beaver.Parser$TokenStream) into beaver.Parser$TokenStream.nextToken()
+  - [3.471053][Increase Method Security] 'errorPhraseRemoved(beaver.Symbol)' of 'beaver.Parser$Events' to 'PROTECTED'
+  - [3.471053][Decrease Field Security] 'next' of 'beaver.comp.Action' to 'PROTECTED'
+  - [3.471053][Move Up Field] 'alias' of 'beaver.spec.ast.Rule$Definition$Element' to its super class 'beaver.spec.ast.Node'
+  - [3.471053][Decrease Method Security] 'increaseStackCapacity()' of 'beaver.Parser$Simulator' to 'PACKAGE'
+  - [3.481579][Introduce Factory] for beaver.comp.Action$Accept.<init>(beaver.spec.Grammar)
+  - [3.473684][Inline Method] beaver.comp.Action$Accept.<init>(beaver.spec.Grammar) into beaver.comp.Action$Accept.createbeaver.comp.Action$Accept(beaver.spec.Grammar)
+  - [3.469737][Move Up Field] 'alias' of 'beaver.spec.ast.Node' to its super class 'beaver.Symbol'
+
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 19.14 seconds
+  * Quality Gain: 0.519737
+  * Metric Mode: Aggregate
+  * Expanded Designs: 68214
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.446053
+  * Possible Actions: 710
+  * Applied Actions: 64
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.0842
+    * Dep_In: 4.4947
+    * iC_Attr: 2.9895
+    * iC_Par: 2.0947
+    * eC_Attr: 0.9895
+    * eC_Par: 2.3368
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.918421][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.894737][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.871053][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.847368][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.797368][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.781579][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.765789][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.757895][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.750000][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.742105][Instantiate Method] Move static method 'countReferencedSymbols(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.734211][Instantiate Method] Move static method 'getOutputFileName(beaver.comp.io.SrcReader)' of 'beaver.comp.run.AntTask' to its parameter type 'beaver.comp.io.SrcReader'
+  - [3.726316][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.718421][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.710526][Instantiate Method] Move static method 'findLookaheads(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.702632][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.694737][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.686842][Inline Method] beaver.comp.ParserGenerator.compressActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.678947][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.671053][Instantiate Method] Move static method 'splitActions(beaver.comp.State)' of 'beaver.comp.ParserGenerator' to its parameter type 'beaver.comp.State'
+  - [3.663158][Inline Method] beaver.comp.ParsingTables.countStates(beaver.comp.State) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.655263][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int)
+  - [3.647368][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.639474][Instantiate Method] Move static method 'writeReduceActionCode(beaver.spec.Production,java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production'
+  - [3.631579][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.623684][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeMarkersClass(beaver.spec.Terminal[],java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.615789][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.607895][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.600000][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.592105][Instantiate Method] Move static method 'makeProductionDescriptors(beaver.spec.Grammar)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Grammar'
+  - [3.584211][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.576316][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.568421][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.569737][Introduce Factory] for beaver.spec.Production$RHS.<init>(beaver.spec.Production$RHS$Item[])
+  - [3.569737][Decrease Method Security] 'reduce(int)' of 'beaver.Parser' to 'PACKAGE'
+  - [3.573684][Freeze Method] Convert 'getGrammar()' of 'beaver.spec.GrammarBuilder' to static 
+  - [3.573684][Increase Method Security] 'visit(beaver.spec.ast.Declaration$Header)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [3.573684][Decrease Field Security] 'zzEndRead' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [3.565789][Inline Method] beaver.spec.Production$RHS.<init>(beaver.spec.Production$RHS$Item[]) into beaver.spec.Production$RHS.createbeaver.spec.Production$RHS(beaver.spec.Production$RHS$Item[])
+  - [3.557895][Instantiate Method] Move static method 'createbeaver.spec.Production$RHS(beaver.spec.Production$RHS$Item[])' of 'beaver.spec.Production$RHS' to its parameter type 'beaver.spec.Production$RHS$Item'
+  - [3.561842][Move Down Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to its child class 'beaver.comp.Action$Accept'
+  - [3.561842][Increase Method Security] 'compare(java.lang.Object,java.lang.Object)' of 'beaver.comp.ParserGenerator$CompiledParser$1' to 'PROTECTED'
+  - [3.561842][Inline Method] beaver.comp.Action$List.removeResolvedActions() into beaver.comp.Action$List.resolveConflicts(beaver.comp.util.Log)
+  - [3.561842][Decrease Field Security] 'num_conf' of 'beaver.comp.Configuration$Set$Factory' to 'PROTECTED'
+  - [3.561842][Increase Method Security] 'visit(beaver.spec.ast.Declaration$ClassCode)' of 'beaver.spec.ast.TreeWalker' to 'PROTECTED'
+  - [3.535526][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Shift'
+  - [3.509211][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Reduce'
+  - [3.485526][Remove Method] '<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ReduceReduce'
+  - [3.461842][Remove Method] '<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ShiftReduce'
+  - [3.457895][Move Up Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action$Accept' to its super class 'beaver.comp.Action'
+  - [3.457895][Move Up Field] 'sym_name' of 'beaver.spec.ast.Rule$Definition$Element' to its super class 'beaver.spec.ast.Node'
+  - [3.457895][Decrease Field Security] 'actions' of 'beaver.ParsingTables' to 'PACKAGE'
+  - [3.457895][Decrease Field Security] 'terminals' of 'beaver.comp.Action$Reduce$Maker' to 'PROTECTED'
+  - [3.461842][Freeze Method] Convert 'add(beaver.comp.Action)' of 'beaver.comp.Action$List' to static 
+  - [3.465789][Move Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to its parameter type 'beaver.comp.State'
+  - [3.461842][Move Up Field] 'sym_name' of 'beaver.spec.ast.Node' to its super class 'beaver.Symbol'
+  - [3.457895][Move Method] 'resolveConflict(beaver.comp.Action,beaver.comp.util.Log,beaver.comp.Action)' of 'beaver.comp.State' to its parameter type 'beaver.comp.Action'
+  - [3.453947][Instantiate Method] Move static method 'add(beaver.comp.Action,beaver.comp.Action$List)' of 'beaver.comp.Action$List' to its parameter type 'beaver.comp.Action'
+  - [3.446053][Instantiate Method] Move static method 'add(beaver.comp.Action$List)' of 'beaver.comp.Action' to its parameter type 'beaver.comp.Action$List'
+
+====== Run Result ======
+
+* Name: Beaver|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 20.27 seconds
+  * Quality Gain: 0.531579
+  * Metric Mode: Aggregate
+  * Expanded Designs: 71396
+
+* Initial Design:
+  * Score: 3.965789
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * Dep_In: 5.2105
+    * iC_Attr: 3.0000
+    * iC_Par: 2.7684
+    * eC_Attr: 0.9895
+    * eC_Par: 3.0105
+
+* Final Design:
+  * Score: 3.434211
+  * Possible Actions: 692
+  * Applied Actions: 66
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.0842
+    * Dep_In: 4.4632
+    * iC_Attr: 3.0000
+    * iC_Par: 2.0842
+    * eC_Attr: 0.9895
+    * eC_Par: 2.3053
+
+* Applied Actions:
+  - [3.942105][Inline Method] beaver.comp.run.AntTask.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.AntTask.execute()
+  - [3.918421][Inline Method] beaver.comp.run.Make.compile(beaver.comp.io.SrcReader,beaver.comp.run.Options,beaver.comp.util.Log) into beaver.comp.run.Make.main(java.lang.String[])
+  - [3.894737][Inline Method] beaver.comp.ParserGenerator.checkUnreducibleProductions(beaver.spec.Grammar,beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.871053][Inline Method] beaver.comp.Action$Type$Conflict$ReduceReduce.makeDescription(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ReduceReduce.<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.847368][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.makeDescription(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.828947][Inline Method] beaver.comp.ParserGenerator.checkAndResolveConflicts(beaver.comp.State,beaver.comp.util.Log) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.813158][Inline Method] beaver.comp.ParserGenerator.buildActions(beaver.spec.Grammar,beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.797368][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsSwitch(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.781579][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeParserActionsArray(beaver.spec.Grammar,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.765789][Inline Method] beaver.comp.ParsingTables.renumberSymbols(beaver.spec.Grammar,beaver.comp.Action$List[]) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.757895][Inline Method] beaver.spec.GrammarBuilder.writeListsCode(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.750000][Inline Method] beaver.comp.ParserGenerator.compressActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.742105][Instantiate Method] Move static method 'getOutputFileName(beaver.comp.io.SrcReader)' of 'beaver.comp.run.AntTask' to its parameter type 'beaver.comp.io.SrcReader'
+  - [3.734211][Inline Method] beaver.comp.ParserGenerator.splitActions(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.726316][Inline Method] beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int) into beaver.comp.Configuration$Set.<init>(beaver.comp.Configuration$Set$Factory,int,beaver.comp.Configuration$1)
+  - [3.718421][Inline Method] beaver.comp.ParsingTables.findOffset(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.710526][Inline Method] beaver.comp.ParsingTables.tryInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.702632][Inline Method] beaver.comp.ParserGenerator$CompiledParser.makeProductionDescriptors(beaver.spec.Grammar) into beaver.comp.ParserGenerator$CompiledParser.<init>(beaver.spec.Grammar,beaver.comp.ParsingTables)
+  - [3.694737][Inline Method] beaver.comp.ParserGenerator.findLookaheads(beaver.comp.State) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.686842][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeReduceActionClasses(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.678947][Inline Method] beaver.comp.State$Factory.buildShiftsFrom(beaver.comp.State) into beaver.comp.State$Factory.getState(beaver.comp.Configuration$Set)
+  - [3.671053][Instantiate Method] Move static method 'indexOfLastReferencedSymbol(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.663158][Inline Method] beaver.spec.GrammarBuilder.propagateTypes(beaver.spec.NonTerminal[]) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.655263][Inline Method] beaver.comp.ParsingTables.insertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.647368][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeMarkersClass(beaver.spec.Terminal[],java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer)
+  - [3.639474][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeClass(java.lang.String,beaver.comp.run.Options,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.631579][Instantiate Method] Move static method 'writeReduceActionCode(beaver.spec.Production,java.io.Writer)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production'
+  - [3.623684][Inline Method] beaver.comp.ParsingTables.countStates(beaver.comp.State) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.615789][Inline Method] beaver.comp.ParserGenerator.makeStates(beaver.spec.Grammar) into beaver.comp.ParserGenerator.compile(beaver.spec.Grammar,beaver.comp.run.Options,beaver.comp.util.Log)
+  - [3.607895][Instantiate Method] Move static method 'countReferencedSymbols(beaver.spec.Production$RHS)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.spec.Production$RHS'
+  - [3.600000][Instantiate Method] Move static method 'serializeParsingTables(beaver.comp.ParsingTables,int[],beaver.spec.NonTerminal)' of 'beaver.comp.ParserGenerator$CompiledParser' to its parameter type 'beaver.comp.ParsingTables'
+  - [3.592105][Inline Method] beaver.comp.ParserGenerator$CompiledParser.writeStaticReturns(beaver.spec.Grammar,java.io.Writer) into beaver.comp.ParserGenerator$CompiledParser.writeParserSource(java.io.File,java.io.File,java.lang.String,beaver.comp.run.Options)
+  - [3.584211][Inline Method] beaver.comp.ParsingTables.canInsertActions(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.576316][Inline Method] beaver.comp.ParsingTables.insertLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.568421][Inline Method] beaver.comp.ParsingTables.removeLookaheads(beaver.comp.Action$List,int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.564474][Inline Method] beaver.comp.Configuration$Set.equals(beaver.comp.Configuration$Set) into beaver.comp.Configuration$Set.equals(java.lang.Object)
+  - [3.561842][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short,java.lang.Object) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Inline Method] beaver.spec.parser.GrammarScanner.newSymbol(short) into beaver.spec.parser.GrammarScanner.nextToken()
+  - [3.559211][Decrease Field Security] 'yychar' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [3.559211][Decrease Method Security] 'zzUnpackAction(java.lang.String,int,int[])' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [3.559211][Make Class Final] beaver.comp.Action$Reduce$Maker
+  - [3.559211][Inline Method] beaver.comp.Configuration.<init>() into beaver.comp.Configuration.<init>(beaver.comp.Configuration$1)
+  - [3.585526][Introduce Factory] for beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)
+  - [3.561842][Inline Method] beaver.comp.Action$Type$Conflict$ShiftReduce.<init>(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String) into beaver.comp.Action$Type$Conflict$ShiftReduce.createbeaver.comp.Action$Type$Conflict$ShiftReduce(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State)
+  - [3.553947][Instantiate Method] Move static method 'createbeaver.comp.Action$Type$Conflict$ShiftReduce(beaver.comp.Action$Shift,beaver.comp.Action$Reduce,beaver.comp.State)' of 'beaver.comp.Action$Type$Conflict$ShiftReduce' to its parameter type 'beaver.comp.Action$Reduce'
+  - [3.546053][Instantiate Method] Move static method 'createbeaver.comp.Action$Type$Conflict$ShiftReduce(beaver.comp.Action$Shift,beaver.comp.State)' of 'beaver.comp.Action$Reduce' to its parameter type 'beaver.comp.Action$Shift'
+  - [3.535526][Inline Method] beaver.comp.Action$Shift.createbeaver.comp.Action$Type$Conflict$ShiftReduce(beaver.comp.State) into beaver.comp.Action$Shift.resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)
+  - [3.535526][Increase Method Security] 'unexpectedTokenRemoved(beaver.Symbol)' of 'beaver.Parser$Events' to 'PROTECTED'
+  - [3.535526][Make Class Final] beaver.comp.State$Factory
+  - [3.535526][Decrease Method Security] 'advanceStartIndex(int)' of 'beaver.comp.ParsingTables' to 'PACKAGE'
+  - [3.539474][Freeze Method] Convert 'getNonTerminals()' of 'beaver.spec.GrammarBuilder' to static 
+  - [3.550000][Introduce Factory] for beaver.comp.State.<init>(int,beaver.comp.Configuration$Set)
+  - [3.542105][Inline Method] beaver.comp.State.<init>(int,beaver.comp.Configuration$Set) into beaver.comp.State.createbeaver.comp.State(beaver.comp.Configuration$Set)
+  - [3.534211][Instantiate Method] Move static method 'createbeaver.comp.State(beaver.comp.Configuration$Set)' of 'beaver.comp.State' to its parameter type 'beaver.comp.Configuration$Set'
+  - [3.530263][Inline Method] beaver.spec.GrammarBuilder.getNonTerminals(beaver.spec.GrammarBuilder) into beaver.spec.GrammarBuilder.visit(beaver.spec.ast.GrammarTreeRoot)
+  - [3.530263][Decrease Method Security] 'checkBraces(java.lang.String)' of 'beaver.spec.GrammarBuilder' to 'PACKAGE'
+  - [3.530263][Freeze Method] Convert 'visit(beaver.spec.ast.Declaration$Imports)' of 'beaver.spec.ast.TreeWalker' to static 
+  - [3.530263][Decrease Field Security] 'token_column' of 'beaver.spec.parser.GrammarScanner' to 'PACKAGE'
+  - [3.530263][Inline Method] beaver.comp.ParsingTables.advanceStartIndex(int) into beaver.comp.ParsingTables.<init>(beaver.spec.Grammar,beaver.comp.State)
+  - [3.530263][Freeze Method] Convert 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to static 
+  - [3.526316][Instantiate Method] Move static method 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of 'beaver.comp.Action' to its parameter type 'beaver.comp.State'
+  - [3.500000][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Reduce'
+  - [3.473684][Remove Method] 'resolveConflict(beaver.comp.Action,beaver.comp.State,beaver.comp.util.Log)' of type 'beaver.comp.Action$Shift'
+  - [3.450000][Remove Method] '<init>(beaver.comp.Action$Reduce,beaver.comp.Action$Reduce,beaver.comp.State,java.lang.String)' of type 'beaver.comp.Action$Type$Conflict$ReduceReduce'
+  - [3.442105][Instantiate Method] Move static method 'resolveConflict(beaver.comp.Action,beaver.comp.util.Log)' of 'beaver.comp.State' to its parameter type 'beaver.comp.Action'
+  - [3.434211][Instantiate Method] Move static method 'resolveConflict(beaver.comp.util.Log)' of 'beaver.comp.Action' to its parameter type 'beaver.comp.util.Log'
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 18.97 seconds
+  * Average quality gain across all runs: 0.493553 (Average Score: 3.472237)
+  * Highest quality gain across all runs: 0.531579 (Score: 3.434211)
+  * Lowest quality gain across all runs: 0.410526 (Score: 3.555263)
+  * Time taken to complete task: 189.68 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.6589 (Average Score: 5.1095)
+    * Highest Quality Gain: 0.6947 (Best Score: 5.0737)
+    * Lowest Quality Gain: 0.5368 (Worst Score: 5.2316)
+  * Dep_In
+    * Average Quality Gain: 0.6642 (Average Score: 4.5463)
+    * Highest Quality Gain: 0.7474 (Best Score: 4.4632)
+    * Lowest Quality Gain: 0.5684 (Worst Score: 4.6421)
+  * iC_Attr
+    * Average Quality Gain: 0.0084 (Average Score: 2.9916)
+    * Highest Quality Gain: 0.0211 (Best Score: 2.9789)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.0000)
+  * iC_Par
+    * Average Quality Gain: 0.6505 (Average Score: 2.1179)
+    * Highest Quality Gain: 0.6842 (Best Score: 2.0842)
+    * Lowest Quality Gain: 0.5263 (Worst Score: 2.2421)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 0.9895)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.9895)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.9895)
+  * eC_Par
+    * Average Quality Gain: 0.6432 (Average Score: 2.3674)
+    * Highest Quality Gain: 0.7053 (Best Score: 2.3053)
+    * Lowest Quality Gain: 0.5368 (Worst Score: 2.4737)

@@ -1,0 +1,588 @@
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 487.39 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 457459
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 483.54 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 455276
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 485.12 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 455061
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 492.21 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 463118
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 505.53 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 473360
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 478.44 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 447338
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 495.21 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 462068
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 490.60 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 460351
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 484.19 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 457594
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Beaver|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 600.
+  * Time Taken: 482.90 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 453482
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 5.7684
+    * numOps: 5.0526
+    * iFImpl: 0.0000
+    * Dep_In: 5.2105
+    * nesting: 0.6526
+    * numCls: 11.8750
+    * numFields: 3.1684
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+    * NOC: 0.4842
+    * avrgFieldVisibility: 1.3046
+    * NumDesc: 1.1263
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 488.51 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 0.000000)
+  * Highest quality gain across all runs: 0.000000 (Score: 0.000000)
+  * Lowest quality gain across all runs: 0.000000 (Score: 0.000000)
+  * Time taken to complete task: 4885.13 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 5.7684)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.7684)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.7684)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 5.0526)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.0526)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.0526)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 5.2105)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.2105)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.2105)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.6526)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6526)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6526)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 11.8750)
+    * Highest Quality Gain: 0.0000 (Best Score: 11.8750)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 11.8750)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 3.1684)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.1684)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.1684)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.0830)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0830)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0830)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.4842)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.4842)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.4842)
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.3046)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.3046)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.3046)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 1.1263)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.1263)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.1263)

@@ -1,0 +1,798 @@
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 6.66 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 6.66 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 6.66 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 5.34 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 5.34 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 5.34 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 3.75 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 3.75 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 3.75 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 4.64 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.64 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 4.64 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 4.55 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.55 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 4.55 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 4.40 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.40 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 4.40 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 4.65 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.65 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 4.65 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 4.72 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.72 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 4.72 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 4.51 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.51 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 4.51 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 4.51 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.51 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 4.51 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 4.53 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.53 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 4.53 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 5.33 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 5.33 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 5.33 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 4.97 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.97 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 4.97 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+====== Run Result ======
+
+* Name: JSON|Abstraction|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 5.14 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * iFImpl: 0.3333
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 5.14 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 5.14 seconds
+
+* Metric Summary:
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)

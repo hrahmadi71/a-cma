@@ -1,0 +1,554 @@
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 363.22 seconds
+  * Quality Gain: 0.000458
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.473901
+  * Possible Actions: 3332
+  * Applied Actions: 11
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8388
+    * eC_Par: 2.9121
+    * Dep_In: 5.0293
+    * Dep_Out: 4.7363
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+  - [3.474359][Freeze Method] Convert 'freezeView()' of 'CH.ifa.draw.framework.DrawingView' to static 
+  - [3.474359][Move Down Method] 'createDrawingView(CH.ifa.draw.framework.Drawing)' of 'CH.ifa.draw.application.DrawApplication' to its child class 'CH.ifa.draw.contrib.SplitPaneDrawApplication'
+  - [3.475275][Introduce Factory] for CH.ifa.draw.figures.RectangleFigure.<init>(java.awt.Point,java.awt.Point)
+  - [3.475275][Decrease Field Security] 'fArrowChoice' of 'CH.ifa.draw.applet.DrawApplet' to 'PACKAGE'
+  - [3.475275][Increase Field Security] 'JHOTDRAW_COMPONENT' of 'CH.ifa.draw.util.VersionManagement' to 'PROTECTED'
+  - [3.475275][Make Class Concrete] CH.ifa.draw.framework.FigureChangeListener
+  - [3.475275][Increase Method Security] 'popRedo()' of 'CH.ifa.draw.util.UndoManager' to 'PROTECTED'
+  - [3.475275][Increase Method Security] 'setStartDecoration(CH.ifa.draw.figures.LineDecoration)' of 'CH.ifa.draw.figures.PolyLineFigure' to 'PROTECTED'
+  - [3.476648][Freeze Method] Convert 'setContents(java.lang.Object)' of 'CH.ifa.draw.util.Clipboard' to static 
+  - [3.476648][Move Down Method] 'basicMoveBy(int,int)' of 'CH.ifa.draw.figures.PolyLineFigure' to its child class 'CH.ifa.draw.figures.LineFigure'
+  - [3.473901][Inline Method] CH.ifa.draw.standard.ConnectionTool$UndoActivity.setConnection(CH.ifa.draw.framework.ConnectionFigure) into CH.ifa.draw.standard.ConnectionTool$UndoActivity.<init>(CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.ConnectionFigure)
+
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 369.52 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 358.15 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 363.82 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 365.38 seconds
+  * Quality Gain: 0.003205
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.471154
+  * Possible Actions: 3341
+  * Applied Actions: 11
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8352
+    * eC_Par: 2.9084
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7326
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+  - [3.474359][Increase Method Security] 'updateDurations()' of 'CH.ifa.draw.samples.pert.PertFigure' to 'PROTECTED'
+  - [3.474359][Freeze Method] Convert 'views()' of 'CH.ifa.draw.framework.DrawingEditor' to static 
+  - [3.474359][Decrease Method Security] '_makeNorthwest(java.awt.geom.Rectangle2D)' of 'CH.ifa.draw.standard.QuadTree' to 'PACKAGE'
+  - [3.474359][Increase Method Security] 'mouseDown(java.awt.event.MouseEvent,int,int)' of 'CH.ifa.draw.standard.AbstractTool' to 'PROTECTED'
+  - [3.474359][Move Down Method] 'isValidText(java.lang.String)' of 'CH.ifa.draw.figures.TextTool$UndoActivity' to its child class 'CH.ifa.draw.figures.ConnectedTextTool$UndoActivity'
+  - [3.474359][Decrease Field Security] '_doubleBufferedImage' of 'CH.ifa.draw.standard.FastBufferedUpdateStrategy' to 'PACKAGE'
+  - [3.475275][Introduce Factory] for CH.ifa.draw.util.PaletteLayout.<init>(int)
+  - [3.475275][Decrease Field Security] 'myBorderOffset' of 'CH.ifa.draw.figures.BorderDecorator' to 'PACKAGE'
+  - [3.476648][Freeze Method] Convert 'hasCorrectFileExtension(java.lang.String)' of 'CH.ifa.draw.util.StandardStorageFormat' to static 
+  - [3.473901][Inline Method] CH.ifa.draw.figures.RadiusHandle.createUndoActivity(CH.ifa.draw.framework.DrawingView) into CH.ifa.draw.figures.RadiusHandle.invokeStart(int,int,CH.ifa.draw.framework.DrawingView)
+  - [3.471154][Inline Method] CH.ifa.draw.samples.javadraw.MySelectionTool.inspectFigure(CH.ifa.draw.framework.Figure) into CH.ifa.draw.samples.javadraw.MySelectionTool.mouseDown(java.awt.event.MouseEvent,int,int)
+
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 362.04 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 369.06 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 374.71 seconds
+  * Quality Gain: 0.002747
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.471612
+  * Possible Actions: 3344
+  * Applied Actions: 3
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8388
+    * eC_Par: 2.9084
+    * Dep_In: 5.0220
+    * Dep_Out: 4.7363
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+  - [3.474359][Decrease Field Security] 'myStartConnector' of 'CH.ifa.draw.standard.ConnectionTool' to 'PACKAGE'
+  - [3.474359][Decrease Method Security] 'deleteFigures(CH.ifa.draw.framework.FigureEnumeration)' of 'CH.ifa.draw.standard.FigureTransferCommand' to 'PUBLIC'
+  - [3.471612][Inline Method] CH.ifa.draw.standard.AlignCommand$UndoActivity.addOriginalPoint(CH.ifa.draw.framework.Figure) into CH.ifa.draw.standard.AlignCommand$UndoActivity.setAffectedFigures(CH.ifa.draw.framework.FigureEnumeration)
+
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 359.55 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Coupling|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 360.08 seconds
+  * Quality Gain: 0.000458
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 3.474359
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Final Design:
+  * Score: 3.473901
+  * Possible Actions: 3346
+  * Applied Actions: 5
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iC_Attr: 1.8974
+    * iC_Par: 2.8425
+    * eC_Par: 2.9158
+    * Dep_In: 5.0220
+    * Dep_Out: 4.7399
+    * eC_Attr: 0.6117
+
+* Applied Actions:
+  - [3.475733][Freeze Method] Convert 'getEventDispatcher()' of 'CH.ifa.draw.standard.AbstractCommand' to static 
+  - [3.475733][Increase Method Security] 'copyFigures(CH.ifa.draw.framework.FigureEnumeration,int)' of 'CH.ifa.draw.standard.FigureTransferCommand' to 'PACKAGE'
+  - [3.475733][Increase Method Security] 'figureRequestRemove(CH.ifa.draw.framework.FigureChangeEvent)' of 'CH.ifa.draw.standard.FigureChangeAdapter' to 'PROTECTED'
+  - [3.475733][Decrease Field Security] 'fScribble' of 'CH.ifa.draw.figures.ScribbleTool' to 'PACKAGE'
+  - [3.473901][Inline Method] CH.ifa.draw.applet.DrawApplet.createFontChoice() into CH.ifa.draw.applet.DrawApplet.createAttributeChoices(javax.swing.JPanel)
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 364.55 seconds
+  * Average quality gain across all runs: 0.000687 (Average Score: 3.473672)
+  * Highest quality gain across all runs: 0.003205 (Score: 3.471154)
+  * Lowest quality gain across all runs: 0.000000 (Score: 3.474359)
+  * Time taken to complete task: 3645.54 seconds
+
+* Metric Summary:
+  * null
+    * Average Quality Gain: -0.0003 (Average Score: 0.2490)
+    * Highest Quality Gain: 0.0015 (Best Score: 0.2472)
+    * Lowest Quality Gain: -0.0022 (Worst Score: 0.2509)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.5751)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5751)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5751)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 3.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.0000)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.1293)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1293)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.1293)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 3.3636)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.3636)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.3636)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.8828)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8828)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8828)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * null
+    * Average Quality Gain: 0.0011 (Average Score: 8.6473)
+    * Highest Quality Gain: 0.0037 (Best Score: 8.6447)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 8.6484)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 1.8974)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.8974)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.8974)
+  * null
+    * Average Quality Gain: -0.0002 (Average Score: 0.0341)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0339)
+    * Lowest Quality Gain: -0.0011 (Worst Score: 0.0350)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 21.8182)
+    * Highest Quality Gain: 0.0000 (Best Score: 21.8182)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 21.8182)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 1.9451)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.9451)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.9451)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)
+  * null
+    * Average Quality Gain: 0.0273 (Average Score: 214.6091)
+    * Highest Quality Gain: 0.0909 (Best Score: 214.5455)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 214.6364)
+  * null
+    * Average Quality Gain: 0.0015 (Average Score: 2.8410)
+    * Highest Quality Gain: 0.0073 (Best Score: 2.8352)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.8425)
+  * null
+    * Average Quality Gain: 0.0004 (Average Score: 2.9117)
+    * Highest Quality Gain: 0.0037 (Best Score: 2.9084)
+    * Lowest Quality Gain: -0.0037 (Worst Score: 2.9158)
+  * null
+    * Average Quality Gain: 0.0004 (Average Score: 5.0253)
+    * Highest Quality Gain: 0.0037 (Best Score: 5.0220)
+    * Lowest Quality Gain: -0.0037 (Worst Score: 5.0293)
+  * null
+    * Average Quality Gain: -0.0000 (Average Score: 2.5860)
+    * Highest Quality Gain: 0.0015 (Best Score: 2.5844)
+    * Lowest Quality Gain: -0.0013 (Worst Score: 2.5872)
+  * null
+    * Average Quality Gain: 0.0015 (Average Score: 4.7385)
+    * Highest Quality Gain: 0.0073 (Best Score: 4.7326)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.7399)
+  * null
+    * Average Quality Gain: 0.0004 (Average Score: 0.6443)
+    * Highest Quality Gain: 0.0037 (Best Score: 0.6410)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6447)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.2344)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2344)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2344)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.6117)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6117)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6117)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.1172)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1172)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.1172)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.3150)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3150)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3150)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)

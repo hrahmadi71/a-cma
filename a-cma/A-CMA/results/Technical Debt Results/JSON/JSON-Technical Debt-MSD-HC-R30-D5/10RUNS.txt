@@ -1,0 +1,855 @@
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.72 seconds
+  * Quality Gain: 0.126429
+  * Metric Mode: Aggregate
+  * Expanded Designs: 12162
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.234528
+  * Possible Actions: 138
+  * Applied Actions: 24
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 8.0000
+    * iFImpl: 0.3333
+    * Dep_In: 1.9167
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.8953
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackRowMap()
+  - [1.307623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.299290][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.290957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAttribute()
+  - [1.282623][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.274290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAction()
+  - [1.265957][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.237861][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.237861][Freeze Method] Convert 'toJSONString()' of 'org.json.simple.JSONAware' to static 
+  - [1.238308][Decrease Field Security] 'zzAtBOL' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.238308][Increase Method Security] 'escape(java.lang.String)' of 'org.json.simple.JSONObject' to 'PROTECTED'
+  - [1.238754][Decrease Field Security] 'yyline' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.252088][Introduce Factory] for org.json.simple.JSONArray.<init>()
+  - [1.243754][Inline Method] org.json.simple.JSONObject.escape(java.lang.String) into org.json.simple.JSONObject.writeJSONString(java.util.Map,java.io.Writer)
+  - [1.235421][Inline Method] org.json.simple.JSONArray.<init>() into org.json.simple.JSONArray.createorg.json.simple.JSONArray()
+  - [1.234974][Increase Field Security] 'zzAtBOL' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+  - [1.234528][Increase Field Security] 'yyline' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.56 seconds
+  * Quality Gain: 0.129762
+  * Metric Mode: Aggregate
+  * Expanded Designs: 12260
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.231195
+  * Possible Actions: 137
+  * Applied Actions: 29
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 7.9167
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.8953
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.307623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackRowMap()
+  - [1.299290][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.290957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAttribute()
+  - [1.282623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAction()
+  - [1.274290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.265957][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.237861][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.237861][Freeze Method] Convert 'endJSON()' of 'org.json.simple.parser.ContentHandler' to static 
+  - [1.251195][Introduce Factory] for org.json.simple.parser.ParseException.<init>(int)
+  - [1.251195][Increase Method Security] 'addAll(java.lang.String,java.lang.String,boolean)' of 'org.json.simple.ItemList' to 'PROTECTED'
+  - [1.251195][Increase Method Security] 'createObjectContainer()' of 'org.json.simple.parser.ContainerFactory' to 'PROTECTED'
+  - [1.251195][Increase Method Security] 'addAll(java.lang.String,java.lang.String,boolean)' of 'org.json.simple.ItemList' to 'PACKAGE'
+  - [1.242861][Inline Method] org.json.simple.parser.ParseException.<init>(int) into org.json.simple.parser.ParseException.createorg.json.simple.parser.ParseException()
+  - [1.234528][Remove Method] 'addAll(java.lang.String,java.lang.String,boolean)' of type 'org.json.simple.ItemList'
+  - [1.239528][Freeze Method] Convert 'parse(java.lang.String,org.json.simple.parser.ContainerFactory)' of 'org.json.simple.parser.JSONParser' to static 
+  - [1.239528][Increase Method Security] 'parse(java.io.Reader)' of 'org.json.simple.JSONValue' to 'PROTECTED'
+  - [1.240719][Decrease Field Security] 'status' of 'org.json.simple.parser.JSONParser' to 'PACKAGE'
+  - [1.240719][Make Class Final] org.json.simple.parser.Yylex
+  - [1.240719][Decrease Method Security] 'nextToken()' of 'org.json.simple.parser.JSONParser' to 'PACKAGE'
+  - [1.232385][Inline Method] org.json.simple.JSONValue.parse(java.io.Reader) into org.json.simple.JSONValue.parse(java.lang.String)
+  - [1.231195][Increase Field Security] 'status' of 'org.json.simple.parser.JSONParser' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.64 seconds
+  * Quality Gain: 0.155000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 11689
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.205957
+  * Possible Actions: 133
+  * Applied Actions: 36
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 7.7500
+    * iFImpl: 0.3333
+    * Dep_In: 1.8333
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.9096
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.307623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.299290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAttribute()
+  - [1.290957][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.282623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.274290][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.265957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.239290][Increase Method Security] 'escape(java.lang.String)' of 'org.json.simple.JSONObject' to 'PROTECTED'
+  - [1.239736][Decrease Field Security] 'yycolumn' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.239736][Freeze Method] Convert 'startArray()' of 'org.json.simple.parser.ContentHandler' to static 
+  - [1.239736][Increase Method Security] 'toJSONString(java.lang.Object)' of 'org.json.simple.JSONValue' to 'PROTECTED'
+  - [1.244736][Freeze Method] Convert 'parse(java.io.Reader,org.json.simple.parser.ContentHandler,boolean)' of 'org.json.simple.parser.JSONParser' to static 
+  - [1.236403][Inline Method] org.json.simple.JSONObject.escape(java.lang.String) into org.json.simple.JSONObject.writeJSONString(java.util.Map,java.io.Writer)
+  - [1.235957][Increase Field Security] 'yycolumn' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+  - [1.236403][Decrease Field Security] 'yychar' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.236403][Increase Method Security] 'parse(java.io.Reader)' of 'org.json.simple.JSONValue' to 'PROTECTED'
+  - [1.236403][Increase Method Security] 'parse(java.lang.String)' of 'org.json.simple.JSONValue' to 'PROTECTED'
+  - [1.236403][Increase Method Security] 'reset()' of 'org.json.simple.parser.JSONParser' to 'PROTECTED'
+  - [1.236403][Freeze Method] Convert 'endArray()' of 'org.json.simple.parser.ContentHandler' to static 
+  - [1.228070][Inline Method] org.json.simple.parser.JSONParser.reset() into org.json.simple.parser.JSONParser.reset(java.io.Reader)
+  - [1.219736][Inline Method] org.json.simple.JSONValue.parse(java.io.Reader) into org.json.simple.JSONValue.parse(java.lang.String)
+  - [1.219290][Increase Field Security] 'yychar' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+  - [1.219290][Freeze Method] Convert 'toJSONString()' of 'org.json.simple.JSONAware' to static 
+  - [1.219290][Decrease Method Security] 'zzScanError(int)' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.219290][Increase Method Security] 'parse(java.lang.String)' of 'org.json.simple.JSONValue' to 'PACKAGE'
+  - [1.219290][Increase Method Security] 'toJSONString()' of 'org.json.simple.JSONAware' to 'PROTECTED'
+  - [1.219736][Decrease Field Security] 'zzBuffer' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.206403][Remove Method] 'parse(java.lang.String)' of type 'org.json.simple.JSONValue'
+  - [1.205957][Increase Field Security] 'zzBuffer' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.58 seconds
+  * Quality Gain: 0.136190
+  * Metric Mode: Aggregate
+  * Expanded Designs: 12482
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.224766
+  * Possible Actions: 139
+  * Applied Actions: 31
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 7.9167
+    * iFImpl: 0.3333
+    * Dep_In: 1.9167
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.8810
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.307623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAttribute()
+  - [1.299290][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.290957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.282623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackRowMap()
+  - [1.274290][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.265957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.237861][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.236433][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.237623][Decrease Field Security] 'status' of 'org.json.simple.parser.JSONParser' to 'PACKAGE'
+  - [1.239052][Decrease Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239052][Increase Method Security] 'escape(java.lang.String)' of 'org.json.simple.JSONObject' to 'PROTECTED'
+  - [1.239052][Decrease Method Security] 'zzScanError(int)' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.239052][Decrease Method Security] 'zzScanError(int)' of 'org.json.simple.parser.Yylex' to 'PROTECTED'
+  - [1.230719][Inline Method] org.json.simple.JSONObject.escape(java.lang.String) into org.json.simple.JSONObject.writeJSONString(java.util.Map,java.io.Writer)
+  - [1.229290][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.228099][Increase Field Security] 'status' of 'org.json.simple.parser.JSONParser' to 'PRIVATE'
+  - [1.228546][Decrease Field Security] 'yycolumn' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.228546][Increase Method Security] 'creatArrayContainer()' of 'org.json.simple.parser.ContainerFactory' to 'PROTECTED'
+  - [1.228546][Increase Method Security] 'reset()' of 'org.json.simple.parser.JSONParser' to 'PROTECTED'
+  - [1.228546][Increase Method Security] 'reset(java.io.Reader)' of 'org.json.simple.parser.JSONParser' to 'PROTECTED'
+  - [1.233546][Freeze Method] Convert 'parse(java.lang.String,org.json.simple.parser.ContainerFactory)' of 'org.json.simple.parser.JSONParser' to static 
+  - [1.225213][Inline Method] org.json.simple.parser.JSONParser.reset() into org.json.simple.parser.JSONParser.reset(java.io.Reader)
+  - [1.224766][Increase Field Security] 'yycolumn' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.52 seconds
+  * Quality Gain: 0.132857
+  * Metric Mode: Aggregate
+  * Expanded Designs: 12300
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.228099
+  * Possible Actions: 142
+  * Applied Actions: 22
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 8.0000
+    * iFImpl: 0.3333
+    * Dep_In: 1.8333
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.8810
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.307623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.299290][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.290957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.282623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.274290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.265957][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.237861][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.236433][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.236433][Increase Method Security] 'reset(java.io.Reader)' of 'org.json.simple.parser.JSONParser' to 'PROTECTED'
+  - [1.236433][Increase Method Security] 'creatArrayContainer()' of 'org.json.simple.parser.ContainerFactory' to 'PROTECTED'
+  - [1.236433][Make Class Final] org.json.simple.parser.Yylex
+  - [1.236433][Increase Method Security] 'reset()' of 'org.json.simple.parser.JSONParser' to 'PROTECTED'
+  - [1.236433][Increase Method Security] 'endObject()' of 'org.json.simple.parser.ContentHandler' to 'PROTECTED'
+  - [1.228099][Inline Method] org.json.simple.parser.JSONParser.reset() into org.json.simple.parser.JSONParser.reset(java.io.Reader)
+
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.53 seconds
+  * Quality Gain: 0.133333
+  * Metric Mode: Aggregate
+  * Expanded Designs: 11567
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.227623
+  * Possible Actions: 137
+  * Applied Actions: 27
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 7.9167
+    * iFImpl: 0.3333
+    * Dep_In: 1.9167
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.9096
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.307623][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.299290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.290957][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.282623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.274290][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.265957][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.239290][Increase Method Security] 'addAll(java.lang.String,java.lang.String)' of 'org.json.simple.ItemList' to 'PROTECTED'
+  - [1.239290][Increase Method Security] 'setSP(java.lang.String)' of 'org.json.simple.ItemList' to 'PROTECTED'
+  - [1.239290][Increase Method Security] 'clear()' of 'org.json.simple.ItemList' to 'PROTECTED'
+  - [1.239290][Increase Method Security] 'clear()' of 'org.json.simple.ItemList' to 'PACKAGE'
+  - [1.244290][Freeze Method] Convert 'addAll(java.lang.String,java.lang.String)' of 'org.json.simple.ItemList' to static 
+  - [1.235957][Remove Method] 'clear()' of type 'org.json.simple.ItemList'
+  - [1.236403][Decrease Field Security] 'zzMarkedPos' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.236403][Increase Method Security] 'startObjectEntry(java.lang.String)' of 'org.json.simple.parser.ContentHandler' to 'PROTECTED'
+  - [1.236403][Increase Method Security] 'reset()' of 'org.json.simple.ItemList' to 'PROTECTED'
+  - [1.236403][Increase Method Security] 'setSP(java.lang.String)' of 'org.json.simple.ItemList' to 'PACKAGE'
+  - [1.236403][Freeze Method] Convert 'endObject()' of 'org.json.simple.parser.ContentHandler' to static 
+  - [1.228070][Remove Method] 'setSP(java.lang.String)' of type 'org.json.simple.ItemList'
+  - [1.227623][Increase Field Security] 'zzMarkedPos' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.58 seconds
+  * Quality Gain: 0.127857
+  * Metric Mode: Aggregate
+  * Expanded Designs: 12146
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.233099
+  * Possible Actions: 138
+  * Applied Actions: 23
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 8.0000
+    * iFImpl: 0.3333
+    * Dep_In: 1.9167
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.8810
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.307623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAttribute()
+  - [1.299290][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.290957][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.282623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackRowMap()
+  - [1.274290][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.265957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.237861][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.236433][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.236879][Decrease Field Security] 'zzLexicalState' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.236879][Freeze Method] Convert 'peekStatus(java.util.LinkedList)' of 'org.json.simple.parser.JSONParser' to static 
+  - [1.236879][Increase Method Security] 'reset()' of 'org.json.simple.parser.JSONParser' to 'PROTECTED'
+  - [1.241879][Freeze Method] Convert 'yycharat(int)' of 'org.json.simple.parser.Yylex' to static 
+  - [1.241879][Increase Method Security] 'writeJSONString(java.util.Map,java.io.Writer)' of 'org.json.simple.JSONObject' to 'PROTECTED'
+  - [1.233546][Inline Method] org.json.simple.parser.JSONParser.reset() into org.json.simple.parser.JSONParser.reset(java.io.Reader)
+  - [1.233099][Increase Field Security] 'zzLexicalState' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.61 seconds
+  * Quality Gain: 0.133333
+  * Metric Mode: Aggregate
+  * Expanded Designs: 13282
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.227623
+  * Possible Actions: 133
+  * Applied Actions: 29
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 7.9167
+    * iFImpl: 0.3333
+    * Dep_In: 1.9167
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.9096
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAttribute()
+  - [1.307623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackRowMap()
+  - [1.299290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAction()
+  - [1.290957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.282623][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.274290][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.265957][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.239290][Increase Method Security] 'reset()' of 'org.json.simple.parser.JSONParser' to 'PROTECTED'
+  - [1.239736][Decrease Field Security] 'yyline' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.253070][Introduce Factory] for org.json.simple.JSONObject.<init>()
+  - [1.253070][Increase Method Security] 'addAll(java.lang.String,java.lang.String)' of 'org.json.simple.ItemList' to 'PROTECTED'
+  - [1.253070][Increase Method Security] 'startObjectEntry(java.lang.String)' of 'org.json.simple.parser.ContentHandler' to 'PROTECTED'
+  - [1.244736][Inline Method] org.json.simple.parser.JSONParser.reset() into org.json.simple.parser.JSONParser.reset(java.io.Reader)
+  - [1.236403][Inline Method] org.json.simple.JSONObject.<init>() into org.json.simple.JSONObject.createorg.json.simple.JSONObject()
+  - [1.235957][Increase Field Security] 'yyline' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+  - [1.235957][Increase Method Security] 'clear()' of 'org.json.simple.ItemList' to 'PROTECTED'
+  - [1.235957][Increase Method Security] 'startObjectEntry(java.lang.String)' of 'org.json.simple.parser.ContentHandler' to 'PACKAGE'
+  - [1.235957][Increase Method Security] 'addAll(java.lang.String)' of 'org.json.simple.ItemList' to 'PROTECTED'
+  - [1.236403][Decrease Field Security] 'zzReader' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.236403][Increase Method Security] 'addAll(java.lang.String)' of 'org.json.simple.ItemList' to 'PACKAGE'
+  - [1.228070][Remove Method] 'addAll(java.lang.String)' of type 'org.json.simple.ItemList'
+  - [1.227623][Increase Field Security] 'zzReader' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.55 seconds
+  * Quality Gain: 0.132857
+  * Metric Mode: Aggregate
+  * Expanded Designs: 12504
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.228099
+  * Possible Actions: 142
+  * Applied Actions: 24
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 8.0000
+    * iFImpl: 0.3333
+    * Dep_In: 1.8333
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.8810
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackRowMap()
+  - [1.307623][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.299290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.290957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.282623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.274290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAction()
+  - [1.265957][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.237861][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.236433][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.236879][Decrease Field Security] 'zzStartRead' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.236879][Increase Method Security] 'get(int)' of 'org.json.simple.ItemList' to 'PROTECTED'
+  - [1.237326][Decrease Field Security] 'sb' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [1.237326][Increase Method Security] 'toJSONString(java.util.Map)' of 'org.json.simple.JSONObject' to 'PROTECTED'
+  - [1.237326][Increase Method Security] 'escape(java.lang.String)' of 'org.json.simple.JSONObject' to 'PROTECTED'
+  - [1.228992][Inline Method] org.json.simple.JSONObject.escape(java.lang.String) into org.json.simple.JSONObject.writeJSONString(java.util.Map,java.io.Writer)
+  - [1.228546][Increase Field Security] 'zzStartRead' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+  - [1.228099][Increase Field Security] 'sb' of 'org.json.simple.parser.Yylex' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: JSON|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.55 seconds
+  * Quality Gain: 0.127857
+  * Metric Mode: Aggregate
+  * Expanded Designs: 12478
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * numOps: 9.0000
+    * iFImpl: 0.3333
+    * Dep_In: 2.0000
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 1.0096
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: 1.233099
+  * Possible Actions: 140
+  * Applied Actions: 22
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * numOps: 8.0000
+    * iFImpl: 0.3333
+    * Dep_In: 1.9167
+    * nesting: 0.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.8810
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.324290][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.315957][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+  - [1.307623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.299290][Inline Method] org.json.simple.parser.Yylex.zzRefill() into org.json.simple.parser.Yylex.yylex()
+  - [1.290957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.282623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAttribute()
+  - [1.274290][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.265957][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+  - [1.257623][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.249290][Inline Method] org.json.simple.parser.Yylex.zzUnpackCMap(java.lang.String) into org.json.simple.parser.Yylex.<clinit>()
+  - [1.242147][Increase Field Security] 'items' of 'org.json.simple.ItemList' to 'PRIVATE'
+  - [1.240719][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.239290][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.237861][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+  - [1.236433][Increase Field Security] 'type' of 'org.json.simple.parser.Yytoken' to 'PACKAGE'
+  - [1.236433][Increase Method Security] 'parse(java.io.Reader)' of 'org.json.simple.JSONValue' to 'PROTECTED'
+  - [1.236433][Freeze Method] Convert 'endObjectEntry()' of 'org.json.simple.parser.ContentHandler' to static 
+  - [1.241433][Freeze Method] Convert 'size()' of 'org.json.simple.ItemList' to static 
+  - [1.241433][Increase Method Security] 'startJSON()' of 'org.json.simple.parser.ContentHandler' to 'PROTECTED'
+  - [1.241433][Increase Method Security] 'escape(java.lang.String)' of 'org.json.simple.JSONValue' to 'PROTECTED'
+  - [1.233099][Inline Method] org.json.simple.JSONValue.parse(java.io.Reader) into org.json.simple.JSONValue.parse(java.lang.String)
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.58 seconds
+  * Average quality gain across all runs: 0.133548 (Average Score: 1.227409)
+  * Highest quality gain across all runs: 0.155000 (Score: 1.205957)
+  * Lowest quality gain across all runs: 0.126429 (Score: 1.234528)
+  * Time taken to complete task: 5.84 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.1667 (Average Score: 5.9167)
+    * Highest Quality Gain: 0.1667 (Best Score: 5.9167)
+    * Lowest Quality Gain: 0.1667 (Worst Score: 5.9167)
+  * numOps
+    * Average Quality Gain: 1.0583 (Average Score: 7.9417)
+    * Highest Quality Gain: 1.2500 (Best Score: 7.7500)
+    * Lowest Quality Gain: 1.0000 (Worst Score: 8.0000)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * Dep_In
+    * Average Quality Gain: 0.1000 (Average Score: 1.9000)
+    * Highest Quality Gain: 0.1667 (Best Score: 1.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.1171 (Average Score: 0.8924)
+    * Highest Quality Gain: 0.1286 (Best Score: 0.8810)
+    * Lowest Quality Gain: 0.1000 (Worst Score: 0.9096)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)

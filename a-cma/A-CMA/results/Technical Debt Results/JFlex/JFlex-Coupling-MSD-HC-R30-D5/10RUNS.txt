@@ -1,0 +1,636 @@
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 18.55 seconds
+  * Quality Gain: 0.140625
+  * Metric Mode: Aggregate
+  * Expanded Designs: 58681
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.998438
+  * Possible Actions: 1041
+  * Applied Actions: 16
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8625
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4875
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.098438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.089063][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.060938][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.051562][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.042188][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.032812][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.023438][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.014063][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.009375][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [3.998438][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 19.42 seconds
+  * Quality Gain: 0.150000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 61776
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.989062
+  * Possible Actions: 1039
+  * Applied Actions: 22
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3625
+    * Dep_In: 4.8500
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0250
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4750
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.098438][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.089063][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.060938][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.051562][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.042188][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.032812][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.023438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.014063][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.009375][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [3.998438][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [3.998438][Decrease Field Security] 'height' of 'JFlex.gui.GridPanelConstraint' to 'PROTECTED'
+  - [3.998438][Decrease Field Security] 'isAbstract' of 'JFlex.LexScan' to 'PROTECTED'
+  - [3.998438][Increase Method Security] 'add(java.lang.Integer,JFlex.Action)' of 'JFlex.EOFActions' to 'PROTECTED'
+  - [3.998438][Increase Field Security] 'outputDir' of 'JFlex.gui.GeneratorThread' to 'PRIVATE'
+  - [3.998438][Increase Field Security] 'EOF_IN_STATES' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [3.989062][Inline Method] JFlex.EOFActions.add(java.lang.Integer,JFlex.Action) into JFlex.EOFActions.add(java.util.Vector,JFlex.Action)
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 18.87 seconds
+  * Quality Gain: 0.145312
+  * Metric Mode: Aggregate
+  * Expanded Designs: 60575
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.993750
+  * Possible Actions: 1037
+  * Applied Actions: 22
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3625
+    * Dep_In: 4.8625
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0250
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4875
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.098438][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.089063][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.060938][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.051562][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.042188][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.032812][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.023438][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.014063][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.009375][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [3.998438][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [3.998438][Decrease Field Security] 'num' of 'JFlex.StatePairList' to 'PROTECTED'
+  - [3.998438][Inline Method] JFlex.Emitter.reduceRows() into JFlex.Emitter.emit()
+  - [3.998438][Decrease Field Security] 'translate' of 'JFlex.CountEmitter' to 'PACKAGE'
+  - [3.998438][Make Class Final] JFlex.CUP$LexParse$actions
+  - [3.998438][Increase Method Security] 'insert(int,java.util.Vector,JFlex.RegExp,JFlex.Action,java.lang.Boolean,JFlex.RegExp)' of 'JFlex.RegExps' to 'PROTECTED'
+  - [3.993750][Move Method] 'insert(int,java.util.Vector,JFlex.RegExp,JFlex.Action,java.lang.Boolean,JFlex.RegExp)' of 'JFlex.RegExps' to its parameter type 'JFlex.RegExp'
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 20.06 seconds
+  * Quality Gain: 0.140625
+  * Metric Mode: Aggregate
+  * Expanded Designs: 64880
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.998438
+  * Possible Actions: 1041
+  * Applied Actions: 16
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8625
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4875
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.098438][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.089063][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.060938][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.051562][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.042188][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.032812][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.014063][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.009375][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [3.998438][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 19.38 seconds
+  * Quality Gain: 0.140625
+  * Metric Mode: Aggregate
+  * Expanded Designs: 63878
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.998438
+  * Possible Actions: 1041
+  * Applied Actions: 16
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8625
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4875
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.098438][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.089063][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.060938][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.051562][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.042188][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.032812][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.023438][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.014063][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.009375][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [3.998438][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 16.72 seconds
+  * Quality Gain: 0.143750
+  * Metric Mode: Aggregate
+  * Expanded Designs: 55483
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.995313
+  * Possible Actions: 1038
+  * Applied Actions: 22
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8500
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4875
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.098438][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.089063][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.060938][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.051562][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.042188][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.032812][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.014063][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.009375][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [3.998438][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [3.998438][Increase Method Security] 'copy()' of 'JFlex.StateSet' to 'PROTECTED'
+  - [3.998438][Decrease Field Security] 'out' of 'JFlex.Out' to 'PACKAGE'
+  - [3.998438][Decrease Field Security] 'defaultAction' of 'JFlex.EOFActions' to 'PACKAGE'
+  - [3.998438][Inline Method] JFlex.Emitter.emitAttributes() into JFlex.Emitter.emit()
+  - [3.998438][Decrease Method Security] 'emitLexicalStates()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [3.995313][Inline Method] JFlex.Emitter.emitDynamicInit() into JFlex.Emitter.emit()
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 17.50 seconds
+  * Quality Gain: 0.143750
+  * Metric Mode: Aggregate
+  * Expanded Designs: 58481
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.995313
+  * Possible Actions: 1033
+  * Applied Actions: 23
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8500
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4875
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.098438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.089063][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.060938][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.051562][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.042188][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.032812][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.014063][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.009375][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [3.998438][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [3.998438][Increase Field Security] 'table' of 'JFlex.NFA' to 'PRIVATE'
+  - [3.998438][Inline Method] JFlex.Emitter.emitDynamicInit() into JFlex.Emitter.emit()
+  - [4.003125][Freeze Method] Convert 'emitLexicalStates()' of 'JFlex.Emitter' to static 
+  - [4.003125][Increase Method Security] 'minimize()' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.003125][Increase Method Security] 'start()' of 'JFlex.Timer' to 'PROTECTED'
+  - [3.998438][Inline Method] JFlex.Emitter.emitLexicalStates(JFlex.Emitter) into JFlex.Emitter.emit()
+  - [3.995313][Inline Method] JFlex.Emitter.emitAttributes() into JFlex.Emitter.emit()
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 17.17 seconds
+  * Quality Gain: 0.140625
+  * Metric Mode: Aggregate
+  * Expanded Designs: 56600
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.998438
+  * Possible Actions: 1041
+  * Applied Actions: 16
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8625
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4875
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.098438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.089063][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.060938][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.051562][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.042188][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.032812][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.014063][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.009375][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [3.998438][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 16.63 seconds
+  * Quality Gain: 0.140625
+  * Metric Mode: Aggregate
+  * Expanded Designs: 54517
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.998438
+  * Possible Actions: 1041
+  * Applied Actions: 16
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8625
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4875
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.098438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.089063][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.060938][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.051562][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.042188][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.032812][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.023438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.014063][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.009375][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [3.998438][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 19.30 seconds
+  * Quality Gain: 0.146875
+  * Metric Mode: Aggregate
+  * Expanded Designs: 63887
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 3.992188
+  * Possible Actions: 1041
+  * Applied Actions: 23
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3625
+    * Dep_In: 4.8625
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0250
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4750
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.098438][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.089063][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.070313][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.060938][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.051562][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.042188][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.032812][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.014063][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.009375][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.001562][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [3.998438][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.010938][Introduce Factory] for JFlex.IntCharSet.<init>(JFlex.Interval)
+  - [4.010938][Increase Method Security] 'add(java.lang.Integer,JFlex.Action)' of 'JFlex.EOFActions' to 'PROTECTED'
+  - [4.010938][Decrease Field Security] 'linepos' of 'JFlex.PackEmitter' to 'PACKAGE'
+  - [4.010938][Decrease Field Security] 'quit' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.010938][Increase Method Security] 'isEmittable()' of 'JFlex.Action' to 'PROTECTED'
+  - [4.001562][Inline Method] JFlex.IntCharSet.<init>(JFlex.Interval) into JFlex.IntCharSet.createJFlex.IntCharSet(JFlex.Interval)
+  - [3.992188][Inline Method] JFlex.EOFActions.add(java.lang.Integer,JFlex.Action) into JFlex.EOFActions.add(java.util.Vector,JFlex.Action)
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 18.36 seconds
+  * Average quality gain across all runs: 0.143281 (Average Score: 3.995781)
+  * Highest quality gain across all runs: 0.150000 (Score: 3.989062)
+  * Lowest quality gain across all runs: 0.140625 (Score: 3.998438)
+  * Time taken to complete task: 183.59 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.1662 (Average Score: 6.3713)
+    * Highest Quality Gain: 0.1750 (Best Score: 6.3625)
+    * Lowest Quality Gain: 0.1625 (Worst Score: 6.3750)
+  * Dep_In
+    * Average Quality Gain: 0.2538 (Average Score: 4.8587)
+    * Highest Quality Gain: 0.2625 (Best Score: 4.8500)
+    * Lowest Quality Gain: 0.2500 (Worst Score: 4.8625)
+  * iC_Attr
+    * Average Quality Gain: 0.0250 (Average Score: 5.3375)
+    * Highest Quality Gain: 0.0250 (Best Score: 5.3375)
+    * Lowest Quality Gain: 0.0250 (Worst Score: 5.3375)
+  * iC_Par
+    * Average Quality Gain: 0.1413 (Average Score: 1.0338)
+    * Highest Quality Gain: 0.1500 (Best Score: 1.0250)
+    * Lowest Quality Gain: 0.1375 (Worst Score: 1.0375)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 1.6500)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.6500)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.6500)
+  * eC_Par
+    * Average Quality Gain: 0.1400 (Average Score: 1.4850)
+    * Highest Quality Gain: 0.1500 (Best Score: 1.4750)
+    * Lowest Quality Gain: 0.1375 (Worst Score: 1.4875)

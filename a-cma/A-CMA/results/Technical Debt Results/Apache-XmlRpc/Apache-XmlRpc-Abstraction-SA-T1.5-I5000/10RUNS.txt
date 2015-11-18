@@ -1,0 +1,372 @@
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 89.03 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 88.94 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 89.02 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 88.94 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 88.01 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 87.97 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 88.18 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 88.19 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 88.19 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 87.93 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Final Design:
+  * Score: -1.342765
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * iFImpl: 0.2455
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 88.44 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -1.342765)
+  * Highest quality gain across all runs: 0.000000 (Score: -1.342765)
+  * Lowest quality gain across all runs: 0.000000 (Score: -1.342765)
+  * Time taken to complete task: 884.38 seconds
+
+* Metric Summary:
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.2455)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2455)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2455)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3235)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3235)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3235)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 3.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.5000)

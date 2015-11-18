@@ -1,0 +1,195 @@
+====== Run Result ======
+
+* Name: pareto
+  * Run Info: Random Search. Iterations: 500.
+  * Time Taken: 22.70 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Pareto
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 26.781424
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * packagenesting: 3.3636
+    * getters: 0.8828
+    * NumAssEl_ssc: 0.0000
+    * numOps: 8.6484
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 1.8974
+    * staticness: 0.0339
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * numOpsCls: 214.6364
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * avrgMethodVisibility: 2.5860
+    * Dep_Out: 4.7399
+    * setters: 0.6447
+    * iFImpl: 0.2344
+    * eC_Attr: 0.6117
+    * nesting: 0.1172
+    * numConstants: 0.3150
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: 26.781424
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * packagenesting: 3.3636
+    * getters: 0.8828
+    * NumAssEl_ssc: 0.0000
+    * numOps: 8.6484
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 1.8974
+    * staticness: 0.0339
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * numOpsCls: 214.6364
+    * iC_Par: 2.8425
+    * eC_Par: 2.9121
+    * Dep_In: 5.0256
+    * avrgMethodVisibility: 2.5860
+    * Dep_Out: 4.7399
+    * setters: 0.6447
+    * iFImpl: 0.2344
+    * eC_Attr: 0.6117
+    * nesting: 0.1172
+    * numConstants: 0.3150
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 22.70 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 26.781424)
+  * Highest quality gain across all runs: 0.000000 (Score: 26.781424)
+  * Lowest quality gain across all runs: 0.000000 (Score: 26.781424)
+  * Time taken to complete task: 22.70 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 0.2487)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2487)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2487)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.5751)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5751)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5751)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 3.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.1293)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1293)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.1293)
+  * packagenesting
+    * Average Quality Gain: 0.0000 (Average Score: 3.3636)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.3636)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.3636)
+  * getters
+    * Average Quality Gain: 0.0000 (Average Score: 0.8828)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8828)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8828)
+  * NumAssEl_ssc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 8.6484)
+    * Highest Quality Gain: 0.0000 (Best Score: 8.6484)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 8.6484)
+  * NumAssEl_nsb
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * iC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 1.8974)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.8974)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.8974)
+  * staticness
+    * Average Quality Gain: 0.0000 (Average Score: 0.0339)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0339)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0339)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 21.8182)
+    * Highest Quality Gain: 0.0000 (Best Score: 21.8182)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 21.8182)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 1.9451)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.9451)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.9451)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)
+  * numOpsCls
+    * Average Quality Gain: 0.0000 (Average Score: 214.6364)
+    * Highest Quality Gain: 0.0000 (Best Score: 214.6364)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 214.6364)
+  * iC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 2.8425)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.8425)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.8425)
+  * eC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 2.9121)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.9121)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.9121)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 5.0256)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.0256)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.0256)
+  * avrgMethodVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 2.5860)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.5860)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.5860)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 4.7399)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.7399)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.7399)
+  * setters
+    * Average Quality Gain: 0.0000 (Average Score: 0.6447)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6447)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6447)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.2344)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2344)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2344)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 0.6117)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6117)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6117)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.1172)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1172)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.1172)
+  * numConstants
+    * Average Quality Gain: 0.0000 (Average Score: 0.3150)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3150)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3150)
+  * NumAnc
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)

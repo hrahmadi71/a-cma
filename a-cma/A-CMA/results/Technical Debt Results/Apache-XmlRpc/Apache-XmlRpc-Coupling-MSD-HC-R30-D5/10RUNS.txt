@@ -1,0 +1,472 @@
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 6.88 seconds
+  * Quality Gain: 0.013636
+  * Metric Mode: Aggregate
+  * Expanded Designs: 25753
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.619318
+  * Possible Actions: 713
+  * Applied Actions: 7
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6636
+    * Dep_In: 1.8455
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5364
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6182
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+  - [1.626136][Move Down Field] 'VALUE_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.StringSerializer'
+  - [1.626136][Increase Method Security] 'parseAuthorization(org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl,java.lang.String)' of 'org.apache.xmlrpc.util.HttpUtil' to 'PROTECTED'
+  - [1.626136][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.DateSerializer' to 'PROTECTED'
+  - [1.626136][Increase Method Security] 'write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String,java.lang.Throwable)' of 'org.apache.xmlrpc.serializer.XmlRpcWriter' to 'PROTECTED'
+  - [1.626136][Move Method] 'parseAuthorization(org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl,java.lang.String)' of 'org.apache.xmlrpc.util.HttpUtil' to its parameter type 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl'
+  - [1.619318][Inline Method] org.apache.xmlrpc.serializer.XmlRpcWriter.write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String,java.lang.Throwable) into org.apache.xmlrpc.serializer.XmlRpcWriter.write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String)
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 6.74 seconds
+  * Quality Gain: 0.006818
+  * Metric Mode: Aggregate
+  * Expanded Designs: 24886
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.626136
+  * Possible Actions: 711
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6727
+    * Dep_In: 1.8545
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5455
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6273
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 6.79 seconds
+  * Quality Gain: 0.006818
+  * Metric Mode: Aggregate
+  * Expanded Designs: 25659
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.626136
+  * Possible Actions: 711
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6727
+    * Dep_In: 1.8545
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5455
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6273
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 7.36 seconds
+  * Quality Gain: 0.006818
+  * Metric Mode: Aggregate
+  * Expanded Designs: 27817
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.626136
+  * Possible Actions: 711
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6727
+    * Dep_In: 1.8545
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5455
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6273
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 7.64 seconds
+  * Quality Gain: 0.011364
+  * Metric Mode: Aggregate
+  * Expanded Designs: 29031
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.621591
+  * Possible Actions: 729
+  * Applied Actions: 7
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6636
+    * Dep_In: 1.8545
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5364
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6182
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+  - [1.626136][Decrease Field Security] 'level' of 'org.apache.xmlrpc.parser.ByteArrayParser' to 'PACKAGE'
+  - [1.628409][Introduce Factory] for org.apache.xmlrpc.common.XmlRpcExtensionException.<init>(java.lang.String)
+  - [1.628409][Increase Method Security] 'write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String,java.lang.Throwable)' of 'org.apache.xmlrpc.serializer.XmlRpcWriter' to 'PROTECTED'
+  - [1.628409][Decrease Field Security] 'enabledForExceptions' of 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl' to 'PACKAGE'
+  - [1.628409][Move Up Field] 'I1_TAG' of 'org.apache.xmlrpc.serializer.I1Serializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+  - [1.621591][Inline Method] org.apache.xmlrpc.serializer.XmlRpcWriter.write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String,java.lang.Throwable) into org.apache.xmlrpc.serializer.XmlRpcWriter.write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String)
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 6.40 seconds
+  * Quality Gain: 0.006818
+  * Metric Mode: Aggregate
+  * Expanded Designs: 23507
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.626136
+  * Possible Actions: 711
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6727
+    * Dep_In: 1.8545
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5455
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6273
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 7.07 seconds
+  * Quality Gain: 0.013636
+  * Metric Mode: Aggregate
+  * Expanded Designs: 26504
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.619318
+  * Possible Actions: 711
+  * Applied Actions: 7
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6636
+    * Dep_In: 1.8455
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5364
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6182
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+  - [1.626136][Increase Method Security] 'startPrefixMapping(java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.parser.ExtParser' to 'PROTECTED'
+  - [1.626136][Decrease Field Security] 'prefixes' of 'org.apache.xmlrpc.parser.ExtParser' to 'PACKAGE'
+  - [1.626136][Decrease Field Security] 'shuttingDown' of 'org.apache.xmlrpc.util.ThreadPool$Poolable' to 'PACKAGE'
+  - [1.626136][Freeze Method] Convert 'close()' of 'org.apache.xmlrpc.common.ServerStreamConnection' to static 
+  - [1.626136][Increase Method Security] 'write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String,java.lang.Throwable)' of 'org.apache.xmlrpc.serializer.XmlRpcWriter' to 'PROTECTED'
+  - [1.619318][Inline Method] org.apache.xmlrpc.serializer.XmlRpcWriter.write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String,java.lang.Throwable) into org.apache.xmlrpc.serializer.XmlRpcWriter.write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String)
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 6.91 seconds
+  * Quality Gain: 0.006818
+  * Metric Mode: Aggregate
+  * Expanded Designs: 26356
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.626136
+  * Possible Actions: 711
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6727
+    * Dep_In: 1.8545
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5455
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6273
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 6.58 seconds
+  * Quality Gain: 0.006818
+  * Metric Mode: Aggregate
+  * Expanded Designs: 24846
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.626136
+  * Possible Actions: 711
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6727
+    * Dep_In: 1.8545
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5455
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6273
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 7.00 seconds
+  * Quality Gain: 0.006818
+  * Metric Mode: Aggregate
+  * Expanded Designs: 26326
+
+* Initial Design:
+  * Score: 1.632955
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * Dep_In: 1.8636
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5545
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6364
+
+* Final Design:
+  * Score: 1.626136
+  * Possible Actions: 711
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6727
+    * Dep_In: 1.8545
+    * iC_Attr: 2.1273
+    * iC_Par: 0.5455
+    * eC_Attr: 0.6545
+    * eC_Par: 0.6273
+
+* Applied Actions:
+  - [1.626136][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 6.94 seconds
+  * Average quality gain across all runs: 0.008636 (Average Score: 1.624318)
+  * Highest quality gain across all runs: 0.013636 (Score: 1.619318)
+  * Lowest quality gain across all runs: 0.006818 (Score: 1.626136)
+  * Time taken to complete task: 69.37 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.0118 (Average Score: 2.6700)
+    * Highest Quality Gain: 0.0182 (Best Score: 2.6636)
+    * Lowest Quality Gain: 0.0091 (Worst Score: 2.6727)
+  * Dep_In
+    * Average Quality Gain: 0.0109 (Average Score: 1.8527)
+    * Highest Quality Gain: 0.0182 (Best Score: 1.8455)
+    * Lowest Quality Gain: 0.0091 (Worst Score: 1.8545)
+  * iC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * iC_Par
+    * Average Quality Gain: 0.0118 (Average Score: 0.5427)
+    * Highest Quality Gain: 0.0182 (Best Score: 0.5364)
+    * Lowest Quality Gain: 0.0091 (Worst Score: 0.5455)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 0.6545)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6545)
+  * eC_Par
+    * Average Quality Gain: 0.0118 (Average Score: 0.6245)
+    * Highest Quality Gain: 0.0182 (Best Score: 0.6182)
+    * Lowest Quality Gain: 0.0091 (Worst Score: 0.6273)

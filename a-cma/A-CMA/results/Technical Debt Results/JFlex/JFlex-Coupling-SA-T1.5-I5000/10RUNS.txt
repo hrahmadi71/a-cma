@@ -1,0 +1,1372 @@
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 47.24 seconds
+  * Quality Gain: 0.121875
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.017188
+  * Possible Actions: 1039
+  * Applied Actions: 56
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.9125
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.5375
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.098438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.089063][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.089063][Decrease Field Security] 'width' of 'JFlex.gui.GridPanelConstraint' to 'PROTECTED'
+  - [4.089063][Decrease Field Security] 'y' of 'JFlex.gui.GridPanelConstraint' to 'PROTECTED'
+  - [4.093750][Freeze Method] Convert 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$8' to static 
+  - [4.084375][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.084375][Inline Method] JFlex.Emitter.emitMain() into JFlex.Emitter.emit()
+  - [4.089063][Freeze Method] Convert 'dotFormat()' of 'JFlex.NFA' to static 
+  - [4.089063][Decrease Field Security] 'directory' of 'JFlex.Options' to 'PACKAGE'
+  - [4.079687][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.079687][Decrease Field Security] 'DEBUG' of 'JFlex.StateSet' to 'PACKAGE'
+  - [4.070313][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.060938][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.065625][Freeze Method] Convert 'itemStateChanged(java.awt.event.ItemEvent)' of 'JFlex.gui.OptionsDialog$7' to static 
+  - [4.065625][Decrease Method Security] 'zzDoEOF()' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.065625][Increase Field Security] 'regExps' of 'JFlex.RegExps' to 'PRIVATE'
+  - [4.065625][Increase Field Security] 'EOF_IN_ACTION' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.065625][Decrease Field Security] 'regExps' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.065625][Decrease Method Security] 'class$(java.lang.String)' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.065625][Decrease Field Security] 'zzAtBOL' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.065625][Decrease Field Security] 'macroDefinition' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.065625][Decrease Field Security] 'table' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.065625][Increase Method Security] 'getNumber(java.lang.String)' of 'JFlex.LexicalStates' to 'PROTECTED'
+  - [4.056250][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.056250][Increase Field Security] 'EOF_IN_COMMENT' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.046875][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.046875][Decrease Field Security] 'stopTime' of 'JFlex.Timer' to 'PACKAGE'
+  - [4.037500][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.028125][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.023438][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.023438][Inline Method] JFlex.NFA.insertNotClassNFA(java.util.Vector,int,int) into JFlex.NFA.insertCCLNFA(JFlex.RegExp,int,int)
+  - [4.028125][Freeze Method] Convert 'unused()' of 'JFlex.Macros' to static 
+  - [4.028125][Decrease Field Security] 'maxCharUsed' of 'JFlex.CharClasses' to 'PACKAGE'
+  - [4.032812][Freeze Method] Convert 'emitNextInput()' of 'JFlex.Emitter' to static 
+  - [4.032812][Make Class Non-Final] JFlex.NFA
+  - [4.032812][Inline Method] JFlex.Emitter.emitCharMapInitFunction() into JFlex.Emitter.emit()
+  - [4.028125][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.028125][Increase Method Security] 'emit(int,int)' of 'JFlex.CountEmitter' to 'PROTECTED'
+  - [4.028125][Increase Field Security] 'NO_LAST_ACTION' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.028125][Increase Method Security] 'copy(JFlex.StateSet)' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.028125][Decrease Field Security] 'isYYEOF' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.028125][Increase Field Security] 'QUIL_THROW' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.028125][Decrease Field Security] 'bolUsed' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.028125][Decrease Field Security] 'isYYEOF' of 'JFlex.LexScan' to 'PUBLIC'
+  - [4.028125][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.OptionsDialog$4' to 'PROTECTED'
+  - [4.023438][Inline Method] JFlex.Emitter.emitNextInput(JFlex.Emitter) into JFlex.Emitter.emit()
+  - [4.023438][Decrease Field Security] 'usedActions' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.023438][Decrease Method Security] 'indexOf(char)' of 'JFlex.IntCharSet' to 'PACKAGE'
+  - [4.023438][Decrease Field Security] 'inputFile' of 'JFlex.anttask.JFlexTask' to 'PACKAGE'
+  - [4.020313][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.020313][Decrease Method Security] 'class$(java.lang.String)' of 'JFlex.LexScan' to 'PUBLIC'
+  - [4.020313][Decrease Field Security] 'choosing' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.017188][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.017188][Decrease Method Security] 'size2nbits(int)' of 'JFlex.StateSet' to 'PACKAGE'
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 85.39 seconds
+  * Quality Gain: 0.137500
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.001562
+  * Possible Actions: 1040
+  * Applied Actions: 45
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8750
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.4875
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.098438][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.095312][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.095312][Decrease Field Security] 'numEntries' of 'JFlex.HiLowEmitter' to 'PACKAGE'
+  - [4.095312][Decrease Field Security] 'spec' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.095312][Freeze Method] Convert 'min(char,char)' of 'JFlex.IntCharSet' to static 
+  - [4.095312][Decrease Method Security] 'symbol(int,java.lang.Object)' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.095312][Decrease Method Security] 'zzUnpackAction(java.lang.String,int,int[])' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.085938][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.085938][Freeze Method] Convert 'zzScanError(int)' of 'JFlex.LexScan' to static 
+  - [4.085938][Increase Field Security] 'line' of 'JFlex.ScannerException' to 'PROTECTED'
+  - [4.085938][Decrease Field Security] 'generate' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.085938][Increase Field Security] 'FILE_WRITE' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.085938][Increase Field Security] 'EOF_IN_STATES' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.076563][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.081250][Freeze Method] Convert 'emitNextInput()' of 'JFlex.Emitter' to static 
+  - [4.081250][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$3' to 'PROTECTED'
+  - [4.081250][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$6' to 'PROTECTED'
+  - [4.071875][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.062500][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.053125][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.053125][Decrease Method Security] 'ensureStateCapacity(int)' of 'JFlex.DFA' to 'PACKAGE'
+  - [4.053125][Inline Method] JFlex.LexScan.zzUnpackCMap(java.lang.String) into JFlex.LexScan.<clinit>()
+  - [4.053125][Increase Method Security] 'numEntryStates()' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.043750][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.043750][Increase Field Security] 'balance' of 'JFlex.LexScan' to 'PRIVATE'
+  - [4.043750][Increase Field Security] 'isFinal' of 'JFlex.NFA' to 'PRIVATE'
+  - [4.034375][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.034375][Increase Method Security] 'zzUnpackAction(java.lang.String,int,int[])' of 'JFlex.LexScan' to 'PRIVATE'
+  - [4.037500][Introduce Factory] for JFlex.Out.<init>()
+  - [4.037500][Decrease Field Security] 'standalone' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.037500][Increase Field Security] 'numEntries' of 'JFlex.HiLowEmitter' to 'PRIVATE'
+  - [4.037500][Decrease Field Security] 'component' of 'JFlex.gui.GridPanelConstraint' to 'PROTECTED'
+  - [4.037500][Increase Method Security] 'checkActions(JFlex.LexScan,JFlex.LexParse)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.028125][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.028125][Increase Method Security] 'check()' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.018750][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.018750][Inline Method] JFlex.LexScan.zzUnpackAction(java.lang.String,int,int[]) into JFlex.LexScan.zzUnpackAction()
+  - [4.018750][Inline Method] JFlex.LexScan.zzUnpackTrans() into JFlex.LexScan.<clinit>()
+  - [4.014063][Inline Method] JFlex.Emitter.emitNextInput(JFlex.Emitter) into JFlex.Emitter.emit()
+  - [4.009375][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.004687][Make Class Abstract] JFlex.RegExp
+  - [4.001562][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 47.34 seconds
+  * Quality Gain: 0.128125
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.010938
+  * Possible Actions: 1049
+  * Applied Actions: 76
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.9000
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.5125
+
+* Applied Actions:
+  - [4.143750][Freeze Method] Convert 'getNotClassCodes(java.util.Vector)' of 'JFlex.CharClasses' to static 
+  - [4.143750][Decrease Method Security] 'getLine(java.io.File,int)' of 'JFlex.Out' to 'PACKAGE'
+  - [4.143750][Inline Method] JFlex.gui.OptionsDialog.skelBrowse() into JFlex.gui.OptionsDialog.access$100(JFlex.gui.OptionsDialog)
+  - [4.146875][Introduce Factory] for JFlex.RegExp1.<init>(int,java.lang.Object)
+  - [4.146875][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.OptionsDialog$4' to 'PROTECTED'
+  - [4.146875][Decrease Field Security] 'eofActions' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.146875][Decrease Field Security] 'states' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.146875][Inline Method] JFlex.IntCharSet.min(char,char) into JFlex.IntCharSet.and(JFlex.IntCharSet)
+  - [4.146875][Decrease Field Security] 'r1' of 'JFlex.RegExp2' to 'PROTECTED'
+  - [4.146875][Increase Method Security] 'itemStateChanged(java.awt.event.ItemEvent)' of 'JFlex.gui.OptionsDialog$9' to 'PROTECTED'
+  - [4.146875][Decrease Field Security] 'linepos' of 'JFlex.PackEmitter' to 'PACKAGE'
+  - [4.146875][Decrease Field Security] 'states' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.146875][Decrease Field Security] 'eofThrow' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.131250][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.118750][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.118750][Increase Field Security] 'start' of 'JFlex.Interval' to 'PROTECTED'
+  - [4.118750][Increase Method Security] 'emit(int,int)' of 'JFlex.CountEmitter' to 'PROTECTED'
+  - [4.118750][Inline Method] JFlex.Emitter.emitConstructorDecl(boolean) into JFlex.Emitter.emitConstructorDecl()
+  - [4.106250][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.096875][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.096875][Decrease Method Security] 'err(java.lang.String)' of 'JFlex.Out' to 'PACKAGE'
+  - [4.096875][Decrease Method Security] 'removeDead(int,int)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.096875][Decrease Field Security] 'rowKilled' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.096875][Inline Method] JFlex.Emitter.emitDefaultTransition(int,int) into JFlex.Emitter.emitState(int)
+  - [4.096875][Decrease Field Security] 'zzMarkedPos' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.096875][Decrease Field Security] 'class$JFlex$tests$SkeletonTest' of 'JFlex.tests.AllTests' to 'PROTECTED'
+  - [4.101563][Freeze Method] Convert 'dump()' of 'JFlex.CharClasses' to static 
+  - [4.101563][Increase Method Security] 'printBlocks(int[],int[],int[],int)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.101563][Increase Method Security] 'makeClass(char,boolean)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.092188][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.092188][Decrease Field Security] 'packageName' of 'JFlex.anttask.JFlexTask' to 'PACKAGE'
+  - [4.082813][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.082813][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$5' to 'PROTECTED'
+  - [4.073438][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.073438][Decrease Field Security] 'zzBuffer' of 'JFlex.LexScan$ZzFlexStreamInfo' to 'PROTECTED'
+  - [4.064063][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.064063][Increase Method Security] 'containsSet(JFlex.StateSet)' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.064063][Increase Method Security] 'getEntryState()' of 'JFlex.Action' to 'PROTECTED'
+  - [4.064063][Make Class Non-Final] JFlex.StdOutWriter
+  - [4.064063][Decrease Field Security] 'set' of 'JFlex.CharSetEnumerator' to 'PACKAGE'
+  - [4.064063][Freeze Method] Convert 'nbits2size(int)' of 'JFlex.CharSet' to static 
+  - [4.064063][Increase Field Security] 'action' of 'JFlex.NFA' to 'PRIVATE'
+  - [4.064063][Decrease Field Security] 'zzReader' of 'JFlex.LexScan$ZzFlexStreamInfo' to 'PROTECTED'
+  - [4.054688][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.054688][Increase Method Security] 'number()' of 'JFlex.LexicalStates' to 'PROTECTED'
+  - [4.054688][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$7' to 'PROTECTED'
+  - [4.045313][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.035938][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.035938][Inline Method] JFlex.gui.MainFrame.buildContent() into JFlex.gui.MainFrame.<init>()
+  - [4.035938][Decrease Method Security] 'findActionStates()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.035938][Decrease Method Security] 'makeMacroIdent()' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.035938][Increase Method Security] 'dump(JFlex.CharClasses)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.035938][Decrease Field Security] 'debugOption' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.035938][Increase Method Security] 'getInclusiveStates()' of 'JFlex.LexicalStates' to 'PROTECTED'
+  - [4.035938][Decrease Method Security] 'insertClassNFA(java.util.Vector,int,int)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.035938][Decrease Field Security] 'dirName' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.026563][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.026563][Increase Field Security] 'action_line' of 'JFlex.LexScan' to 'PRIVATE'
+  - [4.026563][Increase Method Security] 'isElement(int)' of 'JFlex.CharSet' to 'PROTECTED'
+  - [4.021875][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.021875][Decrease Field Security] 'look' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.021875][Decrease Field Security] 'content' of 'JFlex.Action' to 'PROTECTED'
+  - [4.017188][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.017188][Increase Method Security] 'setEntryState(int,int)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.017188][Make Class Non-Final] JFlex.gui.MainFrame
+  - [4.014063][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.014063][Increase Field Security] 'start' of 'JFlex.Interval' to 'PACKAGE'
+  - [4.014063][Decrease Field Security] 'table' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.014063][Decrease Field Security] 'skelFile' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.014063][Make Class Non-Final] JFlex.SemCheck
+  - [4.014063][Increase Method Security] 'itemStateChanged(java.awt.event.ItemEvent)' of 'JFlex.gui.OptionsDialog$6' to 'PROTECTED'
+  - [4.014063][Inline Method] JFlex.Emitter.emitUserCode() into JFlex.Emitter.emit()
+  - [4.014063][Increase Method Security] 'print(java.lang.String)' of 'JFlex.RegExp' to 'PROTECTED'
+  - [4.014063][Decrease Field Security] 'bits' of 'JFlex.CharSet' to 'PROTECTED'
+  - [4.010938][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.010938][Increase Method Security] 'clear()' of 'JFlex.StateSet' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 52.47 seconds
+  * Quality Gain: 0.132813
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.006250
+  * Possible Actions: 1065
+  * Applied Actions: 90
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8875
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.5000
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.110937][Decrease Field Security] 'isAbstract' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.110937][Decrease Method Security] 'symbol(int)' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.110937][Decrease Field Security] 'table' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.110937][Decrease Method Security] 'printUC(int)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.098438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.089063][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.089063][Inline Method] JFlex.Emitter.emitLexFunctHeader() into JFlex.Emitter.emit()
+  - [4.089063][Decrease Method Security] 'transformTransitionTable()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.089063][Increase Method Security] 'printL(int[],int[],int)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.079687][Decrease Field Security] 'noTarget' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.070313][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.070313][Decrease Field Security] 'visibility' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.070313][Decrease Field Security] 'zzLexicalState' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.070313][Decrease Method Security] 'emitState(int)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.070313][Increase Method Security] 'itemStateChanged(java.awt.event.ItemEvent)' of 'JFlex.gui.OptionsDialog$11' to 'PROTECTED'
+  - [4.060938][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.060938][Decrease Method Security] 'expandMacro(java.lang.String,JFlex.RegExp)' of 'JFlex.Macros' to 'PACKAGE'
+  - [4.060938][Increase Method Security] 'addRegExp(int)' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.060938][Move Method] 'syntaxError(JFlex.ErrorMessages,int)' of 'JFlex.CUP$LexParse$actions' to its parameter type 'JFlex.ErrorMessages'
+  - [4.060938][Increase Field Security] 'NO_LEX_SPEC' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.060938][Inline Method] JFlex.LexScan.zzUnpackTrans(java.lang.String,int,int[]) into JFlex.LexScan.zzUnpackTrans()
+  - [4.060938][Inline Method] JFlex.Emitter.emitZZTrans() into JFlex.Emitter.emit()
+  - [4.060938][Decrease Field Security] 'dump' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.060938][Decrease Method Security] 'printUC(char)' of 'JFlex.PackEmitter' to 'PACKAGE'
+  - [4.060938][Decrease Field Security] 'ctorArgs' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.051562][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.042188][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.032812][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.023438][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Decrease Field Security] 'out' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.018750][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.018750][Decrease Field Security] 'stateNumber' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.018750][Increase Method Security] 'printL(int[],int[],int)' of 'JFlex.DFA' to 'PACKAGE'
+  - [4.014063][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.014063][Decrease Field Security] 'action_line' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.010938][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.010938][Decrease Method Security] 'advance()' of 'JFlex.CharSetEnumerator' to 'PACKAGE'
+  - [4.010938][Increase Field Security] 'regExps' of 'JFlex.RegExps' to 'PRIVATE'
+  - [4.010938][Increase Field Security] 'CUPSYM_AFTER_CUP' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.007813][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.007813][Decrease Field Security] 'height' of 'JFlex.gui.GridPanelConstraint' to 'PROTECTED'
+  - [4.007813][Inline Method] JFlex.LexScan.zzUnpackAttribute(java.lang.String,int,int[]) into JFlex.LexScan.zzUnpackAttribute()
+  - [4.007813][Decrease Field Security] 'y' of 'JFlex.gui.GridPanelConstraint' to 'PROTECTED'
+  - [4.007813][Increase Method Security] 'numEntryStates()' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.007813][Decrease Field Security] 'packageName' of 'JFlex.anttask.JFlexTask' to 'PACKAGE'
+  - [4.007813][Increase Method Security] 'makeClass(JFlex.IntCharSet,boolean)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.007813][Decrease Field Security] 'bufferSize' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.007813][Decrease Field Security] 'index' of 'JFlex.CharSetEnumerator' to 'PACKAGE'
+  - [4.007813][Inline Method] JFlex.gui.OptionsDialog.setGenMethod() into JFlex.gui.OptionsDialog.access$200(JFlex.gui.OptionsDialog)
+  - [4.007813][Decrease Field Security] 'rowMap' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.007813][Increase Method Security] 'clear()' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.007813][Decrease Field Security] 'numLexStates' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.007813][Decrease Field Security] 'table' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.007813][Increase Field Security] 'dump' of 'JFlex.gui.OptionsDialog' to 'PRIVATE'
+  - [4.007813][Decrease Field Security] 'macros' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.007813][Decrease Field Security] 'start' of 'JFlex.IntPair' to 'PROTECTED'
+  - [4.007813][Decrease Field Security] 'rows' of 'JFlex.gui.GridPanel' to 'PACKAGE'
+  - [4.007813][Decrease Field Security] 'destinationDir' of 'JFlex.anttask.JFlexTask' to 'PACKAGE'
+  - [4.007813][Decrease Field Security] 'no_backup' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.007813][Decrease Method Security] 'constName()' of 'JFlex.PackEmitter' to 'PUBLIC'
+  - [4.007813][Decrease Method Security] 'emitConstructorDecl()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.012500][Freeze Method] Convert 'print(java.lang.String)' of 'JFlex.Emitter' to static 
+  - [4.012500][Increase Field Security] 'REPEAT_GREATER' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.012500][Decrease Field Security] 'bolUsed' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.012500][Decrease Field Security] 'owner' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.012500][Freeze Method] Convert 'escapify(java.lang.String)' of 'JFlex.Emitter' to static 
+  - [4.012500][Decrease Field Security] 'isTransition' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.012500][Decrease Field Security] 'gen_look_count' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.012500][Inline Method] JFlex.gui.OptionsDialog.setDefaults() into JFlex.gui.OptionsDialog.access$000(JFlex.gui.OptionsDialog)
+  - [4.012500][Increase Field Security] 'UNEXPECTED_NL' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.012500][Decrease Method Security] 'insertClassNFA(java.util.Vector,int,int)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.012500][Increase Method Security] 'markAll(JFlex.StatePairList[][],boolean[][])' of 'JFlex.StatePairList' to 'PROTECTED'
+  - [4.012500][Decrease Field Security] 'zzEOFDone' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.012500][Increase Method Security] 'isGenLookAction()' of 'JFlex.Action' to 'PROTECTED'
+  - [4.012500][Increase Field Security] 'NOT_AT_BOL' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.012500][Decrease Field Security] 'pos' of 'JFlex.Skeleton' to 'PACKAGE'
+  - [4.012500][Decrease Method Security] 'insertLookAheadChoices(int,JFlex.Action,JFlex.RegExp)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.012500][Increase Method Security] 'get(JFlex.ErrorMessages,java.lang.String)' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.012500][Decrease Field Security] 'live' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.012500][Increase Method Security] 'printTable(boolean[][])' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.012500][Inline Method] JFlex.Emitter.emitCharMapArray() into JFlex.Emitter.emit()
+  - [4.012500][Increase Method Security] 'writeDot(java.io.File)' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.015625][Introduce Factory] for JFlex.SemCheck.<init>()
+  - [4.015625][Increase Method Security] 'add(java.lang.Integer,JFlex.Action)' of 'JFlex.EOFActions' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'numLexStates' of 'JFlex.EOFActions' to 'PACKAGE'
+  - [4.006250][Inline Method] JFlex.EOFActions.add(java.lang.Integer,JFlex.Action) into JFlex.EOFActions.add(java.util.Vector,JFlex.Action)
+  - [4.006250][Increase Field Security] 'inputFile' of 'JFlex.gui.GeneratorThread' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 47.58 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.014063
+  * Possible Actions: 1023
+  * Applied Actions: 82
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.9125
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.5125
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.123438][Inline Method] JFlex.gui.OptionsDialog.setDefaults() into JFlex.gui.OptionsDialog.access$000(JFlex.gui.OptionsDialog)
+  - [4.123438][Increase Field Security] 'OUT_OF_MEMORY' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.110937][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.098438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.098438][Decrease Field Security] 'intervalls' of 'JFlex.IntCharSet' to 'PACKAGE'
+  - [4.098438][Decrease Field Security] 'outputDir' of 'JFlex.anttask.JFlexTask' to 'PACKAGE'
+  - [4.098438][Decrease Method Security] 'getClassCodes(JFlex.IntCharSet,boolean)' of 'JFlex.CharClasses' to 'PACKAGE'
+  - [4.098438][Decrease Method Security] 'closure(JFlex.StateSet)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.103125][Freeze Method] Convert 'zzRefill()' of 'JFlex.LexScan' to static 
+  - [4.103125][Increase Method Security] 'setFinal(int,boolean)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.093750][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.084375][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.084375][Decrease Field Security] 'estSize' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.084375][Increase Method Security] 'maybeEmtpy(JFlex.RegExp)' of 'JFlex.SemCheck' to 'PROTECTED'
+  - [4.084375][Increase Method Security] 'textValueChanged(java.awt.event.TextEvent)' of 'JFlex.gui.MainFrame$9' to 'PROTECTED'
+  - [4.075000][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.075000][Decrease Field Security] 'directory' of 'JFlex.Options' to 'PACKAGE'
+  - [4.075000][Increase Method Security] 'addTransition(int,char,int)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.075000][Decrease Method Security] 'zzUnpackTrans()' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.075000][Decrease Method Security] 'emitConstructorDecl()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.065625][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.065625][Decrease Field Security] 'rows' of 'JFlex.gui.GridPanel' to 'PACKAGE'
+  - [4.065625][Decrease Field Security] 'actions' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.065625][Make Class Non-Final] JFlex.NFA
+  - [4.065625][Inline Method] JFlex.Emitter.emitConstructorDecl() into JFlex.Emitter.emit()
+  - [4.065625][Decrease Field Security] 'warnings' of 'JFlex.Out' to 'PACKAGE'
+  - [4.065625][Increase Field Security] 'look_entry' of 'JFlex.RegExps' to 'PRIVATE'
+  - [4.065625][Decrease Field Security] 'string' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.065625][Decrease Field Security] 'actionTable' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.065625][Decrease Method Security] 'syntaxError(JFlex.ErrorMessages,int,int)' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.065625][Increase Method Security] 'setEnd(char)' of 'JFlex.Interval' to 'PROTECTED'
+  - [4.065625][Decrease Method Security] 'getClassCodes(JFlex.IntCharSet,boolean)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.065625][Increase Field Security] 'NO_MATCHING_BR' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.065625][Decrease Field Security] 'content' of 'JFlex.Action' to 'PROTECTED'
+  - [4.056250][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.046875][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.046875][Inline Method] JFlex.StateSetEnumerator.advance() into JFlex.StateSetEnumerator.nextElement()
+  - [4.037500][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.037500][Increase Method Security] 'reset(JFlex.StateSet)' of 'JFlex.StateSetEnumerator' to 'PROTECTED'
+  - [4.028125][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.031250][Introduce Factory] for JFlex.IntCharSet.<init>(java.util.Vector)
+  - [4.031250][Decrease Method Security] 'zzUnpackTrans(java.lang.String,int,int[])' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.035938][Freeze Method] Convert 'transformTransitionTable()' of 'JFlex.Emitter' to static 
+  - [4.035938][Inline Method] JFlex.LexScan.zzUnpackCMap(java.lang.String) into JFlex.LexScan.<clinit>()
+  - [4.035938][Increase Method Security] 'get(JFlex.ErrorMessages,int)' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.026563][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.021875][Inline Method] JFlex.LexScan.zzRefill(JFlex.LexScan) into JFlex.LexScan.next_token()
+  - [4.017188][Inline Method] JFlex.Emitter.transformTransitionTable(JFlex.Emitter) into JFlex.Emitter.emitTransitionTable()
+  - [4.017188][Increase Field Security] 'look' of 'JFlex.RegExps' to 'PRIVATE'
+  - [4.017188][Decrease Field Security] 'class$JFlex$tests$RegExpTests' of 'JFlex.tests.AllTests' to 'PROTECTED'
+  - [4.021875][Freeze Method] Convert 'debug_next_token()' of 'JFlex.LexScan' to static 
+  - [4.025000][Introduce Factory] for JFlex.StdOutWriter.<init>(java.io.OutputStream)
+  - [4.029688][Freeze Method] Convert 'minimize()' of 'JFlex.DFA' to static 
+  - [4.029688][Decrease Field Security] 'caseless' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.029688][Inline Method] JFlex.gui.MainFrame.quit() into JFlex.gui.MainFrame.access$000(JFlex.gui.MainFrame)
+  - [4.029688][Inline Method] JFlex.Emitter.emitCharMapArrayUnPacked() into JFlex.Emitter.emitCharMapArray()
+  - [4.029688][Decrease Method Security] 'class$(java.lang.String)' of 'JFlex.Skeleton' to 'PROTECTED'
+  - [4.029688][Decrease Field Security] 'commentbalance' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.029688][Decrease Method Security] 'setFinal(int,boolean)' of 'JFlex.DFA' to 'PUBLIC'
+  - [4.029688][Inline Method] JFlex.LexScan.zzUnpackAction(java.lang.String,int,int[]) into JFlex.LexScan.zzUnpackAction()
+  - [4.029688][Increase Method Security] 'printTable(boolean[][])' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.029688][Increase Field Security] 'NO_SKEL_FILE' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.025000][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.025000][Decrease Field Security] 'bufferSize' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.020313][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.020313][Inline Method] JFlex.IntCharSet.max(char,char) into JFlex.IntCharSet.and(JFlex.IntCharSet)
+  - [4.020313][Decrease Field Security] 'useRowMap' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.020313][Decrease Field Security] 'zzState' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.020313][Decrease Method Security] 'insertClassNFA(java.util.Vector,int,int)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.020313][Decrease Field Security] 'packG' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.020313][Increase Field Security] 'actionTable' of 'JFlex.Emitter' to 'PRIVATE'
+  - [4.020313][Decrease Field Security] 'bits' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.020313][Decrease Field Security] 'stateNumber' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.020313][Decrease Field Security] 'yychar' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.020313][Decrease Method Security] 'emitLexicalStates()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.017188][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.017188][Increase Method Security] 'add(java.util.Vector,JFlex.Action)' of 'JFlex.EOFActions' to 'PROTECTED'
+  - [4.017188][Decrease Method Security] 'emitTransitionTable()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.017188][Increase Field Security] 'FILE_WRITE' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.014063][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.014063][Increase Field Security] 'NO_SKEL_FILE' of 'JFlex.ErrorMessages' to 'PACKAGE'
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 49.54 seconds
+  * Quality Gain: 0.134375
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.004688
+  * Possible Actions: 1051
+  * Applied Actions: 85
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8750
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.5125
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.110937][Increase Method Security] 'addTransition(int,int,int)' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.115625][Freeze Method] Convert 'containsSet(JFlex.StateSet)' of 'JFlex.StateSet' to static 
+  - [4.115625][Decrease Field Security] 'switchG' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.115625][Inline Method] JFlex.LexScan.zzUnpackAction() into JFlex.LexScan.<clinit>()
+  - [4.115625][Decrease Field Security] 'q' of 'JFlex.StatePairList' to 'PROTECTED'
+  - [4.115625][Increase Field Security] 'parent' of 'JFlex.gui.GeneratorThread' to 'PRIVATE'
+  - [4.103125][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.103125][Decrease Method Security] 'emitCharMapInitFunction()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.103125][Decrease Field Security] 'file' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.103125][Make Class Non-Final] JFlex.LexScan
+  - [4.103125][Decrease Field Security] 'classCode' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.103125][Decrease Field Security] 'pos' of 'JFlex.IntCharSet' to 'PACKAGE'
+  - [4.103125][Decrease Field Security] 'UTF8Length' of 'JFlex.PackEmitter' to 'PACKAGE'
+  - [4.103125][Decrease Field Security] 'scanErrorException' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.103125][Inline Method] JFlex.Emitter.emitDynamicInit() into JFlex.Emitter.emit()
+  - [4.093750][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.093750][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$6' to 'PROTECTED'
+  - [4.093750][Decrease Field Security] 'index' of 'JFlex.StateSetEnumerator' to 'PACKAGE'
+  - [4.093750][Decrease Method Security] 'containsFinal(JFlex.StateSet)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.093750][Increase Field Security] 'index' of 'JFlex.StateSetEnumerator' to 'PRIVATE'
+  - [4.093750][Increase Method Security] 'start()' of 'JFlex.Timer' to 'PROTECTED'
+  - [4.093750][Decrease Field Security] 'actions' of 'JFlex.EOFActions' to 'PACKAGE'
+  - [4.093750][Decrease Method Security] 'makeNL()' of 'JFlex.CUP$LexParse$actions' to 'PACKAGE'
+  - [4.093750][Increase Method Security] 'start()' of 'JFlex.Timer' to 'PACKAGE'
+  - [4.084375][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.084375][Decrease Field Security] 'isTransition' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.075000][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.065625][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.065625][Increase Method Security] 'getDefault()' of 'JFlex.EOFActions' to 'PROTECTED'
+  - [4.065625][Decrease Method Security] 'emitNoMatch()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.065625][Decrease Field Security] 'yyline' of 'JFlex.LexScan$ZzFlexStreamInfo' to 'PROTECTED'
+  - [4.065625][Increase Method Security] 'print(java.lang.String)' of 'JFlex.RegExp' to 'PROTECTED'
+  - [4.065625][Decrease Field Security] 'userCode' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.065625][Decrease Method Security] 'increaseSize(int)' of 'JFlex.StatePairList' to 'PACKAGE'
+  - [4.065625][Decrease Field Security] 'class$JFlex$tests$SkeletonTest' of 'JFlex.tests.AllTests' to 'PROTECTED'
+  - [4.056250][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.056250][Decrease Field Security] 'out' of 'JFlex.Skeleton' to 'PACKAGE'
+  - [4.056250][Inline Method] JFlex.Emitter.emitGetRowMapNext() into JFlex.Emitter.emit()
+  - [4.056250][Increase Method Security] 'containsSet(JFlex.StateSet,JFlex.StateSet)' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.046875][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.037500][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.037500][Decrease Method Security] 'zzScanError(int)' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.037500][Increase Field Security] 'WRONG_SKELETON' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.042188][Freeze Method] Convert 'itemStateChanged(java.awt.event.ItemEvent)' of 'JFlex.gui.OptionsDialog$10' to static 
+  - [4.042188][Increase Field Security] 'class$JFlex$tests$PackEmitterTest' of 'JFlex.tests.AllTests' to 'PRIVATE'
+  - [4.042188][Decrease Field Security] 'out' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.042188][Increase Method Security] 'setValTranslation(int)' of 'JFlex.CountEmitter' to 'PROTECTED'
+  - [4.042188][Decrease Field Security] 'eofCode' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.042188][Decrease Method Security] 'emitNoMatch()' of 'JFlex.Emitter' to 'PROTECTED'
+  - [4.042188][Inline Method] JFlex.Emitter.emitMain() into JFlex.Emitter.emit()
+  - [4.032812][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Increase Method Security] 'itemStateChanged(java.awt.event.ItemEvent)' of 'JFlex.gui.OptionsDialog$7' to 'PROTECTED'
+  - [4.023438][Increase Field Security] 'num' of 'JFlex.StatePairList' to 'PRIVATE'
+  - [4.023438][Decrease Field Security] 'skelBrowse' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.018750][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.014063][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.014063][Increase Field Security] 'SYNTAX_ERROR' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.014063][Increase Method Security] 'clear()' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.014063][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$7' to 'PROTECTED'
+  - [4.014063][Decrease Field Security] 'defaults' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.014063][Decrease Field Security] 'numStates' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.014063][Decrease Field Security] 'running' of 'JFlex.Timer' to 'PACKAGE'
+  - [4.014063][Increase Method Security] 'isBOL(int)' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.014063][Increase Field Security] 'pos' of 'JFlex.IntCharSet' to 'PRIVATE'
+  - [4.014063][Decrease Field Security] 'pos' of 'JFlex.IntCharSet' to 'PACKAGE'
+  - [4.014063][Decrease Field Security] 'out' of 'JFlex.Out' to 'PACKAGE'
+  - [4.014063][Increase Method Security] 'getClassCode(char)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.010938][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.010938][Decrease Field Security] 'stateNumber' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.007813][Inline Method] JFlex.Emitter.emitAttributes() into JFlex.Emitter.emit()
+  - [4.007813][Decrease Method Security] 'zzUnpackTrans(java.lang.String,int,int[])' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.007813][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.OptionsDialog$4' to 'PROTECTED'
+  - [4.007813][Increase Field Security] 'start' of 'JFlex.Interval' to 'PROTECTED'
+  - [4.007813][Inline Method] JFlex.RegExps.lookAheadCase(int) into JFlex.RegExps.checkLookAheads()
+  - [4.007813][Inline Method] JFlex.Emitter.emitConstructorDecl(boolean) into JFlex.Emitter.emitConstructorDecl()
+  - [4.007813][Decrease Field Security] 'running' of 'JFlex.gui.GeneratorThread' to 'PACKAGE'
+  - [4.007813][Decrease Method Security] 'print(java.lang.String)' of 'JFlex.RegExp' to 'PUBLIC'
+  - [4.007813][Decrease Field Security] 'chunks' of 'JFlex.PackEmitter' to 'PUBLIC'
+  - [4.007813][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$4' to 'PROTECTED'
+  - [4.007813][Decrease Field Security] 'initCode' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.004688][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.004688][Decrease Field Security] 'offset' of 'JFlex.StateSetEnumerator' to 'PACKAGE'
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 46.24 seconds
+  * Quality Gain: 0.109375
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.029688
+  * Possible Actions: 1050
+  * Applied Actions: 58
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3875
+    * Dep_In: 4.9375
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0500
+    * eC_Attr: 1.6500
+    * eC_Par: 1.5500
+
+* Applied Actions:
+  - [4.143750][Freeze Method] Convert 'getEntryState()' of 'JFlex.Action' to static 
+  - [4.146875][Introduce Factory] for JFlex.gui.GridPanel.<init>(int,int)
+  - [4.146875][Decrease Method Security] 'DFAEdge(JFlex.StateSet,char)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.146875][Decrease Field Security] 'noTarget' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.146875][Decrease Field Security] 'dfa' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.146875][Make Class Non-Final] JFlex.NFA
+  - [4.146875][Decrease Field Security] 'packageName' of 'JFlex.anttask.JFlexTask' to 'PACKAGE'
+  - [4.146875][Increase Field Security] 'lines' of 'JFlex.RegExps' to 'PRIVATE'
+  - [4.131250][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.131250][Decrease Method Security] 'println(int)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.131250][Freeze Method] Convert 'size2nbits(int)' of 'JFlex.StateSet' to static 
+  - [4.118750][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.118750][Decrease Field Security] 'numLexStates' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.106250][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.106250][Increase Method Security] 'getLine(int)' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.106250][Decrease Field Security] 'translate' of 'JFlex.CountEmitter' to 'PACKAGE'
+  - [4.106250][Decrease Method Security] 'print(int)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.106250][Increase Method Security] 'getLookLength()' of 'JFlex.Action' to 'PROTECTED'
+  - [4.110937][Freeze Method] Convert 'printBlocks(int[],int[],int[],int)' of 'JFlex.DFA' to static 
+  - [4.101563][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.101563][Increase Method Security] 'getClassCode(char)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.101563][Decrease Method Security] 'constName()' of 'JFlex.PackEmitter' to 'PUBLIC'
+  - [4.101563][Increase Method Security] 'number()' of 'JFlex.LexicalStates' to 'PROTECTED'
+  - [4.101563][Decrease Field Security] 'packed' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.101563][Increase Method Security] 'getNumber(java.lang.String)' of 'JFlex.LexicalStates' to 'PROTECTED'
+  - [4.101563][Move Method] 'syntaxError(JFlex.ErrorMessages,int)' of 'JFlex.CUP$LexParse$actions' to its parameter type 'JFlex.ErrorMessages'
+  - [4.092188][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.092188][Decrease Method Security] 'epsilonFill()' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.092188][Decrease Method Security] 'getClassCode(char)' of 'JFlex.CharClasses' to 'PUBLIC'
+  - [4.092188][Decrease Method Security] 'emitDynamicInit()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.092188][Decrease Field Security] 'classCode' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.082813][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.082813][Decrease Field Security] 'options' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.082813][Inline Method] JFlex.Emitter.emitClassCode() into JFlex.Emitter.emit()
+  - [4.073438][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.073438][Decrease Method Security] 'insertNotClassNFA(java.util.Vector,int,int)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.064063][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.054688][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.045313][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.050000][Freeze Method] Convert 'emitInit()' of 'JFlex.PackEmitter' to static 
+  - [4.050000][Increase Field Security] 'WRONG_SKELETON' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.050000][Inline Method] JFlex.gui.MainFrame.quit() into JFlex.gui.MainFrame.access$000(JFlex.gui.MainFrame)
+  - [4.050000][Increase Field Security] 'regExps' of 'JFlex.RegExps' to 'PRIVATE'
+  - [4.050000][Increase Field Security] 'CHARSET_2_SMALL' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.054688][Freeze Method] Convert 'setEntryState(int,int)' of 'JFlex.DFA' to static 
+  - [4.054688][Increase Method Security] 'getNotClassCodes(java.util.Vector)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.045313][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.045313][Decrease Field Security] 'numRows' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.045313][Increase Method Security] 'makeClassNot(java.util.Vector,boolean)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.045313][Decrease Field Security] 'running' of 'JFlex.Timer' to 'PACKAGE'
+  - [4.045313][Increase Field Security] 'class$JFlex$tests$PackEmitterTest' of 'JFlex.tests.AllTests' to 'PRIVATE'
+  - [4.040625][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.040625][Inline Method] JFlex.Emitter.emitTransition(int,int) into JFlex.Emitter.emitState(int)
+  - [4.035938][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.032813][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.032813][Decrease Field Security] 'inputFile' of 'JFlex.anttask.JFlexTask' to 'PACKAGE'
+  - [4.029688][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.029688][Increase Method Security] 'printInvDelta(int[][],int[])' of 'JFlex.DFA' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 112.32 seconds
+  * Quality Gain: 0.132813
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.006250
+  * Possible Actions: 966
+  * Applied Actions: 317
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3375
+    * Dep_In: 4.9250
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0000
+    * eC_Attr: 1.6500
+    * eC_Par: 1.5375
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.128125][Freeze Method] Convert 'dotFormat()' of 'JFlex.NFA' to static 
+  - [4.128125][Decrease Field Security] 'classCode' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.132813][Freeze Method] Convert 'emitRowMapArray()' of 'JFlex.Emitter' to static 
+  - [4.120313][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.120313][Increase Field Security] 'CS2SMALL_CHAR' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.120313][Decrease Field Security] 'stateNumber' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.120313][Increase Method Security] 'getEntryState()' of 'JFlex.Action' to 'PROTECTED'
+  - [4.107813][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.107813][Decrease Field Security] 'thread' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.107813][Increase Field Security] 'action_obj' of 'JFlex.LexParse' to 'PACKAGE'
+  - [4.107813][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.OptionsDialog$3' to 'PROTECTED'
+  - [4.098437][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.098437][Decrease Method Security] 'nbits2size(int)' of 'JFlex.CharSet' to 'PACKAGE'
+  - [4.098437][Increase Method Security] 'getNum()' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.103125][Freeze Method] Convert 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$7' to static 
+  - [4.093750][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.093750][Decrease Field Security] 'parser' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.093750][Increase Method Security] 'contains(char)' of 'JFlex.Interval' to 'PROTECTED'
+  - [4.093750][Decrease Field Security] 'charCount' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.093750][Decrease Method Security] 'print(int)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.093750][Decrease Field Security] 'actions' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.093750][Increase Method Security] 'dotFormat(JFlex.NFA)' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.090625][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.093750][Introduce Factory] for JFlex.anttask.JFlexTask.<init>()
+  - [4.084375][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.089063][Freeze Method] Convert 'setFile(java.io.File)' of 'JFlex.LexScan' to static 
+  - [4.089063][Decrease Field Security] 'class$JFlex$tests$AntTaskTests' of 'JFlex.tests.AllTests' to 'PROTECTED'
+  - [4.093750][Freeze Method] Convert 'add(JFlex.StateSet)' of 'JFlex.StateSet' to static 
+  - [4.093750][Increase Method Security] 'length(JFlex.RegExp)' of 'JFlex.SemCheck' to 'PROTECTED'
+  - [4.084375][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.084375][Make Class Final] JFlex.CUP$LexParse$actions
+  - [4.075000][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.075000][Make Class Non-Final] JFlex.CharSet
+  - [4.079687][Freeze Method] Convert 'getDefaultTransition(int)' of 'JFlex.Emitter' to static 
+  - [4.079687][Increase Method Security] 'clear()' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.079687][Increase Method Security] 'characters()' of 'JFlex.CharSet' to 'PROTECTED'
+  - [4.079687][Inline Method] JFlex.Emitter.emitConstructorDecl() into JFlex.Emitter.emit()
+  - [4.079687][Decrease Field Security] 'eofVal' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.082813][Introduce Factory] for JFlex.RegExp1.<init>(int,java.lang.Object)
+  - [4.073438][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.073438][Decrease Field Security] 'isFinal' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.064063][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.076563][Introduce Factory] for JFlex.CharSetEnumerator.<init>(JFlex.CharSet)
+  - [4.076563][Increase Method Security] 'setFile(java.io.File,JFlex.LexScan)' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.076563][Increase Field Security] 'NO_DIRECTORY' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.067188][Inline Method] JFlex.CharSetEnumerator.<init>(JFlex.CharSet) into JFlex.CharSetEnumerator.createJFlex.CharSetEnumerator(JFlex.CharSet)
+  - [4.071875][Freeze Method] Convert 'sub(JFlex.IntCharSet)' of 'JFlex.IntCharSet' to static 
+  - [4.076563][Freeze Method] Convert 'println(int)' of 'JFlex.Emitter' to static 
+  - [4.076563][Increase Method Security] 'getHigherPriority(JFlex.Action)' of 'JFlex.Action' to 'PROTECTED'
+  - [4.076563][Make Class Non-Final] JFlex.LexScan$ZzFlexStreamInfo
+  - [4.076563][Increase Method Security] 'printInvDelta(int[][],int[])' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.076563][Increase Method Security] 'getAction(int)' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.076563][Increase Method Security] 'printBlocks(int[],int[],int[],int)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.076563][Decrease Method Security] 'characters()' of 'JFlex.CharSet' to 'PUBLIC'
+  - [4.076563][Increase Method Security] 'setValTranslation(int)' of 'JFlex.CountEmitter' to 'PROTECTED'
+  - [4.076563][Increase Field Security] 'FILE_WRITE' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.067188][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.057813][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.057813][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$8' to 'PROTECTED'
+  - [4.053125][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.053125][Increase Field Security] 'isFinal' of 'JFlex.NFA' to 'PRIVATE'
+  - [4.053125][Increase Method Security] 'copy()' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.053125][Inline Method] JFlex.Emitter.emitHeader() into JFlex.Emitter.emit()
+  - [4.053125][Increase Method Security] 'length(JFlex.RegExp)' of 'JFlex.SemCheck' to 'PACKAGE'
+  - [4.053125][Increase Field Security] 'REGEXP_EXPECTED' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.053125][Decrease Field Security] 'dir' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.053125][Increase Method Security] 'characters()' of 'JFlex.CharSet' to 'PROTECTED'
+  - [4.048437][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.048437][Increase Field Security] 'QUIL_CUPSYM' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.043750][Inline Method] JFlex.Emitter.getDefaultTransition(int,JFlex.Emitter) into JFlex.Emitter.emitState(int)
+  - [4.043750][Inline Method] JFlex.CUP$LexParse$actions.check(int,char) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.039063][Inline Method] JFlex.Emitter.println(int,JFlex.Emitter) into JFlex.Emitter.emitLexicalStates()
+  - [4.039063][Increase Method Security] 'number()' of 'JFlex.LexicalStates' to 'PROTECTED'
+  - [4.034375][Inline Method] JFlex.Emitter.emitRowMapArray(JFlex.Emitter) into JFlex.Emitter.emit()
+  - [4.034375][Increase Method Security] 'suite()' of 'JFlex.tests.AllTests' to 'PROTECTED'
+  - [4.029688][Inline Method] JFlex.NFA.dotFormat(JFlex.NFA) into JFlex.NFA.writeDot(java.io.File)
+  - [4.026563][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.026563][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$6' to 'PROTECTED'
+  - [4.026563][Inline Method] JFlex.anttask.JFlexTask.<init>() into JFlex.anttask.JFlexTask.createJFlex.anttask.JFlexTask()
+  - [4.026563][Inline Method] JFlex.Skeleton.class$(java.lang.String) into JFlex.Skeleton.readDefault()
+  - [4.026563][Increase Method Security] 'get(JFlex.ErrorMessages)' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.026563][Inline Method] JFlex.Emitter.emitDefaultTransition(int,int) into JFlex.Emitter.emitState(int)
+  - [4.026563][Increase Field Security] 'NEVER_MATCH' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.026563][Increase Method Security] 'getLookLength()' of 'JFlex.Action' to 'PROTECTED'
+  - [4.026563][Decrease Field Security] 'errors' of 'JFlex.Out' to 'PACKAGE'
+  - [4.026563][Freeze Method] Convert 'min(char,char)' of 'JFlex.IntCharSet' to static 
+  - [4.026563][Decrease Field Security] 'cupCompatible' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.026563][Increase Method Security] 'insert(int,java.util.Vector,JFlex.RegExp,JFlex.Action,java.lang.Boolean,JFlex.RegExp)' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.021875][Move Method] 'insert(int,java.util.Vector,JFlex.RegExp,JFlex.Action,java.lang.Boolean,JFlex.RegExp)' of 'JFlex.RegExps' to its parameter type 'JFlex.RegExp'
+  - [4.021875][Decrease Field Security] 'zzCurrentPos' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'zzBuffer' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'isAbstract' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.021875][Decrease Field Security] 'FILE_WRITE' of 'JFlex.ErrorMessages' to 'PUBLIC'
+  - [4.021875][Decrease Method Security] 'emitDoEOF()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.026562][Freeze Method] Convert 'zzDoEOF()' of 'JFlex.LexScan' to static 
+  - [4.026562][Increase Method Security] 'getIntervals()' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.026562][Increase Method Security] 'isElement(int)' of 'JFlex.CharSet' to 'PROTECTED'
+  - [4.021875][Inline Method] JFlex.LexScan.zzDoEOF(JFlex.LexScan) into JFlex.LexScan.next_token()
+  - [4.021875][Decrease Field Security] 'quit' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'colMap' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.021875][Inline Method] JFlex.LexScan.getTokenName(int) into JFlex.LexScan.debug_next_token()
+  - [4.021875][Increase Method Security] 'getAndRemoveElement()' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.021875][Decrease Field Security] 'mask' of 'JFlex.CharSetEnumerator' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'mask' of 'JFlex.StateSetEnumerator' to 'PACKAGE'
+  - [4.021875][Increase Method Security] 'itemStateChanged(java.awt.event.ItemEvent)' of 'JFlex.gui.OptionsDialog$9' to 'PROTECTED'
+  - [4.021875][Increase Method Security] 'get(JFlex.ErrorMessages,java.lang.String)' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.021875][Decrease Method Security] 'emitConstructorDecl(boolean)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'choosing' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.021875][Increase Field Security] 'EOL_IN_CHARCLASS' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.021875][Increase Field Security] 'class$JFlex$tests$EmitterTest' of 'JFlex.tests.AllTests' to 'PRIVATE'
+  - [4.021875][Increase Field Security] 'MACRO_UNDECL' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.021875][Increase Method Security] 'getEntryState()' of 'JFlex.Action' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'col' of 'JFlex.StdOutWriter' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'numStates' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.021875][Decrease Field Security] 'col' of 'JFlex.StdOutWriter' to 'PROTECTED'
+  - [4.021875][Increase Method Security] 'getClassCodes(java.util.Vector)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.021875][Increase Field Security] 'UNEXPECTED_EOF' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.021875][Decrease Field Security] 'entryState' of 'JFlex.Action' to 'PACKAGE'
+  - [4.021875][Inline Method] JFlex.Emitter.emitClassName() into JFlex.Emitter.emit()
+  - [4.021875][Inline Method] JFlex.ErrorMessages.<init>(java.lang.String) into JFlex.ErrorMessages.<clinit>()
+  - [4.021875][Decrease Field Security] 'generate' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.021875][Decrease Method Security] 'emitZZTrans()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.021875][Freeze Method] Convert 'emitUnpack()' of 'JFlex.PackEmitter' to static 
+  - [4.021875][Decrease Field Security] 'parent' of 'JFlex.gui.GeneratorThread' to 'PROTECTED'
+  - [4.021875][Increase Method Security] 'containsElements()' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.021875][Decrease Method Security] 'emitNextInput()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'classes' of 'JFlex.CharClasses' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'len' of 'JFlex.Action' to 'PACKAGE'
+  - [4.021875][Decrease Method Security] 'removeDead(int,int)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.021875][Decrease Field Security] 'outputDir' of 'JFlex.anttask.JFlexTask' to 'PACKAGE'
+  - [4.021875][Decrease Method Security] 'getIntervals()' of 'JFlex.CharClasses' to 'PUBLIC'
+  - [4.026562][Freeze Method] Convert 'yystate()' of 'JFlex.LexScan' to static 
+  - [4.026562][Decrease Method Security] 'characters()' of 'JFlex.CharSet' to 'PUBLIC'
+  - [4.026562][Increase Method Security] 'check()' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.026562][Increase Method Security] 'isEmittable()' of 'JFlex.Action' to 'PROTECTED'
+  - [4.026562][Decrease Field Security] 'NEVER_MATCH' of 'JFlex.ErrorMessages' to 'PUBLIC'
+  - [4.026562][Increase Field Security] 'action_line' of 'JFlex.LexScan' to 'PRIVATE'
+  - [4.026562][Increase Field Security] 'EOF_IN_STRING' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.026562][Inline Method] JFlex.LexScan.zzUnpackTrans() into JFlex.LexScan.<clinit>()
+  - [4.026562][Increase Field Security] 'q' of 'JFlex.StatePairList' to 'PRIVATE'
+  - [4.026562][Increase Method Security] 'emit(int)' of 'JFlex.HiLowEmitter' to 'PROTECTED'
+  - [4.026562][Decrease Field Security] 'rows' of 'JFlex.gui.GridPanel' to 'PACKAGE'
+  - [4.026562][Increase Method Security] 'print(java.lang.String)' of 'JFlex.RegExp' to 'PROTECTED'
+  - [4.026562][Inline Method] JFlex.Emitter.emitAttributes() into JFlex.Emitter.emit()
+  - [4.026562][Increase Field Security] 'QUIL_THROW' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.023437][Inline Method] JFlex.Emitter.emitDynamicInit() into JFlex.Emitter.emit()
+  - [4.023437][Inline Method] JFlex.Emitter.transformTransitionTable() into JFlex.Emitter.emitTransitionTable()
+  - [4.023437][Decrease Field Security] 'macros' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.023437][Decrease Field Security] 'content' of 'JFlex.Action' to 'PROTECTED'
+  - [4.023437][Increase Method Security] 'addPair(int,int)' of 'JFlex.StatePairList' to 'PROTECTED'
+  - [4.023437][Decrease Field Security] 'thread' of 'JFlex.gui.MainFrame' to 'PROTECTED'
+  - [4.023437][Decrease Method Security] 'isEmittable()' of 'JFlex.Action' to 'PUBLIC'
+  - [4.023437][Increase Method Security] 'setFinal(int,boolean)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.023437][Decrease Method Security] 'print(java.lang.String)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.023437][Decrease Field Security] 'translate' of 'JFlex.CountEmitter' to 'PACKAGE'
+  - [4.023437][Make Class Non-Final] JFlex.Macros
+  - [4.023437][Increase Method Security] 'removeDead(int,int)' of 'JFlex.NFA' to 'PRIVATE'
+  - [4.023437][Freeze Method] Convert 'max(char,char)' of 'JFlex.IntCharSet' to static 
+  - [4.023437][Increase Field Security] 'content' of 'JFlex.Action' to 'PACKAGE'
+  - [4.023437][Increase Method Security] 'writeDot(java.io.File)' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.023437][Decrease Field Security] 'isFinal' of 'JFlex.DFA' to 'PUBLIC'
+  - [4.023437][Decrease Method Security] 'closure(int)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.023437][Increase Method Security] 'itemStateChanged(java.awt.event.ItemEvent)' of 'JFlex.gui.OptionsDialog$10' to 'PROTECTED'
+  - [4.023437][Increase Method Security] 'copy()' of 'JFlex.StateSet' to 'PACKAGE'
+  - [4.020312][Remove Method] 'copy()' of type 'JFlex.StateSet'
+  - [4.020312][Increase Field Security] 'NOT_READABLE' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.020312][Decrease Method Security] 'setFinal(int,boolean)' of 'JFlex.DFA' to 'PUBLIC'
+  - [4.020312][Make Class Non-Final] JFlex.CharSetEnumerator
+  - [4.020312][Increase Method Security] 'dumpTable()' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.020312][Decrease Method Security] 'makeMacroIdent()' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.020312][Inline Method] JFlex.gui.MainFrame.generate() into JFlex.gui.MainFrame.access$100(JFlex.gui.MainFrame)
+  - [4.020312][Decrease Field Security] 'zzStartRead' of 'JFlex.LexScan$ZzFlexStreamInfo' to 'PROTECTED'
+  - [4.020312][Decrease Field Security] 'macros' of 'JFlex.SemCheck' to 'PACKAGE'
+  - [4.020312][Increase Method Security] 'getRegExp(int)' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.020312][Increase Field Security] 'line' of 'JFlex.ScannerException' to 'PROTECTED'
+  - [4.010937][Instantiate Method] Move static method 'length(JFlex.RegExp)' of 'JFlex.SemCheck' to its parameter type 'JFlex.RegExp'
+  - [4.010937][Decrease Method Security] 'containsElements()' of 'JFlex.StateSet' to 'PUBLIC'
+  - [4.010937][Decrease Field Security] 'specChoose' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.010937][Increase Field Security] 'mask' of 'JFlex.CharSetEnumerator' to 'PRIVATE'
+  - [4.010937][Decrease Field Security] 'out' of 'JFlex.Skeleton' to 'PACKAGE'
+  - [4.010937][Decrease Field Security] 'zzAtBOL' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.010937][Increase Method Security] 'addTransition(int,char,int)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.010937][Decrease Field Security] 'height' of 'JFlex.gui.GridPanelConstraint' to 'PROTECTED'
+  - [4.010937][Increase Field Security] 'outputDir' of 'JFlex.gui.GeneratorThread' to 'PRIVATE'
+  - [4.010937][Decrease Field Security] 'isImplementing' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.010937][Decrease Field Security] 'states' of 'JFlex.LexicalStates' to 'PROTECTED'
+  - [4.010937][Decrease Field Security] 'x' of 'JFlex.gui.GridPanelConstraint' to 'PROTECTED'
+  - [4.010937][Increase Field Security] 'CS2SMALL_CHAR' of 'JFlex.ErrorMessages' to 'PACKAGE'
+  - [4.010937][Decrease Method Security] 'class$(java.lang.String)' of 'JFlex.tests.AllTests' to 'PROTECTED'
+  - [4.010937][Increase Method Security] 'currentLine()' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.010937][Increase Method Security] 'debug_next_token()' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.010937][Decrease Field Security] 'QUIL_CUPSYM' of 'JFlex.ErrorMessages' to 'PUBLIC'
+  - [4.010937][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$3' to 'PROTECTED'
+  - [4.010937][Decrease Field Security] 'macroDefinition' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.010937][Decrease Field Security] 'task' of 'JFlex.tests.AntTaskTests' to 'PACKAGE'
+  - [4.010937][Decrease Field Security] 'rowMap' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.010937][Inline Method] JFlex.Interval.isPrintable(char) into JFlex.Interval.toString()
+  - [4.010937][Decrease Field Security] 'columnCount' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.010937][Decrease Method Security] 'printBlocks(int[],int[],int[],int)' of 'JFlex.DFA' to 'PUBLIC'
+  - [4.010937][Decrease Field Security] 'key' of 'JFlex.ErrorMessages' to 'PACKAGE'
+  - [4.010937][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.OptionsDialog$2' to 'PROTECTED'
+  - [4.010937][Decrease Field Security] 'standalone' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.010937][Decrease Field Security] 'outputDir' of 'JFlex.gui.GeneratorThread' to 'PACKAGE'
+  - [4.010937][Decrease Field Security] 'class$JFlex$tests$EmitterTest' of 'JFlex.tests.AllTests' to 'PACKAGE'
+  - [4.010937][Increase Method Security] 'diff()' of 'JFlex.Timer' to 'PROTECTED'
+  - [4.010937][Inline Method] JFlex.LexScan.zzUnpackAction(java.lang.String,int,int[]) into JFlex.LexScan.zzUnpackAction()
+  - [4.010937][Decrease Field Security] 'string' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.010937][Increase Method Security] 'getDFA()' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.010937][Decrease Field Security] 'yyline' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.010937][Increase Method Security] 'setNumLexStates(int)' of 'JFlex.EOFActions' to 'PROTECTED'
+  - [4.010937][Increase Method Security] 'get(JFlex.ErrorMessages,java.lang.String,java.lang.String)' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.010937][Decrease Method Security] 'emitClassCode()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.010937][Increase Field Security] 'balance' of 'JFlex.LexScan' to 'PRIVATE'
+  - [4.010937][Inline Method] JFlex.DFA.ensureStateCapacity(int) into JFlex.DFA.addTransition(int,char,int)
+  - [4.010937][Increase Method Security] 'check()' of 'JFlex.CharClasses' to 'PACKAGE'
+  - [4.010937][Decrease Field Security] 'states' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.010937][Decrease Field Security] 'spec' of 'JFlex.gui.MainFrame' to 'PACKAGE'
+  - [4.010937][Decrease Field Security] 'line' of 'JFlex.ScannerException' to 'PUBLIC'
+  - [4.010937][Decrease Method Security] 'symbol(int,java.lang.Object)' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.010937][Increase Field Security] 'REPEAT_ZERO' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.010937][Increase Field Security] 'class$JFlex$tests$RegExpTests' of 'JFlex.tests.AllTests' to 'PRIVATE'
+  - [4.015625][Freeze Method] Convert 'getIntervals()' of 'JFlex.CharClasses' to static 
+  - [4.015625][Decrease Field Security] 'type' of 'JFlex.RegExp' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'getLookAhead(int)' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'containsElements()' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'mask' of 'JFlex.StateSetEnumerator' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'ctorTypes' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'classes' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'getLookLength()' of 'JFlex.Action' to 'PACKAGE'
+  - [4.015625][Inline Method] JFlex.LexScan.zzUnpackRowMap() into JFlex.LexScan.<clinit>()
+  - [4.015625][Decrease Method Security] 'length()' of 'JFlex.RegExp' to 'PROTECTED'
+  - [4.015625][Increase Field Security] 'action_obj' of 'JFlex.LexParse' to 'PRIVATE'
+  - [4.015625][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$4' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'zzBuffer' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.015625][Increase Field Security] 'chunks' of 'JFlex.PackEmitter' to 'PACKAGE'
+  - [4.015625][Decrease Field Security] 'classes' of 'JFlex.CharClasses' to 'PUBLIC'
+  - [4.015625][Decrease Field Security] 'NO_DIRECTORY' of 'JFlex.ErrorMessages' to 'PUBLIC'
+  - [4.015625][Decrease Field Security] 'states' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'print(int)' of 'JFlex.Emitter' to 'PRIVATE'
+  - [4.015625][Increase Method Security] 'containsElements()' of 'JFlex.CharSet' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'getDFA()' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.015625][Decrease Field Security] 'rowMap' of 'JFlex.Emitter' to 'PROTECTED'
+  - [4.015625][Decrease Method Security] 'insertCCLNFA(JFlex.RegExp,int,int)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.015625][Increase Method Security] 'makeClassNot(java.util.Vector,boolean)' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.015625][Make Class Non-Final] JFlex.StatePairList
+  - [4.015625][Decrease Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$4' to 'PUBLIC'
+  - [4.015625][Inline Method] JFlex.Emitter.emitNextInput() into JFlex.Emitter.emit()
+  - [4.015625][Increase Method Security] 'printTable(boolean[][])' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.015625][Increase Field Security] 'specChoose' of 'JFlex.gui.MainFrame' to 'PRIVATE'
+  - [4.015625][Increase Method Security] 'maybeEmtpy(JFlex.RegExp)' of 'JFlex.SemCheck' to 'PROTECTED'
+  - [4.015625][Decrease Method Security] 'dumpTable()' of 'JFlex.NFA' to 'PUBLIC'
+  - [4.015625][Decrease Method Security] 'emitMain()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.015625][Decrease Field Security] 'zzBuffer' of 'JFlex.LexScan$ZzFlexStreamInfo' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'checkActions(JFlex.LexScan,JFlex.LexParse)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'numLexStates' of 'JFlex.EOFActions' to 'PACKAGE'
+  - [4.015625][Increase Method Security] 'closure(int)' of 'JFlex.NFA' to 'PRIVATE'
+  - [4.015625][Inline Method] JFlex.IntCharSet.min(char,char) into JFlex.IntCharSet.and(JFlex.IntCharSet)
+  - [4.015625][Decrease Method Security] 'print(java.lang.String)' of 'JFlex.Emitter' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'main(java.lang.String[])' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.015625][Increase Field Security] 'generate' of 'JFlex.gui.MainFrame' to 'PRIVATE'
+  - [4.015625][Decrease Method Security] 'diff()' of 'JFlex.Timer' to 'PUBLIC'
+  - [4.015625][Decrease Field Security] 'handle' of 'JFlex.gui.GridPanelConstraint' to 'PROTECTED'
+  - [4.015625][Decrease Method Security] 'nl()' of 'JFlex.PackEmitter' to 'PUBLIC'
+  - [4.015625][Increase Field Security] 'table' of 'JFlex.NFA' to 'PRIVATE'
+  - [4.015625][Decrease Method Security] 'print(int,int)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.015625][Increase Method Security] 'printTable(boolean[][])' of 'JFlex.DFA' to 'PACKAGE'
+  - [4.015625][Increase Field Security] 'name' of 'JFlex.PackEmitter' to 'PACKAGE'
+  - [4.015625][Decrease Field Security] 'userCode' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'parent' of 'JFlex.gui.GeneratorThread' to 'PUBLIC'
+  - [4.015625][Increase Method Security] 'addState(int)' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'regExps' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.015625][Inline Method] JFlex.Emitter.emitZZTrans() into JFlex.Emitter.emit()
+  - [4.015625][Increase Method Security] 'setEntryState(int,int)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'end' of 'JFlex.IntPair' to 'PROTECTED'
+  - [4.015625][Decrease Method Security] 'emitTransition(int,int)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.015625][Increase Method Security] 'size()' of 'JFlex.CharSet' to 'PROTECTED'
+  - [4.015625][Decrease Method Security] 'symbol(int)' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.015625][Decrease Method Security] 'itemStateChanged(java.awt.event.ItemEvent)' of 'JFlex.gui.OptionsDialog$9' to 'PUBLIC'
+  - [4.015625][Decrease Method Security] 'getAndRemoveElement()' of 'JFlex.StateSet' to 'PUBLIC'
+  - [4.015625][Increase Method Security] 'getNum()' of 'JFlex.RegExps' to 'PACKAGE'
+  - [4.015625][Inline Method] JFlex.LexScan.zzUnpackTrans(java.lang.String,int,int[]) into JFlex.LexScan.<clinit>()
+  - [4.015625][Increase Field Security] 'spec' of 'JFlex.gui.MainFrame' to 'PRIVATE'
+  - [4.015625][Decrease Field Security] 'action_line' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.015625][Decrease Method Security] 'zzScanError(int)' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.015625][Increase Method Security] 'setEntryState(int,int)' of 'JFlex.DFA' to 'PACKAGE'
+  - [4.015625][Decrease Field Security] 'usedActions' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'zzBuffer' of 'JFlex.LexScan$ZzFlexStreamInfo' to 'PUBLIC'
+  - [4.015625][Decrease Field Security] 'className' of 'JFlex.anttask.JFlexTask' to 'PACKAGE'
+  - [4.015625][Decrease Method Security] 'zzUnpackAction()' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.015625][Decrease Field Security] 'bits' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.015625][Decrease Method Security] 'findActionStates()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.015625][Make Class Non-Final] JFlex.NFA
+  - [4.015625][Inline Method] JFlex.Emitter.emitClassCode() into JFlex.Emitter.emit()
+  - [4.015625][Decrease Field Security] 'mask' of 'JFlex.CharSetEnumerator' to 'PACKAGE'
+  - [4.015625][Decrease Field Security] 'look_entry' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.015625][Decrease Method Security] 'size2nbits(int)' of 'JFlex.StateSet' to 'PACKAGE'
+  - [4.015625][Decrease Method Security] 'constName()' of 'JFlex.PackEmitter' to 'PUBLIC'
+  - [4.015625][Decrease Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$8' to 'PUBLIC'
+  - [4.015625][Decrease Field Security] 'regExps' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.015625][Increase Field Security] 'p' of 'JFlex.StatePairList' to 'PRIVATE'
+  - [4.015625][Inline Method] JFlex.Emitter.printUC(int) into JFlex.Emitter.emitCharMapArray()
+  - [4.015625][Inline Method] JFlex.LexScan.debug_next_token() into JFlex.LexScan.main(java.lang.String[])
+  - [4.015625][Decrease Field Security] 'dfa' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.015625][Increase Field Security] 'parent' of 'JFlex.gui.GeneratorThread' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'insert(java.lang.String,boolean)' of 'JFlex.LexicalStates' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'kind' of 'JFlex.Action' to 'PACKAGE'
+  - [4.015625][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$4' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'maybeEmtpy(JFlex.RegExp)' of 'JFlex.SemCheck' to 'PACKAGE'
+  - [4.015625][Decrease Field Security] 'name' of 'JFlex.PackEmitter' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'getInclusiveStates()' of 'JFlex.LexicalStates' to 'PROTECTED'
+  - [4.015625][Increase Method Security] 'diff()' of 'JFlex.Timer' to 'PROTECTED'
+  - [4.015625][Decrease Field Security] 'zzStartRead' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.015625][Decrease Method Security] 'getLookLength()' of 'JFlex.Action' to 'PROTECTED'
+  - [4.015625][Increase Field Security] 'rows' of 'JFlex.gui.GridPanel' to 'PRIVATE'
+  - [4.006250][Instantiate Method] Move static method 'maybeEmtpy(JFlex.RegExp)' of 'JFlex.SemCheck' to its parameter type 'JFlex.RegExp'
+  - [4.006250][Decrease Method Security] 'lookAheadCase(int)' of 'JFlex.RegExps' to 'PACKAGE'
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 48.15 seconds
+  * Quality Gain: 0.135937
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.003125
+  * Possible Actions: 1031
+  * Applied Actions: 61
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8750
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.5000
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.110937][Increase Method Security] 'writeDot(java.io.File)' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.110937][Inline Method] JFlex.LexScan.zzUnpackRowMap() into JFlex.LexScan.<clinit>()
+  - [4.110937][Make Class Non-Final] JFlex.Out
+  - [4.110937][Decrease Field Security] 'className' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.110937][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.OptionsDialog$4' to 'PROTECTED'
+  - [4.110937][Inline Method] JFlex.Emitter.emitRowMapArray() into JFlex.Emitter.emit()
+  - [4.110937][Increase Field Security] 'epsilon' of 'JFlex.NFA' to 'PRIVATE'
+  - [4.110937][Decrease Field Security] 'defaults' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.110937][Increase Field Security] 'name' of 'JFlex.PackEmitter' to 'PACKAGE'
+  - [4.098438][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.089063][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.089063][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$3' to 'PROTECTED'
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.079687][Decrease Field Security] 'macros' of 'JFlex.Macros' to 'PACKAGE'
+  - [4.084375][Freeze Method] Convert 'makePreClass(int)' of 'JFlex.CUP$LexParse$actions' to static 
+  - [4.084375][Increase Method Security] 'constName()' of 'JFlex.PackEmitter' to 'PACKAGE'
+  - [4.075000][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.075000][Increase Field Security] 'NOT_READABLE' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.075000][Decrease Field Security] 'numRows' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.079687][Freeze Method] Convert 'setFinal(int,boolean)' of 'JFlex.DFA' to static 
+  - [4.070313][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.070313][Decrease Field Security] 'defaults' of 'JFlex.gui.OptionsDialog' to 'PROTECTED'
+  - [4.070313][Decrease Field Security] 'class$JFlex$tests$AllTests' of 'JFlex.tests.AllTests' to 'PROTECTED'
+  - [4.060938][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.060938][Decrease Field Security] 'len' of 'JFlex.Action' to 'PACKAGE'
+  - [4.060938][Increase Method Security] 'check()' of 'JFlex.CharClasses' to 'PROTECTED'
+  - [4.051562][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.051562][Decrease Field Security] 'class$JFlex$tests$AllTests' of 'JFlex.tests.AllTests' to 'PUBLIC'
+  - [4.051562][Decrease Field Security] 'tokenType' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.051562][Decrease Field Security] 'parser' of 'JFlex.CUP$LexParse$actions' to 'PACKAGE'
+  - [4.051562][Decrease Field Security] 'yyline' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.051562][Decrease Field Security] 'macros' of 'JFlex.SemCheck' to 'PACKAGE'
+  - [4.042188][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.042188][Increase Method Security] 'getAction(int)' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.042188][Inline Method] JFlex.LexScan.zzUnpackAction() into JFlex.LexScan.<clinit>()
+  - [4.042188][Increase Method Security] 'old_minimize()' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.042188][Decrease Field Security] 'skelFile' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+  - [4.042188][Inline Method] JFlex.LexScan.zzDoEOF() into JFlex.LexScan.next_token()
+  - [4.042188][Inline Method] JFlex.Emitter.emitMain() into JFlex.Emitter.emit()
+  - [4.042188][Decrease Field Security] 'col' of 'JFlex.StdOutWriter' to 'PACKAGE'
+  - [4.042188][Increase Method Security] 'actionPerformed(java.awt.event.ActionEvent)' of 'JFlex.gui.MainFrame$4' to 'PROTECTED'
+  - [4.032812][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.032812][Decrease Field Security] 'scanner' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.032812][Inline Method] JFlex.IntCharSet.indexOf(char) into JFlex.IntCharSet.contains(char)
+  - [4.032812][Decrease Field Security] 'intervalls' of 'JFlex.IntCharSet' to 'PACKAGE'
+  - [4.023438][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Decrease Field Security] 'macros' of 'JFlex.SemCheck' to 'PROTECTED'
+  - [4.023438][Decrease Field Security] 'lines' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.023438][Inline Method] JFlex.Emitter.println(int) into JFlex.Emitter.emitLexicalStates()
+  - [4.023438][Decrease Field Security] 'mask' of 'JFlex.CharSetEnumerator' to 'PACKAGE'
+  - [4.023438][Decrease Field Security] 'macroDefinition' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.015625][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int,JFlex.CUP$LexParse$actions) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.015625][Decrease Field Security] 'bufferSize' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.015625][Decrease Method Security] 'escapify(java.lang.String)' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.015625][Freeze Method] Convert 'UTF8Length(char)' of 'JFlex.PackEmitter' to static 
+  - [4.010938][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.006250][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.003125][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.003125][Decrease Field Security] 'zzStartRead' of 'JFlex.LexScan$ZzFlexStreamInfo' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: JFlex|Coupling|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 46.13 seconds
+  * Quality Gain: 0.131250
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 4.139063
+  * Possible Actions: 1094
+  * Applied Actions: 0
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.5375
+    * Dep_In: 5.1125
+    * iC_Attr: 5.3625
+    * iC_Par: 1.1750
+    * eC_Attr: 1.6500
+    * eC_Par: 1.6250
+
+* Final Design:
+  * Score: 4.007813
+  * Possible Actions: 1059
+  * Applied Actions: 58
+  * Num Types: 80
+  * Num Packages: 4
+
+  * Metric Summary:
+    * Dep_Out: 6.3750
+    * Dep_In: 4.8875
+    * iC_Attr: 5.3375
+    * iC_Par: 1.0375
+    * eC_Attr: 1.6500
+    * eC_Par: 1.5125
+
+* Applied Actions:
+  - [4.123438][Inline Method] JFlex.CUP$LexParse$actions.makeRepeat(JFlex.RegExp,int,int,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.110937][Inline Method] JFlex.NFA.complement(JFlex.IntPair) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.110937][Decrease Field Security] 'pos' of 'JFlex.IntCharSet' to 'PACKAGE'
+  - [4.110937][Decrease Field Security] 'zzStartRead' of 'JFlex.LexScan$ZzFlexStreamInfo' to 'PROTECTED'
+  - [4.110937][Decrease Field Security] 'eofVal' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.110937][Decrease Field Security] 'numLexStates' of 'JFlex.EOFActions' to 'PACKAGE'
+  - [4.110937][Increase Field Security] 'NO_DIRECTORY' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.110937][Decrease Field Security] 'table' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.110937][Inline Method] JFlex.LexScan.symbol(int,java.lang.Object) into JFlex.LexScan.next_token()
+  - [4.110937][Increase Field Security] 'NOT_AT_BOL' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.110937][Decrease Field Security] 'usedActions' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.098438][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages)
+  - [4.089063][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.089063][Increase Method Security] 'addTransition(int,int,int)' of 'JFlex.NFA' to 'PROTECTED'
+  - [4.089063][Decrease Field Security] 'class$JFlex$tests$AntTaskTests' of 'JFlex.tests.AllTests' to 'PROTECTED'
+  - [4.079687][Inline Method] JFlex.CUP$LexParse$actions.makeNL() into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.079687][Increase Method Security] 'addTransition(int,char,int)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.079687][Inline Method] JFlex.LexScan.symbol(int) into JFlex.LexScan.next_token()
+  - [4.079687][Increase Method Security] 'setEntryState(int)' of 'JFlex.Action' to 'PROTECTED'
+  - [4.070313][Inline Method] JFlex.NFA.getAction(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.070313][Increase Method Security] 'containsElements()' of 'JFlex.StateSet' to 'PROTECTED'
+  - [4.070313][Increase Method Security] 'contains(char)' of 'JFlex.Interval' to 'PROTECTED'
+  - [4.070313][Increase Method Security] 'getRegExp(int)' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.060938][Inline Method] JFlex.NFA.containsFinal(JFlex.StateSet) into JFlex.NFA.getDFA()
+  - [4.051562][Inline Method] JFlex.NFA.DFAEdge(JFlex.StateSet,char) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.051562][Decrease Field Security] 'start' of 'JFlex.IntPair' to 'PROTECTED'
+  - [4.051562][Decrease Field Security] 'zzBuffer' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.042188][Inline Method] JFlex.NFA.closure(JFlex.StateSet) into JFlex.NFA.removeDead(int,int)
+  - [4.042188][Increase Method Security] 'setFinal(int,boolean)' of 'JFlex.DFA' to 'PROTECTED'
+  - [4.042188][Increase Method Security] 'suite()' of 'JFlex.tests.AllTests' to 'PROTECTED'
+  - [4.042188][Decrease Method Security] 'setupEOFCode()' of 'JFlex.Emitter' to 'PACKAGE'
+  - [4.042188][Decrease Field Security] 'zzMarkedPos' of 'JFlex.LexScan$ZzFlexStreamInfo' to 'PROTECTED'
+  - [4.042188][Increase Field Security] 'BOL' of 'JFlex.RegExps' to 'PRIVATE'
+  - [4.032812][Remove Method] 'syntaxError(JFlex.ErrorMessages)' of type 'JFlex.CUP$LexParse$actions'
+  - [4.032812][Decrease Method Security] 'constName()' of 'JFlex.PackEmitter' to 'PUBLIC'
+  - [4.037500][Freeze Method] Convert 'getLine(int)' of 'JFlex.RegExps' to static 
+  - [4.037500][Decrease Field Security] 'stateNumber' of 'JFlex.CUP$LexParse$actions' to 'PROTECTED'
+  - [4.028125][Inline Method] JFlex.CUP$LexParse$actions.fatalError(JFlex.ErrorMessages) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.028125][Decrease Field Security] 'directory' of 'JFlex.Options' to 'PACKAGE'
+  - [4.028125][Decrease Method Security] 'increaseSize(int)' of 'JFlex.StatePairList' to 'PACKAGE'
+  - [4.028125][Decrease Field Security] 'parser' of 'JFlex.CUP$LexParse$actions' to 'PACKAGE'
+  - [4.028125][Decrease Method Security] 'insertLookAheadChoices(int,JFlex.Action,JFlex.RegExp)' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.028125][Increase Field Security] 'CHARSET_2_SMALL' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.032812][Freeze Method] Convert 'setStart(char)' of 'JFlex.Interval' to static 
+  - [4.032812][Decrease Field Security] 'yyline' of 'JFlex.LexScan' to 'PACKAGE'
+  - [4.032812][Decrease Field Security] 'lexThrow' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.023438][Inline Method] JFlex.CUP$LexParse$actions.syntaxError(JFlex.ErrorMessages,int,int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.023438][Decrease Method Security] 'epsilonFill()' of 'JFlex.NFA' to 'PACKAGE'
+  - [4.023438][Decrease Field Security] 'gen_look_count' of 'JFlex.RegExps' to 'PROTECTED'
+  - [4.023438][Increase Field Security] 'EOF_IN_STATES' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.018750][Move Up Field] 'r2' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.014063][Move Up Field] 'r1' of 'JFlex.RegExp2' to its super class 'JFlex.RegExp'
+  - [4.014063][Increase Method Security] 'isGenLookAction()' of 'JFlex.Action' to 'PROTECTED'
+  - [4.010938][Inline Method] JFlex.NFA.insertStringNFA(boolean,java.lang.String) into JFlex.NFA.insertNFA(JFlex.RegExp)
+  - [4.010938][Decrease Field Security] 'isIntWrap' of 'JFlex.LexScan' to 'PROTECTED'
+  - [4.010938][Increase Field Security] 'CUPSYM_AFTER_CUP' of 'JFlex.ErrorMessages' to 'PROTECTED'
+  - [4.007813][Inline Method] JFlex.CUP$LexParse$actions.makePreClass(int) into JFlex.CUP$LexParse$actions.CUP$LexParse$do_action(int,java_cup.runtime.lr_parser,java.util.Stack,int)
+  - [4.007813][Decrease Field Security] 'verbose' of 'JFlex.gui.OptionsDialog' to 'PACKAGE'
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 58.24 seconds
+  * Average quality gain across all runs: 0.128906 (Average Score: 4.010156)
+  * Highest quality gain across all runs: 0.137500 (Score: 4.001562)
+  * Lowest quality gain across all runs: 0.109375 (Score: 4.029688)
+  * Time taken to complete task: 582.40 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.1650 (Average Score: 6.3725)
+    * Highest Quality Gain: 0.2000 (Best Score: 6.3375)
+    * Lowest Quality Gain: 0.1500 (Worst Score: 6.3875)
+  * Dep_In
+    * Average Quality Gain: 0.2137 (Average Score: 4.8988)
+    * Highest Quality Gain: 0.2375 (Best Score: 4.8750)
+    * Lowest Quality Gain: 0.1750 (Worst Score: 4.9375)
+  * iC_Attr
+    * Average Quality Gain: 0.0250 (Average Score: 5.3375)
+    * Highest Quality Gain: 0.0250 (Best Score: 5.3375)
+    * Lowest Quality Gain: 0.0250 (Worst Score: 5.3375)
+  * iC_Par
+    * Average Quality Gain: 0.1400 (Average Score: 1.0350)
+    * Highest Quality Gain: 0.1750 (Best Score: 1.0000)
+    * Lowest Quality Gain: 0.1250 (Worst Score: 1.0500)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 1.6500)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.6500)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.6500)
+  * eC_Par
+    * Average Quality Gain: 0.1087 (Average Score: 1.5162)
+    * Highest Quality Gain: 0.1375 (Best Score: 1.4875)
+    * Lowest Quality Gain: 0.0750 (Worst Score: 1.5500)

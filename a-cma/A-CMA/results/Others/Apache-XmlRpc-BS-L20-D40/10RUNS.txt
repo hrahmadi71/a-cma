@@ -1,0 +1,588 @@
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 633.06 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 670244
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 623.97 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 655838
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 634.06 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 657508
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 664.57 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 690193
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 645.95 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 671887
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 632.89 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 667169
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 640.81 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 676865
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 631.58 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 665304
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 634.26 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 659641
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|BS|L20|D40
+  * Run Info: Beam Search. Beam Length: 20. Randomization: 40. Iterations: 900.
+  * Time Taken: 636.66 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 669276
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 637.78 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 0.000000)
+  * Highest quality gain across all runs: 0.000000 (Score: 0.000000)
+  * Lowest quality gain across all runs: 0.000000 (Score: 0.000000)
+  * Time taken to complete task: 6377.82 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 2.6818)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.6818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.6818)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 3.7364)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.7364)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.7364)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.2455)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2455)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2455)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 1.8636)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.8636)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.8636)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0818)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0818)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 14.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 14.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 14.8333)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3235)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3235)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3235)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 3.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.5000)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.5091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5091)
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 0.7859)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7859)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7859)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)

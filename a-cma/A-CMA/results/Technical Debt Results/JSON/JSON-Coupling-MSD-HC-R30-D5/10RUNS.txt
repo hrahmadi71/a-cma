@@ -1,0 +1,470 @@
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.25 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5496
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.770833
+  * Possible Actions: 161
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.8333
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.31 seconds
+  * Quality Gain: 0.145833
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5995
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.750000
+  * Possible Actions: 162
+  * Applied Actions: 8
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.7500
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Increase Method Security] 'parseWithException(java.lang.String)' of 'org.json.simple.JSONValue' to 'PROTECTED'
+  - [2.770833][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction() into org.json.simple.parser.Yylex.<clinit>()
+  - [2.770833][Decrease Field Security] 'zzCurrentPos' of 'org.json.simple.parser.Yylex' to 'PACKAGE'
+  - [2.770833][Increase Method Security] 'parseWithException(java.lang.String)' of 'org.json.simple.JSONValue' to 'PACKAGE'
+  - [2.770833][Increase Method Security] 'startObject()' of 'org.json.simple.parser.ContentHandler' to 'PROTECTED'
+  - [2.750000][Remove Method] 'parseWithException(java.lang.String)' of type 'org.json.simple.JSONValue'
+
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.25 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5530
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.770833
+  * Possible Actions: 161
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.8333
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.30 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5662
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.770833
+  * Possible Actions: 161
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.8333
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.31 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5834
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.770833
+  * Possible Actions: 161
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.8333
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.30 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5670
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.770833
+  * Possible Actions: 161
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.8333
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.31 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5670
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.770833
+  * Possible Actions: 161
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.8333
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.34 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5500
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.770833
+  * Possible Actions: 161
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.8333
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.30 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5341
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.770833
+  * Possible Actions: 161
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.8333
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+
+====== Run Result ======
+
+* Name: JSON|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.30 seconds
+  * Quality Gain: 0.125000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5366
+
+* Initial Design:
+  * Score: 2.895833
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 6.0833
+    * Dep_In: 2.0000
+    * iC_Attr: 5.4167
+    * iC_Par: 0.6667
+    * eC_Attr: 0.1667
+    * eC_Par: 0.7500
+
+* Final Design:
+  * Score: 2.770833
+  * Possible Actions: 161
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * Dep_Out: 5.9167
+    * Dep_In: 1.8333
+    * iC_Attr: 5.4167
+    * iC_Par: 0.5000
+    * eC_Attr: 0.1667
+    * eC_Par: 0.5833
+
+* Applied Actions:
+  - [2.833333][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [2.770833][Inline Method] org.json.simple.parser.JSONParser.createArrayContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.30 seconds
+  * Average quality gain across all runs: 0.127083 (Average Score: 2.768750)
+  * Highest quality gain across all runs: 0.145833 (Score: 2.750000)
+  * Lowest quality gain across all runs: 0.125000 (Score: 2.770833)
+  * Time taken to complete task: 2.97 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.1667 (Average Score: 5.9167)
+    * Highest Quality Gain: 0.1667 (Best Score: 5.9167)
+    * Lowest Quality Gain: 0.1667 (Worst Score: 5.9167)
+  * Dep_In
+    * Average Quality Gain: 0.1750 (Average Score: 1.8250)
+    * Highest Quality Gain: 0.2500 (Best Score: 1.7500)
+    * Lowest Quality Gain: 0.1667 (Worst Score: 1.8333)
+  * iC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * iC_Par
+    * Average Quality Gain: 0.1667 (Average Score: 0.5000)
+    * Highest Quality Gain: 0.1667 (Best Score: 0.5000)
+    * Lowest Quality Gain: 0.1667 (Worst Score: 0.5000)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 0.1667)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1667)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.1667)
+  * eC_Par
+    * Average Quality Gain: 0.1667 (Average Score: 0.5833)
+    * Highest Quality Gain: 0.1667 (Best Score: 0.5833)
+    * Lowest Quality Gain: 0.1667 (Worst Score: 0.5833)

@@ -1,0 +1,372 @@
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.30 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5184
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.27 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5183
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.30 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5202
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.27 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5185
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.31 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5197
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.28 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5201
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.28 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5192
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.27 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5161
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.30 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5182
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 0.27 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 5194
+
+* Initial Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Final Design:
+  * Score: -0.880000
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * abstractness: 0.3333
+    * numInterf: 2.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.28 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.880000)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.880000)
+  * Time taken to complete task: 2.83 seconds
+
+* Metric Summary:
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)

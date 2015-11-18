@@ -1,0 +1,1449 @@
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.14 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.14 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 1.360957)
+  * Highest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Lowest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Time taken to complete task: 0.14 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 9.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 9.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 9.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.22 seconds
+  * Quality Gain: 0.008333
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.352623
+  * Possible Actions: 169
+  * Applied Actions: 1
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 8.9167
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+  - [1.352623][Remove Method] '<init>(java.io.InputStream)' of type 'org.json.simple.parser.Yylex'
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.22 seconds
+  * Average quality gain across all runs: 0.008333 (Average Score: 1.352623)
+  * Highest quality gain across all runs: 0.008333 (Score: 1.352623)
+  * Lowest quality gain across all runs: 0.008333 (Score: 1.352623)
+  * Time taken to complete task: 0.22 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0833 (Average Score: 8.9167)
+    * Highest Quality Gain: 0.0833 (Best Score: 8.9167)
+    * Lowest Quality Gain: 0.0833 (Worst Score: 8.9167)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.34 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.34 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 1.360957)
+  * Highest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Lowest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Time taken to complete task: 0.34 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 9.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 9.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 9.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.23 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.23 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 1.360957)
+  * Highest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Lowest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Time taken to complete task: 0.23 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 9.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 9.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 9.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.21 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.21 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 1.360957)
+  * Highest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Lowest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Time taken to complete task: 0.21 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 9.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 9.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 9.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.19 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.19 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 1.360957)
+  * Highest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Lowest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Time taken to complete task: 0.19 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 9.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 9.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 9.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.20 seconds
+  * Quality Gain: 0.026667
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.334290
+  * Possible Actions: 166
+  * Applied Actions: 2
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 8.8333
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 1.9167
+    * Dep_Out: 6.0000
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+  - [1.342623][Inline Method] org.json.simple.parser.JSONParser.createObjectContainer(org.json.simple.parser.ContainerFactory) into org.json.simple.parser.JSONParser.parse(java.io.Reader,org.json.simple.parser.ContainerFactory)
+  - [1.334290][Inline Method] org.json.simple.parser.Yylex.zzUnpackRowMap(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackRowMap()
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.20 seconds
+  * Average quality gain across all runs: 0.026667 (Average Score: 1.334290)
+  * Highest quality gain across all runs: 0.026667 (Score: 1.334290)
+  * Lowest quality gain across all runs: 0.026667 (Score: 1.334290)
+  * Time taken to complete task: 0.20 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.1667 (Average Score: 8.8333)
+    * Highest Quality Gain: 0.1667 (Best Score: 8.8333)
+    * Lowest Quality Gain: 0.1667 (Worst Score: 8.8333)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0833 (Average Score: 1.9167)
+    * Highest Quality Gain: 0.0833 (Best Score: 1.9167)
+    * Lowest Quality Gain: 0.0833 (Worst Score: 1.9167)
+  * Dep_Out
+    * Average Quality Gain: 0.0833 (Average Score: 6.0000)
+    * Highest Quality Gain: 0.0833 (Best Score: 6.0000)
+    * Lowest Quality Gain: 0.0833 (Worst Score: 6.0000)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.25 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.25 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 1.360957)
+  * Highest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Lowest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Time taken to complete task: 0.25 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 9.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 9.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 9.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.18 seconds
+  * Quality Gain: 0.008333
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.352623
+  * Possible Actions: 169
+  * Applied Actions: 1
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 8.9167
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+  - [1.352623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAttribute() into org.json.simple.parser.Yylex.<clinit>()
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.18 seconds
+  * Average quality gain across all runs: 0.008333 (Average Score: 1.352623)
+  * Highest quality gain across all runs: 0.008333 (Score: 1.352623)
+  * Lowest quality gain across all runs: 0.008333 (Score: 1.352623)
+  * Time taken to complete task: 0.18 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0833 (Average Score: 8.9167)
+    * Highest Quality Gain: 0.0833 (Best Score: 8.9167)
+    * Lowest Quality Gain: 0.0833 (Worst Score: 8.9167)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.22 seconds
+  * Quality Gain: 0.001429
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.359528
+  * Possible Actions: 172
+  * Applied Actions: 1
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.9953
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+  - [1.359528][Increase Field Security] 'value' of 'org.json.simple.parser.Yytoken' to 'PROTECTED'
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.22 seconds
+  * Average quality gain across all runs: 0.001429 (Average Score: 1.359528)
+  * Highest quality gain across all runs: 0.001429 (Score: 1.359528)
+  * Lowest quality gain across all runs: 0.001429 (Score: 1.359528)
+  * Time taken to complete task: 0.22 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0143 (Average Score: 0.9953)
+    * Highest Quality Gain: 0.0143 (Best Score: 0.9953)
+    * Lowest Quality Gain: 0.0143 (Worst Score: 0.9953)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 9.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 9.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 9.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.02 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.02 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 1.360957)
+  * Highest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Lowest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Time taken to complete task: 0.02 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 9.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 9.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 9.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.16 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.16 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 1.360957)
+  * Highest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Lowest quality gain across all runs: 0.000000 (Score: 1.360957)
+  * Time taken to complete task: 0.16 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 9.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 9.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 9.0000)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+====== Run Result ======
+
+* Name: JSON|Technical Debt|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5.
+  * Time Taken: 0.24 seconds
+  * Quality Gain: 0.008333
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: 1.360957
+  * Possible Actions: 171
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 9.0000
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Final Design:
+  * Score: 1.352623
+  * Possible Actions: 169
+  * Applied Actions: 1
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * avrgFieldVisibility: 1.0096
+    * NOC: 0.0000
+    * numInterf: 2.0000
+    * abstractness: 0.3333
+    * numOps: 8.9167
+    * numCls: 4.0000
+    * numFields: 5.4167
+    * NumDesc: 0.0000
+    * Dep_In: 2.0000
+    * Dep_Out: 6.0833
+    * iFImpl: 0.3333
+    * nesting: 0.0000
+
+* Applied Actions:
+  - [1.352623][Inline Method] org.json.simple.parser.Yylex.zzUnpackAction(java.lang.String,int,int[]) into org.json.simple.parser.Yylex.zzUnpackAction()
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 0.24 seconds
+  * Average quality gain across all runs: 0.008333 (Average Score: 1.352623)
+  * Highest quality gain across all runs: 0.008333 (Score: 1.352623)
+  * Lowest quality gain across all runs: 0.008333 (Score: 1.352623)
+  * Time taken to complete task: 0.24 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 1.0096)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0096)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0096)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * numOps
+    * Average Quality Gain: 0.0833 (Average Score: 8.9167)
+    * Highest Quality Gain: 0.0833 (Best Score: 8.9167)
+    * Lowest Quality Gain: 0.0833 (Worst Score: 8.9167)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 4.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.0000)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 5.4167)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.4167)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.4167)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.0000)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 6.0833)
+    * Highest Quality Gain: 0.0000 (Best Score: 6.0833)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 6.0833)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)

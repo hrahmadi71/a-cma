@@ -1,0 +1,720 @@
+====== Run Result ======
+
+* Name: Xmlrpc|THEONE
+  * Run Info: Beam Search. Beam Length: 1. Randomization: 1. Iterations: 1.
+  * Time Taken: 7.29 seconds
+  * Quality Gain: -0.122775
+  * Metric Mode: Aggregate
+  * Expanded Designs: 713
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 30.994053
+  * Possible Actions: 728
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7549
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [30.994053][Move Up Field] 'DOUBLE_TAG' of 'org.apache.xmlrpc.serializer.DoubleSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+
+====== Run Result ======
+
+* Name: Xmlrpc|THEONE
+  * Run Info: Beam Search. Beam Length: 1. Randomization: 1. Iterations: 1.
+  * Time Taken: 5.13 seconds
+  * Quality Gain: -0.122775
+  * Metric Mode: Aggregate
+  * Expanded Designs: 713
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 30.994053
+  * Possible Actions: 728
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7549
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [30.994053][Move Up Field] 'DOUBLE_TAG' of 'org.apache.xmlrpc.serializer.DoubleSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 6.21 seconds
+  * Average quality gain across all runs: 0.122775 (Average Score: 30.994053)
+  * Highest quality gain across all runs: 0.122775 (Score: 30.994053)
+  * Lowest quality gain across all runs: 0.122775 (Score: 30.994053)
+  * Time taken to complete task: 12.42 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0310 (Average Score: 0.7549)
+    * Highest Quality Gain: 0.0310 (Best Score: 0.7549)
+    * Lowest Quality Gain: 0.0310 (Worst Score: 0.7549)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.5091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5091)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 3.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.5000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3235)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3235)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3235)
+  * packagenesting
+    * Average Quality Gain: 0.0000 (Average Score: 2.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.8333)
+  * getters
+    * Average Quality Gain: 0.0000 (Average Score: 0.6909)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6909)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6909)
+  * NumAssEl_ssc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 3.7364)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.7364)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.7364)
+  * NumAssEl_nsb
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * iC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * staticness
+    * Average Quality Gain: 0.0000 (Average Score: 0.0557)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0557)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0557)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 14.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 14.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 14.8333)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)
+  * numOpsCls
+    * Average Quality Gain: 0.0000 (Average Score: 68.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 68.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 68.5000)
+  * iC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 0.5545)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5545)
+  * eC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 0.6364)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6364)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6364)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 1.8636)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.8636)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.8636)
+  * avrgMethodVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 2.6383)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.6383)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.6383)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 2.6818)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.6818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.6818)
+  * setters
+    * Average Quality Gain: 0.0000 (Average Score: 0.3273)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3273)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.2455)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2455)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2455)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 0.6545)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6545)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0818)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0818)
+  * numConstants
+    * Average Quality Gain: 0.0000 (Average Score: 0.8909)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8909)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8909)
+  * NumAnc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)
+====== Run Result ======
+
+* Name: Xmlrpc|THEONE
+  * Run Info: Beam Search. Beam Length: 1. Randomization: 1. Iterations: 1.
+  * Time Taken: 6.80 seconds
+  * Quality Gain: -0.122775
+  * Metric Mode: Aggregate
+  * Expanded Designs: 713
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 30.994053
+  * Possible Actions: 728
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7549
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [30.994053][Move Up Field] 'DOUBLE_TAG' of 'org.apache.xmlrpc.serializer.DoubleSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+
+====== Run Result ======
+
+* Name: Xmlrpc|THEONE
+  * Run Info: Beam Search. Beam Length: 1. Randomization: 1. Iterations: 1.
+  * Time Taken: 5.09 seconds
+  * Quality Gain: -0.122775
+  * Metric Mode: Aggregate
+  * Expanded Designs: 713
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 30.994053
+  * Possible Actions: 728
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7549
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [30.994053][Move Up Field] 'STRING_TAG' of 'org.apache.xmlrpc.serializer.StringSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 5.95 seconds
+  * Average quality gain across all runs: 0.122775 (Average Score: 30.994053)
+  * Highest quality gain across all runs: 0.122775 (Score: 30.994053)
+  * Lowest quality gain across all runs: 0.122775 (Score: 30.994053)
+  * Time taken to complete task: 11.89 seconds
+
+* Metric Summary:
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0310 (Average Score: 0.7549)
+    * Highest Quality Gain: 0.0310 (Best Score: 0.7549)
+    * Lowest Quality Gain: 0.0310 (Worst Score: 0.7549)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.5091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5091)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 3.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.5000)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3235)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3235)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3235)
+  * packagenesting
+    * Average Quality Gain: 0.0000 (Average Score: 2.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.8333)
+  * getters
+    * Average Quality Gain: 0.0000 (Average Score: 0.6909)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6909)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6909)
+  * NumAssEl_ssc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * numOps
+    * Average Quality Gain: 0.0000 (Average Score: 3.7364)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.7364)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.7364)
+  * NumAssEl_nsb
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * iC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * staticness
+    * Average Quality Gain: 0.0000 (Average Score: 0.0557)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0557)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0557)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 14.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 14.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 14.8333)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)
+  * numOpsCls
+    * Average Quality Gain: 0.0000 (Average Score: 68.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 68.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 68.5000)
+  * iC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 0.5545)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5545)
+  * eC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 0.6364)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6364)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6364)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 1.8636)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.8636)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.8636)
+  * avrgMethodVisibility
+    * Average Quality Gain: 0.0000 (Average Score: 2.6383)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.6383)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.6383)
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 2.6818)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.6818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.6818)
+  * setters
+    * Average Quality Gain: 0.0000 (Average Score: 0.3273)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3273)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.2455)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2455)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2455)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 0.6545)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6545)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0818)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0818)
+  * numConstants
+    * Average Quality Gain: 0.0000 (Average Score: 0.8909)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8909)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8909)
+  * NumAnc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)
+====== Run Result ======
+
+* Name: Xmlrpc|THEONE
+  * Run Info: Beam Search. Beam Length: 1. Randomization: 1. Iterations: 1.
+  * Time Taken: 6.08 seconds
+  * Quality Gain: 0.122775
+  * Metric Mode: Aggregate
+  * Expanded Designs: 713
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 30.994053
+  * Possible Actions: 728
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7549
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [30.994053][Move Up Field] 'STRING_TAG' of 'org.apache.xmlrpc.serializer.StringSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+
+====== Run Result ======
+
+* Name: Xmlrpc|THEONE
+  * Run Info: Beam Search. Beam Length: 1. Randomization: 1. Iterations: 1.
+  * Time Taken: 4.42 seconds
+  * Quality Gain: 0.122775
+  * Metric Mode: Aggregate
+  * Expanded Designs: 713
+
+* Initial Design:
+  * Score: 31.116827
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7859
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Final Design:
+  * Score: 30.994053
+  * Possible Actions: 728
+  * Applied Actions: 1
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.7549
+    * NOC: 0.5091
+    * numInterf: 3.5000
+    * abstractness: 0.3235
+    * packagenesting: 2.8333
+    * getters: 0.6909
+    * NumAssEl_ssc: 0.0000
+    * numOps: 3.7364
+    * NumAssEl_nsb: 0.0000
+    * iC_Attr: 2.1273
+    * staticness: 0.0557
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * NumDesc: 0.7091
+    * numOpsCls: 68.5000
+    * iC_Par: 0.5545
+    * eC_Par: 0.6364
+    * Dep_In: 1.8636
+    * avrgMethodVisibility: 2.6383
+    * Dep_Out: 2.6818
+    * setters: 0.3273
+    * iFImpl: 0.2455
+    * eC_Attr: 0.6545
+    * nesting: 0.0818
+    * numConstants: 0.8909
+    * NumAnc: 0.7091
+
+* Applied Actions:
+  - [30.994053][Move Up Field] 'STRING_TAG' of 'org.apache.xmlrpc.serializer.StringSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+

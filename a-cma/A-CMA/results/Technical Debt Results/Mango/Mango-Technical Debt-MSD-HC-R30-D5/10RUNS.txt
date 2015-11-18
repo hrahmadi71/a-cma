@@ -1,0 +1,1287 @@
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 17.30 seconds
+  * Quality Gain: 0.056882
+  * Metric Mode: Aggregate
+  * Expanded Designs: 75529
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.435958
+  * Possible Actions: 532
+  * Applied Actions: 87
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2577
+    * numOps: 3.9072
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2809
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.381138][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.382169][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.383200][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.384231][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.385262][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.386293][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.387324][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.388355][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.389386][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.390417][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.391448][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.392478][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.393509][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.394540][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.395571][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.396602][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.398664][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.399695][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.400726][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.401757][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.402788][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.403819][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.404850][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.405880][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.406911][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.407942][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.408973][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.410004][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.411035][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.412066][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.413097][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.414128][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.415159][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.416190][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.417221][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.418252][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.419178][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.422264][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422881][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.423499][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.424116][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.424733][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425350][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425968][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.426431][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.426894][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.427357][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.427820][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.428282][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.428745][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.429208][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.429671][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.430134][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.430597][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.430597][Increase Method Security] 'remove()' of 'uk.co.jezuk.mango.iterators.TransformIterator' to 'PROTECTED'
+  - [-0.430597][Increase Method Security] 'test(java.lang.reflect.Method)' of 'uk.co.jezuk.mango.Adapt$AnyUnaryMethodNamed' to 'PROTECTED'
+  - [-0.430597][Increase Method Security] 'Or(uk.co.jezuk.mango.BinaryPredicate,uk.co.jezuk.mango.BinaryPredicate)' of 'uk.co.jezuk.mango.BinaryPredicates' to 'PROTECTED'
+  - [-0.429979][Freeze Method] Convert 'next()' of 'uk.co.jezuk.mango.iterators.SelectingIterator' to static 
+  - [-0.429979][Increase Method Security] 'BoundedIterator(java.util.Iterator,int,int)' of 'uk.co.jezuk.mango.Iterators' to 'PROTECTED'
+  - [-0.431010][Inline Method] uk.co.jezuk.mango.Adapt$AnyUnaryMethodNamed.test(java.lang.reflect.Method) into uk.co.jezuk.mango.Adapt$AnyUnaryMethodNamed.test(java.lang.Object)
+  - [-0.431010][Increase Method Security] 'remove()' of 'uk.co.jezuk.mango.iterators.TransformIterator' to 'PACKAGE'
+  - [-0.431010][Increase Method Security] 'next()' of 'uk.co.jezuk.mango.iterators.BoundedIterator' to 'PROTECTED'
+  - [-0.431010][Increase Method Security] 'IntegerSequence()' of 'uk.co.jezuk.mango.Generators' to 'PROTECTED'
+  - [-0.431010][Increase Method Security] 'SingletonIterator(java.lang.Object)' of 'uk.co.jezuk.mango.Iterators' to 'PROTECTED'
+  - [-0.431010][Freeze Method] Convert 'remove()' of 'uk.co.jezuk.mango.iterators.ChainIterator' to static 
+  - [-0.432041][Remove Method] 'remove()' of type 'uk.co.jezuk.mango.iterators.TransformIterator'
+  - [-0.432041][Freeze Method] Convert 'remove()' of 'uk.co.jezuk.mango.iterators.StringIterator' to static 
+  - [-0.431422][Freeze Method] Convert 'remove()' of 'uk.co.jezuk.mango.iterators.ReverseIterator' to static 
+  - [-0.431422][Increase Method Security] 'test(java.lang.reflect.Method)' of 'uk.co.jezuk.mango.Adapt$UnaryMethodNamed' to 'PROTECTED'
+  - [-0.430496][Decrease Field Security] 'current_' of 'uk.co.jezuk.mango.iterators.ChainIterator' to 'PACKAGE'
+  - [-0.430033][Decrease Field Security] 'index_' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer' to 'PACKAGE'
+  - [-0.431064][Inline Method] uk.co.jezuk.mango.Adapt$UnaryMethodNamed.test(java.lang.reflect.Method) into uk.co.jezuk.mango.Adapt$UnaryMethodNamed.test(java.lang.Object)
+  - [-0.431990][Increase Field Security] 'current_' of 'uk.co.jezuk.mango.iterators.ChainIterator' to 'PRIVATE'
+  - [-0.432453][Increase Field Security] 'index_' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer' to 'PRIVATE'
+  - [-0.432453][Increase Method Security] 'values()' of 'uk.co.jezuk.mango.unarypredicates.IsNull' to 'PROTECTED'
+  - [-0.432453][Increase Method Security] 'Or(uk.co.jezuk.mango.BinaryPredicate,uk.co.jezuk.mango.BinaryPredicate)' of 'uk.co.jezuk.mango.BinaryPredicates' to 'PACKAGE'
+  - [-0.428329][Introduce Factory] for uk.co.jezuk.mango.binarypredicates.And.<init>(uk.co.jezuk.mango.BinaryPredicate,uk.co.jezuk.mango.BinaryPredicate)
+  - [-0.427403][Decrease Field Security] 'index_' of 'uk.co.jezuk.mango.iterators.TeeIterator$WrapIterator' to 'PACKAGE'
+  - [-0.427403][Make Class Final] uk.co.jezuk.mango.iterators.BoundedIterator$listIterator
+  - [-0.431527][Remove Method] 'Or(uk.co.jezuk.mango.BinaryPredicate,uk.co.jezuk.mango.BinaryPredicate)' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.435032][Inline Method] uk.co.jezuk.mango.binarypredicates.And.<init>(uk.co.jezuk.mango.BinaryPredicate,uk.co.jezuk.mango.BinaryPredicate) into uk.co.jezuk.mango.binarypredicates.And.createuk.co.jezuk.mango.binarypredicates.And(uk.co.jezuk.mango.BinaryPredicate,uk.co.jezuk.mango.BinaryPredicate)
+  - [-0.435958][Increase Field Security] 'index_' of 'uk.co.jezuk.mango.iterators.TeeIterator$WrapIterator' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 15.92 seconds
+  * Quality Gain: 0.052551
+  * Metric Mode: Aggregate
+  * Expanded Designs: 70894
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.431627
+  * Possible Actions: 537
+  * Applied Actions: 68
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 3.9381
+    * iFImpl: 0.4433
+    * Dep_In: 2.4330
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2747
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.381138][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.382169][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.383200][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.384231][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.385262][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.386293][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.387324][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.388355][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.389386][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.390417][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.391448][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.392478][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.393509][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.394540][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.395571][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.396602][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.398664][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.399695][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.400726][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.401757][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.402788][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.403819][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.404850][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.405880][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.406911][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.407942][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.408973][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.410004][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.411035][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.412066][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.413097][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.414128][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.415159][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.416190][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.417221][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.418252][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.419178][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'item' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422264][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.422881][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.423499][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.424116][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.424733][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.425350][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.425968][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.426585][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.427048][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.427511][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.427974][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.428437][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.428900][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.429363][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.429826][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.430289][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.430752][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.431215][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.430596][Freeze Method] Convert 'hasNext()' of 'uk.co.jezuk.mango.iterators.StringIterator' to static 
+  - [-0.429670][Decrease Field Security] 'p1_' of 'uk.co.jezuk.mango.unarypredicates.Xnor' to 'PACKAGE'
+  - [-0.429670][Increase Method Security] 'next()' of 'uk.co.jezuk.mango.iterators.ZipIterator' to 'PROTECTED'
+  - [-0.429052][Freeze Method] Convert 'next()' of 'uk.co.jezuk.mango.iterators.ZipIterator' to static 
+  - [-0.428126][Decrease Field Security] 'method_' of 'uk.co.jezuk.mango.Adapt$3' to 'PACKAGE'
+  - [-0.429775][Inline Method] uk.co.jezuk.mango.iterators.ZipIterator.next(uk.co.jezuk.mango.iterators.ZipIterator) into uk.co.jezuk.mango.iterators.ZipIterator.next()
+  - [-0.430701][Increase Field Security] 'method_' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.431627][Increase Field Security] 'p1_' of 'uk.co.jezuk.mango.unarypredicates.Xnor' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 15.67 seconds
+  * Quality Gain: 0.052138
+  * Metric Mode: Aggregate
+  * Expanded Designs: 70344
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.431215
+  * Possible Actions: 540
+  * Applied Actions: 60
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 3.9485
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2747
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.381138][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.382169][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.383200][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.384231][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.385262][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.386293][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.387324][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.388355][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.389386][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.390417][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.391448][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.392478][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.393509][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.394540][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.395571][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.396602][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.398664][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.399695][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.400726][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.401757][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.402788][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.403819][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.404850][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.405880][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.406911][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.407942][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.408973][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.410004][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.411035][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.412066][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.413097][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.414128][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.415159][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.416190][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.417221][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.418252][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.419178][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.422264][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422881][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.423499][Increase Field Security] 'item' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.424116][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.424733][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425350][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425968][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.426585][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.427048][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.427511][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.427974][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.428437][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.428900][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.429363][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.429826][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.430289][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.430752][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.431215][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 16.19 seconds
+  * Quality Gain: 0.052346
+  * Metric Mode: Aggregate
+  * Expanded Designs: 73278
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.431422
+  * Possible Actions: 535
+  * Applied Actions: 73
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 3.9278
+    * iFImpl: 0.4433
+    * Dep_In: 2.4433
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2809
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.381138][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.382169][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.383200][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.384231][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.385262][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.386293][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.387324][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.388355][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.389386][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.390417][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.391448][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.392478][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.393509][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.394540][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.395571][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.396602][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.398664][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.399695][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.400726][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.401757][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.402788][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.403819][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.404850][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.405880][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.406911][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.407942][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.408973][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.410004][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.411035][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.412066][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.413097][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.414128][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.415159][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.416190][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.417221][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.418252][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.419178][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.422264][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422881][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.423499][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.424116][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.424733][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425350][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.425968][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.426431][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.426894][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.427357][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.427820][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.428282][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.428745][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.429208][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.429671][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.430134][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.430597][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.426474][Introduce Factory] for uk.co.jezuk.mango.unarypredicates.Or.<init>(uk.co.jezuk.mango.Predicate,uk.co.jezuk.mango.Predicate)
+  - [-0.426474][Increase Method Security] 'next()' of 'uk.co.jezuk.mango.iterators.SelectingIterator' to 'PROTECTED'
+  - [-0.426474][Make Class Non-Final] uk.co.jezuk.mango.unarypredicates.NotNull
+  - [-0.426474][Increase Method Security] 'Constant(boolean)' of 'uk.co.jezuk.mango.Predicates' to 'PROTECTED'
+  - [-0.426474][Increase Method Security] 'toIterator(java.lang.Object)' of 'uk.co.jezuk.mango.iterators.Helpers' to 'PROTECTED'
+  - [-0.429979][Inline Method] uk.co.jezuk.mango.unarypredicates.Or.<init>(uk.co.jezuk.mango.Predicate,uk.co.jezuk.mango.Predicate) into uk.co.jezuk.mango.unarypredicates.Or.createuk.co.jezuk.mango.unarypredicates.Or(uk.co.jezuk.mango.Predicate,uk.co.jezuk.mango.Predicate)
+  - [-0.431010][Inline Method] uk.co.jezuk.mango.iterators.Helpers.toIterator(java.lang.Object) into uk.co.jezuk.mango.iterators.Helpers.toIterators(java.lang.Object[])
+  - [-0.431010][Increase Method Security] 'test(java.lang.reflect.Method)' of 'uk.co.jezuk.mango.Adapt$UnaryMethodNamed' to 'PROTECTED'
+  - [-0.430547][Decrease Field Security] 'iterator_' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer' to 'PACKAGE'
+  - [-0.430547][Decrease Method Security] 'Constant(boolean)' of 'uk.co.jezuk.mango.Predicates' to 'PUBLIC'
+  - [-0.430547][Increase Method Security] 'test(java.lang.Object)' of 'uk.co.jezuk.mango.Adapt$NullaryMethodNamed' to 'PROTECTED'
+  - [-0.429928][Freeze Method] Convert 'get(java.lang.Object)' of 'uk.co.jezuk.mango.collections.MapFactory$Builder' to static 
+  - [-0.430959][Inline Method] uk.co.jezuk.mango.Adapt$UnaryMethodNamed.test(java.lang.reflect.Method) into uk.co.jezuk.mango.Adapt$UnaryMethodNamed.test(java.lang.Object)
+  - [-0.431422][Increase Field Security] 'iterator_' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 15.38 seconds
+  * Quality Gain: 0.050904
+  * Metric Mode: Aggregate
+  * Expanded Designs: 68072
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.429980
+  * Possible Actions: 539
+  * Applied Actions: 58
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 3.9485
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2870
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.381138][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.382169][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.383200][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.384231][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.385262][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.386293][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.387324][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.388355][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.389386][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.390417][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.391448][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.392478][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.393509][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.394540][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.395571][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.396602][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.398664][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.399695][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.400726][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.401757][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.402788][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.403819][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.404850][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.405880][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.406911][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.407942][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.408973][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.410004][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.411035][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.412066][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.413097][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.414128][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.415159][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.416190][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.417221][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.418252][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.419178][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422264][Increase Field Security] 'item' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422881][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.423499][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.424116][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.424733][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425350][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425813][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.426276][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.426739][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.427202][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.427665][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.428128][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.428591][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.429054][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.429517][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.429980][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 15.89 seconds
+  * Quality Gain: 0.055025
+  * Metric Mode: Aggregate
+  * Expanded Designs: 71509
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.434101
+  * Possible Actions: 543
+  * Applied Actions: 86
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 3.9072
+    * iFImpl: 0.4433
+    * Dep_In: 2.4433
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2747
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.381138][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.382169][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.383200][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.384231][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.385262][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.386293][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.387324][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.388355][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.389386][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.390417][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.391448][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.392478][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.393509][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.394540][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.395571][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.396602][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.398664][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.399695][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.400726][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.401757][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.402788][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.403819][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.404850][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.405880][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.406911][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.407942][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.408973][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.410004][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.411035][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.412066][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.413097][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.414128][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.415159][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.416190][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.417221][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.418252][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.419178][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.422264][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.422881][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.423499][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.424116][Increase Field Security] 'item' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.424733][Increase Field Security] 'item' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.425350][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.425968][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.426585][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.427048][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.427511][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.427974][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.428437][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.428900][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.429363][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.429826][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.430289][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.430752][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.431215][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.431215][Increase Method Security] 'test(java.lang.reflect.Method)' of 'uk.co.jezuk.mango.Adapt$UnaryMethodNamed' to 'PROTECTED'
+  - [-0.431215][Increase Method Security] 'forEach(java.util.Collection,uk.co.jezuk.mango.Function)' of 'uk.co.jezuk.mango.Algorithms' to 'PROTECTED'
+  - [-0.431215][Increase Method Security] 'values()' of 'uk.co.jezuk.mango.functions.Identity' to 'PROTECTED'
+  - [-0.431215][Increase Method Security] 'unique(java.util.Collection)' of 'uk.co.jezuk.mango.Algorithms' to 'PROTECTED'
+  - [-0.430596][Freeze Method] Convert 'test(java.lang.reflect.Method)' of 'uk.co.jezuk.mango.Adapt$NullaryMethodNamed' to static 
+  - [-0.431627][Inline Method] uk.co.jezuk.mango.Adapt$UnaryMethodNamed.test(java.lang.reflect.Method) into uk.co.jezuk.mango.Adapt$UnaryMethodNamed.test(java.lang.Object)
+  - [-0.429775][Decrease Field Security] 'zip_' of 'uk.co.jezuk.mango.iterators.ZipIterator' to 'PACKAGE'
+  - [-0.429775][Increase Method Security] 'remove()' of 'uk.co.jezuk.mango.iterators.GeneratorIterator' to 'PROTECTED'
+  - [-0.429775][Increase Method Security] 'ZipIterator(java.lang.Object[])' of 'uk.co.jezuk.mango.Iterators' to 'PROTECTED'
+  - [-0.429775][Increase Method Security] 'toIterator(java.lang.Object)' of 'uk.co.jezuk.mango.iterators.Helpers' to 'PROTECTED'
+  - [-0.429775][Increase Method Security] 'count(java.util.List,int,int,java.lang.Object)' of 'uk.co.jezuk.mango.Algorithms' to 'PROTECTED'
+  - [-0.431627][Increase Field Security] 'zip_' of 'uk.co.jezuk.mango.iterators.ZipIterator' to 'PRIVATE'
+  - [-0.432658][Inline Method] uk.co.jezuk.mango.iterators.Helpers.toIterator(java.lang.Object) into uk.co.jezuk.mango.iterators.Helpers.toIterators(java.lang.Object[])
+  - [-0.432658][Increase Method Security] 'hasNext()' of 'uk.co.jezuk.mango.iterators.ChainIterator' to 'PROTECTED'
+  - [-0.432039][Freeze Method] Convert 'fn(java.lang.Object)' of 'uk.co.jezuk.mango.Adapt$2' to static 
+  - [-0.432039][Increase Method Security] 'find(java.util.Collection,java.lang.Object)' of 'uk.co.jezuk.mango.Algorithms' to 'PROTECTED'
+  - [-0.431576][Decrease Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PACKAGE'
+  - [-0.431576][Increase Method Security] 'count(java.util.List,int,int,java.lang.Object)' of 'uk.co.jezuk.mango.Algorithms' to 'PACKAGE'
+  - [-0.432607][Remove Method] 'count(java.util.List,int,int,java.lang.Object)' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.433070][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.433070][Increase Method Security] 'StringIterator(java.lang.String)' of 'uk.co.jezuk.mango.Iterators' to 'PROTECTED'
+  - [-0.433070][Increase Method Security] 'test(java.lang.reflect.Method)' of 'uk.co.jezuk.mango.Adapt$AnyUnaryMethodNamed' to 'PROTECTED'
+  - [-0.433070][Increase Method Security] 'hasNext()' of 'uk.co.jezuk.mango.iterators.TransformIterator' to 'PROTECTED'
+  - [-0.433070][Increase Method Security] 'hasNext()' of 'uk.co.jezuk.mango.iterators.BoundedIterator' to 'PROTECTED'
+  - [-0.433070][Increase Method Security] 'remove()' of 'uk.co.jezuk.mango.iterators.ZipIterator' to 'PROTECTED'
+  - [-0.434101][Inline Method] uk.co.jezuk.mango.Adapt$AnyUnaryMethodNamed.test(java.lang.reflect.Method) into uk.co.jezuk.mango.Adapt$AnyUnaryMethodNamed.test(java.lang.Object)
+
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 15.97 seconds
+  * Quality Gain: 0.050286
+  * Metric Mode: Aggregate
+  * Expanded Designs: 71760
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.429363
+  * Possible Actions: 538
+  * Applied Actions: 57
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 3.9485
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2932
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.381138][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.382169][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.383200][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.384231][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.385262][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.386293][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.387324][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.388355][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.389386][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.390417][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.391448][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.392478][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.393509][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.394540][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.395571][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.396602][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.398664][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.399695][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.400726][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.401757][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.402788][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.403819][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.404850][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.405880][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.406911][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.407942][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.408973][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.410004][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.411035][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.412066][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.413097][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.414128][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.415159][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.416190][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.417221][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.418252][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.419178][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.422264][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422881][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.423499][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.424116][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.424733][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.425196][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.425659][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.426122][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.426585][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.427048][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.427511][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.427974][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.428437][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.428900][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.429363][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 15.92 seconds
+  * Quality Gain: 0.055646
+  * Metric Mode: Aggregate
+  * Expanded Designs: 71694
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.434722
+  * Possible Actions: 532
+  * Applied Actions: 81
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2680
+    * numOps: 3.9072
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2870
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.381138][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.382169][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.383200][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.384231][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.385262][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.386293][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.387324][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.388355][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.389386][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.390417][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.391448][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.392478][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.393509][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.394540][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.395571][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.396602][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.398664][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.399695][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.400726][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.401757][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.402788][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.403819][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.404850][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.405880][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.406911][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.407942][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.408973][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.410004][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.411035][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.412066][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.413097][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.414128][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.415159][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.416190][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.417221][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.418252][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.419178][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.422264][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422881][Increase Field Security] 'useCount' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.423499][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.424116][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.424733][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425350][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425813][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.426276][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.426739][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.427202][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.427665][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.428128][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.428591][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.429054][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.429517][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.429980][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.428331][Introduce Factory] for uk.co.jezuk.mango.unarypredicates.Any.<init>(java.util.Iterator)
+  - [-0.428331][Increase Method Security] 'SkippingIterator(java.util.Iterator,uk.co.jezuk.mango.Predicate)' of 'uk.co.jezuk.mango.Iterators' to 'PROTECTED'
+  - [-0.428331][Increase Method Security] 'SkippingIterator(java.util.Iterator,uk.co.jezuk.mango.Predicate)' of 'uk.co.jezuk.mango.Iterators' to 'PACKAGE'
+  - [-0.427712][Freeze Method] Convert 'test(java.lang.Object,java.lang.Object)' of 'uk.co.jezuk.mango.binarypredicates.And' to static 
+  - [-0.427712][Increase Method Security] 'test(java.lang.Object)' of 'uk.co.jezuk.mango.unarypredicates.Any' to 'PROTECTED'
+  - [-0.430599][Remove Method] 'SkippingIterator(java.util.Iterator,uk.co.jezuk.mango.Predicate)' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.431630][Inline Method] uk.co.jezuk.mango.unarypredicates.Any.<init>(java.util.Iterator) into uk.co.jezuk.mango.unarypredicates.Any.createuk.co.jezuk.mango.unarypredicates.Any()
+  - [-0.429980][Introduce Factory] for uk.co.jezuk.mango.unarypredicates.All.<init>(java.util.Iterator)
+  - [-0.429980][Increase Method Security] 'All(java.lang.Object[])' of 'uk.co.jezuk.mango.Predicates' to 'PROTECTED'
+  - [-0.429517][Decrease Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PACKAGE'
+  - [-0.428591][Decrease Field Security] 'transform_' of 'uk.co.jezuk.mango.iterators.TransformIterator' to 'PACKAGE'
+  - [-0.428591][Increase Method Security] 'All(java.lang.Object[])' of 'uk.co.jezuk.mango.Predicates' to 'PACKAGE'
+  - [-0.430241][Remove Method] 'All(java.lang.Object[])' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.431272][Inline Method] uk.co.jezuk.mango.unarypredicates.All.<init>(java.util.Iterator) into uk.co.jezuk.mango.unarypredicates.All.createuk.co.jezuk.mango.unarypredicates.All()
+  - [-0.432197][Increase Field Security] 'transform_' of 'uk.co.jezuk.mango.iterators.TransformIterator' to 'PRIVATE'
+  - [-0.432660][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.432042][Freeze Method] Convert 'test(java.lang.Object,java.lang.Object)' of 'uk.co.jezuk.mango.binarypredicates.Or' to static 
+  - [-0.432042][Increase Method Security] 'entrySet()' of 'uk.co.jezuk.mango.collections.MapFactory$Builder' to 'PROTECTED'
+  - [-0.432042][Increase Method Security] 'test(java.lang.reflect.Method)' of 'uk.co.jezuk.mango.Adapt$NullaryMethodNamed' to 'PROTECTED'
+  - [-0.432042][Increase Method Security] 'OneOf(java.lang.Object[])' of 'uk.co.jezuk.mango.Predicates' to 'PROTECTED'
+  - [-0.432042][Increase Method Security] 'OneOf(java.lang.Object[])' of 'uk.co.jezuk.mango.Predicates' to 'PACKAGE'
+  - [-0.433691][Remove Method] 'OneOf(java.lang.Object[])' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.434722][Inline Method] uk.co.jezuk.mango.Adapt$NullaryMethodNamed.test(java.lang.reflect.Method) into uk.co.jezuk.mango.Adapt$NullaryMethodNamed.test(java.lang.Object)
+
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 16.21 seconds
+  * Quality Gain: 0.052966
+  * Metric Mode: Aggregate
+  * Expanded Designs: 72518
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.432042
+  * Possible Actions: 541
+  * Applied Actions: 72
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 3.9278
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2870
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.381138][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.382169][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.383200][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.384231][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.385262][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.386293][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.387324][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.388355][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.389386][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.390417][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.391448][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.392478][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.393509][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.394540][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.395571][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.396602][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.398664][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.399695][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.400726][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.401757][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.402788][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.403819][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.404850][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.405880][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.406911][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.407942][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.408973][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.410004][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.411035][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.412066][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.413097][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.414128][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.415159][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.416190][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.417221][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.418252][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.419178][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.422264][Increase Field Security] 'item' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422881][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.423499][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.424116][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.424733][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425350][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425813][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.426276][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.426739][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.427202][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.427665][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.428128][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.428591][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.429054][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.429517][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.429980][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.429980][Increase Method Security] 'findPosition(java.util.Collection,java.lang.Object)' of 'uk.co.jezuk.mango.Algorithms' to 'PROTECTED'
+  - [-0.429980][Increase Method Security] 'test(java.lang.reflect.Method)' of 'uk.co.jezuk.mango.Adapt$NullaryMethodNamed' to 'PROTECTED'
+  - [-0.429980][Increase Method Security] 'map(java.lang.Object,java.lang.Object)' of 'uk.co.jezuk.mango.Collections$MapBuilder' to 'PROTECTED'
+  - [-0.429980][Increase Method Security] 'get(int)' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer' to 'PROTECTED'
+  - [-0.429980][Increase Method Security] 'All(java.util.Iterator)' of 'uk.co.jezuk.mango.Predicates' to 'PROTECTED'
+  - [-0.431011][Inline Method] uk.co.jezuk.mango.Adapt$NullaryMethodNamed.test(java.lang.reflect.Method) into uk.co.jezuk.mango.Adapt$NullaryMethodNamed.test(java.lang.Object)
+  - [-0.431011][Increase Method Security] 'remove()' of 'uk.co.jezuk.mango.iterators.BoundedIterator$listIterator' to 'PROTECTED'
+  - [-0.430085][Decrease Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PACKAGE'
+  - [-0.430085][Increase Method Security] 'findPosition(java.util.Collection,java.lang.Object)' of 'uk.co.jezuk.mango.Algorithms' to 'PACKAGE'
+  - [-0.430085][Increase Method Security] 'test(java.lang.Object)' of 'uk.co.jezuk.mango.unarypredicates.Any' to 'PROTECTED'
+  - [-0.429159][Decrease Field Security] 'spent_' of 'uk.co.jezuk.mango.iterators.SingletonIterator' to 'PACKAGE'
+  - [-0.430190][Remove Method] 'findPosition(java.util.Collection,java.lang.Object)' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.431116][Increase Field Security] 'spent_' of 'uk.co.jezuk.mango.iterators.SingletonIterator' to 'PRIVATE'
+  - [-0.432042][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+
+====== Run Result ======
+
+* Name: Mango|Technical Debt|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 16.53 seconds
+  * Quality Gain: 0.050286
+  * Metric Mode: Aggregate
+  * Expanded Designs: 73920
+
+* Initial Design:
+  * Score: -0.379076
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 4.3402
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.4043
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.429363
+  * Possible Actions: 538
+  * Applied Actions: 57
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * numOps: 3.9485
+    * iFImpl: 0.4433
+    * Dep_In: 2.4227
+    * nesting: 0.1237
+    * numCls: 11.3750
+    * numFields: 1.1649
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+    * NOC: 0.0000
+    * avrgFieldVisibility: 0.2932
+    * NumDesc: 0.0000
+
+* Applied Actions:
+  - [-0.380107][Inline Method] uk.co.jezuk.mango.binarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.False.<clinit>()
+  - [-0.381138][Inline Method] uk.co.jezuk.mango.unarypredicates.IsNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.IsNull.<clinit>()
+  - [-0.382169][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Remove'
+  - [-0.383200][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Adapt'
+  - [-0.384231][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryFunctions'
+  - [-0.385262][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Iterators'
+  - [-0.386293][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Unique'
+  - [-0.387324][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Algorithms'
+  - [-0.388355][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.Helpers'
+  - [-0.389386][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Predicates'
+  - [-0.390417][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIfNot'
+  - [-0.391448][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPositionIf'
+  - [-0.392478][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.iterators.TeeIterator'
+  - [-0.393509][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Partition'
+  - [-0.394540][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.ForEach'
+  - [-0.395571][Inline Method] uk.co.jezuk.mango.iterators.NullIterator.<init>(java.lang.String,int) into uk.co.jezuk.mango.iterators.NullIterator.<clinit>()
+  - [-0.396602][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Count'
+  - [-0.397633][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Collections'
+  - [-0.398664][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.SymmetricDifference'
+  - [-0.399695][Inline Method] uk.co.jezuk.mango.generators.NullSequence.<init>(java.lang.String,int) into uk.co.jezuk.mango.generators.NullSequence.<clinit>()
+  - [-0.400726][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.Bind'
+  - [-0.401757][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Transform'
+  - [-0.402788][Inline Method] uk.co.jezuk.mango.algorithms.Count.execute_null(java.util.Iterator) into uk.co.jezuk.mango.algorithms.Count.execute(java.util.Iterator,java.lang.Object)
+  - [-0.403819][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindPosition'
+  - [-0.404850][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIfNot'
+  - [-0.405880][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.FindIf'
+  - [-0.406911][Inline Method] uk.co.jezuk.mango.unarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.True.<clinit>()
+  - [-0.407942][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.BinaryPredicates'
+  - [-0.408973][Inline Method] uk.co.jezuk.mango.collections.MapFactory$Builder.<init>() into uk.co.jezuk.mango.collections.MapFactory$Builder.<init>(uk.co.jezuk.mango.collections.MapFactory$1)
+  - [-0.410004][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.CountIf'
+  - [-0.411035][Inline Method] uk.co.jezuk.mango.iterators.BoundedIterator.checkConstraints(int,int) into uk.co.jezuk.mango.iterators.BoundedIterator.access$000(int,int)
+  - [-0.412066][Inline Method] uk.co.jezuk.mango.unarypredicates.NotNull.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.NotNull.<clinit>()
+  - [-0.413097][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Find'
+  - [-0.414128][Inline Method] uk.co.jezuk.mango.unarypredicates.False.<init>(java.lang.String,int) into uk.co.jezuk.mango.unarypredicates.False.<clinit>()
+  - [-0.415159][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.RemoveIf'
+  - [-0.416190][Remove Method] '<init>()' of type 'uk.co.jezuk.mango.algorithms.Intersection'
+  - [-0.417221][Inline Method] uk.co.jezuk.mango.binarypredicates.True.<init>(java.lang.String,int) into uk.co.jezuk.mango.binarypredicates.True.<clinit>()
+  - [-0.418252][Inline Method] uk.co.jezuk.mango.functions.Identity.<init>(java.lang.String,int) into uk.co.jezuk.mango.functions.Identity.<clinit>()
+  - [-0.419178][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.420103][Increase Field Security] 'val$g' of 'uk.co.jezuk.mango.Functions$1' to 'PRIVATE'
+  - [-0.421029][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$3' to 'PRIVATE'
+  - [-0.421647][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PROTECTED'
+  - [-0.422264][Increase Field Security] 'val$methodName' of 'uk.co.jezuk.mango.Adapt$2' to 'PRIVATE'
+  - [-0.422881][Increase Field Security] 'index' of 'uk.co.jezuk.mango.iterators.TeeIterator$Buffer$Item' to 'PACKAGE'
+  - [-0.423499][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.424116][Increase Field Security] 'val$g1' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.424733][Increase Field Security] 'val$g2' of 'uk.co.jezuk.mango.BinaryFunctions$1' to 'PRIVATE'
+  - [-0.425196][Increase Field Security] 'val$method' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.425659][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.426122][Increase Field Security] 'val$obj' of 'uk.co.jezuk.mango.Adapt$1' to 'PRIVATE'
+  - [-0.426585][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.427048][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+  - [-0.427511][Increase Field Security] 'val$c' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.427974][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$3' to 'PRIVATE'
+  - [-0.428437][Increase Field Security] 'val$f' of 'uk.co.jezuk.mango.Bind$1' to 'PRIVATE'
+  - [-0.428900][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$4' to 'PRIVATE'
+  - [-0.429363][Increase Field Security] 'val$p' of 'uk.co.jezuk.mango.Bind$2' to 'PRIVATE'
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 16.10 seconds
+  * Average quality gain across all runs: 0.052903 (Average Score: -0.431979)
+  * Highest quality gain across all runs: 0.056882 (Score: -0.435958)
+  * Lowest quality gain across all runs: 0.050286 (Score: -0.429363)
+  * Time taken to complete task: 160.98 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.0031 (Average Score: 2.2753)
+    * Highest Quality Gain: 0.0206 (Best Score: 2.2577)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.2784)
+  * numOps
+    * Average Quality Gain: 0.4093 (Average Score: 3.9309)
+    * Highest Quality Gain: 0.4330 (Best Score: 3.9072)
+    * Lowest Quality Gain: 0.3918 (Worst Score: 3.9485)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.4433)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.4433)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.4433)
+  * Dep_In
+    * Average Quality Gain: -0.0052 (Average Score: 2.4278)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.4227)
+    * Lowest Quality Gain: -0.0206 (Worst Score: 2.4433)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.1237)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1237)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.1237)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 11.3750)
+    * Highest Quality Gain: 0.0000 (Best Score: 11.3750)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 11.3750)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 1.1649)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.1649)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.1649)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.0268)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0268)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0268)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 0.7500)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7500)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7500)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.1210 (Average Score: 0.2833)
+    * Highest Quality Gain: 0.1296 (Best Score: 0.2747)
+    * Lowest Quality Gain: 0.1111 (Worst Score: 0.2932)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)

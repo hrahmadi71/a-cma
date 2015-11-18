@@ -1,0 +1,788 @@
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 1975.50 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 717
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7455
+    * iFImpl: 0.2455
+    * Dep_In: 1.9000
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7909
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Move Up Field] 'BOOLEAN_TAG' of 'org.apache.xmlrpc.serializer.BooleanSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+  - [0.000000][Move Down Field] 'VALUE_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.DoubleSerializer'
+  - [0.000000][Increase Method Security] 'readLine(java.io.InputStream,byte[])' of 'org.apache.xmlrpc.util.HttpUtil' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'clazz' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$IdentityTypeConverter' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes)' of 'org.apache.xmlrpc.parser.RecursiveTypeParserImpl' to 'PROTECTED'
+  - [0.000000][Decrease Method Security] 'class$(java.lang.String)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes)' of 'org.apache.xmlrpc.parser.AtomicParser' to static 
+  - [0.000000][Increase Method Security] 'characters(char[],int,int)' of 'org.apache.xmlrpc.parser.TypeParserImpl' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'newList(int)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$ListTypeConverter' to 'PACKAGE'
+  - [0.000000][Decrease Method Security] 'write(org.xml.sax.ContentHandler,java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to 'PUBLIC'
+  - [0.000000][Increase Method Security] 'setMaxThreads(int)' of 'org.apache.xmlrpc.common.XmlRpcController' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'setResult(java.lang.String)' of 'org.apache.xmlrpc.parser.AtomicParser' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.parser.LongParser.<init>()
+  - [0.000000][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.BigDecimalSerializer' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'getNumThreads()' of 'org.apache.xmlrpc.util.ThreadPool' to static 
+  - [0.000000][Move Up Field] 'EX_I1_TAG' of 'org.apache.xmlrpc.serializer.I1Serializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+  - [0.000000][Increase Method Security] 'startDocument()' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'getConnectionTimeout()' of 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl' to static 
+  - [0.000000][Move Down Field] 'EX_I1_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.NullSerializer'
+  - [0.000000][Decrease Field Security] 'workerFactory' of 'org.apache.xmlrpc.common.XmlRpcController' to 'PACKAGE'
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 1991.82 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 723
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.7091
+    * numOps: 3.7636
+    * iFImpl: 0.2455
+    * Dep_In: 1.9545
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7809
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Increase Method Security] 'getTagName()' of 'org.apache.xmlrpc.parser.ExtParser' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.String,char[])' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.jaxb.JaxbParser.<init>(javax.xml.bind.JAXBContext)
+  - [0.000000][Increase Field Security] 'class$java$lang$Integer' of 'org.apache.xmlrpc.util.ReflectionUtil' to 'PRIVATE'
+  - [0.000000][Freeze Method] Convert 'setDocumentLocator(org.xml.sax.Locator)' of 'org.apache.xmlrpc.parser.ExtParser' to static 
+  - [0.000000][Freeze Method] Convert 'startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes)' of 'org.apache.xmlrpc.parser.AtomicParser' to static 
+  - [0.000000][Decrease Field Security] 'class$java$lang$Boolean' of 'org.apache.xmlrpc.util.ReflectionUtil' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'getDefaultXmlRpcWorkerFactory()' of 'org.apache.xmlrpc.common.XmlRpcController' to static 
+  - [0.000000][Freeze Method] Convert 'close()' of 'org.apache.xmlrpc.common.ServerStreamConnection' to static 
+  - [0.000000][Move Up Field] 'DATE_TAG' of 'org.apache.xmlrpc.serializer.CalendarSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+  - [0.000000][Increase Method Security] 'setMaxThreads(int)' of 'org.apache.xmlrpc.common.XmlRpcController' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.FloatSerializer' to static 
+  - [0.000000][Increase Method Security] 'isConvertable(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$2' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'backConvert(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$2' to 'PROTECTED'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.serializer.MapSerializer.<init>(org.apache.xmlrpc.common.TypeFactory,org.apache.xmlrpc.common.XmlRpcStreamConfig)
+  - [0.000000][Move Up Field] 'FLOAT_TAG' of 'org.apache.xmlrpc.serializer.FloatSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+  - [0.000000][Freeze Method] Convert 'getConnectionTimeout()' of 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl' to static 
+  - [0.000000][Freeze Method] Convert 'getReplyTimeout()' of 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfig' to static 
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.util.ThreadPool$Poolable.<init>(org.apache.xmlrpc.util.ThreadPool,java.lang.ThreadGroup,int)
+  - [0.000000][Move Down Field] 'DATE_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.FloatSerializer'
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 1986.65 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 719
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6727
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8818
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.8032
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+  - [0.000000][Decrease Field Security] 'level' of 'org.apache.xmlrpc.parser.XmlRpcResponseParser' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'class$java$math$BigDecimal' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'baos' of 'org.apache.xmlrpc.parser.ByteArrayParser' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'newOutputStream()' of 'org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'processingInstruction(java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.parser.ExtParser' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'getExtHandler()' of 'org.apache.xmlrpc.parser.ExtParser' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'class$(java.lang.String)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PRIVATE'
+  - [0.000000][Freeze Method] Convert 'getExtHandler()' of 'org.apache.xmlrpc.parser.ExtParser' to static 
+  - [0.000000][Increase Method Security] 'startDocument()' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'convert(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$PrimitiveTypeConverter' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'newList(int)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$ListTypeConverter' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'markedAvailable' of 'org.apache.xmlrpc.util.LimitedInputStream' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'getWorkerFactory()' of 'org.apache.xmlrpc.common.XmlRpcController' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'getNonIdentityTransferEncoding(java.lang.String)' of 'org.apache.xmlrpc.util.HttpUtil' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'class$java$util$Map' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.parser.CalendarParser.<init>()
+  - [0.000000][Decrease Field Security] 'prefixes' of 'org.apache.xmlrpc.parser.ExtParser' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.DoubleSerializer' to static 
+  - [0.000000][Freeze Method] Convert 'setContentLengthOptional(boolean)' of 'org.apache.xmlrpc.XmlRpcConfigImpl' to static 
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 1988.18 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 691
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7455
+    * iFImpl: 0.2455
+    * Dep_In: 1.9000
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7894
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Decrease Field Security] 'class$java$io$Serializable' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+  - [0.000000][Move Up Field] 'cfg' of 'org.apache.xmlrpc.parser.RecursiveTypeParserImpl' to its super class 'org.apache.xmlrpc.parser.TypeParserImpl'
+  - [0.000000][Freeze Method] Convert 'getSerializer(org.apache.xmlrpc.common.XmlRpcStreamConfig,java.lang.Object)' of 'org.apache.xmlrpc.common.TypeFactory' to static 
+  - [0.000000][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.I4Serializer' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'isConvertable(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$IdentityTypeConverter' to static 
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.serializer.BigIntegerSerializer.<init>()
+  - [0.000000][Freeze Method] Convert 'setWorkerFactory(org.apache.xmlrpc.common.XmlRpcWorkerFactory)' of 'org.apache.xmlrpc.common.XmlRpcController' to static 
+  - [0.000000][Increase Method Security] 'writeData(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.MapSerializer' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'getBasicUserName()' of 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfig' to static 
+  - [0.000000][Freeze Method] Convert 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.DateSerializer' to static 
+  - [0.000000][Decrease Field Security] 'class$java$lang$Boolean' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'isGzipRequesting()' of 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'config' of 'org.apache.xmlrpc.serializer.ObjectArraySerializer' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'class$java$lang$Byte' of 'org.apache.xmlrpc.util.ReflectionUtil' to 'PROTECTED'
+  - [0.000000][Move Down Field] 'VALUE_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.ByteArraySerializer'
+  - [0.000000][Freeze Method] Convert 'endDocument()' of 'org.apache.xmlrpc.parser.ExtParser' to static 
+  - [0.000000][Freeze Method] Convert 'getExtHandler()' of 'org.apache.xmlrpc.parser.ExtParser' to static 
+  - [0.000000][Increase Method Security] 'startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes)' of 'org.apache.xmlrpc.parser.ExtParser' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'getBasicEncoding()' of 'org.apache.xmlrpc.common.XmlRpcHttpConfig' to static 
+  - [0.000000][Freeze Method] Convert 'getTypeConverter(java.lang.Class)' of 'org.apache.xmlrpc.common.TypeConverterFactory' to static 
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2004.85 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 743
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7455
+    * iFImpl: 0.2455
+    * Dep_In: 1.9091
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7920
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Freeze Method] Convert 'writeValue(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.MapSerializer' to static 
+  - [0.000000][Move Up Field] 'BOOLEAN_TAG' of 'org.apache.xmlrpc.serializer.BooleanSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+  - [0.000000][Freeze Method] Convert 'convert(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$1' to static 
+  - [0.000000][Increase Method Security] 'writeEntry(org.xml.sax.ContentHandler,java.lang.Object,java.lang.Object)' of 'org.apache.xmlrpc.serializer.MapSerializer' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'isContentLengthOptional()' of 'org.apache.xmlrpc.XmlRpcConfigImpl' to static 
+  - [0.000000][Decrease Field Security] 'errorCode' of 'org.apache.xmlrpc.parser.XmlRpcResponseParser' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.BigIntegerSerializer' to static 
+  - [0.000000][Decrease Field Security] 'level' of 'org.apache.xmlrpc.parser.ObjectArrayParser' to 'PACKAGE'
+  - [0.000000][Increase Field Security] 'cfg' of 'org.apache.xmlrpc.parser.RecursiveTypeParserImpl' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'getParams()' of 'org.apache.xmlrpc.parser.XmlRpcRequestParser' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'setTypeFactory(org.apache.xmlrpc.common.TypeFactory)' of 'org.apache.xmlrpc.common.XmlRpcController' to 'PROTECTED'
+  - [0.000000][Decrease Method Security] 'getParams()' of 'org.apache.xmlrpc.parser.XmlRpcRequestParser' to 'PUBLIC'
+  - [0.000000][Freeze Method] Convert 'startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes)' of 'org.apache.xmlrpc.parser.RecursiveTypeParserImpl' to static 
+  - [0.000000][Increase Method Security] 'getTypeConverter(java.lang.Class)' of 'org.apache.xmlrpc.common.TypeConverterFactory' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'enabledForExceptions' of 'org.apache.xmlrpc.common.XmlRpcHttpRequestConfigImpl' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.XmlRpcException.<init>(int,java.lang.String)
+  - [0.000000][Freeze Method] Convert 'isEnabledForExceptions()' of 'org.apache.xmlrpc.common.XmlRpcStreamRequestConfig' to static 
+  - [0.000000][Decrease Field Security] 'dateSerializer' of 'org.apache.xmlrpc.common.TypeFactoryImpl' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'endElement(java.lang.String,java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.parser.ExtParser' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'context' of 'org.apache.xmlrpc.jaxb.JaxbParser' to 'PACKAGE'
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 1996.87 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 699
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6727
+    * numOps: 3.7455
+    * iFImpl: 0.2455
+    * Dep_In: 1.9273
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7828
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Increase Method Security] 'startPrefixMapping(java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'endPrefixMapping(java.lang.String)' of 'org.apache.xmlrpc.parser.TypeParserImpl' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'errorCode' of 'org.apache.xmlrpc.parser.XmlRpcResponseParser' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'startTask(org.apache.xmlrpc.util.ThreadPool$Task)' of 'org.apache.xmlrpc.util.ThreadPool' to static 
+  - [0.000000][Decrease Method Security] 'newList(int)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$ListTypeConverter' to 'PUBLIC'
+  - [0.000000][Freeze Method] Convert 'startDocument()' of 'org.apache.xmlrpc.parser.TypeParserImpl' to static 
+  - [0.000000][Increase Field Security] 'class$java$util$Hashtable' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PRIVATE'
+  - [0.000000][Freeze Method] Convert 'characters(char[],int,int)' of 'org.apache.xmlrpc.parser.TypeParserImpl' to static 
+  - [0.000000][Inline Method] org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection) into org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.common.XmlRpcInvocationException.<init>(java.lang.String,java.lang.Throwable)
+  - [0.000000][Decrease Method Security] 'writeValue(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.MapSerializer' to 'PACKAGE'
+  - [0.000000][Move Down Field] 'VALUE_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.FloatSerializer'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.XmlRpcException.<init>(java.lang.String,java.lang.Throwable)
+  - [0.000000][Freeze Method] Convert 'processingInstruction(java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to static 
+  - [0.000000][Freeze Method] Convert 'startValueTag()' of 'org.apache.xmlrpc.parser.RecursiveTypeParserImpl' to static 
+  - [0.000000][Increase Method Security] 'getTypeConverterFactory()' of 'org.apache.xmlrpc.common.XmlRpcRequestProcessor' to 'PROTECTED'
+  - [0.000000][Decrease Method Security] 'class$(java.lang.String)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'getController()' of 'org.apache.xmlrpc.common.XmlRpcWorkerFactory' to static 
+  - [0.000000][Decrease Field Security] 'class$java$lang$String' of 'org.apache.xmlrpc.util.ReflectionUtil' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'skippedEntity(java.lang.String)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to static 
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 1997.06 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 702
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.7000
+    * numOps: 3.7455
+    * iFImpl: 0.2455
+    * Dep_In: 1.9182
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7958
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Freeze Method] Convert 'getResult()' of 'org.apache.xmlrpc.parser.TypeParserImpl' to static 
+  - [0.000000][Freeze Method] Convert 'getResult()' of 'org.apache.xmlrpc.parser.SerializableParser' to static 
+  - [0.000000][Freeze Method] Convert 'getXmlRpcServer()' of 'org.apache.xmlrpc.common.XmlRpcRequestProcessorFactory' to static 
+  - [0.000000][Increase Method Security] 'isConvertable(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$1' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'spf' of 'org.apache.xmlrpc.util.SAXParsers' to 'PACKAGE'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.serializer.ListSerializer.<init>(org.apache.xmlrpc.common.TypeFactory,org.apache.xmlrpc.common.XmlRpcStreamConfig)
+  - [0.000000][Freeze Method] Convert 'execute(org.apache.xmlrpc.XmlRpcRequest)' of 'org.apache.xmlrpc.common.XmlRpcWorker' to static 
+  - [0.000000][Freeze Method] Convert 'newList(int)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$ListTypeConverter' to static 
+  - [0.000000][Increase Method Security] 'writeValue(java.lang.Object)' of 'org.apache.xmlrpc.serializer.XmlRpcWriter' to 'PACKAGE'
+  - [0.000000][Move Down Field] 'VALUE_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.I4Serializer'
+  - [0.000000][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.FloatSerializer' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'endElement(java.lang.String,java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to static 
+  - [0.000000][Decrease Field Security] 'inValue' of 'org.apache.xmlrpc.parser.MapParser' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.BigIntegerSerializer' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'class$java$util$Map' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'isEnabledForExtensions()' of 'org.apache.xmlrpc.XmlRpcConfig' to static 
+  - [0.000000][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.FloatSerializer' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'getSAXParserFactory()' of 'org.apache.xmlrpc.util.SAXParsers' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'endDocument()' of 'org.apache.xmlrpc.parser.TypeParserImpl' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'write(org.apache.xmlrpc.XmlRpcRequestConfig,int,java.lang.String,java.lang.Throwable)' of 'org.apache.xmlrpc.serializer.XmlRpcWriter' to 'PROTECTED'
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 2000.43 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 724
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.7000
+    * numOps: 3.7545
+    * iFImpl: 0.2455
+    * Dep_In: 1.9273
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.8072
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Freeze Method] Convert 'skippedEntity(java.lang.String)' of 'org.apache.xmlrpc.parser.TypeParserImpl' to static 
+  - [0.000000][Move Down Field] 'VALUE_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.BigDecimalSerializer'
+  - [0.000000][Increase Method Security] 'setDocumentLocator(org.xml.sax.Locator)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'context' of 'org.apache.xmlrpc.parser.RecursiveTypeParserImpl' to 'PACKAGE'
+  - [0.000000][Decrease Field Security] 'dateSerializer' of 'org.apache.xmlrpc.common.TypeFactoryImpl' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'run()' of 'org.apache.xmlrpc.util.ThreadPool$Task' to static 
+  - [0.000000][Decrease Field Security] 'handler' of 'org.apache.xmlrpc.jaxb.JaxbParser' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'getBasicEncoding()' of 'org.apache.xmlrpc.XmlRpcConfigImpl' to static 
+  - [0.000000][Increase Method Security] 'characters(char[],int,int)' of 'org.apache.xmlrpc.parser.TypeParserImpl' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'pool' of 'org.apache.xmlrpc.common.XmlRpcWorkerFactory' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'endDocument()' of 'org.apache.xmlrpc.parser.TypeParserImpl' to 'PROTECTED'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.XmlRpcException.<init>(int,java.lang.String)
+  - [0.000000][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.I2Serializer' to 'PROTECTED'
+  - [0.000000][Decrease Method Security] 'writeValue(java.lang.Object)' of 'org.apache.xmlrpc.serializer.XmlRpcWriter' to 'PUBLIC'
+  - [0.000000][Increase Method Security] 'getWorker()' of 'org.apache.xmlrpc.common.XmlRpcWorkerFactory' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'handler' of 'org.apache.xmlrpc.parser.ExtParser' to 'PACKAGE'
+  - [0.000000][Move Up Field] 'NAME_TAG' of 'org.apache.xmlrpc.serializer.MapSerializer' to its super class 'org.apache.xmlrpc.serializer.TypeSerializerImpl'
+  - [0.000000][Increase Method Security] 'endDocument()' of 'org.apache.xmlrpc.parser.ExtParser' to 'PROTECTED'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.parser.XmlRpcResponseParser.<init>(org.apache.xmlrpc.common.XmlRpcStreamRequestConfig,org.apache.xmlrpc.common.TypeFactory)
+  - [0.000000][Freeze Method] Convert 'getResult()' of 'org.apache.xmlrpc.jaxb.JaxbParser' to static 
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 1966.73 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 691
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7455
+    * iFImpl: 0.2455
+    * Dep_In: 1.9364
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7855
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Freeze Method] Convert 'getErrorMessage()' of 'org.apache.xmlrpc.parser.XmlRpcResponseParser' to static 
+  - [0.000000][Increase Method Security] 'getRequest()' of 'org.apache.xmlrpc.common.LocalStreamConnection' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'getXmlWriter(org.apache.xmlrpc.common.XmlRpcStreamConfig,java.io.OutputStream)' of 'org.apache.xmlrpc.serializer.DefaultXMLWriterFactory' to static 
+  - [0.000000][Decrease Field Security] 'array$Ljava$lang$Object' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'startPrefixMapping(java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to static 
+  - [0.000000][Decrease Method Security] 'writeValue(java.lang.Object)' of 'org.apache.xmlrpc.serializer.XmlRpcWriter' to 'PUBLIC'
+  - [0.000000][Freeze Method] Convert 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.ExtSerializer' to static 
+  - [0.000000][Decrease Field Security] 'timeZone' of 'org.apache.xmlrpc.XmlRpcConfigImpl' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'ignorableWhitespace(char[],int,int)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to static 
+  - [0.000000][Increase Method Security] 'isEmpty(char[],int,int)' of 'org.apache.xmlrpc.parser.TypeParserImpl' to 'PACKAGE'
+  - [0.000000][Increase Method Security] 'startDocument()' of 'org.apache.xmlrpc.parser.ExtParser' to 'PROTECTED'
+  - [0.000000][Increase Method Security] 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.DateSerializer' to 'PROTECTED'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.serializer.ByteArraySerializer.<init>()
+  - [0.000000][Decrease Field Security] 'pool' of 'org.apache.xmlrpc.common.XmlRpcWorkerFactory' to 'PACKAGE'
+  - [0.000000][Move Down Field] 'VALUE_TAG' of 'org.apache.xmlrpc.serializer.TypeSerializerImpl' to its child class 'org.apache.xmlrpc.serializer.I2Serializer'
+  - [0.000000][Increase Method Security] 'convert(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverter' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'endElement(java.lang.String,java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.parser.ExtParser' to static 
+  - [0.000000][Freeze Method] Convert 'convert(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverter' to static 
+  - [0.000000][Increase Method Security] 'processingInstruction(java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'endPrefixMapping(java.lang.String)' of 'org.apache.xmlrpc.jaxb.JaxbSerializer$1' to static 
+
+====== Run Result ======
+
+* Name: Apache-XmlRpc|ABC|T50|P200|I7500
+  * Run Info: Artificial Bee Colony. Population Size: 200. Max Trials: 50. Iterations: 5000.
+  * Time Taken: 1977.76 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 1019600
+
+* Initial Design:
+  * Score: 0.000000
+  * Possible Actions: 712
+  * Applied Actions: 0
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.6818
+    * numOps: 3.7364
+    * iFImpl: 0.2455
+    * Dep_In: 1.8636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.7859
+    * NumDesc: 0.7091
+
+* Final Design:
+  * Score: 0.000000
+  * Possible Actions: 708
+  * Applied Actions: 20
+  * Num Types: 110
+  * Num Packages: 6
+
+  * Metric Summary:
+    * Dep_Out: 2.7000
+    * numOps: 3.7455
+    * iFImpl: 0.2455
+    * Dep_In: 1.9636
+    * nesting: 0.0818
+    * numCls: 14.8333
+    * numFields: 2.1273
+    * abstractness: 0.3235
+    * numInterf: 3.5000
+    * NOC: 0.5091
+    * avrgFieldVisibility: 0.8080
+    * NumDesc: 0.7091
+
+* Applied Actions:
+  - [0.000000][Freeze Method] Convert 'getConfig()' of 'org.apache.xmlrpc.common.XmlRpcController' to static 
+  - [0.000000][Decrease Field Security] 'class$org$w3c$dom$Document' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'newOutputStream()' of 'org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection' to static 
+  - [0.000000][Freeze Method] Convert 'isEnabledForExtensions()' of 'org.apache.xmlrpc.XmlRpcConfigImpl' to static 
+  - [0.000000][Increase Method Security] 'getSAXParserFactory()' of 'org.apache.xmlrpc.util.SAXParsers' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'write(org.xml.sax.ContentHandler,java.lang.Object)' of 'org.apache.xmlrpc.serializer.CalendarSerializer' to static 
+  - [0.000000][Decrease Field Security] 'clazz' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$PrimitiveTypeConverter' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'isSuccess()' of 'org.apache.xmlrpc.parser.XmlRpcResponseParser' to static 
+  - [0.000000][Increase Method Security] 'setDocumentLocator(org.xml.sax.Locator)' of 'org.apache.xmlrpc.parser.ExtParser' to 'PROTECTED'
+  - [0.000000][Decrease Field Security] 'list' of 'org.apache.xmlrpc.parser.ObjectArrayParser' to 'PACKAGE'
+  - [0.000000][Freeze Method] Convert 'getParams()' of 'org.apache.xmlrpc.parser.XmlRpcRequestParser' to static 
+  - [0.000000][Increase Field Security] 'class$java$util$Properties' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PRIVATE'
+  - [0.000000][Introduce Factory] for org.apache.xmlrpc.common.LocalStreamConnection$LocalServerStreamConnection.<init>(org.apache.xmlrpc.common.LocalStreamConnection,org.apache.xmlrpc.common.LocalStreamConnection$1)
+  - [0.000000][Increase Method Security] 'isConvertable(java.lang.Object)' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl$ListTypeConverter' to 'PROTECTED'
+  - [0.000000][Increase Field Security] 'class$java$lang$Integer' of 'org.apache.xmlrpc.common.TypeConverterFactoryImpl' to 'PRIVATE'
+  - [0.000000][Freeze Method] Convert 'newInputStream()' of 'org.apache.xmlrpc.common.ServerStreamConnection' to static 
+  - [0.000000][Increase Method Security] 'endElement(java.lang.String,java.lang.String,java.lang.String)' of 'org.apache.xmlrpc.parser.ByteArrayParser' to 'PROTECTED'
+  - [0.000000][Freeze Method] Convert 'getServerStreamConnection()' of 'org.apache.xmlrpc.common.LocalStreamConnection' to static 
+  - [0.000000][Freeze Method] Convert 'setEncoding(java.lang.String)' of 'org.apache.xmlrpc.XmlRpcConfigImpl' to static 
+  - [0.000000][Freeze Method] Convert 'getRequest()' of 'org.apache.xmlrpc.common.LocalStreamConnection' to static 
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 1988.58 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 0.000000)
+  * Highest quality gain across all runs: 0.000000 (Score: 0.000000)
+  * Lowest quality gain across all runs: 0.000000 (Score: 0.000000)
+  * Time taken to complete task: 19885.84 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.0100 (Average Score: 2.6882)
+    * Highest Quality Gain: 0.0273 (Best Score: 2.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.6818)
+  * numOps
+    * Average Quality Gain: 0.0109 (Average Score: 3.7473)
+    * Highest Quality Gain: 0.0273 (Best Score: 3.7636)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.7364)
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.2455)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2455)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2455)
+  * Dep_In
+    * Average Quality Gain: 0.0582 (Average Score: 1.9218)
+    * Highest Quality Gain: 0.1000 (Best Score: 1.9636)
+    * Lowest Quality Gain: 0.0182 (Worst Score: 1.8818)
+  * nesting
+    * Average Quality Gain: 0.0000 (Average Score: 0.0818)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0818)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0818)
+  * numCls
+    * Average Quality Gain: 0.0000 (Average Score: 14.8333)
+    * Highest Quality Gain: 0.0000 (Best Score: 14.8333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 14.8333)
+  * numFields
+    * Average Quality Gain: 0.0000 (Average Score: 2.1273)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.1273)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.1273)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.3235)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3235)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3235)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 3.5000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.5000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.5000)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.5091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5091)
+  * avrgFieldVisibility
+    * Average Quality Gain: 0.0094 (Average Score: 0.7936)
+    * Highest Quality Gain: 0.0221 (Best Score: 0.8080)
+    * Lowest Quality Gain: 0.0005 (Worst Score: 0.7864)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.7091)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7091)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7091)

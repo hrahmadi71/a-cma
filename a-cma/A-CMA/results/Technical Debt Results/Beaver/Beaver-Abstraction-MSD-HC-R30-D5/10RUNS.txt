@@ -1,0 +1,422 @@
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.69 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28327
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action
+  - [-0.034917][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.64 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28304
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action
+  - [-0.034917][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.60 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28327
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.034917][Make Class Abstract] beaver.comp.Action
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.72 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28334
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action
+  - [-0.034917][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.67 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28349
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action
+  - [-0.034917][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.61 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28316
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action
+  - [-0.034917][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.57 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28290
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.034917][Make Class Abstract] beaver.comp.Action
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.63 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28330
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action
+  - [-0.034917][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.71 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28281
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.034917][Make Class Abstract] beaver.comp.Action
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Run Result ======
+
+* Name: Beaver|Abstraction|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 8.61 seconds
+  * Quality Gain: 0.009166
+  * Metric Mode: Aggregate
+  * Expanded Designs: 28281
+
+* Initial Design:
+  * Score: -0.027402
+  * Possible Actions: 801
+  * Applied Actions: 0
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.0830
+    * numInterf: 0.0000
+
+* Final Design:
+  * Score: -0.036567
+  * Possible Actions: 786
+  * Applied Actions: 5
+  * Num Types: 95
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.0000
+    * abstractness: 0.1108
+    * numInterf: 0.0000
+
+* Applied Actions:
+  - [-0.029366][Make Class Abstract] beaver.spec.GrammarBuilder$RuleWalker
+  - [-0.031330][Make Class Abstract] beaver.spec.GrammarBuilder$DeclarationWalker
+  - [-0.033124][Make Class Abstract] beaver.comp.Action$Type$Conflict
+  - [-0.034917][Make Class Abstract] beaver.comp.Action
+  - [-0.036567][Make Class Abstract] beaver.spec.ast.TreeWalker
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 8.64 seconds
+  * Average quality gain across all runs: 0.009166 (Average Score: -0.036567)
+  * Highest quality gain across all runs: 0.009166 (Score: -0.036567)
+  * Lowest quality gain across all runs: 0.009166 (Score: -0.036567)
+  * Time taken to complete task: 86.45 seconds
+
+* Metric Summary:
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * abstractness
+    * Average Quality Gain: 0.0278 (Average Score: 0.1108)
+    * Highest Quality Gain: 0.0278 (Best Score: 0.1108)
+    * Lowest Quality Gain: 0.0278 (Worst Score: 0.1108)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)

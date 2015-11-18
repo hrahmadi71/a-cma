@@ -1,0 +1,372 @@
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 70.25 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 68.97 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 68.94 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 69.02 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 69.06 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 69.26 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 69.22 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 69.54 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 69.33 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Abstraction|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 69.77 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Final Design:
+  * Score: -0.402628
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * iFImpl: 0.4433
+    * abstractness: 0.0268
+    * numInterf: 0.7500
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 69.34 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.402628)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.402628)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.402628)
+  * Time taken to complete task: 693.36 seconds
+
+* Metric Summary:
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.4433)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.4433)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.4433)
+  * abstractness
+    * Average Quality Gain: 0.0000 (Average Score: 0.0268)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0268)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0268)
+  * numInterf
+    * Average Quality Gain: 0.0000 (Average Score: 0.7500)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.7500)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.7500)

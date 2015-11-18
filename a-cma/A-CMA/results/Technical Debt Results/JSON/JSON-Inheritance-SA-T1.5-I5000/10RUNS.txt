@@ -1,0 +1,396 @@
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.38 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.25 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.19 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.24 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.28 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.28 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.25 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.30 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.30 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JSON|Inheritance|SA|T1.5|I5000
+  * Run Info: Simulated Annealing. Initial Temperature: 1.500000. Iterations: 5000.
+  * Time Taken: 4.25 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Final Design:
+  * Score: -0.083333
+  * Possible Actions: 167
+  * Applied Actions: 0
+  * Num Types: 12
+  * Num Packages: 2
+
+  * Metric Summary:
+    * iFImpl: 0.3333
+    * NOC: 0.0000
+    * NumAnc: 0.0000
+    * NumDesc: 0.0000
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 4.27 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.083333)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.083333)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.083333)
+  * Time taken to complete task: 42.69 seconds
+
+* Metric Summary:
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.3333)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3333)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3333)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * NumAnc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)

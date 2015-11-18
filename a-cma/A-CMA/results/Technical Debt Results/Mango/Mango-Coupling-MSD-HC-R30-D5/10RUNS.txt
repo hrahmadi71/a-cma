@@ -1,0 +1,444 @@
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.28 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 21587
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.24 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 21575
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.03 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 20969
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.39 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 22777
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.52 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 23365
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.28 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 22189
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.17 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 21565
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.16 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 21577
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.06 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 20983
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: Mango|Coupling|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 5.38 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 22179
+
+* Initial Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Final Design:
+  * Score: 1.668814
+  * Possible Actions: 598
+  * Applied Actions: 0
+  * Num Types: 97
+  * Num Packages: 8
+
+  * Metric Summary:
+    * Dep_Out: 2.2784
+    * Dep_In: 2.4227
+    * iC_Attr: 1.0722
+    * iC_Par: 1.2062
+    * eC_Attr: 0.4639
+    * eC_Par: 1.2062
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 5.25 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: 1.668814)
+  * Highest quality gain across all runs: 0.000000 (Score: 1.668814)
+  * Lowest quality gain across all runs: 0.000000 (Score: 1.668814)
+  * Time taken to complete task: 52.50 seconds
+
+* Metric Summary:
+  * Dep_Out
+    * Average Quality Gain: 0.0000 (Average Score: 2.2784)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.2784)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.2784)
+  * Dep_In
+    * Average Quality Gain: 0.0000 (Average Score: 2.4227)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.4227)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.4227)
+  * iC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 1.0722)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.0722)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.0722)
+  * iC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 1.2062)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.2062)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.2062)
+  * eC_Attr
+    * Average Quality Gain: 0.0000 (Average Score: 0.4639)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.4639)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.4639)
+  * eC_Par
+    * Average Quality Gain: 0.0000 (Average Score: 1.2062)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.2062)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.2062)

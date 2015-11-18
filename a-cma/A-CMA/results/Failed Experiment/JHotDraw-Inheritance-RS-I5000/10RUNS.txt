@@ -1,0 +1,484 @@
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 364.72 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 363.65 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 362.77 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 354.77 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 363.11 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 362.92 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 357.04 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 362.36 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 356.75 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 364.31 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * NOC: 0.5751
+    * NumDesc: 0.8498
+    * iFImpl: 0.2344
+    * NumAnc: 0.8498
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 361.24 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.627289)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.627289)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.627289)
+  * Time taken to complete task: 3612.39 seconds
+
+* Metric Summary:
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.2487)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2487)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2487)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.5751)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5751)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5751)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 3.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.0000)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.1293)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1293)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.1293)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 3.3636)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.3636)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.3636)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.8828)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8828)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8828)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 8.6484)
+    * Highest Quality Gain: 0.0000 (Best Score: 8.6484)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 8.6484)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 1.8974)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.8974)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.8974)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.0339)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0339)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0339)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 21.8182)
+    * Highest Quality Gain: 0.0000 (Best Score: 21.8182)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 21.8182)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 1.9451)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.9451)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.9451)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 214.6364)
+    * Highest Quality Gain: 0.0000 (Best Score: 214.6364)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 214.6364)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 2.8425)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.8425)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.8425)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 2.9121)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.9121)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.9121)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 5.0256)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.0256)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 5.0256)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 2.5860)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.5860)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.5860)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 4.7399)
+    * Highest Quality Gain: 0.0000 (Best Score: 4.7399)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.7399)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.6447)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6447)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6447)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.2344)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2344)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2344)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.6117)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6117)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6117)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.1172)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1172)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.1172)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.3150)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3150)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3150)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)

@@ -1,0 +1,689 @@
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 320.59 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 323.77 seconds
+  * Quality Gain: 0.000778
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.927289
+  * Possible Actions: 3340
+  * Applied Actions: 7
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2483
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6410
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0293
+    * Dep_Out: 4.7363
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+  - [-0.926557][Increase Field Security] 'fChild' of 'CH.ifa.draw.contrib.DragNDropTool' to 'PACKAGE'
+  - [-0.926923][Remove Method] '<init>()' of type 'CH.ifa.draw.standard.QuadTree'
+  - [-0.926703][Freeze Method] Convert 'createUndoActivity(CH.ifa.draw.framework.DrawingView)' of 'CH.ifa.draw.contrib.PolygonScaleHandle' to static 
+  - [-0.926703][Decrease Method Security] 'taskName()' of 'CH.ifa.draw.samples.pert.PertFigure' to 'PACKAGE'
+  - [-0.926703][Freeze Method] Convert 'changed()' of 'CH.ifa.draw.framework.Figure' to static 
+  - [-0.926483][Freeze Method] Convert 'addCommandListener(CH.ifa.draw.util.CommandListener)' of 'CH.ifa.draw.util.UndoableCommand' to static 
+  - [-0.927289][Inline Method] CH.ifa.draw.standard.SendToBackCommand$UndoActivity.getOriginalLayer(CH.ifa.draw.framework.Figure) into CH.ifa.draw.standard.SendToBackCommand$UndoActivity.undo()
+
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 369.83 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 375.43 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 363.30 seconds
+  * Quality Gain: 0.000147
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.926658
+  * Possible Actions: 3347
+  * Applied Actions: 5
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6447
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0293
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+  - [-0.926291][Freeze Method] Convert 'updatePoints()' of 'CH.ifa.draw.figures.ElbowConnection' to static 
+  - [-0.926291][Increase Method Security] 'write(CH.ifa.draw.util.StorableOutput)' of 'CH.ifa.draw.figures.AbstractLineDecoration' to 'PROTECTED'
+  - [-0.926291][Increase Method Security] 'moveAffectedFigures(java.awt.Point,java.awt.Point)' of 'CH.ifa.draw.standard.DragTracker$UndoActivity' to 'PROTECTED'
+  - [-0.926291][Increase Method Security] 'getAddedFigure()' of 'CH.ifa.draw.standard.ConnectionTool' to 'PACKAGE'
+  - [-0.926658][Inline Method] CH.ifa.draw.contrib.WindowMenu.buildChildMenus() into CH.ifa.draw.contrib.WindowMenu.access$100(CH.ifa.draw.contrib.WindowMenu)
+
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 368.82 seconds
+  * Quality Gain: 0.000061
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.926572
+  * Possible Actions: 3349
+  * Applied Actions: 18
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2508
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1283
+    * numOps: 8.6447
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0293
+    * Dep_Out: 4.7363
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+  - [-0.926511][Increase Method Security] 'startPoint(int,int)' of 'CH.ifa.draw.figures.LineFigure' to 'PROTECTED'
+  - [-0.926291][Freeze Method] Convert 'setBackupPoint(java.awt.Point)' of 'CH.ifa.draw.standard.DragTracker$UndoActivity' to static 
+  - [-0.926291][Move Down Method] 'createDrawingView(CH.ifa.draw.framework.Drawing)' of 'CH.ifa.draw.application.DrawApplication' to its child class 'CH.ifa.draw.contrib.MDI_DrawApplication'
+  - [-0.926291][Make Class Concrete] CH.ifa.draw.util.Storable
+  - [-0.926192][Make Class Concrete] CH.ifa.draw.standard.AlignCommand$Alignment
+  - [-0.925972][Freeze Method] Convert 'splitSegment(int,int)' of 'CH.ifa.draw.contrib.PolygonFigure' to static 
+  - [-0.925972][Move Down Method] 'getVersionControlStrategy()' of 'CH.ifa.draw.application.DrawApplication' to its child class 'CH.ifa.draw.contrib.MDI_DrawApplication'
+  - [-0.925911][Decrease Field Security] 'myTargetConnector' of 'CH.ifa.draw.standard.ConnectionTool' to 'PACKAGE'
+  - [-0.925911][Freeze Method] Convert 'toolDone()' of 'CH.ifa.draw.framework.DrawingEditor' to static 
+  - [-0.925803][Decrease Field Security] 'desktop' of 'CH.ifa.draw.contrib.MDI_DrawApplication' to 'PACKAGE'
+  - [-0.925939][Increase Field Security] '_dY1' of 'CH.ifa.draw.util.Bounds' to 'PACKAGE'
+  - [-0.925848][Decrease Field Security] 'myDrawingEditor' of 'CH.ifa.draw.standard.NullDrawingView' to 'PACKAGE'
+  - [-0.925848][Increase Method Security] 'getNorth()' of 'CH.ifa.draw.util.Bounds' to 'PROTECTED'
+  - [-0.925848][Move Up Method] 'handleMouseDoubleClick(java.awt.event.MouseEvent,int,int)' of 'CH.ifa.draw.contrib.CustomSelectionTool' to its super class 'CH.ifa.draw.standard.SelectionTool'
+  - [-0.925848][Decrease Method Security] 'point(int,int)' of 'CH.ifa.draw.figures.ScribbleTool' to 'PACKAGE'
+  - [-0.925875][Move Up Field] 'TOO_CLOSE' of 'CH.ifa.draw.contrib.PolygonFigure' to its super class 'CH.ifa.draw.figures.AttributeFigure'
+  - [-0.925766][Decrease Field Security] 'myBorderColor' of 'CH.ifa.draw.figures.BorderDecorator' to 'PACKAGE'
+  - [-0.926572][Inline Method] CH.ifa.draw.contrib.SplitPaneDrawApplication.createSplitPane(CH.ifa.draw.framework.DrawingView) into CH.ifa.draw.contrib.SplitPaneDrawApplication.createContents(CH.ifa.draw.framework.DrawingView)
+
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 369.58 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 364.35 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 371.30 seconds
+  * Quality Gain: 0.000366
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.926878
+  * Possible Actions: 3357
+  * Applied Actions: 5
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6447
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+  - [-0.926511][Increase Method Security] 'scrollRectToVisible(java.awt.Rectangle)' of 'CH.ifa.draw.contrib.AutoscrollHelper' to 'PROTECTED'
+  - [-0.926511][Move Down Method] 'createStatusLine()' of 'CH.ifa.draw.application.DrawApplication' to its child class 'CH.ifa.draw.samples.nothing.NothingApp'
+  - [-0.926511][Move Up Method] 'sendToCommand(CH.ifa.draw.framework.Figure)' of 'CH.ifa.draw.standard.SendToBackCommand$UndoActivity' to its super class 'CH.ifa.draw.util.UndoableAdapter'
+  - [-0.926511][Increase Method Security] 'write(CH.ifa.draw.util.StorableOutput)' of 'CH.ifa.draw.standard.AbstractLocator' to 'PROTECTED'
+  - [-0.926878][Inline Method] CH.ifa.draw.contrib.CustomSelectionTool.handleMouseClick(java.awt.event.MouseEvent,int,int) into CH.ifa.draw.contrib.CustomSelectionTool.mouseUp(java.awt.event.MouseEvent,int,int)
+
+====== Run Result ======
+
+* Name: JHotDraw|Technical Debt|RS|I5000
+  * Run Info: Random Search. Iterations: 5000.
+  * Time Taken: 361.98 seconds
+  * Quality Gain: 0.000624
+  * Metric Mode: Aggregate
+  * Expanded Designs: 0
+
+* Initial Design:
+  * Score: -0.926511
+  * Possible Actions: 3347
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2487
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6484
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0256
+    * Dep_Out: 4.7399
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Final Design:
+  * Score: -0.927135
+  * Possible Actions: 3338
+  * Applied Actions: 10
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * avrgFieldVisibility: 0.2498
+    * NOC: 0.5751
+    * numInterf: 3.0000
+    * abstractness: 0.1293
+    * numOps: 8.6410
+    * numCls: 21.8182
+    * numFields: 1.9451
+    * NumDesc: 0.8498
+    * Dep_In: 5.0293
+    * Dep_Out: 4.7363
+    * iFImpl: 0.2344
+    * nesting: 0.1172
+
+* Applied Actions:
+  - [-0.926878][Inline Method] CH.ifa.draw.standard.CreationTool.createFigure() into CH.ifa.draw.standard.CreationTool.mouseDown(java.awt.event.MouseEvent,int,int)
+  - [-0.926878][Make Class Final] CH.ifa.draw.standard.NorthWestHandle
+  - [-0.926878][Increase Method Security] 'addPreTask(CH.ifa.draw.samples.pert.PertFigure)' of 'CH.ifa.draw.samples.pert.PertFigure' to 'PROTECTED'
+  - [-0.926658][Freeze Method] Convert 'resetPolygon()' of 'CH.ifa.draw.contrib.PolygonScaleHandle$UndoActivity' to static 
+  - [-0.926438][Freeze Method] Convert 'connectorAt(int,int)' of 'CH.ifa.draw.standard.AbstractFigure' to static 
+  - [-0.926438][Decrease Method Security] 'class$(java.lang.String)' of 'CH.ifa.draw.applet.DrawApplet' to 'PROTECTED'
+  - [-0.926438][Move Down Method] 'createDrawingView()' of 'CH.ifa.draw.applet.DrawApplet' to its child class 'CH.ifa.draw.samples.javadraw.JavaDrawApplet'
+  - [-0.926438][Move Down Method] 'duplicateAffectedFigures()' of 'CH.ifa.draw.util.UndoableAdapter' to its child class 'CH.ifa.draw.standard.CutCommand$UndoActivity'
+  - [-0.926329][Decrease Field Security] '_scratchPadBufferedImage' of 'CH.ifa.draw.standard.FastBufferedUpdateStrategy' to 'PACKAGE'
+  - [-0.927135][Inline Method] CH.ifa.draw.contrib.MDI_DrawApplication.createInternalFrame(CH.ifa.draw.framework.DrawingView) into CH.ifa.draw.contrib.MDI_DrawApplication.createContents(CH.ifa.draw.framework.DrawingView)
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 358.89 seconds
+  * Average quality gain across all runs: 0.000198 (Average Score: -0.926709)
+  * Highest quality gain across all runs: 0.000778 (Score: -0.927289)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.926511)
+  * Time taken to complete task: 3588.94 seconds
+
+* Metric Summary:
+  * null
+    * Average Quality Gain: -0.0003 (Average Score: 0.2490)
+    * Highest Quality Gain: 0.0005 (Best Score: 0.2483)
+    * Lowest Quality Gain: -0.0021 (Worst Score: 0.2508)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.5751)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5751)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5751)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 3.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.0000)
+  * null
+    * Average Quality Gain: -0.0001 (Average Score: 0.1292)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1293)
+    * Lowest Quality Gain: -0.0010 (Worst Score: 0.1283)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 3.3636)
+    * Highest Quality Gain: 0.0000 (Best Score: 3.3636)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 3.3636)
+  * null
+    * Average Quality Gain: 0.0004 (Average Score: 0.8824)
+    * Highest Quality Gain: 0.0037 (Best Score: 0.8791)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8828)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * null
+    * Average Quality Gain: 0.0026 (Average Score: 8.6458)
+    * Highest Quality Gain: 0.0073 (Best Score: 8.6410)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 8.6484)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.0000)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.0000)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.0000)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 1.8974)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.8974)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.8974)
+  * null
+    * Average Quality Gain: -0.0003 (Average Score: 0.0342)
+    * Highest Quality Gain: 0.0003 (Best Score: 0.0336)
+    * Lowest Quality Gain: -0.0012 (Worst Score: 0.0351)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 21.8182)
+    * Highest Quality Gain: 0.0000 (Best Score: 21.8182)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 21.8182)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 1.9451)
+    * Highest Quality Gain: 0.0000 (Best Score: 1.9451)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 1.9451)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)
+  * null
+    * Average Quality Gain: 0.0636 (Average Score: 214.5727)
+    * Highest Quality Gain: 0.1818 (Best Score: 214.4545)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 214.6364)
+  * null
+    * Average Quality Gain: 0.0011 (Average Score: 2.8414)
+    * Highest Quality Gain: 0.0037 (Best Score: 2.8388)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 2.8425)
+  * null
+    * Average Quality Gain: -0.0015 (Average Score: 2.9136)
+    * Highest Quality Gain: 0.0000 (Best Score: 2.9121)
+    * Lowest Quality Gain: -0.0037 (Worst Score: 2.9158)
+  * null
+    * Average Quality Gain: -0.0015 (Average Score: 5.0271)
+    * Highest Quality Gain: 0.0000 (Best Score: 5.0256)
+    * Lowest Quality Gain: -0.0037 (Worst Score: 5.0293)
+  * null
+    * Average Quality Gain: 0.0001 (Average Score: 2.5859)
+    * Highest Quality Gain: 0.0009 (Best Score: 2.5850)
+    * Lowest Quality Gain: -0.0009 (Worst Score: 2.5869)
+  * null
+    * Average Quality Gain: 0.0011 (Average Score: 4.7388)
+    * Highest Quality Gain: 0.0037 (Best Score: 4.7363)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 4.7399)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.6447)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6447)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6447)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.2344)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2344)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2344)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.6117)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.6117)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.6117)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.1172)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.1172)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.1172)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.3150)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.3150)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.3150)
+  * null
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)

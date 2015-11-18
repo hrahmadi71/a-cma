@@ -1,0 +1,396 @@
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 180.73 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102092
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 173.93 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102086
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 177.79 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102141
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 173.92 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102103
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 173.38 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102054
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 173.01 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102142
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 172.51 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102103
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 173.59 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102092
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 173.28 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102078
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Run Result ======
+
+* Name: JHotDraw|Inheritance|MSD-HC|R30|D5
+  * Run Info: Steepest Descent Hill Climbing. Restart Count: 30. Depth: 5.
+  * Time Taken: 172.51 seconds
+  * Quality Gain: 0.000000
+  * Metric Mode: Aggregate
+  * Expanded Designs: 102114
+
+* Initial Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Final Design:
+  * Score: -0.627289
+  * Possible Actions: 3297
+  * Applied Actions: 0
+  * Num Types: 273
+  * Num Packages: 11
+
+  * Metric Summary:
+    * iFImpl: 0.2344
+    * NOC: 0.5751
+    * NumAnc: 0.8498
+    * NumDesc: 0.8498
+
+* Applied Actions:
+
+====== Task Summary ======
+
+* General Info:
+  * Average time across all runs: 174.46 seconds
+  * Average quality gain across all runs: 0.000000 (Average Score: -0.627289)
+  * Highest quality gain across all runs: 0.000000 (Score: -0.627289)
+  * Lowest quality gain across all runs: 0.000000 (Score: -0.627289)
+  * Time taken to complete task: 1744.63 seconds
+
+* Metric Summary:
+  * iFImpl
+    * Average Quality Gain: 0.0000 (Average Score: 0.2344)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.2344)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.2344)
+  * NOC
+    * Average Quality Gain: 0.0000 (Average Score: 0.5751)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.5751)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.5751)
+  * NumAnc
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)
+  * NumDesc
+    * Average Quality Gain: 0.0000 (Average Score: 0.8498)
+    * Highest Quality Gain: 0.0000 (Best Score: 0.8498)
+    * Lowest Quality Gain: 0.0000 (Worst Score: 0.8498)
