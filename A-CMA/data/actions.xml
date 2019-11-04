@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
-	<action class = "DecreaseFieldSecurity" />
-	<action class = "IncreaseFieldSecurity" />
+	<action class = "DecreaseFieldSecurityPackage2Protected" />
+	<action class = "DecreaseFieldSecurityPrivate2Package" />
+	<action class = "DecreaseFieldSecurityProtected2Public" />
+	<action class = "IncreaseFieldSecurityPackage2Private" />
+	<action class = "IncreaseFieldSecurityProtected2Package" />
+	<action class = "IncreaseFieldSecurityPublic2Protected" />
 	<action class = "MakeClassAbstract" />
 	<action class = "MakeClassConcrete" />
 	<action class = "RemoveMethod" />
