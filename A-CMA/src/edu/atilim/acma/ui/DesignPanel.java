@@ -59,6 +59,7 @@ import edu.atilim.acma.search.ConcurrentParallelBeeColony;
 import edu.atilim.acma.search.ConcurrentRandomSearch;
 import edu.atilim.acma.search.ConcurrentSimAnn;
 import edu.atilim.acma.search.ConcurrentStochasticBeamSearch;
+import edu.atilim.acma.search.DrunkardAgentAlgorithm;
 import edu.atilim.acma.search.HillClimbingAlgorithm;
 import edu.atilim.acma.search.RandomSearchAlgorithm;
 import edu.atilim.acma.search.SimAnnAlgorithm;
@@ -147,6 +148,9 @@ public class DesignPanel extends DesignPanelBase implements WindowEventListener 
 						int rd = (Integer)bsRandomDepth.getValue();
 						int bl = (Integer)bsBeamLength.getValue();
 						algo = new BeamSearchAlgorithm (new SolutionDesign(design, getRunConfig()), null, bl, rd);
+					} else if (e.getActionCommand().equals("DA")) {
+						int mi = (Integer) dapActionIterationCount.getValue();
+						algo = new DrunkardAgentAlgorithm(new SolutionDesign(design, getRunConfig()), null, mi);
 					}
 
 					RunPanel rp = new RunPanel(algo);
@@ -166,6 +170,7 @@ public class DesignPanel extends DesignPanelBase implements WindowEventListener 
 		saBtnStart.addActionListener(algoListener);
 		abcBtnStart.addActionListener(algoListener);
 		bsBtnStart.addActionListener(algoListener);
+		dapBtnStart.addActionListener(algoListener);
 		
 		ActionListener taskListener = new ActionListener() {
 			

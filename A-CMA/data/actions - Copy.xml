@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+	<action class = "DecreaseFieldSecurity" />
+	<action class = "IncreaseFieldSecurity" />
+	<action class = "MakeClassAbstract" />
+	<action class = "MakeClassConcrete" />
+	<action class = "RemoveMethod" />
+	<action class = "RemoveField" />
+	<action class = "RemoveClass" />
+	<action class = "RemoveInterface" />
+	<action class = "FreezeMethod" />
+	<action class = "MoveUpMethod" />
+	<action class = "MoveDownMethod" />
+	<action class = "MoveMethod" />
+	<action class = "InstantiateMethod" />
+	<action class = "MoveUpField" />
+	<action class = "MoveDownField" />
+	<action class = "MakeClassFinal" />
+	<action class = "MakeClassNonFinal" />
+	<action class = "IncreaseMethodSecurity" />
+	<action class = "DecreaseMethodSecurity" />
+	<action class = "InlineMethod" />
+	<action class = "IntroduceFactory" />
+</actions>
