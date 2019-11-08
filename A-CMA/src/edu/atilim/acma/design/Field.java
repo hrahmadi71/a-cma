@@ -72,6 +72,40 @@ public class Field extends Node {
 	public void setFieldType(String fieldType) {
 			this.fieldType = fieldType;
 	}
+	
+	public int countNoTotalUse() {
+		return this.getAccessors().size();
+	}
+	
+	public int countNoInClassUse() {
+		int count = 0;
+		for (Method m : this.getAccessors()) {
+			if(m.getOwnerType().equals(this.getOwnerType())) {
+				count++;
+			}
+		}
+		return count;
+	}
+	
+	public int countNoInPackageUse() {
+		int count = 0;
+		for (Method m : this.getAccessors()) {
+			if(m.getPackage().equals(this.getPackage())) {
+				count++;
+			}
+		}
+		return count;
+	}
+	
+	public int countInHierarchyUse() {
+		int count = 0;
+		for (Method m : this.getAccessors()) {
+			if(this.getOwnerType().isAncestorOf(m.getOwnerType())) {
+				count++;
+			}
+		}
+		return count;
+	}
 
 	@Override
 	public String toString() {
