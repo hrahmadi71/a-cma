@@ -352,6 +352,40 @@ public class Method extends Node {
 		this.returnType = getReference(this, returnType, Tags.REF_RETURN);
 	}
 	
+	public int countNoTotalCallers() {
+		return this.getCallerMethods().size();
+	}
+	
+	public int countNoInClassCallers() {
+		int count = 0;
+		for (Method m : getCallerMethods()) {
+			if(this.getOwnerType().equals(m.getOwnerType())) {
+				count++;
+			}
+		}
+		return count;
+	}
+	
+	public int countInHierarchyCallers() {
+		int count = 0;
+		for (Method m : getCallerMethods()) {
+			if(this.getOwnerType().isAncestorOf(m.getOwnerType())) {
+				count++;
+			}
+		}
+		return count;
+	}
+	
+	public int countInPckageCallers() {
+		int count = 0;
+		for (Method m : getCallerMethods()) {
+			if(this.getPackage().equals(m.getPackage())) {
+				count++;
+			}
+		}
+		return count;
+	}
+	
 	@Override
 	public String toString() {
 		return getSignature();
