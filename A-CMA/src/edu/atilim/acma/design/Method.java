@@ -109,7 +109,7 @@ public class Method extends Node {
 		
 		for(Method m : getCalledMethods()){
 			if(!type.canAccess(m))
-				return false;	
+				return false;
 		}
 		
 		for(Parameter p : getParameters()){
@@ -382,6 +382,14 @@ public class Method extends Node {
 			if(this.getPackage().equals(m.getPackage())) {
 				count++;
 			}
+		}
+		return count;
+	}
+	
+	public int countNoOverrides() {
+		int count = 0;
+		for(Type t : this.getOwnerType().getDescendant()) {
+			if(t.getMethod(this.getSignature()) != null) {count++;}
 		}
 		return count;
 	}

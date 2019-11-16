@@ -2,7 +2,9 @@ package edu.atilim.acma.design;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Stack;
 
 import edu.atilim.acma.util.CollectionHelper;
@@ -70,6 +72,16 @@ public class Type extends Node {
 	
 	public List<Type> getExtenders() {
 		return getReferers(Tags.REF_SUPERCLASS, Type.class);
+	}
+	
+	public List<Type> getDescendant(){
+		List<Type> childs = this.getExtenders();
+		List<Type> descendants = new LinkedList<Type>();
+		for (Type t : childs) {
+			descendants.addAll(t.getDescendant());
+		}
+		descendants.addAll(childs);
+		return descendants;
 	}
 
 	public Field getField(String name) {

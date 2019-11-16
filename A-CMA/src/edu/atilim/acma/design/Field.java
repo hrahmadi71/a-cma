@@ -97,7 +97,7 @@ public class Field extends Node {
 		return count;
 	}
 	
-	public int countInHierarchyUse() {
+	public int countNoInHierarchyUse() {
 		int count = 0;
 		for (Method m : this.getAccessors()) {
 			if(this.getOwnerType().isAncestorOf(m.getOwnerType())) {
