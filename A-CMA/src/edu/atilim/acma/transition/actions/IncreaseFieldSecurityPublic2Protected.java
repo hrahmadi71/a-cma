@@ -1,5 +1,11 @@
 package edu.atilim.acma.transition.actions;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
@@ -51,7 +57,8 @@ public class IncreaseFieldSecurityPublic2Protected {
 
 		@Override
 		public void perform(Design d) {
-			d.getType(typeName).getField(fieldName).setAccess(newAccess);
+			Field f = d.getType(typeName).getField(fieldName);
+			f.setAccess(newAccess);
 		}
 		
 		@Override

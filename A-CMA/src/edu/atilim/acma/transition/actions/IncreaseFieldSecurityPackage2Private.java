@@ -1,5 +1,11 @@
 package edu.atilim.acma.transition.actions;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
@@ -50,12 +56,27 @@ public class IncreaseFieldSecurityPackage2Private {
 
 		@Override
 		public void perform(Design d) {
-			d.getType(typeName).getField(fieldName).setAccess(newAccess);
+			Field f = d.getType(typeName).getField(fieldName);
+			f.setAccess(newAccess);
+			printToFile(String.format("[Increase Field Security from Package to Private] Field total_use: '%s'  in-class use: '%s'  in-hierarchy use: '%s'  in-package use: '%s'", f.countNoTotalUse(), f.countNoInClassUse(), f.countNoInHierarchyUse(), f.countNoInPackageUse()));
 		}
 		
 		@Override
 		public String toString() {
-			return String.format("[Increase Field Security from Public to Protected] '%s' of '%s'", fieldName, typeName);
+			return String.format("[Increase Field Security from Package to Private] '%s' of '%s'", fieldName, typeName);
+		}
+		
+		private void printToFile(String output){
+			String filePath = "./data/FieldSecurity.txt";
+
+			List<String> lines = Arrays.asList(output);
+			Path file = Paths.get(filePath);
+			try {
+				Files.write(file, lines, StandardOpenOption.APPEND);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 }

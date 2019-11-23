@@ -242,6 +242,30 @@ public class Type extends Node {
 		this.superType = getReference(this, superType, Tags.REF_SUPERCLASS);
 	}
 	
+	public int getNoMethods() {
+		return getMethods().size();
+	}
+	
+	public int getNoSiblings() {
+		if(getSuperType() != null) {
+			return getSuperType().getExtenders().size() - 1;
+		}
+		return -1;
+	}
+	
+	public int getNoTotalMethodsOfSiblings() {
+		if(getNoSiblings()<0) {
+			return -1;
+		}
+		
+		int count = 0;
+		for (Type t : getSuperType().getExtenders()) {
+			count += t.getNoMethods();
+		}
+		count -= getNoMethods();
+		return count;
+	}
+	
 	@Override
 	public String toString() {
 		return getName();

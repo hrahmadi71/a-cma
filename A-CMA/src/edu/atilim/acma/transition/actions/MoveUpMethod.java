@@ -49,7 +49,7 @@ public class MoveUpMethod {
 			return;
 			}
 			
-			m.setOwnerType(t);	
+			m.setOwnerType(t);
 		}
 	
 		@Override

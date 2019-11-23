@@ -1,5 +1,11 @@
 package edu.atilim.acma.transition.actions;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
@@ -23,7 +29,7 @@ public class IncreaseMethodSecurity {
 					if (m.isCompilerGenerated() || m.isOverride() || m.isFinal() ||  m.getAccess() == Accessibility.PRIVATE || m.isConstructor() || m.isClassConstructor()) continue;
 					
 					Accessibility newaccess = Accessibility.PRIVATE;
-					
+
 					if (m.getAccess() == Accessibility.PUBLIC)
 						newaccess = Accessibility.PROTECTED;
 					if (m.getAccess() == Accessibility.PROTECTED)
@@ -56,12 +62,10 @@ public class IncreaseMethodSecurity {
 		@Override
 		public void perform(Design d) {
 			Method m = d.getType(typeName).getMethod(methodName);
-			
 			if (m == null) {
 				Log.severe("[IncreaseMethodSecurity] Can not find type: %s.", methodName);
 				return;
 			}
-			
 			m.setAccess(newAccess);
 		}
 		

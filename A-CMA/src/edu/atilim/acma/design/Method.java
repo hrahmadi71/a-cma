@@ -394,6 +394,16 @@ public class Method extends Node {
 		return count;
 	}
 	
+	public int countNoCallsInType(Type t) {
+		int count = 0;
+		for(Method m : getCalledMethods()) {
+			if(m.getOwnerType().equals(t.getOwnerType())) {
+				count++;
+			}
+		}
+		return count;
+	}	
+	
 	@Override
 	public String toString() {
 		return getSignature();
