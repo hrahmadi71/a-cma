@@ -21,8 +21,12 @@
 	<action class = "MoveDownField" />
 	<action class = "MakeClassFinal" />
 	<action class = "MakeClassNonFinal" />
-	<action class = "IncreaseMethodSecurity" />
-	<action class = "DecreaseMethodSecurity" />
+	<action class = "IncreaseMethodSecurityPublic2Protected" />
+	<action class = "IncreaseMethodSecurityProtected2Package" />
+	<action class = "IncreaseMethodSecurityPackage2Private" />
+	<action class = "DecreaseMethodSecurityPrivate2Package" />
+	<action class = "DecreaseMethodSecurityPackage2Protected" />
+	<action class = "DecreaseMethodSecurityProtected2Public" />
 	<action class = "InlineMethod" />
 	<action class = "IntroduceFactory" />
 </actions>
