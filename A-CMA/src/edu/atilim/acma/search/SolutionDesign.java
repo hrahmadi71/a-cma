@@ -1,6 +1,7 @@
 package edu.atilim.acma.search;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -198,6 +199,11 @@ public class SolutionDesign implements Iterable<SolutionDesign>, Comparable<Solu
 		Design copyDesign = getDesign().copy();
 		action.perform(copyDesign);
 		return copyDesign;
+	}
+	
+	protected Double[] getSolutionState() {
+		Collection<Double> stateCollection = getMetricSummary().getMetrics().values();
+		return stateCollection.toArray(new Double[stateCollection.size()]);
 	}
 	
 	private class BestDesignFinder implements Callable<SolutionDesign> {
