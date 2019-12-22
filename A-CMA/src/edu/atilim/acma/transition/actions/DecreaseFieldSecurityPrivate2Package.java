@@ -49,5 +49,10 @@ public class DecreaseFieldSecurityPrivate2Package {
 		public String toString() {
 			return String.format("[Decrease Method Security from Private to Package] '%s' of '%s'", fieldName, typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

@@ -68,6 +68,11 @@ public class MoveDownField {
 		public String toString() {	
 			return String.format("[Move Down Field] '%s' of '%s' to its child class '%s'", fieldName,typeName,newOwnerTypeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }
 

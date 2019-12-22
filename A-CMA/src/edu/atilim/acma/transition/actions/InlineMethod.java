@@ -78,5 +78,10 @@ public class InlineMethod {
 		public String toString() {
 			return String.format("[Inline Method] %s.%s into %s.%s", sourceType, inlinedMethod, targetType, targetMethod);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

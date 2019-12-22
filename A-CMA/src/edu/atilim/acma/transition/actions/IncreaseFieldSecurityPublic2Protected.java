@@ -65,5 +65,10 @@ public class IncreaseFieldSecurityPublic2Protected {
 		public String toString() {
 			return String.format("[Increase Field Security from Public to Protected] '%s' of '%s'", fieldName, typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

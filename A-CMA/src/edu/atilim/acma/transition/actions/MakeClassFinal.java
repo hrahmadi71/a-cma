@@ -43,6 +43,11 @@ public class MakeClassFinal {
 		public String toString() {
 			return String.format("[Make Class Final] %s", typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }
 

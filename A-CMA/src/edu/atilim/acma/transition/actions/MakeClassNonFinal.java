@@ -42,6 +42,11 @@ public class MakeClassNonFinal {
 		public String toString() {
 			return String.format("[Make Class Non-Final] %s", typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }
 

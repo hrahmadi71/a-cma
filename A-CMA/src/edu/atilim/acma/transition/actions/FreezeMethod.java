@@ -77,5 +77,10 @@ public class FreezeMethod {
 			
 			return String.format("[Freeze Method] Convert '%s' of '%s' to static ", methodName,typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}//end of performer
 }

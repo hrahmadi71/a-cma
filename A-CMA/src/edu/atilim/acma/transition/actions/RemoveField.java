@@ -52,6 +52,11 @@ public class RemoveField {
 		public String toString() {
 			return String.format("[Remove Field] '%s' of type '%s'", fieldName,typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 
 }

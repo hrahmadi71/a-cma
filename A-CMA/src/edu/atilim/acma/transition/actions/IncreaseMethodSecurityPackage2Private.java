@@ -60,5 +60,10 @@ public class IncreaseMethodSecurityPackage2Private {
 		public String toString() {
 			return String.format("[Increase Method Security from Package to Private] '%s' of '%s' to '%s'", methodName, typeName, newAccess);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

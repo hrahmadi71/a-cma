@@ -42,5 +42,10 @@ public class MakeClassConcrete {
 		public String toString() {
 			return String.format("[Make Class Concrete] %s", typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

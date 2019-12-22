@@ -62,6 +62,11 @@ public class DecreaseMethodSecurity {
 		public String toString() {
 			return String.format("[Decrease Method Security] '%s' of '%s' to '%s'", methodName, typeName, newAccess);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }
 

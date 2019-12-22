@@ -1,5 +1,17 @@
 package edu.atilim.acma.search;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import edu.atilim.acma.transition.ActionRegistry;
+import edu.atilim.acma.transition.ActionRegistry.Entry;
+import edu.atilim.acma.transition.actions.Action;
+
+import edu.atilim.acma.metrics.MetricSummary;
 
 public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 	
@@ -38,6 +50,7 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 			observer.onFinish(this, best);
 		}
 	}
+	
 
 	@Override
 	public boolean step() {
@@ -51,7 +64,12 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 			return true;
 		}
 		
+		Double[] oldState = current.getSolutionState();
+		List<Action> acts = current.getAllActions();
+		Set<Entry> entries = ActionRegistry.entries();
+		
 		SolutionDesign randomNeighbor = current.getRandomNeighbor();
+		
 		
 		if (randomNeighbor.isBetterThan(best)) {
 			best = randomNeighbor;

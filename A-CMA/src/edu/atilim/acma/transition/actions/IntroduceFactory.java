@@ -65,5 +65,10 @@ public class IntroduceFactory {
 		public String toString() {
 			return String.format("[Introduce Factory] for %s.%s", typeName, ctorName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

@@ -75,5 +75,10 @@ public class InstantiateMethod {
 		public String toString() {
 			return String.format("[Instantiate Method] Move static method '%s' of '%s' to its parameter type '%s'", methodName,typeName,newOwnerTypeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

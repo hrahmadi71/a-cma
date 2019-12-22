@@ -55,5 +55,10 @@ public class DecreaseMethodSecurityPackage2Protected {
 		public String toString() {
 			return String.format("[Decrease Method Security from Package to Protected] '%s' of '%s' to '%s'", methodName, typeName, newAccess);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

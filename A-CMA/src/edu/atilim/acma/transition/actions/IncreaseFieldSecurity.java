@@ -65,5 +65,10 @@ public class IncreaseFieldSecurity {
 		public String toString() {
 			return String.format("[Increase Field Security] '%s' of '%s' to '%s'", fieldName, typeName, newAccess);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

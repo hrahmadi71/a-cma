@@ -52,6 +52,11 @@ public class RemoveInterface {
 		public String toString() {
 			return String.format("[Remove Interface] %s", typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 
 }

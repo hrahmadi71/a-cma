@@ -55,5 +55,10 @@ public class DecreaseMethodSecurityPrivate2Package {
 		public String toString() {
 			return String.format("[Decrease Method Security from Private to Package] '%s' of '%s' to '%s'", methodName, typeName, newAccess);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

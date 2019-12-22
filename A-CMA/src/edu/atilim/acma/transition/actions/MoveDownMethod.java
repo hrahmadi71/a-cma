@@ -62,6 +62,11 @@ public class MoveDownMethod {
 		public String toString() {
 			return String.format("[Move Down Method] '%s' of '%s' to its child class '%s'", methodName,typeName,newOwnerTypeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }
 

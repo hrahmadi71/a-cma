@@ -46,5 +46,10 @@ public final class MakeClassAbstract {
 		public String toString() {
 			return String.format("[Make Class Abstract] %s", typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

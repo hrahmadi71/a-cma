@@ -66,6 +66,11 @@ public class IncreaseFieldSecurityPackage2Private {
 			return String.format("[Increase Field Security from Package to Private] '%s' of '%s'", fieldName, typeName);
 		}
 		
+		@Override
+		public int getId() {
+			return 0;
+		}
+		
 		private void printToFile(String output){
 			String filePath = "./data/FieldSecurity.txt";
 

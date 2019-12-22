@@ -54,6 +54,11 @@ public class RemoveMethod {
 		public String toString() {
 			return String.format("[Remove Method] '%s' of type '%s'", methodName,typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 
 }

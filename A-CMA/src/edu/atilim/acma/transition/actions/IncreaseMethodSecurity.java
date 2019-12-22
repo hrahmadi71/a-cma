@@ -73,5 +73,10 @@ public class IncreaseMethodSecurity {
 		public String toString() {
 			return String.format("[Increase Method Security] '%s' of '%s' to '%s'", methodName, typeName, newAccess);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

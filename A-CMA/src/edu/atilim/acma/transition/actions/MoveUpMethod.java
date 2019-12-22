@@ -56,5 +56,10 @@ public class MoveUpMethod {
 		public String toString() {	
 			return String.format("[Move Up Method] '%s' of '%s' to its super class '%s'", methodName,typeName,newOwnerTypeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

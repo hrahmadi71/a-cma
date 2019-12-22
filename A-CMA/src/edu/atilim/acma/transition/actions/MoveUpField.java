@@ -56,5 +56,10 @@ public class MoveUpField {
 		public String toString() {	
 			return String.format("[Move Up Field] '%s' of '%s' to its super class '%s'", fieldName,typeName,newOwnerTypeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

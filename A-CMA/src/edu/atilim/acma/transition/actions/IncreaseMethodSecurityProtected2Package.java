@@ -60,5 +60,10 @@ public class IncreaseMethodSecurityProtected2Package {
 		public String toString() {
 			return String.format("[Increase Method Security from Protected to Package] '%s' of '%s' to '%s'", methodName, typeName, newAccess);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

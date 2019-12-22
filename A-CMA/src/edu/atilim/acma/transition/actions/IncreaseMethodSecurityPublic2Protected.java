@@ -60,5 +60,10 @@ public class IncreaseMethodSecurityPublic2Protected {
 		public String toString() {
 			return String.format("[Increase Method Security from Public to Protected] '%s' of '%s' to '%s'", methodName, typeName, newAccess);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }

@@ -55,6 +55,11 @@ public class RemoveClass {
 		public String toString() {
 			return String.format("[Remove Class] %s", typeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 
 }

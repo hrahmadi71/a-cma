@@ -75,6 +75,11 @@ public class MoveMethod {
 		public String toString() {
 			return String.format("[Move Method] '%s' of '%s' to its parameter type '%s'", methodName,typeName,newOwnerTypeName);
 		}
+		
+		@Override
+		public int getId() {
+			return 0;
+		}
 	}
 }
 
