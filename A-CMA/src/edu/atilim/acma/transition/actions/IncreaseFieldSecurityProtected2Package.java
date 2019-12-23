@@ -8,6 +8,7 @@ import edu.atilim.acma.design.Design;
 import edu.atilim.acma.design.Field;
 import edu.atilim.acma.design.Method;
 import edu.atilim.acma.design.Type;
+import edu.atilim.acma.transition.actions.ActionId;
 
 
 public class IncreaseFieldSecurityProtected2Package {
@@ -30,8 +31,8 @@ public class IncreaseFieldSecurityProtected2Package {
 						if (!m.canAccess(f, newaccess))
 							break field;
 					}
-					
-					set.add(new Performer(t.getName(), f.getName(), newaccess));
+					float criterion = f.countNoInClassUse()/f.countNoInPackageUse();
+					set.add(new Performer(t.getName(), f.getName(), newaccess, criterion, 1));
 				}
 			}
 		}
@@ -42,11 +43,15 @@ public class IncreaseFieldSecurityProtected2Package {
 		private String typeName;
 		private String fieldName;
 		private Accessibility newAccess;
+		private float criterion;
+		private float threshold;
 
-		public Performer(String typeName, String fieldName, Accessibility newaccess) {
+		public Performer(String typeName, String fieldName, Accessibility newaccess, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = newaccess;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -61,7 +66,11 @@ public class IncreaseFieldSecurityProtected2Package {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(criterion<threshold) {
+				return ActionId.IFS_Protected2Package_t1;
+			}else {
+				return ActionId.IFS_Protected2Package_t2;
+			}
 		}
 	}
 }

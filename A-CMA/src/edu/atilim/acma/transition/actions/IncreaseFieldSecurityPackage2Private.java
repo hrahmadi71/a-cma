@@ -14,6 +14,8 @@ import edu.atilim.acma.design.Design;
 import edu.atilim.acma.design.Field;
 import edu.atilim.acma.design.Method;
 import edu.atilim.acma.design.Type;
+import edu.atilim.acma.transition.actions.ActionId;
+
 
 public class IncreaseFieldSecurityPackage2Private {
 	public static class Checker implements ActionChecker {
@@ -68,7 +70,7 @@ public class IncreaseFieldSecurityPackage2Private {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.IFS_Package2Private_t1;
 		}
 		
 		private void printToFile(String output){

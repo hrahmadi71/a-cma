@@ -9,6 +9,7 @@ import edu.atilim.acma.design.Field;
 import edu.atilim.acma.design.Method;
 import edu.atilim.acma.design.Type;
 import edu.atilim.acma.util.Log;
+import edu.atilim.acma.transition.actions.ActionId;
 
 public class DecreaseFieldSecurityPackage2Protected {
 	public static class Checker implements ActionChecker {
@@ -21,8 +22,8 @@ public class DecreaseFieldSecurityPackage2Protected {
 				for (Field f : t.getFields()) {
 					
 					if (f.isCompilerGenerated() || f.isConstant() ||  f.getAccess() != Accessibility.PACKAGE) continue;
-										
-					set.add(new Performer(t.getName(), f.getName()));
+					float criterion = f.countNoInClassUse()/f.countNoTotalUse();
+					set.add(new Performer(t.getName(), f.getName(), criterion, 1));
 				}
 			}
 		}
@@ -32,11 +33,15 @@ public class DecreaseFieldSecurityPackage2Protected {
 		private String typeName;
 		private String fieldName;
 		private Accessibility newAccess;
+		private float criterion;
+		private float threshold;
 
-		public Performer(String typeName, String fieldName) {
+		public Performer(String typeName, String fieldName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = Accessibility.PROTECTED;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -51,7 +56,11 @@ public class DecreaseFieldSecurityPackage2Protected {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(criterion<threshold) {
+				return ActionId.DFS_Package2Protected_t1;
+			}else {
+				return ActionId.DFS_Package2Protected_t2;
+			}
 		}
 	}
 }
