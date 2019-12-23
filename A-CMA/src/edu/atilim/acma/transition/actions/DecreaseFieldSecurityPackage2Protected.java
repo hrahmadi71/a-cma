@@ -22,7 +22,10 @@ public class DecreaseFieldSecurityPackage2Protected {
 				for (Field f : t.getFields()) {
 					
 					if (f.isCompilerGenerated() || f.isConstant() ||  f.getAccess() != Accessibility.PACKAGE) continue;
-					float criterion = f.countNoInClassUse()/f.countNoTotalUse();
+					float criterion = 0;
+					if(f.countNoTotalUse() != 0) {
+						criterion = f.countNoInClassUse()/f.countNoTotalUse();
+					}
 					set.add(new Performer(t.getName(), f.getName(), criterion, 1));
 				}
 			}

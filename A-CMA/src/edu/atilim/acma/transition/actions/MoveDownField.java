@@ -32,8 +32,11 @@ public class MoveDownField {
 							if (!m.canAccess(t) || !m.canAccess(t, f.getAccess()) || !t.isAncestorOf(m.getOwnerType())) 
 								break type;
 						}
-						
-						set.add(new Performer(type.getName(), f.getName(), t.getName()));
+						float criterion = 0;
+						if(f.countNoTotalUse() != 0) {
+							criterion = f.countNoInClassUse()/f.countNoTotalUse();
+						}
+						set.add(new Performer(type.getName(), f.getName(), t.getName(), criterion, 1));
 					}	
 				}	
 			}
@@ -44,11 +47,15 @@ public class MoveDownField {
 		private String typeName;
 		private String fieldName;
 		private String newOwnerTypeName;
+		private float criterion;
+		private float threshold;
 	
-		public Performer(String typeName, String fieldName, String newOwnerTypeName) {
+		public Performer(String typeName, String fieldName, String newOwnerTypeName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newOwnerTypeName = newOwnerTypeName;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -71,7 +78,11 @@ public class MoveDownField {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(criterion<threshold) {
+				return ActionId.MDM_t1;
+			}else {
+				return ActionId.MDM_t2;
+			}
 		}
 	}
 }

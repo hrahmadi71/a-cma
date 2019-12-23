@@ -10,7 +10,6 @@ import edu.atilim.acma.design.Method;
 import edu.atilim.acma.design.Type;
 import edu.atilim.acma.transition.actions.DecreaseFieldSecurityPackage2Protected.Performer;
 import edu.atilim.acma.util.Log;
-import edu.atilim.acma.transition.actions.ActionId;
 
 public class DecreaseFieldSecurityProtected2Public {
 	public static class Checker implements ActionChecker {
@@ -23,7 +22,10 @@ public class DecreaseFieldSecurityProtected2Public {
 				for (Field f : t.getFields()) {
 					
 					if (f.isCompilerGenerated() || f.isConstant() ||  f.getAccess() != Accessibility.PROTECTED) continue;
-					float criterion = f.countNoInClassUse()/f.countNoTotalUse();
+					float criterion = 0;
+					if(f.countNoTotalUse() != 0) {
+						criterion = f.countNoInClassUse()/f.countNoTotalUse();
+					}
 					set.add(new Performer(t.getName(), f.getName(), criterion, 1));
 				}
 			}

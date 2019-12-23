@@ -21,8 +21,11 @@ public class MoveUpField {
 				for (Field f : t.getFields()) {
 					if(f.getAccess() == Accessibility.PRIVATE || f.isCompilerGenerated()) 
 						continue;
-					
-					set.add(new Performer(t.getName(), f.getName(), superType.getName()));
+					float criterion = 0;
+					if(f.countNoTotalUse() != 0) {
+						criterion = f.countNoInClassUse()/f.countNoTotalUse();
+					}
+					set.add(new Performer(t.getName(), f.getName(), superType.getName(), criterion, 1));
 				}	
 			}
 		}
@@ -32,11 +35,15 @@ public class MoveUpField {
 		private String typeName;
 		private String fieldName;
 		private String newOwnerTypeName;
+		private float criterion;
+		private float threshold;
 	
-		public Performer(String typeName, String fieldName, String newOwnerTypeName) {
+		public Performer(String typeName, String fieldName, String newOwnerTypeName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newOwnerTypeName = newOwnerTypeName;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -49,7 +56,7 @@ public class MoveUpField {
 				return;
 			}
 			
-			f.setOwnerType(t);	
+			f.setOwnerType(t);
 		}
 	
 		@Override
@@ -59,7 +66,11 @@ public class MoveUpField {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(criterion<threshold) {
+				return ActionId.MUF_t1;
+			}else {
+				return ActionId.MUF_t2;
+			}
 		}
 	}
 }

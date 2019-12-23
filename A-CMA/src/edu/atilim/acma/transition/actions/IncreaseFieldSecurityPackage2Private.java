@@ -14,7 +14,6 @@ import edu.atilim.acma.design.Design;
 import edu.atilim.acma.design.Field;
 import edu.atilim.acma.design.Method;
 import edu.atilim.acma.design.Type;
-import edu.atilim.acma.transition.actions.ActionId;
 
 
 public class IncreaseFieldSecurityPackage2Private {

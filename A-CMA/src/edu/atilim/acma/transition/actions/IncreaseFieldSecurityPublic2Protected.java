@@ -14,7 +14,6 @@ import edu.atilim.acma.design.Design;
 import edu.atilim.acma.design.Field;
 import edu.atilim.acma.design.Method;
 import edu.atilim.acma.design.Type;
-import edu.atilim.acma.transition.actions.ActionId;
 
 
 public class IncreaseFieldSecurityPublic2Protected {
@@ -37,7 +36,10 @@ public class IncreaseFieldSecurityPublic2Protected {
 						if (!m.canAccess(f, newaccess))
 							break field;
 					}
-					float criterion = f.countNoInPackageUse()/f.countNoInHierarchyUse();
+					float criterion = 0;
+					if(f.countNoTotalUse() != 0) {
+						criterion = f.countNoInClassUse()/f.countNoTotalUse();
+					}
 					set.add(new Performer(t.getName(), f.getName(), newaccess, criterion, 1));
 				}
 			}

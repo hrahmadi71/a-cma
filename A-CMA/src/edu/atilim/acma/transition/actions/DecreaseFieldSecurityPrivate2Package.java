@@ -10,7 +10,6 @@ import edu.atilim.acma.design.Method;
 import edu.atilim.acma.design.Type;
 import edu.atilim.acma.transition.actions.DecreaseFieldSecurityPackage2Protected.Performer;
 import edu.atilim.acma.util.Log;
-import edu.atilim.acma.transition.actions.ActionId;
 
 public class DecreaseFieldSecurityPrivate2Package {
 	public static class Checker implements ActionChecker {
