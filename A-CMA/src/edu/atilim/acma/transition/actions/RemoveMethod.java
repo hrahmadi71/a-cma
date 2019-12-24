@@ -57,7 +57,7 @@ public class RemoveMethod {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.RM_t1;
 		}
 	}
 

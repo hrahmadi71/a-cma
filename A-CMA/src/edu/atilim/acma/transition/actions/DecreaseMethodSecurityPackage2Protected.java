@@ -21,8 +21,11 @@ public class DecreaseMethodSecurityPackage2Protected {
 						continue;
 					
 					Accessibility newaccess = Accessibility.PROTECTED;
-					
-					set.add(new Performer(t.getName(), m.getSignature(), newaccess));
+					float criterion = 0;
+					if(m.countNoTotalCallers() != 0) {
+						criterion = m.countNoInClassCallers() / m.countNoTotalCallers();
+					}
+					set.add(new Performer(t.getName(), m.getSignature(), newaccess, criterion, 1));
 				}
 			}
 		}
@@ -32,11 +35,15 @@ public class DecreaseMethodSecurityPackage2Protected {
 		private String typeName;
 		private String methodName;
 		private Accessibility newAccess;
+		private float criterion;
+		private float threshold;
 
-		public Performer(String typeName, String methodName, Accessibility newAccess) {
+		public Performer(String typeName, String methodName, Accessibility newAccess, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newAccess = newAccess;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -58,7 +65,11 @@ public class DecreaseMethodSecurityPackage2Protected {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(criterion<threshold) {
+				return ActionId.DMS_Package2Protected_t1;
+			}else {
+				return ActionId.DMS_Package2Protected_t2;
+			}
 		}
 	}
 }

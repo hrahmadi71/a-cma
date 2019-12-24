@@ -58,7 +58,7 @@ public class DecreaseMethodSecurityPrivate2Package {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.DMS_Private2Package_t1;
 		}
 	}
 }

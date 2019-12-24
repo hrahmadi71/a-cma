@@ -55,7 +55,7 @@ public class RemoveField {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.RF_t1;
 		}
 	}
 

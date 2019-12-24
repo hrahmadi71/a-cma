@@ -28,7 +28,7 @@ public class InlineMethod {
 						
 						if (caller.getSignature().equals(m.getSignature()) || caller.getOwnerType() != t) continue;
 						
-						set.add(new Performer(t.getName(), t.getName(), m.getSignature(), callers.get(0).getSignature()));
+						set.add(new Performer(t.getName(), t.getName(), m.getSignature(), caller.getSignature()));
 					}
 				}
 			}
@@ -81,7 +81,7 @@ public class InlineMethod {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.InlineM_t1;
 		}
 	}
 }

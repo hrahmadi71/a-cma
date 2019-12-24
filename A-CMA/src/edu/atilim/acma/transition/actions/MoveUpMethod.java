@@ -22,7 +22,7 @@ public class MoveUpMethod {
 					if(m.getAccess() == Accessibility.PRIVATE || m.getAccess() == Accessibility.PUBLIC ||  m.isCompilerGenerated() || m.isStatic() ||  m.isClassConstructor() || !m.canBeMovedTo(superType)) 
 						continue;
 					
-					set.add(new Performer(t.getName(), m.getSignature(), superType.getName()));
+					set.add(new Performer(t.getName(), m.getSignature(), superType.getName(), superType.getExtenders().size(), 2));
 				}	
 			}
 		}
@@ -32,11 +32,15 @@ public class MoveUpMethod {
 		private String typeName;
 		private String methodName;
 		private String newOwnerTypeName;
+		private float criterion;
+		private float threshold;
 	
-		public Performer(String typeName, String methodName, String newOwnerTypeName) {
+		public Performer(String typeName, String methodName, String newOwnerTypeName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newOwnerTypeName = newOwnerTypeName;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -59,7 +63,10 @@ public class MoveUpMethod {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(criterion<threshold)
+				return ActionId.MUM_t1;
+			else
+				return ActionId.MUM_t2;
 		}
 	}
 }

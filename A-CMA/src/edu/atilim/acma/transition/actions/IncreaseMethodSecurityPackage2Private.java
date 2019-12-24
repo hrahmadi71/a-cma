@@ -63,7 +63,7 @@ public class IncreaseMethodSecurityPackage2Private {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.IMS_Package2Private_t1;
 		}
 	}
 }

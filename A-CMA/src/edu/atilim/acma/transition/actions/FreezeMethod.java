@@ -15,28 +15,30 @@ public class FreezeMethod {
 		public void findPossibleActions(Design design, Set<Action> set) {
 			for (Type t : design.getTypes()) {
 				for (Method m : t.getMethods()) {
-					boolean flag = true;
+					boolean flag = false;
 					
 					if(m.isCompilerGenerated() || m.isOverride() || m.isStatic() || m.isConstructor() || m.isClassConstructor()) continue;
 					
 					for (Field f : m.getAccessedFields()) {			
 						if (f.getOwnerType() != t || !f.isStatic()){
-							flag = false;
+							flag = true;
 							break;
 						}
 					}
-					
-					for(Method mt : m.getCalledMethods()){
-						if(mt.getOwnerType() != t ||  !mt.isStatic() ){
-							flag = false;
-							break;
+					if(!flag) {
+						for(Method mt : m.getCalledMethods()){
+							if(mt.getOwnerType() != t ||  !mt.isStatic() ){
+								flag = true;
+								break;
+							}
 						}
 					}
 					
-					if(flag)
-						set.add(new Performer(t.getName(), m.getSignature(), false));
-					else
-						set.add(new Performer(t.getName(), m.getSignature(), true));
+					float criterion = 0;
+					if(m.countNoTotalCallers() > 0) {
+						criterion = m.countNoInClassCallers() / m.countNoTotalCallers();
+					}
+					set.add(new Performer(t.getName(), m.getSignature(), flag, criterion, 1));
 				}
 			}		
 		}
@@ -46,11 +48,15 @@ public class FreezeMethod {
 			private String typeName;
 			private String methodName;
 			private boolean parameterizeFlag;
+			private float criterion;
+			private float threshold;
 		
-		public Performer(String typeName, String methodName, boolean parameterizeFlag) {
+		public Performer(String typeName, String methodName, boolean parameterizeFlag, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.parameterizeFlag = parameterizeFlag;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -63,13 +69,11 @@ public class FreezeMethod {
 				return;
 			}
 			
+			m.setStatic(true);
+			
 			if(parameterizeFlag){
-				m.setStatic(true);
 				m.addParameter(t);
 			}
-				
-			else
-				m.setStatic(true);
 		}
 		
 		@Override
@@ -80,7 +84,15 @@ public class FreezeMethod {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(criterion<threshold) {
+				if(parameterizeFlag) {
+					return ActionId.FM_t1;
+				}else return ActionId.FM_t2;
+			}else {
+				if(parameterizeFlag) {
+					return ActionId.FM_t3;
+				}else return ActionId.FM_t4;
+			}
 		}
 	}//end of performer
 }

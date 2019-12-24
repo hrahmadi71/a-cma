@@ -27,11 +27,11 @@ public class ActionId {
 	public static final int MUF_t2 = 15;
 
 	public static final int RF_t1 = 16;
-	public static final int RF_t2 = 17;
+//	public static final int RF_t2 = 17;
 	
 	// Method Level Actions:
 	public static final int DMS_Private2Package_t1 = 18;
-	public static final int DMS_Private2Package_t2 = 19;
+//	public static final int DMS_Private2Package_t2 = 19;
 
 	public static final int DMS_Package2Protected_t1 = 20;
 	public static final int DMS_Package2Protected_t2 = 21;
@@ -46,7 +46,7 @@ public class ActionId {
 	public static final int IMS_Protected2Package_t2 = 27;
 
 	public static final int IMS_Package2Private_t1 = 28;
-	public static final int IMS_Package2Private_t2 = 29;
+//	public static final int IMS_Package2Private_t2 = 29;
 	
 	public static final int MDM_t1 = 30;
 	public static final int MDM_t2 = 31;
@@ -54,8 +54,18 @@ public class ActionId {
 	public static final int MUM_t1 = 32;
 	public static final int MUM_t2 = 33;
 	
+	public static final int FM_t1 = 34;
+	public static final int FM_t2 = 34;
+	public static final int FM_t3 = 34;
+	public static final int FM_t4 = 34;
+
 	public static final int MM_t1 = 34;
 	public static final int MM_t2 = 35;
 	
-	public static final int IM_t1 = 36;
+	public static final int InlineM_t1 = 36;
+	
+	public static final int InsM_t1 = 36;	
+	public static final int InsM_t2 = 36;
+	
+	public static final int RM_t1 = 0;
 }

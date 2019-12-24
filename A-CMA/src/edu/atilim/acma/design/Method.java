@@ -394,6 +394,16 @@ public class Method extends Node {
 		return count;
 	}
 	
+	public int countNoCallersInType(Type t) {
+		int count = 0;
+		for(Method m : getCallerMethods()){
+			if(m.getOwnerType().equals(t.getOwnerType())) {
+				count++;
+			}
+		}
+		return count;
+	}
+	
 	public int countNoCallsInType(Type t) {
 		int count = 0;
 		for(Method m : getCalledMethods()) {
@@ -402,7 +412,7 @@ public class Method extends Node {
 			}
 		}
 		return count;
-	}	
+	}
 	
 	@Override
 	public String toString() {

@@ -30,7 +30,12 @@ public class MoveMethod {
 						if(p.getDimension() != 0 || !m.canBeMovedTo(p.getType())) 
 							continue;
 						else{
-							set.add(new Performer(type.getName(), m.getSignature(), p.getType().getName()));
+							float criterion = 0;
+							if(m.countNoInClassCallers() != 0)
+								criterion = (float) m.countNoCallersInType(p.getType()) / m.countNoInClassCallers();
+							else
+								criterion = m.countNoCallersInType(p.getType());
+							set.add(new Performer(type.getName(), m.getSignature(), p.getType().getName(), criterion, 1));
 							//break method;
 						}
 					}
@@ -43,11 +48,15 @@ public class MoveMethod {
 		private String typeName;
 		private String methodName;
 		private String newOwnerTypeName;
+		private float criterion;
+		private float threshold;
 
-		public Performer(String typeName, String methodName, String newOwnerTypeName) {
+		public Performer(String typeName, String methodName, String newOwnerTypeName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newOwnerTypeName = newOwnerTypeName;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -78,7 +87,10 @@ public class MoveMethod {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(criterion<threshold)
+				return ActionId.MM_t1;
+			else
+				return ActionId.MM_t2;
 		}
 	}
 }
