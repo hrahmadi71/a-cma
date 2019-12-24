@@ -58,7 +58,7 @@ public class RemoveClass {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.RC_t1;
 		}
 	}
 

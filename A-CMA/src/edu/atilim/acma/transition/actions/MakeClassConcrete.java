@@ -13,17 +13,20 @@ public class MakeClassConcrete {
 			for (Type t : design.getTypes()) {
 				if (t.isCompilerGenerated() || t.isAnnotation()) continue;
 				
-				if(t.isAbstract())
-					set.add(new Performer(t.getName()));
+				if(t.isAbstract()) {
+					set.add(new Performer(t.getName(), t.getSuperType()!=null));
+				}
 			}
-		}	
+		}
 	}
 	
 	public static class Performer implements Action {
 		private String typeName;
-		
-		public Performer(String typeName) {
+		private boolean typeHasSuperType;
+
+		public Performer(String typeName, boolean typeHasSuperType) {
 			this.typeName = typeName;
+			this.typeHasSuperType = typeHasSuperType;
 		}
 
 		@Override
@@ -45,7 +48,10 @@ public class MakeClassConcrete {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(typeHasSuperType)
+				return ActionId.MCC_t1;
+			else
+				return ActionId.MCC_t2;
 		}
 	}
 }

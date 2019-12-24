@@ -45,7 +45,7 @@ public class MakeClassNonFinal {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.MCNF_t1;
 		}
 	}
 }

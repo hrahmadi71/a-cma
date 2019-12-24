@@ -19,7 +19,7 @@ public final class MakeClassAbstract {
 				if (t.getExtenders().size() == 0)
 					continue;
 				
-				set.add(new Performer(t.getName()));
+				set.add(new Performer(t.getName(), t.getSuperType()!=null));
 			}
 		}
 		
@@ -27,9 +27,11 @@ public final class MakeClassAbstract {
 	
 	public static class Performer implements Action {
 		private String typeName;
+		private boolean typeHasSuperType;
 		
-		public Performer(String typeName) {
+		public Performer(String typeName, boolean typeHasSuperType) {
 			this.typeName = typeName;
+			this.typeHasSuperType = typeHasSuperType;
 		}
 
 		@Override
@@ -49,7 +51,10 @@ public final class MakeClassAbstract {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(typeHasSuperType)
+				return ActionId.MCA_t1;
+			else
+				return ActionId.MCA_t2;
 		}
 	}
 }

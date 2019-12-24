@@ -55,7 +55,7 @@ public class RemoveInterface {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.RI_t1;
 		}
 	}
 

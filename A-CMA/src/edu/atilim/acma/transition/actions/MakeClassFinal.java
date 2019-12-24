@@ -46,7 +46,7 @@ public class MakeClassFinal {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return ActionId.MCF_t1;
 		}
 	}
 }

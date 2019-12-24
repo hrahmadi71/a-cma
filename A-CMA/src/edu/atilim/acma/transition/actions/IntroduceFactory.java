@@ -20,7 +20,7 @@ public class IntroduceFactory {
 					if (!m.isConstructor() || m.getAccess() == Accessibility.PRIVATE || m.isCompilerGenerated() || m.isAbstract() || m.isClassConstructor())
 						continue;
 					
-					set.add(new Performer(t.getName(), m.getSignature()));
+					set.add(new Performer(t.getName(), m.getSignature(), t.getExtenders().size(), 2));
 				}
 			}
 		}
@@ -30,10 +30,14 @@ public class IntroduceFactory {
 	public static class Performer implements Action {
 		private String typeName;
 		private String ctorName;
+		private float criterion;
+		private float threshold;
 		
-		public Performer(String typeName, String ctorName) {
+		public Performer(String typeName, String ctorName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.ctorName = ctorName;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -68,7 +72,10 @@ public class IntroduceFactory {
 		
 		@Override
 		public int getId() {
-			return 0;
+			if(criterion<threshold)
+				return ActionId.Intr_Fac_t1;
+			else
+				return ActionId.Intr_Fac_t2;
 		}
 	}
 }
