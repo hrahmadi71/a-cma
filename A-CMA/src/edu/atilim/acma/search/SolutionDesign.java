@@ -122,10 +122,16 @@ public class SolutionDesign implements Iterable<SolutionDesign>, Comparable<Solu
 		return best;
 	}
 	
-	public SolutionDesign getRandomNeighbor() {
+	public Action getRandomAction() {
 		List<Action> actions = getAllActions();
-		if (actions.isEmpty()) return this;
-		return apply(actions.get(ACMAUtil.RANDOM.nextInt(actions.size())));
+		if (actions.isEmpty()) return null;
+		return actions.get(ACMAUtil.RANDOM.nextInt(actions.size()));
+	}
+	
+	public SolutionDesign getRandomNeighbor() {
+		Action action = getRandomAction();
+		if (action == null) return this;
+		return apply(action);
 	}
 	
 	public SolutionDesign getRandomNeighbor(int depth) {

@@ -1,5 +1,6 @@
 package edu.atilim.acma.search;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -7,11 +8,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+
 import edu.atilim.acma.transition.ActionRegistry;
 import edu.atilim.acma.transition.ActionRegistry.Entry;
 import edu.atilim.acma.transition.actions.Action;
 
 import edu.atilim.acma.metrics.MetricSummary;
+import edu.atilim.acma.util.DQNApis;
+
 
 public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 	
@@ -41,6 +45,7 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 			observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_BEST & AlgorithmObserver.UPDATE_CURRENT);
 		}
 	}
+
 	
 	@Override
 	protected void afterFinish() {
@@ -65,11 +70,11 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 		}
 		
 		Double[] oldState = current.getSolutionState();
-		List<Action> acts = current.getAllActions();
-		Set<Entry> entries = ActionRegistry.entries();
+		Action randomAction = current.getRandomAction();
+		randomAction.getId();
+		SolutionDesign randomNeighbor = current.apply(randomAction);
 		
-		SolutionDesign randomNeighbor = current.getRandomNeighbor();
-		
+		Double[] newState = randomNeighbor.getSolutionState();
 		
 		if (randomNeighbor.isBetterThan(best)) {
 			best = randomNeighbor;
