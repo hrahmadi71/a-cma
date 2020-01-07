@@ -70,6 +70,11 @@ public class DecreaseFieldSecurityPackage2Protected {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.FIELD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold) {
 //				return ActionId.DFS_Package2Protected_t1;

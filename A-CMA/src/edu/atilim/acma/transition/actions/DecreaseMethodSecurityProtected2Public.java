@@ -78,6 +78,11 @@ public class DecreaseMethodSecurityProtected2Public {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.METHOD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold) {
 //				return ActionId.DMS_Protected2Public_t1;

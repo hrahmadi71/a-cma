@@ -77,6 +77,11 @@ public class DecreaseMethodSecurity {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.METHOD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 			return -1; // not implemented!
 		}

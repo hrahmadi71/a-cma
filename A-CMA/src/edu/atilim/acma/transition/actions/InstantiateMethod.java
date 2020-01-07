@@ -102,6 +102,11 @@ public class InstantiateMethod {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.METHOD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold)
 //				return ActionId.InsM_t1;

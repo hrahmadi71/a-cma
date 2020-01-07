@@ -71,6 +71,11 @@ public class RemoveClass {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.CLASS_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 			return ActionId.RC_t1;
 		}

@@ -78,6 +78,11 @@ public class DecreaseMethodSecurityPackage2Protected {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.METHOD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold) {
 //				return ActionId.DMS_Package2Protected_t1;

@@ -60,6 +60,11 @@ public class MakeClassFinal {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.CLASS_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 			return ActionId.MCF_t1;
 		}

@@ -83,6 +83,11 @@ public class IncreaseMethodSecurityProtected2Package {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.METHOD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold) {
 //				return ActionId.IMS_Protected2Package_t1;

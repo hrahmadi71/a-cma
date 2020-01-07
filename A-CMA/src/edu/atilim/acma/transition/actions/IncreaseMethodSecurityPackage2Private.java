@@ -74,6 +74,11 @@ public class IncreaseMethodSecurityPackage2Private {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.METHOD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 			return ActionId.IMS_Package2Private_t1;
 		}

@@ -80,6 +80,11 @@ public class IncreaseFieldSecurityProtected2Package {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.FIELD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold) {
 //				return ActionId.IFS_Protected2Package_t1;

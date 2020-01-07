@@ -65,6 +65,11 @@ public class RemoveField {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.FIELD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 			return ActionId.RF_t1;
 		}

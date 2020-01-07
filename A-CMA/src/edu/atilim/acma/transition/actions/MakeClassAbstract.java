@@ -65,6 +65,11 @@ public final class MakeClassAbstract {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.CLASS_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(typeHasSuperType)
 //				return ActionId.MCA_t1;

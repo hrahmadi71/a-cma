@@ -89,6 +89,11 @@ public class MoveDownField {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.FIELD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold) {
 //				return ActionId.MDM_t1;

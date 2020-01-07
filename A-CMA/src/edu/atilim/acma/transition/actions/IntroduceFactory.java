@@ -86,6 +86,11 @@ public class IntroduceFactory {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.CLASS_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold)
 //				return ActionId.Intr_Fac_t1;

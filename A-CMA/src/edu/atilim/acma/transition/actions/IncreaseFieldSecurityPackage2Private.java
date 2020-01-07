@@ -79,6 +79,11 @@ public class IncreaseFieldSecurityPackage2Private {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.FIELD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 			return ActionId.IFS_Package2Private_t1;
 		}

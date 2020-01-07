@@ -61,6 +61,11 @@ public class MakeClassConcrete {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.CLASS_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(typeHasSuperType)
 //				return ActionId.MCC_t1;

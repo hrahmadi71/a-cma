@@ -97,6 +97,11 @@ public class FreezeMethod {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.METHOD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold) {
 //				if(parameterizeFlag) {

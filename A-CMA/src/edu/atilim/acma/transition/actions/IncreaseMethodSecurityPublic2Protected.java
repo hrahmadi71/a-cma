@@ -83,6 +83,11 @@ public class IncreaseMethodSecurityPublic2Protected {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.METHOD_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 //			if(criterion<threshold) {
 //				return ActionId.IMS_Public2Protected_t1;

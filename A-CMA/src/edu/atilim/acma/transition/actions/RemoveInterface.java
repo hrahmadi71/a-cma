@@ -70,6 +70,11 @@ public class RemoveInterface {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.CLASS_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 			return ActionId.RI_t1;
 		}

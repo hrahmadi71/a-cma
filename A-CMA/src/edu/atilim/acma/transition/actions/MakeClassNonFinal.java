@@ -60,6 +60,11 @@ public class MakeClassNonFinal {
 		}
 		
 		@Override
+		public int getType() {
+			return ActionType.CLASS_LEVEL;
+		}
+		
+		@Override
 		public int getId() {
 			return ActionId.MCNF_t1;
 		}
