@@ -22,9 +22,23 @@ public class RemoveClass {
 						t.getDependentMethodsAsInstantiator().isEmpty() && 
 						t.getDependentMethodsAsParameter().isEmpty() && 
 						t.getNestedTypes().isEmpty() &&
-						t.getDependentMethodsAsReturnType().isEmpty())
+						t.getDependentMethodsAsReturnType().isEmpty()) {
 					
-					set.add(new Performer(t.getName()));
+					int[] typeParams = {
+							t.getNoFields(),
+							t.getNoMethods(),
+							t.getDependentFields().size(),
+							t.getDependentMethodsAsInstantiator().size(),
+							t.getDependentMethodsAsParameter().size(),
+							t.getDependentMethodsAsReturnType().size(),
+							t.getExtenders().size(),
+							t.getImplementers().size(),
+							t.getNoSiblings(),
+							t.getNoTotalMethodsOfSiblings()
+					};
+					
+					set.add(new Performer(t.getName(), typeParams));
+				}
 			}
 		}
 	}
@@ -32,11 +46,11 @@ public class RemoveClass {
 	public static class Performer implements Action {
 		
 		private String typeName;
+		private int[] params;
 		
-		public Performer(String typeName) {
-			
+		public Performer(String typeName, int[] params) {
 			this.typeName = typeName;
-	
+			this.params = params;
 		}
 
 		@Override
@@ -59,6 +73,11 @@ public class RemoveClass {
 		@Override
 		public int getId() {
 			return ActionId.RC_t1;
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 

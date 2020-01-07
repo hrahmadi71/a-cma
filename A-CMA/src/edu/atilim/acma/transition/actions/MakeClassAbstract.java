@@ -19,7 +19,20 @@ public final class MakeClassAbstract {
 				if (t.getExtenders().size() == 0)
 					continue;
 				
-				set.add(new Performer(t.getName(), t.getSuperType()!=null));
+				int[] typeParams = {
+						t.getNoFields(),
+						t.getNoMethods(),
+						t.getDependentFields().size(),
+						t.getDependentMethodsAsInstantiator().size(),
+						t.getDependentMethodsAsParameter().size(),
+						t.getDependentMethodsAsReturnType().size(),
+						t.getExtenders().size(),
+						t.getImplementers().size(),
+						t.getNoSiblings(),
+						t.getNoTotalMethodsOfSiblings()
+				};
+				
+				set.add(new Performer(t.getName(), t.getSuperType()!=null, typeParams));
 			}
 		}
 		
@@ -28,10 +41,12 @@ public final class MakeClassAbstract {
 	public static class Performer implements Action {
 		private String typeName;
 		private boolean typeHasSuperType;
+		private int[] params;
 		
-		public Performer(String typeName, boolean typeHasSuperType) {
+		public Performer(String typeName, boolean typeHasSuperType, int[] params) {
 			this.typeName = typeName;
 			this.typeHasSuperType = typeHasSuperType;
+			this.params = params;
 		}
 
 		@Override
@@ -55,6 +70,11 @@ public final class MakeClassAbstract {
 				return ActionId.MCA_t1;
 			else
 				return ActionId.MCA_t2;
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

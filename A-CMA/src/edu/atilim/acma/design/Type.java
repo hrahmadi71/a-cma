@@ -246,6 +246,10 @@ public class Type extends Node {
 		return getMethods().size();
 	}
 	
+	public int getNoFields() {
+		return getFields().size();
+	}
+	
 	public int getNoSiblings() {
 		if(getSuperType() != null) {
 			return getSuperType().getExtenders().size() - 1;

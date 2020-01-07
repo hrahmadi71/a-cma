@@ -5,4 +5,5 @@ import edu.atilim.acma.design.Design;
 public interface Action {
 	public abstract void perform(Design d);
 	public abstract int getId();
+	public abstract int[] getParams();
 }

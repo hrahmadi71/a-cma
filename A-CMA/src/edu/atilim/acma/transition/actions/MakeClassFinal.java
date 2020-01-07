@@ -15,16 +15,31 @@ public class MakeClassFinal {
 				if (t.getAccess() == Accessibility.PUBLIC || t.getExtenders().size() != 0 || t.isCompilerGenerated() || t.isAnnotation() || t.isInterface() || t.isFinal()) 
 					continue;
 				
-				set.add(new Performer(t.getName()));
+				int[] typeParams = {
+						t.getNoFields(),
+						t.getNoMethods(),
+						t.getDependentFields().size(),
+						t.getDependentMethodsAsInstantiator().size(),
+						t.getDependentMethodsAsParameter().size(),
+						t.getDependentMethodsAsReturnType().size(),
+						t.getExtenders().size(),
+						t.getImplementers().size(),
+						t.getNoSiblings(),
+						t.getNoTotalMethodsOfSiblings()
+				};
+				
+				set.add(new Performer(t.getName(), typeParams));
 			}
 		}
 	}
 	
 	public static class Performer implements Action {
 		private String typeName;
+		private int[] params;
 		
-		public Performer(String typeName) {
+		public Performer(String typeName, int[] params) {
 			this.typeName = typeName;
+			this.params = params;
 		}
 
 		@Override
@@ -47,6 +62,11 @@ public class MakeClassFinal {
 		@Override
 		public int getId() {
 			return ActionId.MCF_t1;
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

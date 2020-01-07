@@ -29,7 +29,18 @@ public class DecreaseMethodSecurity {
 					if (m.getAccess() == Accessibility.PROTECTED)
 						newaccess = Accessibility.PUBLIC;
 					
-					set.add(new Performer(t.getName(), m.getSignature(), newaccess));
+					int[] methodParams = {
+							m.countNoTotalCallers(),
+							m.countNoInClassCallers(),
+							m.countInHierarchyCallers(),
+							m.countInPckageCallers(),
+							m.countNoOverrides(),
+							m.getNoParameters(),
+							t.getNoFields(),
+							t.getNoMethods()
+					};
+					
+					set.add(new Performer(t.getName(), m.getSignature(), newaccess, methodParams));
 				}
 			}
 		}
@@ -39,11 +50,13 @@ public class DecreaseMethodSecurity {
 		private String typeName;
 		private String methodName;
 		private Accessibility newAccess;
+		private int[] params;
 
-		public Performer(String typeName, String methodName, Accessibility newAccess) {
+		public Performer(String typeName, String methodName, Accessibility newAccess, int[] params) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newAccess = newAccess;
+			this.params = params;
 		}
 
 		@Override
@@ -66,6 +79,11 @@ public class DecreaseMethodSecurity {
 		@Override
 		public int getId() {
 			return 0;
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

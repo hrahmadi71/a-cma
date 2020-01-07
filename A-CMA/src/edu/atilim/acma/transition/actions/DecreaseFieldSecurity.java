@@ -27,7 +27,16 @@ public class DecreaseFieldSecurity {
 					if (f.getAccess() == Accessibility.PROTECTED)
 						newaccess = Accessibility.PUBLIC;
 					
-					set.add(new Performer(t.getName(), f.getName(), newaccess));
+					int[] fieldParams = {
+							f.countNoTotalUse(),
+							f.countNoInHierarchyUse(),
+							f.countNoInPackageUse(),
+							f.countNoInClassUse(),
+							t.getNoFields(),
+							t.getNoMethods()
+					};
+					
+					set.add(new Performer(t.getName(), f.getName(), newaccess, fieldParams));
 				}
 			}
 		}
@@ -37,9 +46,10 @@ public class DecreaseFieldSecurity {
 		private String typeName;
 		private String fieldName;
 		private Accessibility newAccess;
+		private int[] params;
 
 		public Performer(String typeName, String fieldName,
-				Accessibility newAccess) {
+				Accessibility newAccess, int[] params) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = newAccess;
@@ -58,6 +68,11 @@ public class DecreaseFieldSecurity {
 		@Override
 		public int getId() {
 			return 0;
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

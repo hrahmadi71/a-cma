@@ -38,7 +38,19 @@ public class FreezeMethod {
 					if(m.countNoTotalCallers() > 0) {
 						criterion = m.countNoInClassCallers() / m.countNoTotalCallers();
 					}
-					set.add(new Performer(t.getName(), m.getSignature(), flag, criterion, 1));
+					
+					int[] methodParams = {
+							m.countNoTotalCallers(),
+							m.countNoInClassCallers(),
+							m.countInHierarchyCallers(),
+							m.countInPckageCallers(),
+							m.countNoOverrides(),
+							m.getNoParameters(),
+							t.getNoFields(),
+							t.getNoMethods()
+					};
+					
+					set.add(new Performer(t.getName(), m.getSignature(), flag, criterion, 1, methodParams));
 				}
 			}		
 		}
@@ -50,13 +62,15 @@ public class FreezeMethod {
 			private boolean parameterizeFlag;
 			private float criterion;
 			private float threshold;
+			private int[] params;
 		
-		public Performer(String typeName, String methodName, boolean parameterizeFlag, float criterion, float threshold) {
+		public Performer(String typeName, String methodName, boolean parameterizeFlag, float criterion, float threshold, int[] params) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.parameterizeFlag = parameterizeFlag;
 			this.criterion = criterion;
 			this.threshold = threshold;
+			this.params = params;
 		}
 
 		@Override
@@ -93,6 +107,11 @@ public class FreezeMethod {
 					return ActionId.FM_t3;
 				}else return ActionId.FM_t4;
 			}
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}//end of performer
 }

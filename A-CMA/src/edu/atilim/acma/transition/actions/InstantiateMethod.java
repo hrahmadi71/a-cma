@@ -37,7 +37,20 @@ public class InstantiateMethod {
 									criterion = (float) m.countNoCallersInType(p.getType()) / m.countNoInClassCallers();
 								else
 									criterion = m.countNoCallersInType(p.getType());
-								set.add(new Performer(type.getName(), m.getSignature(), p.getType().getName(), criterion, 1));
+
+								
+								int[] methodParams = {
+										m.countNoTotalCallers(),
+										m.countNoInClassCallers(),
+										m.countInHierarchyCallers(),
+										m.countInPckageCallers(),
+										m.countNoOverrides(),
+										m.getNoParameters(),
+										type.getNoFields(),
+										type.getNoMethods()
+								};
+								
+								set.add(new Performer(type.getName(), m.getSignature(), p.getType().getName(), criterion, 1, methodParams));
 							}
 						}
 					}
@@ -52,13 +65,15 @@ public class InstantiateMethod {
 		private String newOwnerTypeName;
 		private float criterion;
 		private float threshold;
+		private int[] params;
 
-		public Performer(String typeName, String methodName, String newOwnerTypeName, float criterion, float threshold) {
+		public Performer(String typeName, String methodName, String newOwnerTypeName, float criterion, float threshold, int[] params) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newOwnerTypeName = newOwnerTypeName;
 			this.criterion = criterion;
 			this.threshold = threshold;
+			this.params = params;
 		}
 
 		@Override
@@ -92,6 +107,11 @@ public class InstantiateMethod {
 				return ActionId.InsM_t1;
 			else
 				return ActionId.InsM_t2;
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

@@ -13,17 +13,33 @@ public class MakeClassNonFinal {
 			for (Type t : design.getTypes()) {
 				if (t.isCompilerGenerated() || t.isAnnotation()) continue;
 				
-				if(t.isFinal())
-					set.add(new Performer(t.getName()));
+				if(t.isFinal()) {
+					int[] typeParams = {
+							t.getNoFields(),
+							t.getNoMethods(),
+							t.getDependentFields().size(),
+							t.getDependentMethodsAsInstantiator().size(),
+							t.getDependentMethodsAsParameter().size(),
+							t.getDependentMethodsAsReturnType().size(),
+							t.getExtenders().size(),
+							t.getImplementers().size(),
+							t.getNoSiblings(),
+							t.getNoTotalMethodsOfSiblings()
+					};
+					
+					set.add(new Performer(t.getName(), typeParams));
+				}
 			}
 		}	
 	}
 	
 	public static class Performer implements Action {
 		private String typeName;
+		private int[] params;
 		
-		public Performer(String typeName) {
+		public Performer(String typeName, int[] params) {
 			this.typeName = typeName;
+			this.params = params;
 		}
 
 		@Override
@@ -46,6 +62,11 @@ public class MakeClassNonFinal {
 		@Override
 		public int getId() {
 			return ActionId.MCNF_t1;
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

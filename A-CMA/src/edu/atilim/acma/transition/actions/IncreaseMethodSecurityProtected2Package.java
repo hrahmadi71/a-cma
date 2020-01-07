@@ -32,7 +32,19 @@ public class IncreaseMethodSecurityProtected2Package {
 					if(m.countNoTotalCallers() != 0) {
 						criterion = m.countNoInClassCallers() / m.countNoTotalCallers();
 					}
-					set.add(new Performer(t.getName(), m.getSignature(), newaccess, criterion, 1));
+					
+					int[] methodParams = {
+							m.countNoTotalCallers(),
+							m.countNoInClassCallers(),
+							m.countInHierarchyCallers(),
+							m.countInPckageCallers(),
+							m.countNoOverrides(),
+							m.getNoParameters(),
+							t.getNoFields(),
+							t.getNoMethods()
+					};
+					
+					set.add(new Performer(t.getName(), m.getSignature(), newaccess, criterion, 1, methodParams));
 				}
 			}
 		}	
@@ -44,13 +56,15 @@ public class IncreaseMethodSecurityProtected2Package {
 		private Accessibility newAccess;
 		private float criterion;
 		private float threshold;
+		private int[] params;
 
-		public Performer(String typeName, String methodName, Accessibility newAccess, float criterion, float threshold) {
+		public Performer(String typeName, String methodName, Accessibility newAccess, float criterion, float threshold, int[] params) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newAccess = newAccess;
 			this.criterion = criterion;
 			this.threshold = threshold;
+			this.params = params;
 		}
 
 		@Override
@@ -75,6 +89,11 @@ public class IncreaseMethodSecurityProtected2Package {
 			}else {
 				return ActionId.IMS_Protected2Package_t2;
 			}
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

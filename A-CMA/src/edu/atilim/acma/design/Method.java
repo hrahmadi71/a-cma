@@ -189,6 +189,14 @@ public class Method extends Node {
 		return Collections.unmodifiableList(typeList);
 	}
 	
+	public int getNoParameters() {
+		List<Parameter> params = getParameters();
+		if(params == null)
+			return 0;
+		else
+			return params.size();
+	}
+	
 	List<Reference> getRawParameters() {
 		return Collections.unmodifiableList(paramTypes);
 	}

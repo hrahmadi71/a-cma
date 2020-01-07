@@ -22,8 +22,17 @@ public class DecreaseFieldSecurityPrivate2Package {
 				for (Field f : t.getFields()) {
 					
 					if (f.isCompilerGenerated() || f.isConstant() ||  f.getAccess() != Accessibility.PRIVATE) continue;
-										
-					set.add(new Performer(t.getName(), f.getName()));
+					
+					int[] fieldParams = {
+							f.countNoTotalUse(),
+							f.countNoInHierarchyUse(),
+							f.countNoInPackageUse(),
+							f.countNoInClassUse(),
+							t.getNoFields(),
+							t.getNoMethods()
+					};
+					
+					set.add(new Performer(t.getName(), f.getName(), fieldParams));
 				}
 			}
 		}
@@ -33,11 +42,13 @@ public class DecreaseFieldSecurityPrivate2Package {
 		private String typeName;
 		private String fieldName;
 		private Accessibility newAccess;
+		private int[] params;
 
-		public Performer(String typeName, String fieldName) {
+		public Performer(String typeName, String fieldName, int[] params) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = Accessibility.PACKAGE;
+			this.params = params;
 		}
 
 		@Override
@@ -53,6 +64,11 @@ public class DecreaseFieldSecurityPrivate2Package {
 		@Override
 		public int getId() {
 			return ActionId.DFS_Private2Package_t1;
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

@@ -37,7 +37,16 @@ public class IncreaseFieldSecurityPackage2Private {
 							break field;
 					}
 					
-					set.add(new Performer(t.getName(), f.getName(), newaccess));
+					int[] fieldParams = {
+							f.countNoTotalUse(),
+							f.countNoInHierarchyUse(),
+							f.countNoInPackageUse(),
+							f.countNoInClassUse(),
+							t.getNoFields(),
+							t.getNoMethods()
+					};
+					
+					set.add(new Performer(t.getName(), f.getName(), newaccess, fieldParams));
 				}
 			}
 		}
@@ -48,11 +57,13 @@ public class IncreaseFieldSecurityPackage2Private {
 		private String typeName;
 		private String fieldName;
 		private Accessibility newAccess;
+		private int[] params;
 
-		public Performer(String typeName, String fieldName, Accessibility newaccess) {
+		public Performer(String typeName, String fieldName, Accessibility newaccess, int[] params) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = newaccess;
+			this.params = params;
 		}
 
 		@Override
@@ -83,6 +94,11 @@ public class IncreaseFieldSecurityPackage2Private {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

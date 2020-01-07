@@ -26,8 +26,20 @@ public class MoveDownMethod {
 					for(Type t : childTypeList){
 						if(!m.canBeMovedTo(t))
 							continue;
-						else
-							set.add(new Performer(type.getName(), m.getSignature(), t.getName(), childTypeList.size(), 2));
+						else {
+							int[] methodParams = {
+									m.countNoTotalCallers(),
+									m.countNoInClassCallers(),
+									m.countInHierarchyCallers(),
+									m.countInPckageCallers(),
+									m.countNoOverrides(),
+									m.getNoParameters(),
+									type.getNoFields(),
+									type.getNoMethods()
+							};
+							
+							set.add(new Performer(type.getName(), m.getSignature(), t.getName(), childTypeList.size(), 2, methodParams));
+						}
 					}
 				}
 			}
@@ -40,13 +52,15 @@ public class MoveDownMethod {
 		private String newOwnerTypeName;
 		private float criterion;
 		private float threshold;
+		private int[] params;
 	
-		public Performer(String typeName, String methodName, String newOwnerTypeName, float criterion, float threshold) {
+		public Performer(String typeName, String methodName, String newOwnerTypeName, float criterion, float threshold, int[] params) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newOwnerTypeName = newOwnerTypeName;
 			this.criterion = criterion;
 			this.threshold = threshold;
+			this.params = params;
 		}
 
 		@Override
@@ -73,6 +87,11 @@ public class MoveDownMethod {
 				return ActionId.MDM_t1;
 			else
 				return ActionId.MDM_t2;
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }

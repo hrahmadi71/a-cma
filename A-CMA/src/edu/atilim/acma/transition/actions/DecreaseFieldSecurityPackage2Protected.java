@@ -26,7 +26,17 @@ public class DecreaseFieldSecurityPackage2Protected {
 					if(f.countNoTotalUse() != 0) {
 						criterion = f.countNoInClassUse()/f.countNoTotalUse();
 					}
-					set.add(new Performer(t.getName(), f.getName(), criterion, 1));
+					
+					int[] fieldParams = {
+							f.countNoTotalUse(),
+							f.countNoInHierarchyUse(),
+							f.countNoInPackageUse(),
+							f.countNoInClassUse(),
+							t.getNoFields(),
+							t.getNoMethods()
+					};
+					
+					set.add(new Performer(t.getName(), f.getName(), criterion, 1, fieldParams));
 				}
 			}
 		}
@@ -38,13 +48,15 @@ public class DecreaseFieldSecurityPackage2Protected {
 		private Accessibility newAccess;
 		private float criterion;
 		private float threshold;
+		private int[] params;
 
-		public Performer(String typeName, String fieldName, float criterion, float threshold) {
+		public Performer(String typeName, String fieldName, float criterion, float threshold, int[] params) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = Accessibility.PROTECTED;
 			this.criterion = criterion;
 			this.threshold = threshold;
+			this.params = params;
 		}
 
 		@Override
@@ -64,6 +76,11 @@ public class DecreaseFieldSecurityPackage2Protected {
 			}else {
 				return ActionId.DFS_Package2Protected_t2;
 			}
+		}
+		
+		@Override
+		public int[] getParams() {
+			return params;
 		}
 	}
 }
