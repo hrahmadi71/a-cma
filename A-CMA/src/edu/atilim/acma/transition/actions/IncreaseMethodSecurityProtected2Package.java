@@ -84,11 +84,12 @@ public class IncreaseMethodSecurityProtected2Package {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold) {
-				return ActionId.IMS_Protected2Package_t1;
-			}else {
-				return ActionId.IMS_Protected2Package_t2;
-			}
+//			if(criterion<threshold) {
+//				return ActionId.IMS_Protected2Package_t1;
+//			}else {
+//				return ActionId.IMS_Protected2Package_t2;
+//			}
+			return ActionId.IMS_Protected2Package_t1;
 		}
 		
 		@Override

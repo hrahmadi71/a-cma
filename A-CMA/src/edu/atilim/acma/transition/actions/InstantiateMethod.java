@@ -103,10 +103,11 @@ public class InstantiateMethod {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold)
-				return ActionId.InsM_t1;
-			else
-				return ActionId.InsM_t2;
+//			if(criterion<threshold)
+//				return ActionId.InsM_t1;
+//			else
+//				return ActionId.InsM_t2;
+			return ActionId.InsM_t1;
 		}
 		
 		@Override

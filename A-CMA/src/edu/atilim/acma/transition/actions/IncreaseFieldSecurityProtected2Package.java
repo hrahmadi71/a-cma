@@ -81,11 +81,12 @@ public class IncreaseFieldSecurityProtected2Package {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold) {
-				return ActionId.IFS_Protected2Package_t1;
-			}else {
-				return ActionId.IFS_Protected2Package_t2;
-			}
+//			if(criterion<threshold) {
+//				return ActionId.IFS_Protected2Package_t1;
+//			}else {
+//				return ActionId.IFS_Protected2Package_t2;
+//			}
+			return ActionId.IFS_Protected2Package_t1;
 		}
 		
 		@Override

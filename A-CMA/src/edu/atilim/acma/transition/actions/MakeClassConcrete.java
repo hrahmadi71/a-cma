@@ -62,10 +62,11 @@ public class MakeClassConcrete {
 		
 		@Override
 		public int getId() {
-			if(typeHasSuperType)
-				return ActionId.MCC_t1;
-			else
-				return ActionId.MCC_t2;
+//			if(typeHasSuperType)
+//				return ActionId.MCC_t1;
+//			else
+//				return ActionId.MCC_t2;
+			return ActionId.MCC_t1;
 		}
 		
 		@Override

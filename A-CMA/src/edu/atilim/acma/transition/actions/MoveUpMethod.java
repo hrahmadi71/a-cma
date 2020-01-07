@@ -76,10 +76,11 @@ public class MoveUpMethod {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold)
-				return ActionId.MUM_t1;
-			else
-				return ActionId.MUM_t2;
+//			if(criterion<threshold)
+//				return ActionId.MUM_t1;
+//			else
+//				return ActionId.MUM_t2;
+			return ActionId.MUM_t1;
 		}
 		
 		@Override

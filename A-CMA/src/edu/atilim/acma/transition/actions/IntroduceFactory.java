@@ -87,10 +87,11 @@ public class IntroduceFactory {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold)
-				return ActionId.Intr_Fac_t1;
-			else
-				return ActionId.Intr_Fac_t2;
+//			if(criterion<threshold)
+//				return ActionId.Intr_Fac_t1;
+//			else
+//				return ActionId.Intr_Fac_t2;
+			return ActionId.Intr_Fac_t1;
 		}
 		
 		@Override

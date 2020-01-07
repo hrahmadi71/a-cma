@@ -89,7 +89,7 @@ public class IncreaseMethodSecurity {
 		
 		@Override
 		public int getId() {
-			return 0;
+			return -1; // not implemented!
 		}
 		
 		@Override

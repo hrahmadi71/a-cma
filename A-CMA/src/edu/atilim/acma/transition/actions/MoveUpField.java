@@ -78,11 +78,12 @@ public class MoveUpField {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold) {
-				return ActionId.MUF_t1;
-			}else {
-				return ActionId.MUF_t2;
-			}
+//			if(criterion<threshold) {
+//				return ActionId.MUF_t1;
+//			}else {
+//				return ActionId.MUF_t2;
+//			}
+			return ActionId.MUF_t1;
 		}
 		
 		@Override

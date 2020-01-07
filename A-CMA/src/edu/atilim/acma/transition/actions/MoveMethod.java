@@ -102,10 +102,11 @@ public class MoveMethod {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold)
-				return ActionId.MM_t1;
-			else
-				return ActionId.MM_t2;
+//			if(criterion<threshold)
+//				return ActionId.MM_t1;
+//			else
+//				return ActionId.MM_t2;
+			return ActionId.MM_t1;
 		}
 		
 		@Override

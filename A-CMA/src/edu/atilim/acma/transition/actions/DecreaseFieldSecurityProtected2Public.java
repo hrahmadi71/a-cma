@@ -71,11 +71,12 @@ public class DecreaseFieldSecurityProtected2Public {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold) {
-				return ActionId.DFS_Protected2Public_t1;
-			}else {
-				return ActionId.DFS_Protected2Public_t2;
-			}
+//			if(criterion<threshold) {
+//				return ActionId.DFS_Protected2Public_t1;
+//			}else {
+//				return ActionId.DFS_Protected2Public_t2;
+//			}
+			return ActionId.DFS_Protected2Public_t1;
 		}
 		
 		@Override

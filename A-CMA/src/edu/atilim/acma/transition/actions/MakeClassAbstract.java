@@ -66,10 +66,11 @@ public final class MakeClassAbstract {
 		
 		@Override
 		public int getId() {
-			if(typeHasSuperType)
-				return ActionId.MCA_t1;
-			else
-				return ActionId.MCA_t2;
+//			if(typeHasSuperType)
+//				return ActionId.MCA_t1;
+//			else
+//				return ActionId.MCA_t2;
+			return ActionId.MCA_t1;
 		}
 		
 		@Override

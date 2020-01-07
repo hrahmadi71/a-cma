@@ -98,15 +98,16 @@ public class FreezeMethod {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold) {
-				if(parameterizeFlag) {
-					return ActionId.FM_t1;
-				}else return ActionId.FM_t2;
-			}else {
-				if(parameterizeFlag) {
-					return ActionId.FM_t3;
-				}else return ActionId.FM_t4;
-			}
+//			if(criterion<threshold) {
+//				if(parameterizeFlag) {
+//					return ActionId.FM_t1;
+//				}else return ActionId.FM_t2;
+//			}else {
+//				if(parameterizeFlag) {
+//					return ActionId.FM_t3;
+//				}else return ActionId.FM_t4;
+//			}
+			return ActionId.FM_t1;
 		}
 		
 		@Override

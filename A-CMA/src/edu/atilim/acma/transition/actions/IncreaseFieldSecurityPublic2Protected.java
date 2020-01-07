@@ -87,11 +87,12 @@ public class IncreaseFieldSecurityPublic2Protected {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold) {
-				return ActionId.IFS_Public2Protected_t1;
-			}else {
-				return ActionId.IFS_Public2Protected_t2;
-			}
+//			if(criterion<threshold) {
+//				return ActionId.IFS_Public2Protected_t1;
+//			}else {
+//				return ActionId.IFS_Public2Protected_t2;
+//			}
+			return ActionId.IFS_Public2Protected_t1;
 		}
 		
 		@Override

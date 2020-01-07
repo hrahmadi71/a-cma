@@ -90,11 +90,12 @@ public class MoveDownField {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold) {
-				return ActionId.MDM_t1;
-			}else {
-				return ActionId.MDM_t2;
-			}
+//			if(criterion<threshold) {
+//				return ActionId.MDM_t1;
+//			}else {
+//				return ActionId.MDM_t2;
+//			}
+			return ActionId.MDM_t1;
 		}
 		
 		@Override

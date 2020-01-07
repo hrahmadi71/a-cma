@@ -36,7 +36,7 @@ public class DecreaseFieldSecurityPackage2Protected {
 							t.getNoMethods()
 					};
 					
-					set.add(new Performer(t.getName(), f.getName(), criterion, 1, fieldParams));
+					set.add(new Performer(t.getName(), f.getName(), fieldParams));
 				}
 			}
 		}
@@ -46,16 +46,16 @@ public class DecreaseFieldSecurityPackage2Protected {
 		private String typeName;
 		private String fieldName;
 		private Accessibility newAccess;
-		private float criterion;
-		private float threshold;
+//		private float criterion;
+//		private float threshold;
 		private int[] params;
 
-		public Performer(String typeName, String fieldName, float criterion, float threshold, int[] params) {
+		public Performer(String typeName, String fieldName, int[] params) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = Accessibility.PROTECTED;
-			this.criterion = criterion;
-			this.threshold = threshold;
+//			this.criterion = criterion;
+//			this.threshold = threshold;
 			this.params = params;
 		}
 
@@ -71,11 +71,12 @@ public class DecreaseFieldSecurityPackage2Protected {
 		
 		@Override
 		public int getId() {
-			if(criterion<threshold) {
-				return ActionId.DFS_Package2Protected_t1;
-			}else {
-				return ActionId.DFS_Package2Protected_t2;
-			}
+//			if(criterion<threshold) {
+//				return ActionId.DFS_Package2Protected_t1;
+//			}else {
+//				return ActionId.DFS_Package2Protected_t2;
+//			}
+			return ActionId.DFS_Package2Protected_t1;
 		}
 		
 		@Override
