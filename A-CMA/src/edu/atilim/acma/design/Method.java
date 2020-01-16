@@ -361,7 +361,11 @@ public class Method extends Node {
 	}
 	
 	public int countNoTotalCallers() {
-		return this.getCallerMethods().size();
+		List<Method> methods = getCallerMethods();
+		if(methods==null)
+			return 0;
+		else
+			return methods.size();
 	}
 	
 	public int countNoInClassCallers() {

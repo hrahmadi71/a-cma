@@ -35,6 +35,7 @@ public class IncreaseMethodSecurityPackage2Private {
 							m.countInHierarchyCallers(),
 							m.countInPckageCallers(),
 							m.countNoOverrides(),
+							m.getNoParameters(),
 							t.getNoFields(),
 							t.getNoMethods()
 					};

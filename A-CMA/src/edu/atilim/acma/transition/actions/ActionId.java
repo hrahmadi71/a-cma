@@ -73,10 +73,7 @@ public class ActionId {
 	
 	public static final int RM_t1 = 12;
 	
-	public static final int Intr_Fac_t1 = 13;
-//	public static final int Intr_Fac_t2 = -;
-	
-	public static final int NUMBER_OF_METHOD_LEVEL_ACTIONS = 14;
+	public static final int NUMBER_OF_METHOD_LEVEL_ACTIONS = 13;
 
 	
 	// Class Level Actions:
@@ -94,6 +91,9 @@ public class ActionId {
 
 	public static final int RI_t1 = 5;
 	
+	public static final int Intr_Fac_t1 = 6;
+//	public static final int Intr_Fac_t2 = -;
+	
 	// Number of total actions:
-	public static final int NUMBER_OF_CLASS_LEVEL_ACTIONS = 6;
+	public static final int NUMBER_OF_CLASS_LEVEL_ACTIONS = 7;
 }

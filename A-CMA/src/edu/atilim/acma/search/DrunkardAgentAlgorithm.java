@@ -1,7 +1,9 @@
 package edu.atilim.acma.search;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
@@ -44,6 +46,7 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 			observer.onAdvance(this, 0, maxIters);
 			observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_BEST & AlgorithmObserver.UPDATE_CURRENT);
 		}
+		DQNApis.sendPossibleActions(current.getAllActions());
 	}
 
 	
@@ -70,22 +73,40 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 		}
 		
 		Double[] oldState = current.getSolutionState();
-		Action randomAction = current.getRandomAction();
-		randomAction.getId();
-		SolutionDesign randomNeighbor = current.apply(randomAction);
 		
-		Double[] newState = randomNeighbor.getSolutionState();
+		Action action = current.getRandomAction();
 		
-		if (randomNeighbor.isBetterThan(best)) {
-			best = randomNeighbor;
-//			current = randomNeighbor;
+//		Action action = current.getGreedyActionFromDQN();
+		
+//		Action action = (Math.random()<(double)getStepCount()/maxIters) ? current.getGreedyActionFromDQN() : current.getRandomAction(); 
+//		Action action = (Math.random()<0.05) ? current.getGreedyActionFromDQN() : current.getRandomAction(); 
+		
+		SolutionDesign neighbor = current.apply(action);
+		
+		Double[] newState = neighbor.getSolutionState();
+//		
+		double reward = neighbor.compareScoreTo(current) * 1000;
+		
+		
+		if (neighbor.isBetterThan(best)) {
+			best = neighbor;
+			reward *= 1.2;
 			
 			if (observer != null) {
 				observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_BEST);
 			}
 		}
 		
-		current = randomNeighbor;
+//		if(reward<=0) {
+//			reward += neighbor.compareScoreTo(best);
+//		}
+//		int t = action.getType();
+//		int id = action.getId();
+		System.out.println("reward: " + Double.toString(reward));
+		
+		DQNApis.train(action.getType(), action.getId(), oldState, newState, action.getParams(), reward);
+		
+		current = neighbor;
 		
 		if (observer != null) {
 			observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_CURRENT);

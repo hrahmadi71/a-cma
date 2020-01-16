@@ -243,11 +243,19 @@ public class Type extends Node {
 	}
 	
 	public int getNoMethods() {
-		return getMethods().size();
+		List<Method> methods = getMethods();
+		if(methods==null)
+			return 0;
+		else
+			return getMethods().size();
 	}
 	
 	public int getNoFields() {
-		return getFields().size();
+		List<Field> fields = getFields();
+		if(fields==null)
+			return 0;
+		else
+			return getFields().size();
 	}
 	
 	public int getNoSiblings() {

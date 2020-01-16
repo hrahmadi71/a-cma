@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
@@ -18,8 +19,10 @@ import edu.atilim.acma.metrics.MetricSummary;
 import edu.atilim.acma.transition.TransitionManager;
 import edu.atilim.acma.transition.actions.Action;
 import edu.atilim.acma.util.ACMAUtil;
+import edu.atilim.acma.util.DQNApis;
 import edu.atilim.acma.util.Log;
 import edu.atilim.acma.util.Pair;
+import edu.atilim.acma.util.DQNApis.GetQValuesRequestBody;
 
 public class SolutionDesign implements Iterable<SolutionDesign>, Comparable<SolutionDesign> {
 	private static final int numProcs = Runtime.getRuntime().availableProcessors();
@@ -126,6 +129,30 @@ public class SolutionDesign implements Iterable<SolutionDesign>, Comparable<Solu
 		List<Action> actions = getAllActions();
 		if (actions.isEmpty()) return null;
 		return actions.get(ACMAUtil.RANDOM.nextInt(actions.size()));
+	}
+	
+	public Action getGreedyActionFromDQN() {
+		double max = Integer.MIN_VALUE;
+		Action greedyAction = getRandomAction();
+		Double[] commonState = this.getSolutionState();
+		Map<DQNApis.GetQValuesRequestBody, double[]> qValues = new HashMap<DQNApis.GetQValuesRequestBody, double[]>();
+		for (Action a : getAllActions()) {
+			DQNApis.GetQValuesRequestBody requestBodyObject = new DQNApis.GetQValuesRequestBody(a.getType(),
+					commonState,
+					a.getParams());
+			if(qValues.get(requestBodyObject) == null) {
+				qValues.put(requestBodyObject, DQNApis.getQValues(requestBodyObject));
+			}
+			
+			double action_q_value = qValues.get(requestBodyObject)[a.getId()];
+			
+			if(max < action_q_value) {
+				max = action_q_value;
+				greedyAction = a;
+			}
+		}
+		System.out.println("greedy");
+		return greedyAction;
 	}
 	
 	public SolutionDesign getRandomNeighbor() {
