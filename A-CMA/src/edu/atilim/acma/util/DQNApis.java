@@ -14,7 +14,6 @@ import java.util.concurrent.TimeUnit;
 import java.lang.reflect.Type;
 
 import okhttp3.*;
-import org.json.*;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
@@ -85,6 +84,14 @@ public class DQNApis {
 		}
 	}
 	
+	private static class SaveAndLoadModelRequestBody{
+		private String model_name;
+		
+		public SaveAndLoadModelRequestBody(String modelName) {
+			this.model_name = modelName;
+		}
+	}
+	
 	private static String getStringRequestBody(Object obj) {
 		Gson gson = new Gson();
 		return gson.toJson(obj);
@@ -140,8 +147,6 @@ public class DQNApis {
 	}
 	
 	public static double[] getQValues(GetQValuesRequestBody requestBodyObject) {
-//		GetQValuesRequestBody requestBodyObject = new GetQValuesRequestBody(actionType, state, actionParams);
-//		ApiRequest req = new ApiRequest(DQNServerAddress);
 		try {
 			String result = getApiRequest().post("get_q_values/", getStringRequestBody(requestBodyObject));
 			GetQValuesResponseBody response = new Gson().fromJson(result, GetQValuesResponseBody.class);
@@ -154,20 +159,28 @@ public class DQNApis {
 	}
 	
 	public static boolean sendPossibleActions(List<Action> actions) {
-//		List<PossibleAction> possibleActions = new ArrayList<PossibleAction>();
 		PossibleActions possibleActions = new PossibleActions();
 		for (Action a : actions) {
 			possibleActions.addAction(a.getType(), a.getParams());
 		}
 		
 		String json = new Gson().toJson(possibleActions);
-//		ApiRequest req = new ApiRequest(DQNServerAddress);
 		try {
 			getApiRequest().post("possible_actions/", json);
 			return true;
 		} catch(IOException e) {
 			System.out.println(e.toString());
 			return false;
+		}
+	}
+	
+	public static void saveModel(String modelName) {
+		SaveAndLoadModelRequestBody requestBodyObject = new SaveAndLoadModelRequestBody(modelName);
+		
+		try {
+			String result = getApiRequest().post("save_weights/", getStringRequestBody(requestBodyObject));
+		} catch (IOException e) {
+			System.out.println(e.toString());
 		}
 	}
 }
