@@ -1,4 +1,5 @@
 /.idea/
+/A-CMA/bin/*
 # Compiled class file
 *.class
 
