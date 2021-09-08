@@ -139,8 +139,8 @@ public class DesignPanelBase extends JPanel {
 	protected Component horizontalStrut_1;
 	protected Component hg3;
 	
-	//drunkard here
-	protected JPanel drunkardAgentPanel;
+	//learner agent here
+	protected JPanel learnerAgentPanel;
 	protected JLabel lblActionsIterations_rnd;
 	protected JSpinner dapActionIterationCount;
 	protected Component hg_dap;
@@ -566,30 +566,30 @@ public class DesignPanelBase extends JPanel {
 		algorithmsPanel.setLayout(gl_algorithmsPanel);
 		actionsPanel.setLayout(new BorderLayout(0, 0));
 		
-		//Drunkard Agent Algorithm panel begin
-		drunkardAgentPanel = new JPanel();
-		drunkardAgentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
-		drunkardAgentPanel.setOpaque(false);
-		algorithmsTabPane.addTab("Drunkard Agent", null, drunkardAgentPanel, null);
-		drunkardAgentPanel.setLayout(new BoxLayout(drunkardAgentPanel, BoxLayout.X_AXIS));
+		//Learner Agent Algorithm panel begin
+		learnerAgentPanel = new JPanel();
+		learnerAgentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		learnerAgentPanel.setOpaque(false);
+		algorithmsTabPane.addTab("Learner Agent", null, learnerAgentPanel, null);
+		learnerAgentPanel.setLayout(new BoxLayout(learnerAgentPanel, BoxLayout.X_AXIS));
 		
 		lblActionsIterations_rnd = new JLabel("Action Iteration Count:");
-		drunkardAgentPanel.add(lblActionsIterations_rnd);
+		learnerAgentPanel.add(lblActionsIterations_rnd);
 //		
 //		hs10 = Box.createHorizontalStrut(5);
 //		drunkardAgentPanel.add(hs10);
 //		
 		dapActionIterationCount = new JSpinner();
 		dapActionIterationCount.setModel(new SpinnerNumberModel(1000, 0, 1000000000, 1));
-		drunkardAgentPanel.add(dapActionIterationCount);
+		learnerAgentPanel.add(dapActionIterationCount);
 //		
 		hg_dap = Box.createHorizontalGlue();
-		drunkardAgentPanel.add(hg_dap);
+		learnerAgentPanel.add(hg_dap);
 //		
 		dapBtnStart = new JButton("Start");
 		dapBtnStart.setActionCommand("DA"); // Action Command
 		dapBtnStart.setIcon(new ImageIcon(DesignPanelBase.class.getResource("/resources/icons/next_16.png")));
-		drunkardAgentPanel.add(dapBtnStart);
+		learnerAgentPanel.add(dapBtnStart);
 //		
 //		rsBtnAddTask = new JButton("Add Task");
 //		rsBtnAddTask.setIcon(new ImageIcon(DesignPanelBase.class.getResource("/resources/icons/save_16.png")));

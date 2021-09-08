@@ -5,7 +5,6 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
@@ -22,7 +21,6 @@ import edu.atilim.acma.util.ACMAUtil;
 import edu.atilim.acma.util.DQNApis;
 import edu.atilim.acma.util.Log;
 import edu.atilim.acma.util.Pair;
-import edu.atilim.acma.util.DQNApis.GetQValuesRequestBody;
 
 public class SolutionDesign implements Iterable<SolutionDesign>, Comparable<SolutionDesign> {
 	private static final int numProcs = Runtime.getRuntime().availableProcessors();
@@ -128,31 +126,40 @@ public class SolutionDesign implements Iterable<SolutionDesign>, Comparable<Solu
 	public Action getRandomAction() {
 		List<Action> actions = getAllActions();
 		if (actions.isEmpty()) return null;
+		// System.out.println("it's RANDOM!");
 		return actions.get(ACMAUtil.RANDOM.nextInt(actions.size()));
 	}
 	
 	public Action getGreedyActionFromDQN() {
-		double max = Integer.MIN_VALUE;
-		Action greedyAction = getRandomAction();
-		Double[] commonState = this.getSolutionState();
-		Map<DQNApis.GetQValuesRequestBody, double[]> qValues = new HashMap<DQNApis.GetQValuesRequestBody, double[]>();
-		for (Action a : getAllActions()) {
-			DQNApis.GetQValuesRequestBody requestBodyObject = new DQNApis.GetQValuesRequestBody(a.getType(),
-					commonState,
-					a.getParams());
-			if(qValues.get(requestBodyObject) == null) {
-				qValues.put(requestBodyObject, DQNApis.getQValues(requestBodyObject));
+		// System.out.println("greedy action:");
+		List<Action> actions = new ArrayList<Action>();
+		double[] qValues;
+		
+		do {
+			qValues = DQNApis.getQValues(getSolutionState());
+		}while(qValues.length == 0);
+		
+		System.out.println(qValues);
+		int t = 0;
+		int actionId;
+		do {
+			actionId = 0;
+			for(int i=0;i<qValues.length;i++) {
+				if(qValues[actionId]<qValues[i])
+					actionId = i;
 			}
+			qValues[actionId] = -Double.MAX_VALUE;
 			
-			double action_q_value = qValues.get(requestBodyObject)[a.getId()];
-			
-			if(max < action_q_value) {
-				max = action_q_value;
-				greedyAction = a;
+			for(Action a : getAllActions()) {
+				if(a.getId()==actionId)
+					actions.add(a);
 			}
-		}
-		System.out.println("greedy");
-		return greedyAction;
+			t++;
+		}while(actions.isEmpty() && t<qValues.length);
+
+		if (actions.isEmpty()) return null;
+		return actions.get(ACMAUtil.RANDOM.nextInt(actions.size()));
+//		return actions.get(0);
 	}
 	
 	public SolutionDesign getRandomNeighbor() {

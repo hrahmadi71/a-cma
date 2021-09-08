@@ -25,17 +25,7 @@ public class MoveUpField {
 					if(f.countNoTotalUse() != 0) {
 						criterion = f.countNoInClassUse()/f.countNoTotalUse();
 					}
-					
-					int[] fieldParams = {
-							f.countNoTotalUse(),
-							f.countNoInHierarchyUse(),
-							f.countNoInPackageUse(),
-							f.countNoInClassUse(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-										
-					set.add(new Performer(t.getName(), f.getName(), superType.getName(), criterion, 1, fieldParams));
+					set.add(new Performer(t.getName(), f.getName(), superType.getName(), criterion, 1));
 				}	
 			}
 		}
@@ -47,15 +37,13 @@ public class MoveUpField {
 		private String newOwnerTypeName;
 		private float criterion;
 		private float threshold;
-		private int[] params;
 	
-		public Performer(String typeName, String fieldName, String newOwnerTypeName, float criterion, float threshold, int[] params) {
+		public Performer(String typeName, String fieldName, String newOwnerTypeName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newOwnerTypeName = newOwnerTypeName;
 			this.criterion = criterion;
 			this.threshold = threshold;
-			this.params = params;
 		}
 
 		@Override
@@ -77,23 +65,12 @@ public class MoveUpField {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.FIELD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
-//			if(criterion<threshold) {
-//				return ActionId.MUF_t1;
-//			}else {
-//				return ActionId.MUF_t2;
-//			}
-			return ActionId.MUF_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
+			if(criterion<threshold) {
+				return ActionId.MUF_t1;
+			}else {
+				return ActionId.MUF_t2;
+			}
 		}
 	}
 }

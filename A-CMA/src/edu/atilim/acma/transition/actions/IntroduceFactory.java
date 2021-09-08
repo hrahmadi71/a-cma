@@ -20,20 +20,7 @@ public class IntroduceFactory {
 					if (!m.isConstructor() || m.getAccess() == Accessibility.PRIVATE || m.isCompilerGenerated() || m.isAbstract() || m.isClassConstructor())
 						continue;
 					
-					int[] typeParams = {
-							t.getNoFields(),
-							t.getNoMethods(),
-							t.getDependentFields().size(),
-							t.getDependentMethodsAsInstantiator().size(),
-							t.getDependentMethodsAsParameter().size(),
-							t.getDependentMethodsAsReturnType().size(),
-							t.getExtenders().size(),
-							t.getImplementers().size(),
-							t.getNoSiblings(),
-							t.getNoTotalMethodsOfSiblings()
-					};
-					
-					set.add(new Performer(t.getName(), m.getSignature(), t.getExtenders().size(), 2, typeParams));
+					set.add(new Performer(t.getName(), m.getSignature(), t.getExtenders().size(), 2));
 				}
 			}
 		}
@@ -45,14 +32,12 @@ public class IntroduceFactory {
 		private String ctorName;
 		private float criterion;
 		private float threshold;
-		private int[] params;
 		
-		public Performer(String typeName, String ctorName, float criterion, float threshold, int[] params) {
+		public Performer(String typeName, String ctorName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.ctorName = ctorName;
 			this.criterion = criterion;
 			this.threshold = threshold;
-			this.params = params;
 		}
 
 		@Override
@@ -86,22 +71,11 @@ public class IntroduceFactory {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.CLASS_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
-//			if(criterion<threshold)
-//				return ActionId.Intr_Fac_t1;
-//			else
-//				return ActionId.Intr_Fac_t2;
-			return ActionId.Intr_Fac_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
+			if(criterion<threshold)
+				return ActionId.Intr_Fac_t1;
+			else
+				return ActionId.Intr_Fac_t2;
 		}
 	}
 }

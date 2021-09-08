@@ -19,22 +19,8 @@ public class RemoveInterface {
 				
 				if(t.isInterface())
 				{
-					if(t.getImplementers().isEmpty() && t.getDependentMethodsAsParameter().isEmpty() && t.getDependentMethodsAsReturnType().isEmpty()) {
-						int[] typeParams = {
-								t.getNoFields(),
-								t.getNoMethods(),
-								t.getDependentFields().size(),
-								t.getDependentMethodsAsInstantiator().size(),
-								t.getDependentMethodsAsParameter().size(),
-								t.getDependentMethodsAsReturnType().size(),
-								t.getExtenders().size(),
-								t.getImplementers().size(),
-								t.getNoSiblings(),
-								t.getNoTotalMethodsOfSiblings()
-						};
-						
-						set.add(new Performer(t.getName(), typeParams));
-					}
+					if(t.getImplementers().isEmpty() && t.getDependentMethodsAsParameter().isEmpty() && t.getDependentMethodsAsReturnType().isEmpty() )
+						set.add(new Performer(t.getName()));
 				}
 				
 			}
@@ -44,12 +30,10 @@ public class RemoveInterface {
 	public static class Performer implements Action {
 		
 		private String typeName;
-		private int[] params;
 		
-		public Performer(String typeName, int[] params) {
+		public Performer(String typeName) {
 			
 			this.typeName = typeName;
-			this.params = params;
 	
 		}
 
@@ -70,18 +54,8 @@ public class RemoveInterface {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.CLASS_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
 			return ActionId.RI_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
 		}
 	}
 

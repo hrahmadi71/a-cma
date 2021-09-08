@@ -19,23 +19,24 @@ import edu.atilim.acma.metrics.MetricSummary;
 import edu.atilim.acma.util.DQNApis;
 
 
-public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
+public class LearnerAgentAlgorithm extends AbstractAlgorithm {
 	
 	private SolutionDesign current;
 	private SolutionDesign best;
+	private SolutionDesign primitive;
 	
 	private int maxIters;
 
-	public DrunkardAgentAlgorithm(SolutionDesign initialDesign, AlgorithmObserver observer, int maxIters) {
+	public LearnerAgentAlgorithm(SolutionDesign initialDesign, AlgorithmObserver observer, int maxIters) {
 		super(initialDesign, observer);
 		
-		current = best = initialDesign;
+		primitive = current = best = initialDesign;
 		this.maxIters = maxIters;
 	}
 
 	@Override
 	public String getName() {
-		return "Drunkard Agent";
+		return "Learner Agent";
 	}
 	
 	@Override
@@ -46,7 +47,6 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 			observer.onAdvance(this, 0, maxIters);
 			observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_BEST & AlgorithmObserver.UPDATE_CURRENT);
 		}
-		DQNApis.sendPossibleActions(current.getAllActions());
 	}
 
 	
@@ -59,6 +59,7 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 		}
 	}
 	
+	private int uselessSteps = 0;
 
 	@Override
 	public boolean step() {
@@ -66,7 +67,7 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 		
 		log("Starting iteration %d. Current score: %.6f, Best score: %.6f", getStepCount(), current.getScore(), best.getScore());
 		
-		if (getStepCount() > maxIters) {
+		if (getStepCount() > maxIters || uselessSteps > 250) {
 			log("Algorithm finished, the final design score: %.6f", best.getScore());
 			finalDesign = best;
 			return true;
@@ -74,39 +75,42 @@ public class DrunkardAgentAlgorithm extends AbstractAlgorithm {
 		
 		Double[] oldState = current.getSolutionState();
 		
-		Action action = current.getRandomAction();
-		
+//		 Action action = current.getRandomAction();
 //		Action action = current.getGreedyActionFromDQN();
-		
-//		Action action = (Math.random()<(double)getStepCount()/maxIters) ? current.getGreedyActionFromDQN() : current.getRandomAction(); 
-//		Action action = (Math.random()<0.05) ? current.getGreedyActionFromDQN() : current.getRandomAction(); 
-		
+
+		// Action action = (uselessSteps<10) ? current.getGreedyActionFromDQN() : current.getRandomAction();
+
+		 Action action = (Math.random()<(double)getStepCount()/maxIters) ? current.getGreedyActionFromDQN() : current.getRandomAction(); 
+		// Action action = (Math.random()<0.77) ? current.getGreedyActionFromDQN() : current.getRandomAction(); 
+		// if (uselessSteps>30) action = current.getRandomAction();
 		SolutionDesign neighbor = current.apply(action);
 		
 		Double[] newState = neighbor.getSolutionState();
-//		
-		double reward = neighbor.compareScoreTo(current) * 1000;
+		double reward = neighbor.compareScoreTo(current) * 100;
 		
 		
 		if (neighbor.isBetterThan(best)) {
-			best = neighbor;
-			reward *= 1.2;
-			
+			best = neighbor;			
 			if (observer != null) {
 				observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_BEST);
 			}
 		}
 		
-//		if(reward<=0) {
-//			reward += neighbor.compareScoreTo(best);
-//		}
-//		int t = action.getType();
-//		int id = action.getId();
-		System.out.println("reward: " + Double.toString(reward));
-		
-		DQNApis.train(action.getType(), action.getId(), oldState, newState, action.getParams(), reward);
+// 		if(reward<0) {
+// //			reward += neighbor.compareScoreTo(best)*5;
+// 			System.out.println("actionID: " + Integer.toString(action.getId()));
+// 		}
+		// System.out.println("reward: " + Double.toString(reward));
+		DQNApis.train(oldState, action.getId(), newState, reward);
 		
 		current = neighbor;
+
+//		if (reward==0) uselessSteps++; else uselessSteps = 0;
+		// if (best.compareScoreTo(current)>0.04){
+		// 	current = best;
+		// 	uselessSteps = 0;
+		// }
+		 if (getStepCount()%5000==0) current = primitive;
 		
 		if (observer != null) {
 			observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_CURRENT);

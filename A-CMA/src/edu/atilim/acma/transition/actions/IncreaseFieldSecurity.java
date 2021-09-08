@@ -37,16 +37,7 @@ public class IncreaseFieldSecurity {
 							break field;
 					}
 					
-					int[] fieldParams = {
-							f.countNoTotalUse(),
-							f.countNoInHierarchyUse(),
-							f.countNoInPackageUse(),
-							f.countNoInClassUse(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-					
-					set.add(new Performer(t.getName(), f.getName(), newaccess, fieldParams));
+					set.add(new Performer(t.getName(), f.getName(), newaccess));
 				}
 			}
 		}
@@ -57,14 +48,12 @@ public class IncreaseFieldSecurity {
 		private String typeName;
 		private String fieldName;
 		private Accessibility newAccess;
-		private int[] params;
 
 		public Performer(String typeName, String fieldName,
-				Accessibility newAccess, int[] params) {
+				Accessibility newAccess) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = newAccess;
-			this.params = params;
 		}
 
 		@Override
@@ -78,18 +67,8 @@ public class IncreaseFieldSecurity {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.FIELD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
-			return -1; // not implemented!
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
+			return 0;
 		}
 	}
 }

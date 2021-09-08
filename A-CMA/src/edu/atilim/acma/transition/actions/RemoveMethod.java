@@ -21,19 +21,7 @@ public class RemoveMethod {
 					if(m.getAccess() == Accessibility.PUBLIC || m.getAccess() == Accessibility.PROTECTED || m.isClassConstructor() ||  m.isCompilerGenerated() || !m.getCallerMethods().isEmpty() || m.isOverride()) 
 						continue;
 					
-
-					int[] methodParams = {
-							m.countNoTotalCallers(),
-							m.countNoInClassCallers(),
-							m.countInHierarchyCallers(),
-							m.countInPckageCallers(),
-							m.countNoOverrides(),
-							m.getNoParameters(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-					
-					set.add(new Performer(t.getName(), m.getSignature(), methodParams));
+					set.add(new Performer(t.getName(), m.getSignature()));
 				}
 			}
 		}
@@ -43,13 +31,11 @@ public class RemoveMethod {
 		
 		private String typeName;
 		private String methodName;
-		private int[] params;
 		
-		public Performer(String typeName, String methodName, int[] params) {
+		public Performer(String typeName, String methodName) {
 			
 			this.typeName = typeName;
 			this.methodName = methodName;
-			this.params = params;
 		}
 
 		@Override
@@ -70,18 +56,8 @@ public class RemoveMethod {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.METHOD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
 			return ActionId.RM_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
 		}
 	}
 

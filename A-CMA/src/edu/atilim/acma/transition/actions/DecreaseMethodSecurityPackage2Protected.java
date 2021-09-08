@@ -25,19 +25,7 @@ public class DecreaseMethodSecurityPackage2Protected {
 					if(m.countNoTotalCallers() != 0) {
 						criterion = m.countNoInClassCallers() / m.countNoTotalCallers();
 					}
-					
-					int[] methodParams = {
-							m.countNoTotalCallers(),
-							m.countNoInClassCallers(),
-							m.countInHierarchyCallers(),
-							m.countInPckageCallers(),
-							m.countNoOverrides(),
-							m.getNoParameters(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-					
-					set.add(new Performer(t.getName(), m.getSignature(), newaccess, criterion, 1, methodParams));
+					set.add(new Performer(t.getName(), m.getSignature(), newaccess, criterion, 1));
 				}
 			}
 		}
@@ -49,15 +37,13 @@ public class DecreaseMethodSecurityPackage2Protected {
 		private Accessibility newAccess;
 		private float criterion;
 		private float threshold;
-		private int[] params;
 
-		public Performer(String typeName, String methodName, Accessibility newAccess, float criterion, float threshold, int[] params) {
+		public Performer(String typeName, String methodName, Accessibility newAccess, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newAccess = newAccess;
 			this.criterion = criterion;
 			this.threshold = threshold;
-			this.params = params;
 		}
 
 		@Override
@@ -78,23 +64,12 @@ public class DecreaseMethodSecurityPackage2Protected {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.METHOD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
-//			if(criterion<threshold) {
-//				return ActionId.DMS_Package2Protected_t1;
-//			}else {
-//				return ActionId.DMS_Package2Protected_t2;
-//			}
-			return ActionId.DMS_Package2Protected_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
+			if(criterion<threshold) {
+				return ActionId.DMS_Package2Protected_t1;
+			}else {
+				return ActionId.DMS_Package2Protected_t2;
+			}
 		}
 	}
 }

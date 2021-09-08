@@ -40,17 +40,7 @@ public class IncreaseFieldSecurityPublic2Protected {
 					if(f.countNoTotalUse() != 0) {
 						criterion = f.countNoInClassUse()/f.countNoTotalUse();
 					}
-					
-					int[] fieldParams = {
-							f.countNoTotalUse(),
-							f.countNoInHierarchyUse(),
-							f.countNoInPackageUse(),
-							f.countNoInClassUse(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-										
-					set.add(new Performer(t.getName(), f.getName(), newaccess, criterion, 1, fieldParams));
+					set.add(new Performer(t.getName(), f.getName(), newaccess, criterion, 1));
 				}
 			}
 		}
@@ -63,15 +53,13 @@ public class IncreaseFieldSecurityPublic2Protected {
 		private Accessibility newAccess;
 		private float criterion;
 		private float threshold;
-		private int[] params;
 
-		public Performer(String typeName, String fieldName, Accessibility newaccess, float criterion, float threshold, int[] params) {
+		public Performer(String typeName, String fieldName, Accessibility newaccess, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = newaccess;
 			this.criterion = criterion;
 			this.threshold = threshold;
-			this.params = params;
 		}
 
 		@Override
@@ -86,23 +74,12 @@ public class IncreaseFieldSecurityPublic2Protected {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.FIELD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
-//			if(criterion<threshold) {
-//				return ActionId.IFS_Public2Protected_t1;
-//			}else {
-//				return ActionId.IFS_Public2Protected_t2;
-//			}
-			return ActionId.IFS_Public2Protected_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
+			if(criterion<threshold) {
+				return ActionId.IFS_Public2Protected_t1;
+			}else {
+				return ActionId.IFS_Public2Protected_t2;
+			}
 		}
 	}
 }

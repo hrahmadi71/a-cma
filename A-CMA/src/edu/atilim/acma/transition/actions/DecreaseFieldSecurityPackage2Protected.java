@@ -26,17 +26,7 @@ public class DecreaseFieldSecurityPackage2Protected {
 					if(f.countNoTotalUse() != 0) {
 						criterion = f.countNoInClassUse()/f.countNoTotalUse();
 					}
-					
-					int[] fieldParams = {
-							f.countNoTotalUse(),
-							f.countNoInHierarchyUse(),
-							f.countNoInPackageUse(),
-							f.countNoInClassUse(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-					
-					set.add(new Performer(t.getName(), f.getName(), fieldParams));
+					set.add(new Performer(t.getName(), f.getName(), criterion, 1));
 				}
 			}
 		}
@@ -46,17 +36,15 @@ public class DecreaseFieldSecurityPackage2Protected {
 		private String typeName;
 		private String fieldName;
 		private Accessibility newAccess;
-//		private float criterion;
-//		private float threshold;
-		private int[] params;
+		private float criterion;
+		private float threshold;
 
-		public Performer(String typeName, String fieldName, int[] params) {
+		public Performer(String typeName, String fieldName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = Accessibility.PROTECTED;
-//			this.criterion = criterion;
-//			this.threshold = threshold;
-			this.params = params;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -70,23 +58,12 @@ public class DecreaseFieldSecurityPackage2Protected {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.FIELD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
-//			if(criterion<threshold) {
-//				return ActionId.DFS_Package2Protected_t1;
-//			}else {
-//				return ActionId.DFS_Package2Protected_t2;
-//			}
-			return ActionId.DFS_Package2Protected_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
+			if(criterion<threshold) {
+				return ActionId.DFS_Package2Protected_t1;
+			}else {
+				return ActionId.DFS_Package2Protected_t2;
+			}
 		}
 	}
 }

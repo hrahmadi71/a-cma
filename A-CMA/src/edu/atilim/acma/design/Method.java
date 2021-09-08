@@ -189,14 +189,6 @@ public class Method extends Node {
 		return Collections.unmodifiableList(typeList);
 	}
 	
-	public int getNoParameters() {
-		List<Parameter> params = getParameters();
-		if(params == null)
-			return 0;
-		else
-			return params.size();
-	}
-	
 	List<Reference> getRawParameters() {
 		return Collections.unmodifiableList(paramTypes);
 	}
@@ -361,11 +353,7 @@ public class Method extends Node {
 	}
 	
 	public int countNoTotalCallers() {
-		List<Method> methods = getCallerMethods();
-		if(methods==null)
-			return 0;
-		else
-			return methods.size();
+		return this.getCallerMethods().size();
 	}
 	
 	public int countNoInClassCallers() {

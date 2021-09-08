@@ -19,16 +19,7 @@ public class RemoveField {
 				{
 					if(f.getAccess() == Accessibility.PUBLIC || f.getAccess() == Accessibility.PROTECTED || f.isConstant() || !f.getAccessors().isEmpty() || f.isCompilerGenerated()) continue;
 					
-					int[] fieldParams = {
-							f.countNoTotalUse(),
-							f.countNoInHierarchyUse(),
-							f.countNoInPackageUse(),
-							f.countNoInClassUse(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-										
-					set.add(new Performer(t.getName(), f.getName(), fieldParams));
+					set.add(new Performer(t.getName(), f.getName()));
 				}
 			}
 		}
@@ -38,13 +29,11 @@ public class RemoveField {
 		
 		private String typeName;
 		private String fieldName;
-		private int[] params;
 		
-		public Performer(String typeName, String fieldName, int[] params) {
+		public Performer(String typeName, String fieldName) {
 			
 			this.typeName = typeName;
 			this.fieldName = fieldName;
-			this.params = params;
 		}
 
 		@Override
@@ -65,18 +54,8 @@ public class RemoveField {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.FIELD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
 			return ActionId.RF_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
 		}
 	}
 

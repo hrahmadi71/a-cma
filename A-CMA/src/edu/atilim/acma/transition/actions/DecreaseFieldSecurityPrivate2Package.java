@@ -23,16 +23,11 @@ public class DecreaseFieldSecurityPrivate2Package {
 					
 					if (f.isCompilerGenerated() || f.isConstant() ||  f.getAccess() != Accessibility.PRIVATE) continue;
 					
-					int[] fieldParams = {
-							f.countNoTotalUse(),
-							f.countNoInHierarchyUse(),
-							f.countNoInPackageUse(),
-							f.countNoInClassUse(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-					
-					set.add(new Performer(t.getName(), f.getName(), fieldParams));
+					float criterion = 0;
+					if(f.countNoTotalUse() != 0) {
+						criterion = f.countNoInClassUse()/f.countNoTotalUse();
+					}
+					set.add(new Performer(t.getName(), f.getName(), criterion, 1));
 				}
 			}
 		}
@@ -42,13 +37,15 @@ public class DecreaseFieldSecurityPrivate2Package {
 		private String typeName;
 		private String fieldName;
 		private Accessibility newAccess;
-		private int[] params;
+		private float criterion;
+		private float threshold;
 
-		public Performer(String typeName, String fieldName, int[] params) {
+		public Performer(String typeName, String fieldName, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.fieldName = fieldName;
 			this.newAccess = Accessibility.PACKAGE;
-			this.params = params;
+			this.criterion = criterion;
+			this.threshold = threshold;
 		}
 
 		@Override
@@ -62,18 +59,11 @@ public class DecreaseFieldSecurityPrivate2Package {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.FIELD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
-			return ActionId.DFS_Private2Package_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
+			if (criterion<1)
+				return ActionId.DFS_Private2Package_t1;
+			else
+				return ActionId.DFS_Private2Package_t2;
 		}
 	}
 }

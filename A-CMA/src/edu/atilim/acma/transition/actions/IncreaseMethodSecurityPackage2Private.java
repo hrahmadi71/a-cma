@@ -29,18 +29,7 @@ public class IncreaseMethodSecurityPackage2Private {
 							break method;
 					}
 					
-					int[] methodParams = {
-							m.countNoTotalCallers(),
-							m.countNoInClassCallers(),
-							m.countInHierarchyCallers(),
-							m.countInPckageCallers(),
-							m.countNoOverrides(),
-							m.getNoParameters(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-					
-					set.add(new Performer(t.getName(), m.getSignature(), newaccess, methodParams));
+					set.add(new Performer(t.getName(), m.getSignature(), newaccess));
 				}
 			}
 		}	
@@ -50,13 +39,11 @@ public class IncreaseMethodSecurityPackage2Private {
 		private String typeName;
 		private String methodName;
 		private Accessibility newAccess;
-		private int[] params;
 
-		public Performer(String typeName, String methodName, Accessibility newAccess, int[] params) {
+		public Performer(String typeName, String methodName, Accessibility newAccess) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newAccess = newAccess;
-			this.params = params;
 		}
 
 		@Override
@@ -75,18 +62,8 @@ public class IncreaseMethodSecurityPackage2Private {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.METHOD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
 			return ActionId.IMS_Package2Private_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
 		}
 	}
 }

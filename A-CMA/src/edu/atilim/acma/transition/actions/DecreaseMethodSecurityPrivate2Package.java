@@ -22,18 +22,7 @@ public class DecreaseMethodSecurityPrivate2Package {
 					
 					Accessibility newaccess = Accessibility.PACKAGE;
 					
-					int[] methodParams = {
-							m.countNoTotalCallers(),
-							m.countNoInClassCallers(),
-							m.countInHierarchyCallers(),
-							m.countInPckageCallers(),
-							m.countNoOverrides(),
-							m.getNoParameters(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-					
-					set.add(new Performer(t.getName(), m.getSignature(), newaccess, methodParams));
+					set.add(new Performer(t.getName(), m.getSignature(), newaccess));
 				}
 			}
 		}
@@ -43,13 +32,11 @@ public class DecreaseMethodSecurityPrivate2Package {
 		private String typeName;
 		private String methodName;
 		private Accessibility newAccess;
-		private int[] params;
 
-		public Performer(String typeName, String methodName, Accessibility newAccess, int[] params) {
+		public Performer(String typeName, String methodName, Accessibility newAccess) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.newAccess = newAccess;
-			this.params = params;
 		}
 
 		@Override
@@ -70,18 +57,8 @@ public class DecreaseMethodSecurityPrivate2Package {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.METHOD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
 			return ActionId.DMS_Private2Package_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
 		}
 	}
 }

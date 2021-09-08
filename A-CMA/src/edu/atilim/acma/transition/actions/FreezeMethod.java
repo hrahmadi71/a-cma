@@ -38,19 +38,7 @@ public class FreezeMethod {
 					if(m.countNoTotalCallers() > 0) {
 						criterion = m.countNoInClassCallers() / m.countNoTotalCallers();
 					}
-					
-					int[] methodParams = {
-							m.countNoTotalCallers(),
-							m.countNoInClassCallers(),
-							m.countInHierarchyCallers(),
-							m.countInPckageCallers(),
-							m.countNoOverrides(),
-							m.getNoParameters(),
-							t.getNoFields(),
-							t.getNoMethods()
-					};
-					
-					set.add(new Performer(t.getName(), m.getSignature(), flag, criterion, 1, methodParams));
+					set.add(new Performer(t.getName(), m.getSignature(), flag, criterion, 1));
 				}
 			}		
 		}
@@ -62,15 +50,13 @@ public class FreezeMethod {
 			private boolean parameterizeFlag;
 			private float criterion;
 			private float threshold;
-			private int[] params;
 		
-		public Performer(String typeName, String methodName, boolean parameterizeFlag, float criterion, float threshold, int[] params) {
+		public Performer(String typeName, String methodName, boolean parameterizeFlag, float criterion, float threshold) {
 			this.typeName = typeName;
 			this.methodName = methodName;
 			this.parameterizeFlag = parameterizeFlag;
 			this.criterion = criterion;
 			this.threshold = threshold;
-			this.params = params;
 		}
 
 		@Override
@@ -97,27 +83,16 @@ public class FreezeMethod {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.METHOD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
-//			if(criterion<threshold) {
-//				if(parameterizeFlag) {
-//					return ActionId.FM_t1;
-//				}else return ActionId.FM_t2;
-//			}else {
-//				if(parameterizeFlag) {
-//					return ActionId.FM_t3;
-//				}else return ActionId.FM_t4;
-//			}
-			return ActionId.FM_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
+			if(criterion<threshold) {
+				if(parameterizeFlag) {
+					return ActionId.FM_t1;
+				}else return ActionId.FM_t2;
+			}else {
+				if(parameterizeFlag) {
+					return ActionId.FM_t3;
+				}else return ActionId.FM_t4;
+			}
 		}
 	}//end of performer
 }

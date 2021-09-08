@@ -28,18 +28,7 @@ public class InlineMethod {
 						
 						if (caller.getSignature().equals(m.getSignature()) || caller.getOwnerType() != t) continue;
 						
-						int[] methodParams = {
-								m.countNoTotalCallers(),
-								m.countNoInClassCallers(),
-								m.countInHierarchyCallers(),
-								m.countInPckageCallers(),
-								m.countNoOverrides(),
-								m.getNoParameters(),
-								t.getNoFields(),
-								t.getNoMethods()
-						};
-						
-						set.add(new Performer(t.getName(), t.getName(), m.getSignature(), caller.getSignature(), methodParams));
+						set.add(new Performer(t.getName(), t.getName(), m.getSignature(), caller.getSignature()));
 					}
 				}
 			}
@@ -52,14 +41,12 @@ public class InlineMethod {
 		private String targetType;
 		private String inlinedMethod;
 		private String targetMethod;
-		private int[] params;
 		
-		public Performer(String sourceType, String targetType, String inlinedMethod, String targetMethod, int[] params) {
+		public Performer(String sourceType, String targetType, String inlinedMethod, String targetMethod) {
 			this.sourceType = sourceType;
 			this.targetType = targetType;
 			this.inlinedMethod = inlinedMethod;
 			this.targetMethod = targetMethod;
-			this.params = params;
 		}
 
 		@Override
@@ -93,18 +80,8 @@ public class InlineMethod {
 		}
 		
 		@Override
-		public int getType() {
-			return ActionType.METHOD_LEVEL;
-		}
-		
-		@Override
 		public int getId() {
 			return ActionId.InlineM_t1;
-		}
-		
-		@Override
-		public int[] getParams() {
-			return params;
 		}
 	}
 }
