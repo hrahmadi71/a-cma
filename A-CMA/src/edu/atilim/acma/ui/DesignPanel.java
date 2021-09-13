@@ -48,6 +48,7 @@ import edu.atilim.acma.metrics.MetricCalculator;
 import edu.atilim.acma.metrics.MetricSummary;
 import edu.atilim.acma.metrics.MetricTable;
 import edu.atilim.acma.search.AbstractAlgorithm;
+import edu.atilim.acma.search.AccountantAgentAlgorithm;
 import edu.atilim.acma.search.AlgorithmObserver;
 import edu.atilim.acma.search.BeeColonyAlgorithm;
 import edu.atilim.acma.search.BeamSearchAlgorithm;
@@ -148,9 +149,12 @@ public class DesignPanel extends DesignPanelBase implements WindowEventListener 
 						int rd = (Integer)bsRandomDepth.getValue();
 						int bl = (Integer)bsBeamLength.getValue();
 						algo = new BeamSearchAlgorithm (new SolutionDesign(design, getRunConfig()), null, bl, rd);
-					} else if (e.getActionCommand().equals("DA")) {
-						int mi = (Integer) dapActionIterationCount.getValue();
+					} else if (e.getActionCommand().equals("LAgent")) {
+						int mi = (Integer) lapActionIterationCount.getValue();
 						algo = new LearnerAgentAlgorithm(new SolutionDesign(design, getRunConfig()), null, mi);
+					} else if (e.getActionCommand().equals("AAgent")) {
+						int mi = (Integer) aapActionIterationCount.getValue();
+						algo = new AccountantAgentAlgorithm(new SolutionDesign(design, getRunConfig()), null, mi);
 					}
 
 					RunPanel rp = new RunPanel(algo);
@@ -170,7 +174,7 @@ public class DesignPanel extends DesignPanelBase implements WindowEventListener 
 		saBtnStart.addActionListener(algoListener);
 		abcBtnStart.addActionListener(algoListener);
 		bsBtnStart.addActionListener(algoListener);
-		dapBtnStart.addActionListener(algoListener);
+		lapBtnStart.addActionListener(algoListener);
 		
 		ActionListener taskListener = new ActionListener() {
 			

@@ -139,12 +139,19 @@ public class DesignPanelBase extends JPanel {
 	protected Component horizontalStrut_1;
 	protected Component hg3;
 	
-	//learner agent here
+	//learner agent:
 	protected JPanel learnerAgentPanel;
 	protected JLabel lblActionsIterations_rnd;
-	protected JSpinner dapActionIterationCount;
-	protected Component hg_dap;
-	protected JButton dapBtnStart;
+	protected JSpinner lapActionIterationCount;
+	protected Component hg_lap;
+	protected JButton lapBtnStart;
+	
+	//accountant agent:
+	protected JPanel accountantAgentPanel;
+	protected JLabel lblActionsIterations_aap;
+	protected JSpinner aapActionIterationCount;
+	protected Component hg_aap;
+	protected JButton aapBtnStart;
 	
 	protected JButton btnSave;
 	protected JButton btnPreset;
@@ -575,29 +582,43 @@ public class DesignPanelBase extends JPanel {
 		
 		lblActionsIterations_rnd = new JLabel("Action Iteration Count:");
 		learnerAgentPanel.add(lblActionsIterations_rnd);
-//		
-//		hs10 = Box.createHorizontalStrut(5);
-//		drunkardAgentPanel.add(hs10);
-//		
-		dapActionIterationCount = new JSpinner();
-		dapActionIterationCount.setModel(new SpinnerNumberModel(1000, 0, 1000000000, 1));
-		learnerAgentPanel.add(dapActionIterationCount);
-//		
-		hg_dap = Box.createHorizontalGlue();
-		learnerAgentPanel.add(hg_dap);
-//		
-		dapBtnStart = new JButton("Start");
-		dapBtnStart.setActionCommand("DA"); // Action Command
-		dapBtnStart.setIcon(new ImageIcon(DesignPanelBase.class.getResource("/resources/icons/next_16.png")));
-		learnerAgentPanel.add(dapBtnStart);
-//		
-//		rsBtnAddTask = new JButton("Add Task");
-//		rsBtnAddTask.setIcon(new ImageIcon(DesignPanelBase.class.getResource("/resources/icons/save_16.png")));
-//		rsBtnAddTask.setActionCommand("RS");
-//		randomSearchPanel.add(rsBtnAddTask);
+
 		
-		// ends!
+		lapActionIterationCount = new JSpinner();
+		lapActionIterationCount.setModel(new SpinnerNumberModel(1000, 0, 1000000000, 1));
+		learnerAgentPanel.add(lapActionIterationCount);
+
+		hg_lap = Box.createHorizontalGlue();
+		learnerAgentPanel.add(hg_lap);
+
+		lapBtnStart = new JButton("Start");
+		lapBtnStart.setActionCommand("LAgent"); // Action Command
+		lapBtnStart.setIcon(new ImageIcon(DesignPanelBase.class.getResource("/resources/icons/next_16.png")));
+		learnerAgentPanel.add(lapBtnStart);		
+
 		
+		//Accountant Agent Algorithm panel begin
+		accountantAgentPanel = new JPanel();
+		accountantAgentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		accountantAgentPanel.setOpaque(false);
+		algorithmsTabPane.addTab("Accountant Agent", null, accountantAgentPanel, null);
+		accountantAgentPanel.setLayout(new BoxLayout(accountantAgentPanel, BoxLayout.X_AXIS));
+		
+		lblActionsIterations_aap = new JLabel("Action Iteration Count:");
+		accountantAgentPanel.add(lblActionsIterations_aap);
+
+		
+		aapActionIterationCount = new JSpinner();
+		aapActionIterationCount.setModel(new SpinnerNumberModel(1000, 0, 1000000000, 1));
+		accountantAgentPanel.add(aapActionIterationCount);
+
+		hg_aap = Box.createHorizontalGlue();
+		accountantAgentPanel.add(hg_aap);
+
+		aapBtnStart = new JButton("Start");
+		aapBtnStart.setActionCommand("AAgent"); // Action Command
+		aapBtnStart.setIcon(new ImageIcon(DesignPanelBase.class.getResource("/resources/icons/next_16.png")));
+		accountantAgentPanel.add(aapBtnStart);
 		
 		posActionsListPanel = new JPanel();
 		posActionsListPanel.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
