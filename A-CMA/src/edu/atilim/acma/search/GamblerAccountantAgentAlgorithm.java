@@ -19,7 +19,7 @@ import edu.atilim.acma.metrics.MetricSummary;
 import edu.atilim.acma.util.DQNApis;
 
 
-public class LearnerAgentAlgorithm extends AbstractAlgorithm {
+public class GamblerAccountantAgentAlgorithm extends AbstractAlgorithm {
 	
 	private SolutionDesign current;
 	private SolutionDesign best;
@@ -27,7 +27,7 @@ public class LearnerAgentAlgorithm extends AbstractAlgorithm {
 	
 	private int maxIters;
 
-	public LearnerAgentAlgorithm(SolutionDesign initialDesign, AlgorithmObserver observer, int maxIters) {
+	public GamblerAccountantAgentAlgorithm(SolutionDesign initialDesign, AlgorithmObserver observer, int maxIters) {
 		super(initialDesign, observer);
 		
 		primitive = current = best = initialDesign;
@@ -73,13 +73,14 @@ public class LearnerAgentAlgorithm extends AbstractAlgorithm {
 			return true;
 		}
 		
-		Double[] oldState = current.getSolutionState();		
+		Double[] oldState = current.getSolutionState();
 
-		 Action action = (Math.random()<(double)getStepCount()/maxIters) ? current.getGreedyActionFromDQN() : current.getRandomAction(); 
+		 Action action = (uselessSteps<10) ? current.getGreedyActionFromDQN() : current.getRandomAction();
 
 		SolutionDesign neighbor = current.apply(action);
 		
 		Double[] newState = neighbor.getSolutionState();
+		
 		double reward = neighbor.compareScoreTo(current) * 100;
 		
 		
@@ -89,12 +90,11 @@ public class LearnerAgentAlgorithm extends AbstractAlgorithm {
 				observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_BEST);
 			}
 		}
-
-		DQNApis.train(oldState, action.getId(), newState, reward);
-		
+				
 		current = neighbor;
 
-		 if (getStepCount()%5000==0) current = primitive;
+		if (reward==0) uselessSteps++; else uselessSteps = 0;
+
 		
 		if (observer != null) {
 			observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_CURRENT);
