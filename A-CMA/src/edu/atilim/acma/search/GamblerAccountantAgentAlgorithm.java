@@ -36,7 +36,7 @@ public class GamblerAccountantAgentAlgorithm extends AbstractAlgorithm {
 
 	@Override
 	public String getName() {
-		return "Learner Agent";
+		return "Gambler Accountant Agent";
 	}
 	
 	@Override
