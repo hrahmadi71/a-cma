@@ -73,14 +73,10 @@ public class AccountantAgentAlgorithm extends AbstractAlgorithm {
 			return true;
 		}
 		
-//		Double[] oldState = current.getSolutionState();
 		
 		Action action = current.getGreedyActionFromDQN();
 
 		SolutionDesign neighbor = current.apply(action);
-		
-//		Double[] newState = neighbor.getSolutionState();
-//		double reward = neighbor.compareScoreTo(current) * 100;
 		
 		
 		if (neighbor.isBetterThan(best)) {
@@ -89,8 +85,12 @@ public class AccountantAgentAlgorithm extends AbstractAlgorithm {
 				observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_BEST);
 			}
 		}
+				
+		if (neighbor.compareScoreTo(current)==0) uselessSteps++; else uselessSteps = 0;
 		
 		current = neighbor;
+		
+		
 		
 		if (observer != null) {
 			observer.onUpdateItems(this, current, best, AlgorithmObserver.UPDATE_CURRENT);
