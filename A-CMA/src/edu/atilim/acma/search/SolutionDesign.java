@@ -139,7 +139,6 @@ public class SolutionDesign implements Iterable<SolutionDesign>, Comparable<Solu
 			qValues = DQNApis.getQValues(getSolutionState());
 		}while(qValues.length == 0);
 		
-		System.out.println(qValues);
 		int t = 0;
 		int actionId;
 		do {
@@ -158,8 +157,7 @@ public class SolutionDesign implements Iterable<SolutionDesign>, Comparable<Solu
 		}while(actions.isEmpty() && t<qValues.length);
 
 		if (actions.isEmpty()) return null;
-		return actions.get(ACMAUtil.RANDOM.nextInt(actions.size()));
-//		return actions.get(0);
+		return actions.get(0);
 	}
 	
 	public SolutionDesign getRandomNeighbor() {
