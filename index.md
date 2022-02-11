@@ -18,7 +18,8 @@ ACMA smart agents are three agents built with Deep Q-learning method upon tha ol
 
 ## Introduction
 
-A-CMA refactors Java projects by receiving their Java byte-code as input. This tool first gets the Java byte-code and then extracts its structure (i.e. classes, methods, fields, relations, method-inputs, access levels, etc.).
+### History
+[A-CMA](https://github.com/hrahmadi71/a-cma/) refactors Java projects by receiving their Java byte-code as input. This tool first gets the Java byte-code and then extracts its structure (i.e. classes, methods, fields, relations, method-inputs, access levels, etc.). A-CMA can measure several metrics as well as the 26 metrics which we have used to represent the state shown in the table below.
 
 
 |     Measure-ID      |     Description                                                                                                 |
@@ -50,6 +51,16 @@ A-CMA refactors Java projects by receiving their Java byte-code as input. This t
 | NumAssEl_ssc        |     The number of associated   elements in the same namespace of a class. |
 | NumAssEl_nsb        |     The number of   associated elements that are not in the same namespace of a class. |
 
+These metrics are also used to create configurations that will be used as fitness functions in their algorithms (before the performed modifications, A-CMA has only a limited number of search-based algorithms). We have modified the A-CMA tool in order to add DQN-based agents to it. The major modifications were (1) adding 10 new metrics used for the segregation criteria and (2) adding the proposed algorithms such as the learner, accountant, and gambler accountant agents, and finally (3) introducing a mechanism to segregate the actions. For calculating the reward in each step, we have used the built-in score function.
+
+We also needed a Deep Q-Network (DQN in short). Therefore, we have created another project coded in the Python language named [A-CMA DQN server](https://github.com/hrahmadi71/acma_dqn_server). DQN is a deep neural network that is supposed to take the state of the problem as input and give the Q-values of each action as the output.
+
+### Architecture
+The architecture of the refactoring tool is presented in figure below.
+
+![ACMA Architecture](/media/arch.tif)
+
+All of these units are collaborating to refactor the software.
 ### Dependencies
 
 Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
