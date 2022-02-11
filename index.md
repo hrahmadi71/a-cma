@@ -58,7 +58,7 @@ We also needed a Deep Q-Network (DQN in short). Therefore, we have created anoth
 ### Architecture
 The architecture of the refactoring tool is presented in figure below.
 
-![ACMA Architecture](/media/arch.tif)
+![ACMA Architecture](/media/arch.png)
 
 All of these units are collaborating to refactor the software.
 ### Dependencies
