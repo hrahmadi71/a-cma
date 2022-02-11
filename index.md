@@ -16,7 +16,39 @@ ACMA smart agents are three agents built with Deep Q-learning method upon tha ol
 
 ---
 
-## Getting started
+## Introduction
+
+A-CMA refactors Java projects by receiving their Java byte-code as input. This tool first gets the Java byte-code and then extracts its structure (i.e. classes, methods, fields, relations, method-inputs, access levels, etc.).
+
+
+|     Measure-ID      |     Description                                                                                                 |
+|---------------------|-----------------------------------------------------------------------------------------------------------------|
+| numFields           |     The number of fields   per class.                                                                           |
+| avrgFieldVisibility |     The   average value of field visibility per   class (where private has the lowest and public has the highest values).|
+| numConstants        |     The number of constant   fields per class. |
+| numOps              |     The number of methods   per  class. |
+| avrgMethodVisibility|     The average value of   method visibility per class. |
+| setters             |     The number of set methods   per class. |
+| getters             |     The number of   get-methods per class. |
+| staticness          |     The number of static methods   per class. |
+| nesting             |     The nesting level per   class. |
+| abstractness        |     The ratio of abstract   classes to all classes in a package. |
+| numCls              |     The number of classes per   package. |
+| numInterf           |     The number of   interfaces in a package. |
+| packageNesting      |     The nesting level per   package. |
+| numOpsCls           |     The number of class operations   per package. |
+| iFImpl              |     The number of   implemented interfaces by a class. |
+| NOC                 |     The number of children   per class. |
+| numDesc             |     The number of descendants   per class. |
+| numAnc              |     The number of ancestors   per class. |
+| iC_Attr             |     The number of classes   or interfaces used as attributes in a class. |
+| eC_Attr             |     The number of external uses   of a class as an attribute in other classes. |
+| iC_Par              |     The number of classes   or interfaces used as parameter types in class methods. |
+| eC_Par              |     The number of external uses   of a class as parameter type in methods. |
+| Dep_In              |     The number of elements   that depend on a class. |
+| Dep_Out             |     The number of elements that   are depended on by a class. |
+| NumAssEl_ssc        |     The number of associated   elements in the same namespace of a class. |
+| NumAssEl_nsb        |     The number of   associated elements that are not in the same namespace of a class. |
 
 ### Dependencies
 
