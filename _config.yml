@@ -64,11 +64,13 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Home":
-    - "https://hrahmadi71.github.io/a-cma/"
+  "ACMA on GitHub":
+    - "//github.com/hrahmadi71/a-cma"
+  "DQN Server on GitHub":
+    - "//github.com/hrahmadi71/acma_dqn_server"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
@@ -81,7 +83,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "This document is made using \"jekylls\" and the theme <a href=\"https://pmarsceill.github.io/just-the-docs\">\"just the docs\".</a>"
+# footer_content: "This document is made using \"jekylls\" and the theme <a href=\"https://pmarsceill.github.io/just-the-docs\">\"just the docs\".</a>"
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: light
