@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Introduction
 nav_order: 1
 description: "ACMA smart agents are three agents built with Deep Q-learning method upon the old ACMA tool to refactor software systems"
 permalink: /
