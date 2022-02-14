@@ -39,7 +39,7 @@ Then run the server (on the default address which is `localhost:5000`):
 ```
 There's 4 pre-trained models which you can use for refactoring: `model_1` to `model_4`.
 To use one of pretrained models, go to address `localhost:5000` via a web-browser, you must see a swagger panel. Then in the swagger panel, click on `/load_weights/` then click on `Try it out` button and change the `string` to the name of a model. for example:
-```
+```json
 {
   "model_name": "model_1"
 }
