@@ -45,3 +45,9 @@ To use one of pretrained models, go to address `localhost:5000` via a web-browse
 }
 ```
 
+### Run A-CMA
+In order to run A-CMA tool, you must have [java](https://www.java.com/) installed and running on your computer. 
+After you've installed and configured java on your computer, you can run A-CMA, so first of all, clone it from its repository:
+```terminal
+git clone https://github.com/hrahmadi71/a-cma.git
+```
