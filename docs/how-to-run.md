@@ -49,5 +49,17 @@ To use one of pretrained models, go to address `localhost:5000` via a web-browse
 In order to run A-CMA tool, you must have [java](https://www.java.com/) installed and running on your computer. 
 After you've installed and configured java on your computer, you can run A-CMA, so first of all, clone it from its repository:
 ```terminal
-git clone https://github.com/hrahmadi71/a-cma.git
+$ git clone https://github.com/hrahmadi71/a-cma.git
+```
+Then go to the `a-cma` directory:
+```terminal
+$ cd ./a-cma
+```
+Now you can compile `a-cma` or run it without compiling. If you are in Linux or Mac you can run it via bash:
+```terminal
+$ bash A-CMA/run.sh
+```
+If you are using Windows you can run the bat file:
+```terminal
+$ .\A-CMA\run.bat
 ```
